@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="generator" content="Adobe RoboHelp 2019" />
+  <title>Templates</title>
+  <meta name="topic-status" content="Draft" />
+  <link rel="stylesheet" type="text/css" href="../../../assets/css/default.css" />
+  <meta name="template" content="../../../assets/OBS_masterpage.htt" />
+</head>
+<body>
+  <h2>Templates</h2>
+  <h4>What is a template?</h4>
+  <p>Template are a special type of invoice. They have the same functionality as invoice types quote, invoice, receipt, etc. You can place into a template all the billing lines you use for the other invoice types.</p>
+  <p><img src="../../../assets/images/AccountTypes.png" /></p>
+  <p>Templates are invisible. Customers used in templates are ignored. Prices assigned to templates are not considered in final tots. They never appear in reports or in costings.</p>
+  <h4>When are templates used?</h4>
+  <p>When the button <span class="OBSbutton">auto-create</span> or <span><span class="OBSbutton">apply template</span> is pressed.</span></p>
+  <p><img src="../../../assets/images/TemplateButtons.PNG" /></p>
+  <h4>Building a template.</h4>
+  <p>Create a new invoice within an account containing the <span class="OBSbutton">training course</span> that the template will be attached too. Assign the account type as <span class="OBSbutton">template</span>. (Or copy an existing invoice and re-assign it as template.)</p>
+  <p>An enrollee name isn&#39;t required.</p>
+  <p>Assign a customer (any customer). The customer selected dictates the discount rate and GST status.</p>
+  <p>Enter a note .... a describtion of the discount rate and GST status being used. (Enter in a year range is also useful.)</p>
+  <p>The lock state determines if a template is active (enabled) or not. If the template is locked then it active.</p>
+  <p>Edit the template and assign the costings.</p>
+  <p><img src="../../../assets/images/ListOfTemplates.PNG" style="cursor: nwse-resize;" /></p>
+  <p>The above example shows a set of templates placed in a &#39;Group Development and Facilitation Training Course&#39;. Note that the templates for the year 2017/2018 are <span class="OBSbutton">offline </span>as the are unlocked. </p>
+  <h4>Nut and bolts - how it work.</h4>
+  <p>When you press <span class="OBSbutton">auto-create</span> within a new, blank account...</p>
+  <ul class="Disc">
+    <li>a blank invoice is created for every enrollee found in the booking.</li>
+    <li>the customer for that enrollee is assigned to the invoice.</li>
+    <li>based on the course id and the discount rate and GST status (used by the enrollee&#39;s customer) <span class="OBSbutton">every </span>template that matches the criterias is found. </li>
+    <li>any template that isn&#39;t locked is filtered out.</li>
+    <li>the resulting shortlist of templates is ordered by date and the template with the most recent date is used.</li>
+    <li>if something is a-miss ... an error is reported in the notes field.</li>
+  </ul>
+  <p> </p>
+  <p>When you press <span class="OBSbutton">apply templates</span> to an existing invoice...</p>
+  <ul class="Disc">
+    <li>if the invoice contains template items, then they are stripped out of the invoice. Invoice lines manually entered by the booking officier will remain.</li>
+    <li>it then proceeds to match a template based on the criteria rules given above</li>
+    <li>else an error is reported.</li>
+  </ul>
+</body>
+</html>

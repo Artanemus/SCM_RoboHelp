@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preset>
+  <content>
+    <brs type="array"></brs>
+    <glossary>
+      <name>Default</name>
+      <path>../../glossary/Default.glo</path>
+    </glossary>
+    <index type="boolean">true</index>
+    <masterpage></masterpage>
+    <toc>
+      <name>Default</name>
+      <path>../../toc/Default.toc</path>
+    </toc>
+  </content>
+  <createThumbNails type="boolean">true</createThumbNails>
+  <defaultTopic>
+    <name>Introduction.htm</name>
+    <path>../../contents/Introduction.htm</path>
+  </defaultTopic>
+  <glosstermEffect type="number">0</glosstermEffect>
+  <mobileapp>
+    <android type="boolean">true</android>
+    <configfile>
+      <name>Mobile App</name>
+      <path>Mobile App/config.json</path>
+    </configfile>
+    <iOS type="boolean">false</iOS>
+  </mobileapp>
+  <name>Mobile App</name>
+  <outputPath>C:/Users/Ben/Documents/My RoboHelp Projects/outputs/OBS/Mobile App</outputPath>
+  <search>
+    <context type="boolean">true</context>
+    <contextLimit>100</contextLimit>
+    <fuzzy type="boolean">true</fuzzy>
+    <glossary type="boolean">true</glossary>
+    <suggestion type="boolean">true</suggestion>
+  </search>
+  <sitemap>
+    <changeFrequency></changeFrequency>
+    <helpBaseURL></helpBaseURL>
+    <use type="boolean">true</use>
+  </sitemap>
+  <skin></skin>
+  <starterPage>index.html</starterPage>
+  <title>OBS</title>
+  <type>mobileapp</type>
+</preset>

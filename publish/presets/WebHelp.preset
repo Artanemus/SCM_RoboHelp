@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preset>
+  <content>
+    <brs type="array"></brs>
+    <conditional></conditional>
+    <glossary>
+      <name>Default</name>
+      <path>../../glossary/Default.glo</path>
+    </glossary>
+    <index type="boolean">true</index>
+    <language></language>
+    <mapFiles type="array"></mapFiles>
+    <masterpage></masterpage>
+    <startPage></startPage>
+    <toc>
+      <name>Default</name>
+      <path>../../toc/Default.toc</path>
+    </toc>
+    <variable></variable>
+    <windowsSetting></windowsSetting>
+  </content>
+  <createThumbNails type="boolean">false</createThumbNails>
+  <defaultTopic>
+    <name>Introduction.htm</name>
+    <path>../../contents/Introduction.htm</path>
+  </defaultTopic>
+  <encoding></encoding>
+  <epub>
+    <author></author>
+    <check></check>
+    <cover></cover>
+    <date></date>
+    <description></description>
+    <fonts></fonts>
+    <publisher></publisher>
+    <rights></rights>
+    <title></title>
+    <uuid></uuid>
+  </epub>
+  <favicon></favicon>
+  <filter></filter>
+  <glosstermEffect type="number">0</glosstermEffect>
+  <lowercasenames></lowercasenames>
+  <mobileapp>
+    <android></android>
+    <androidAlias></androidAlias>
+    <androidKeystore></androidKeystore>
+    <configfile></configfile>
+    <description></description>
+    <iOS></iOS>
+    <icon></icon>
+    <iosMobProvision></iosMobProvision>
+    <iosP12File></iosP12File>
+    <name></name>
+    <package></package>
+    <pgbChange></pgbChange>
+    <splash></splash>
+    <version></version>
+    <versionCode></versionCode>
+  </mobileapp>
+  <name>WebHelp</name>
+  <outputPath>C:/Users/Ben/Documents/My RoboHelp Projects/outputs/OBS/WebHelp</outputPath>
+  <pdf>
+    <coverpage></coverpage>
+    <gloMasterPages></gloMasterPages>
+    <height></height>
+    <indexMasterPages></indexMasterPages>
+    <margin></margin>
+    <masterpage></masterpage>
+    <multiHeaders></multiHeaders>
+    <pageSize></pageSize>
+    <tocMasterPages></tocMasterPages>
+    <tocdepth></tocdepth>
+    <toclevel></toclevel>
+    <topicMasterPages></topicMasterPages>
+    <width></width>
+  </pdf>
+  <search>
+    <autocomplete></autocomplete>
+    <autocorrect></autocorrect>
+    <context type="boolean">false</context>
+    <contextLimit>100</contextLimit>
+    <doSearchIndexing></doSearchIndexing>
+    <external></external>
+    <fileTypes></fileTypes>
+    <fuzzy type="boolean">true</fuzzy>
+    <glossary type="boolean">true</glossary>
+    <highlight></highlight>
+    <highlightcolor></highlightcolor>
+    <substring></substring>
+    <suggestion type="boolean">true</suggestion>
+  </search>
+  <sitemap>
+    <changeFrequency></changeFrequency>
+    <helpBaseURL></helpBaseURL>
+    <use type="boolean">false</use>
+  </sitemap>
+  <skin>
+    <name>Charcoal_Grey</name>
+    <path>../skins/Charcoal_Grey/webhelp.skn</path>
+  </skin>
+  <starterPage>index.htm</starterPage>
+  <thumbnail></thumbnail>
+  <title>OBS</title>
+  <type>webhelp</type>
+</preset>

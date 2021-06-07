@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preset>
+  <content>
+    <brs type="array"></brs>
+    <glossary>
+      <name>Default</name>
+      <path>../../glossary/Default.glo</path>
+    </glossary>
+    <index type="boolean">true</index>
+    <mapFiles type="array"></mapFiles>
+    <masterpage></masterpage>
+    <toc>
+      <name>Default</name>
+      <path>../../toc/Default.toc</path>
+    </toc>
+  </content>
+  <defaultTopic>
+    <name>Introduction.htm</name>
+    <path>../../contents/Introduction.htm</path>
+  </defaultTopic>
+  <name>Microsoft HTML Help</name>
+  <outputPath>C:/Users/Ben/Documents/My RoboHelp Projects/outputs/OBS/Microsoft HTML Help</outputPath>
+  <search>
+    <context type="boolean">false</context>
+    <contextLimit></contextLimit>
+  </search>
+  <sitemap>
+    <changeFrequency></changeFrequency>
+    <helpBaseURL></helpBaseURL>
+    <use type="boolean">false</use>
+  </sitemap>
+  <starterPage>Default.chm</starterPage>
+  <title>OBS</title>
+  <type>chm</type>
+</preset>

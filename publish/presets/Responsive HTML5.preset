@@ -9,18 +9,18 @@
     <index type="boolean">true</index>
     <masterpage></masterpage>
     <toc>
-      <name>Default</name>
-      <path>../../toc/Default.toc</path>
+      <name>SCM_Main</name>
+      <path>../../toc/SCM_Main.toc</path>
     </toc>
   </content>
   <createThumbNails type="boolean">true</createThumbNails>
   <defaultTopic>
-    <name>Introduction.htm</name>
-    <path>../../contents/Introduction.htm</path>
+    <name>Home/Home.htm</name>
+    <path>../../contents/Home/Home.htm</path>
   </defaultTopic>
   <glosstermEffect type="number">0</glosstermEffect>
   <name>Responsive HTML5</name>
-  <outputPath>C:/Users/Ben/Documents/My RoboHelp Projects/outputs/OBS/Responsive HTML5</outputPath>
+  <outputPath>C:/Users/Ben/Documents/My RoboHelp Projects/outputs/SwimClubMeet/Responsive HTML5</outputPath>
   <search>
     <context type="boolean">true</context>
     <contextLimit type="number">100</contextLimit>
@@ -35,6 +35,6 @@
   </sitemap>
   <skin></skin>
   <starterPage>index.htm</starterPage>
-  <title>OBS</title>
+  <title>SwimClubMeet</title>
   <type>html5</type>
 </preset>

@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <preset>
   <content>
-    <index type="boolean">true</index>
-    <toc>
-      <path>../../toc/Default.toc</path>
-      <name>Default</name>
-    </toc>
-    <glossary>
-      <path>../../glossary/Default.glo</path>
-      <name>Default</name>
-    </glossary>
-    <masterpage></masterpage>
     <brs type="array"></brs>
+    <glossary>
+      <name>Default</name>
+      <path>../../glossary/Default.glo</path>
+    </glossary>
+    <index type="boolean">true</index>
     <mapFiles type="array"></mapFiles>
+    <masterpage></masterpage>
+    <toc>
+      <name>SCM_Main</name>
+      <path>../../toc/SCM_Main.toc</path>
+    </toc>
   </content>
-  <outputPath>C:/Users/Ben/Documents/My RoboHelp Projects/outputs/OBS/EPUB</outputPath>
-  <starterPage>Default.epub</starterPage>
+  <defaultTopic></defaultTopic>
+  <name>EPUB</name>
+  <outputPath>C:/Users/Ben/Documents/My RoboHelp Projects/outputs/SwimClubMeet/EPUB</outputPath>
   <search>
     <context type="boolean">false</context>
     <contextLimit></contextLimit>
   </search>
   <sitemap>
-    <use type="boolean">false</use>
     <changeFrequency></changeFrequency>
     <helpBaseURL></helpBaseURL>
+    <use type="boolean">false</use>
   </sitemap>
-  <name>EPUB</name>
+  <starterPage>Default.epub</starterPage>
+  <title>SwimClubMeet</title>
   <type>epub</type>
-  <title>OBS</title>
-  <defaultTopic></defaultTopic>
 </preset>

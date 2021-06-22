@@ -3,88 +3,237 @@ body {
   font-family: Arial;
   background-color: #ffffff;
 }
-
 h1 {
   font-weight: bold;
   font-size: 24.0pt;
 }
-
-h2 {
-  font-weight: bold;
-  font-size: 18.0pt;
+h2 {}
+h2.SCM_h2 {
+  font-size: 16pt;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #000000;
+  background-color: #DDDDDD;
+  border-left: 0;
+  border-right: 0;
+  padding: 10px 10px 10px 10px;
 }
-
-h3 {
+h3 {}
+h3.SCM_h3 {
   font-weight: bold;
-  font-size: 14.0pt;
+  font-size: 14pt;
+  line-height: 1;
+  background-color: rgb(245, 245, 245);
+  padding: 10px 10px 10px 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #000000;
+  border-left: 0;
+  border-right: 0;
+  margin: 0px 0px 0px 0px;
+  background-size: 0px 0px;
 }
-
 h4 {
   font-weight: bold;
   font-size: 12.0pt;
+  border-width: 1px;
+  border-style: none;
+  border-color: #000000;
 }
-
 h5 {
   font-weight: bold;
   font-size: 10.0pt;
 }
-
 h6 {
   font-weight: bold;
   font-size: 8.0pt;
 }
-
 p {
-  font-size: 12pt;
+  text-align: left;
+}
+p.SCM_Indent {
+  font-size: 12.0pt;
   margin-top: 0pt;
   margin-bottom: 0pt;
-  padding: 0pt 0pt 10pt 0pt;
+  margin: NaNpx NaNpx NaNpx px;
+  margin-left: 40px;
 }
-
 a.expandspot {
   color: #008000;
   cursor: hand;
   font-style: italic;
   text-decoration: none;
 }
-
 span.expandtext {
   font-style: italic;
   font-weight: normal;
   color: #ff0000;
 }
-
 a.dropspot {
   cursor: hand;
   color: #008000;
   font-style: italic;
   text-decoration: none;
 }
-
 a.glossterm {
   color: #800000;
   cursor: hand;
   font-style: italic;
   text-decoration: none;
 }
-
 span.glosstext {
   font-style: italic;
   font-weight: normal;
   color: #0000ff;
 }
-
 ol,
 ul {
   margin-top: 0px;
   margin-bottom: 0px;
 }
-
+ol.Decimal {
+  list-style-type: decimal;
+}
 ul.Disc {
   list-style-type: disc;
 }
-
-span.OBSbutton {
+span.SCM_Keyboard {
+  color: #001F3F;
+  font-size: 10.5pt;
   font-style: italic;
+  text-align: left;
   font-weight: bold;
+  text-transform: uppercase;
 }
+table.SCM_simple {
+  border-width: 1px;
+  border-style: none;
+  border-color: #000000;
+}
+table.SCM_simple td {
+  border-width: 1px;
+  border-style: none;
+  border-color: #000000;
+}
+ol.RoundSquare {
+  list-style-type: none;
+  counter-reset: item1;
+  padding: 0;
+  margin: 0;
+}
+ol.RoundSquare li {
+  display: table;
+}
+ol.RoundSquare li:before {
+  text-align: right;
+  display: table-cell;
+  padding-right: 0.5rem;
+}
+ol.RoundSquare ol {
+  list-style-type: none;
+  counter-reset: item;
+  padding: 0;
+  margin: 0;
+}
+ol.RoundSquare ol>li:before {
+  counter-increment: item;
+  content: counter(item) ".";
+}
+ol.RoundSquare>li:before {
+  counter-increment: item1;
+  content: counter(item1, disc);
+}
+ol.RoundSquare>li>ol {
+  counter-reset: item2;
+}
+ol.RoundSquare>li>ol>li:before {
+  counter-increment: item2;
+  content: counter(item2, square);
+}
+ol.RoundSquare>li>ol>li>ol {
+  counter-reset: item3;
+}
+ol.RoundSquare>li>ol>li>ol>li:before {
+  counter-increment: item3;
+  content: counter(item3, circle);
+}
+ol.RoundSquare>li>ol>li>ol>li>ol {
+  counter-reset: item4;
+}
+ol.RoundSquare>li>ol>li>ol>li>ol>li:before {
+  counter-increment: item4;
+  content: counter(item4, disc);
+}
+ol.RoundSquare>li>ol>li>ol>li>ol>li>ol {
+  counter-reset: item5;
+}
+ol.RoundSquare>li>ol>li>ol>li>ol>li>ol>li:before {
+  counter-increment: item5;
+  content: counter(item5, square);
+}
+ol.RoundSquare>li>ol>li>ol>li>ol>li>ol>li>ol {
+  counter-reset: item6;
+}
+ol.RoundSquare>li>ol>li>ol>li>ol>li>ol>li>ol>li:before {
+  counter-increment: item6;
+  content: counter(item6, circle);
+}
+ol.RoundSquare>li>ol>li>ol>li>ol>li>ol>li>ol>li>ol {
+  counter-reset: item7;
+}
+ol.RoundSquare>li>ol>li>ol>li>ol>li>ol>li>ol>li>ol>li:before {
+  counter-increment: item7;
+  content: counter(item7, disc);
+}
+ol.RoundSquare>li>ol>li>ol>li>ol>li>ol>li>ol>li>ol>li>ol {
+  counter-reset: item8;
+}
+ol.RoundSquare>li>ol>li>ol>li>ol>li>ol>li>ol>li>ol>li>ol>li:before {
+  counter-increment: item8;
+  content: counter(item8, square);
+}
+ol.RoundSquare>li>ol>li>ol>li>ol>li>ol>li>ol>li>ol>li>ol>li>ol {
+  counter-reset: item9;
+}
+ol.RoundSquare>li>ol>li>ol>li>ol>li>ol>li>ol>li>ol>li>ol>li>ol>li:before {
+  counter-increment: item9;
+  content: counter(item9, circle);
+}
+ol.RoundSquare>li>ol>li>ol>li>ol>li>ol>li>ol>li>ol>li>ol>li>ol>li>ol {
+  counter-reset: item10;
+}
+ol.RoundSquare>li>ol>li>ol>li>ol>li>ol>li>ol>li>ol>li>ol>li>ol>li>ol>li:before {
+  counter-increment: item10;
+  content: counter(item10, disc);
+}
+span.SCM_Quotes {
+  font-size: NaNpx;
+  font-style: italic;
+  font-family: Arial Narrow;
+  border-width: 1px;
+  border-style: none;
+  border-color: #000000;
+  letter-spacing: 1px;
+  color: #4b4b4b;
+}
+span.SCM_MenuItem {
+  font-style: italic;
+  font-family: Arial Narrow;
+  border-width: 1px;
+  border-style: none;
+  border-color: #000000;
+  letter-spacing: 3px;
+  font-size: %;
+  font-weight: bold;
+  background-color: rgb(200, 200, 240);
+}
+img.scmImage {
+  border-width: 1px;
+  border-style: none;
+  border-color: #000000;
+  text-align: left;
+  text-wrap: left;
+  float: left;
+  margin: 0px 10px 0px 0px;
+}
+table.SCM_Basic_noBorders {}

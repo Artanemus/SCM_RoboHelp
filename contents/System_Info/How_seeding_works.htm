@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="generator" content="Adobe RoboHelp 2019" />
+  <title>How seeding works</title>
+  <meta name="topic-status" content="Draft" />
+  <link rel="stylesheet" type="text/css" href="../assets/css/default.css" />
+  <meta name="template" content="../assets/masterpages/SCM.htt" />
+</head>
+<body>
+  <h2 class="SCM_h2">How seeding works</h2>
+  <p>Here&#39;s an illustrated explanation of seeding lanes.</p>
+  <p>Some ground rules.</p>
+  <p>Olympic standards determine which lanes competitors are scattered into. The order for an eight lane pool goes something like this .... 4,5,3,6,2,7,1,8. The algorithm used in SCM will correctly scatter for any sized pool. Even pools with an odd number of lanes.</p>
+  <p>Consider this ...</p>
+  <p><img src="../assets/images/SeedA.JPG" /></p>
+  <p>Each square represents a swimmer. Fastest swimmer is green, intermediate yellow, slowest red. A total of 32 swimmers will require four heats in an eight lane pool.</p>
+  <h4>Default seeding. (This algorithm is also used by &#39;Finals&#39; seeding).</h4>
+  <p><img src="../assets/images/SeedB.JPG" /></p>
+  <p>The illustrate shows that the all top eight fastest swimmers have been placed in heat four. All the slowest swimmers are in the heat one.</p>
+  <h4 style="border-width: 1px;border-style: none;border-color: #000000">Circle seeding. (Also used by &#39;Quarter&#39; and &#39;Semi&#39;- Finals&#39;).</h4>
+  <table border="1" cellpadding="1" cellspacing="1" style="border-collapse:collapse;text-align:left;float:left;border-width:1px;border-style:none;border-color:#000000" width="100%">
+    <colgroup>
+      <col width="20%" />
+      <col width="50%" />
+    </colgroup>
+    <tbody style="border-width: 1px;border-style: none;border-color: #000000">
+      <tr style="border-width: 1px;border-style: none;border-color: #000000">
+        <td style="border-width: 1px;border-style: none;border-color: #000000"><img class="scmImage" src="../assets/images/SeedingD.jpg" /></td>
+        <td style="border-width: 1px;border-style: none;border-color: #000000;text-align: left">
+          <p style="float: inherit;clear: none">Circle seeding is selected.</p>
+          <p>In this example the seed depth will be set to two. This means the two fastest heats, three and four, will be circle seed.</p>
+          <p>The heats one and two will use the default seed method.</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <p> </p>
+  <p> </p>
+  <p> </p>
+  <p> </p>
+  <p> </p>
+  <p>Note: SwimClubMeet first builds a stack of swimmers, fastest to slowest. Calculates the number of heats and count of swimmers needed. Then it builds heats, fastest to slowest. Hence circle seeding is top down.</p>
+  <p><img src="../assets/images/SeedC.JPG" /></p>
+  <p>It can be seen that there is now a &#39;spread&#39; of fastest swimmers in heats four and three. Your fastest swimmer is in heat four. the second fastest swimmer in heat three. They both are given lane four.</p>
+  <p>Perchance - entrant placement in heats two and one are identical to the previous default seeding.</p>
+  <h4>Why circle seed?</h4>
+  <p>When you have many entrants to an event (say four or five heats) you may want to circle seed to improve the racing experience for your top contenders.</p>
+  <p>It&#39;s recommended that you don&#39;t exceed a depth of three. The racing experience (a club level) for bottom ranked swimmers isn&#39;t improved if you go beyond three. </p>
+  <h4>Other notes</h4>
+  <p>When creating a &#39;FINAL&#39; the default seeding is used. This a system default, SCM managed. Your seed settings in options are ignored. </p>
+  <p>When creating a &#39;SEMI&#39; or &#39;QUARTER-FINAL&#39; circle seeding is used. (... again SCM managed)</p>
+</body>
+</html>

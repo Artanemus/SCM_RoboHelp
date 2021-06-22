@@ -1,35 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <preset>
   <content>
-    <brs type="array"></brs>
+    <variable></variable>
+    <conditional></conditional>
+    <startPage></startPage>
+    <toc>
+      <name>SCM_Main</name>
+      <path>../../toc/SCM_Main.toc</path>
+    </toc>
+    <index type="boolean">true</index>
     <glossary>
       <name>Default</name>
       <path>../../glossary/Default.glo</path>
     </glossary>
-    <index type="boolean">true</index>
-    <mapFiles type="array"></mapFiles>
+    <brs type="array"></brs>
+    <language></language>
     <masterpage></masterpage>
-    <toc>
-      <name>Default</name>
-      <path>../../toc/Default.toc</path>
-    </toc>
+    <mapFiles type="array"></mapFiles>
+    <windowsSetting></windowsSetting>
   </content>
-  <defaultTopic>
-    <name>Introduction.htm</name>
-    <path>../../contents/Introduction.htm</path>
-  </defaultTopic>
+  <title>SwimClubMeet</title>
+  <type>chm</type>
+  <glosstermEffect></glosstermEffect>
+  <outputPath>C:/Users/Ben/Documents/My RoboHelp Projects/outputs/SwimClubMeet/Microsoft HTML Help</outputPath>
   <name>Microsoft HTML Help</name>
-  <outputPath>C:/Users/Ben/Documents/My RoboHelp Projects/outputs/OBS/Microsoft HTML Help</outputPath>
+  <starterPage>Default.chm</starterPage>
+  <defaultTopic>
+    <name>Home/Home.htm</name>
+    <path>../../contents/Home/Home.htm</path>
+  </defaultTopic>
+  <encoding></encoding>
+  <lowercasenames></lowercasenames>
+  <epub>
+    <fonts></fonts>
+    <cover></cover>
+    <title></title>
+    <author></author>
+    <description></description>
+    <rights></rights>
+    <uuid></uuid>
+    <date></date>
+    <check></check>
+    <publisher></publisher>
+  </epub>
+  <mobileapp>
+    <configfile></configfile>
+    <android></android>
+    <iOS></iOS>
+    <iosP12File></iosP12File>
+    <androidAlias></androidAlias>
+    <pgbChange></pgbChange>
+    <iosMobProvision></iosMobProvision>
+    <androidKeystore></androidKeystore>
+    <package></package>
+    <icon></icon>
+    <name></name>
+    <version></version>
+    <versionCode></versionCode>
+    <description></description>
+    <splash></splash>
+  </mobileapp>
   <search>
+    <suggestion></suggestion>
+    <substring></substring>
     <context type="boolean">false</context>
     <contextLimit></contextLimit>
+    <highlight></highlight>
+    <highlightcolor></highlightcolor>
+    <autocomplete></autocomplete>
+    <autocorrect></autocorrect>
+    <glossary></glossary>
+    <fileTypes></fileTypes>
+    <external></external>
+    <fuzzy></fuzzy>
+    <doSearchIndexing></doSearchIndexing>
   </search>
+  <filter></filter>
   <sitemap>
-    <changeFrequency></changeFrequency>
-    <helpBaseURL></helpBaseURL>
     <use type="boolean">false</use>
+    <helpBaseURL></helpBaseURL>
+    <changeFrequency></changeFrequency>
   </sitemap>
-  <starterPage>Default.chm</starterPage>
-  <title>OBS</title>
-  <type>chm</type>
+  <skin></skin>
+  <createThumbNails></createThumbNails>
+  <favicon></favicon>
+  <thumbnail></thumbnail>
+  <pdf>
+    <toclevel></toclevel>
+    <coverpage></coverpage>
+    <pageSize></pageSize>
+    <width></width>
+    <height></height>
+    <tocdepth></tocdepth>
+    <margin></margin>
+    <masterpage></masterpage>
+    <multiHeaders></multiHeaders>
+    <tocMasterPages></tocMasterPages>
+    <topicMasterPages></topicMasterPages>
+    <gloMasterPages></gloMasterPages>
+    <indexMasterPages></indexMasterPages>
+  </pdf>
 </preset>

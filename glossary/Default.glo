@@ -1,4 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>        
 
-<glossgroup id="Blank Project">          
-<title>Glossary Definitions</title>        </glossgroup>
+<glossgroup id="Default">          
+<title>Glossary Definitions</title>        
+<glossentry id="Default_ENTRANT">
+<glossterm>ENTRANT</glossterm>
+<glossdef>An active member who has been assigned a lane in a given event. </glossdef></glossentry>
+<glossentry id="Default_Event">
+<glossterm>Event</glossterm>
+<glossdef>A swimming race held over a set distance and stroke.</glossdef></glossentry>
+<glossentry id="Default_FDAdministrator">
+<glossterm>FDAdministrator</glossterm>
+<glossdef>FireDAC Administrator is a major tool you can use to manage SCM internal FireDAC connection definitions. It does not allow you to browse the MSSQL database or work with SQL scripts. FDAdministrator has been distributed with this applications to give the administrators or users the ability to set up database connection definitions.</glossdef></glossentry>
+<glossentry id="Default_GUI">
+<glossterm>GUI</glossterm>
+<glossdef>Graphical user interface. The interface through which a user interacts with SCM.</glossdef></glossentry>
+<glossentry id="Default_IT">
+<glossterm>IT</glossterm>
+<glossdef> Information technology.</glossdef></glossentry>
+<glossentry id="Default_MSSQL_EXPRESS">
+<glossterm>MSSQL EXPRESS</glossterm>
+<glossdef>Microsoft SQL Server Express is a version of Microsoft&#39;s SQL Server relational database management system that is free to download, distribute and use. It comprises a database specifically targeted for embedded and smaller-scale applications. The product traces its roots to the Microsoft Database Engine (MSDE) product, which was shipped with SQL Server 2000. The &quot;Express&quot; branding has been used since the release of SQL Server 2005.</glossdef></glossentry>
+<glossentry id="Default_Nominee">
+<glossterm>Nominee</glossterm>
+<glossdef>An active member who requests to swim an event.</glossdef></glossentry>
+<glossentry id="Default_PB">
+<glossterm>PB</glossterm>
+<glossdef>Personal Best. The fastest time swum by the entrant for the specified stroke and distance. Typically, the PB auto-calculated by SCM is &#39;up to but excluding&#39; the date of the current active session.  The PB found in the members dialogue is based on all known data.</glossdef></glossentry>
+<glossentry id="Default_RaceTime">
+<glossterm>RaceTime</glossterm>
+<glossdef>The time given by the time keepers after an event&#39;s heat has been swum.</glossdef></glossentry>
+<glossentry id="Default_SCM_">
+<glossterm>SCM </glossterm>
+<glossdef>SwimClubMeet</glossdef></glossentry>
+<glossentry id="Default_Session">
+<glossterm>Session</glossterm>
+<glossdef>A club meeting where members compete against each other in swimming events.</glossdef></glossentry>
+<glossentry id="Default_SSMS">
+<glossterm>SSMS</glossterm>
+<glossdef>Microsoft&#39;s SQL Server Management Studio</glossdef></glossentry>
+<glossentry id="Default_TimeToBeat">
+<glossterm>TimeToBeat</glossterm>
+<glossdef>The anticipated racetime for the nominee to swim an event.
+An algorithm used by Auto-Build Heats to sort entrants fastest to slowest.</glossdef></glossentry>
+<glossentry id="Default_TTB">
+<glossterm>TTB</glossterm>
+<glossdef>Time-To-Beat</glossdef></glossentry>
+<glossentry id="Default_BMAC">
+<glossterm>BMAC</glossterm>
+<glossdef>Build me a club.</glossdef></glossentry></glossgroup>

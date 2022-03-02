@@ -1,0 +1,17 @@
+
+  TimeToBeat How it works
+  SwimMeetClub keeps a log of all RaceTimes swum by that members.
+  It's this racing data that SwimClubMeet uses to calculate the TimeToBeat. The more data the better.
+  TimeToBeat is always calculated based on the events swum up to but excluding the current session. Data outside of these bounds is ignored.
+  TimeToBeat is calculated actively, in real time. By default it uses the average of the 3 fastest times the member has swum. Alternatively it can use the last known race time or the member's personal best .
+  If a member doesn't have any RaceTime data, then a time is calculated based on the mean average of the bottom 50% (default), with consideration to age and gender. If there is still insufficient data it'll ignore gender. It there is still not enough data (default:  at least 4 records) then it will re-calculate, doing an age spread (default: plus or minus 1 year).
+  If after all this process time, a suitable racetime can't be found, then the TimeToBeat is left empty. (For an Auto-Build Heats, this effectively sends that swimmer to the slowest heats.)
+  This algorithm can be set in Tools - Options - TTB .
+  Also, 'on-the-fly', when doing an Auto-Build Heats .
+   
+  Notes for Auto-Build Heats:
+  TimeToBeat is used to select the heat and lane that a member will be given. In the moment that the Auto-Build button is pressed, all TTBs are calculated for all nominees for the given event, in real time. The data used is all the racetimes of all members that pre-dates the selected session. The TTB data is used to build a list of entrants, fastest to slowest. Those without a TTB will end at the bottom of this list and placed into the slowest heat. A new member, without a race history, may be incorrectly place for the first instance but once a race has been swum and their racetime data is entered, that member will always be placed correctly.
+   
+  If you want to 'kick-start' your TimeToBet algorithm (you have just installed the application and you have no data) then you could add a session that is dated prior to the new swimming season. Populate that session with events, filled with the personal best times for all of your members. That way when the first club night is played ... entrants are correctly placed.
+   
+

@@ -20,27 +20,24 @@
     <windowsSetting></windowsSetting>
   </content>
   <title>SwimClubMeet</title>
-  <type>webhelp</type>
+  <type>html5</type>
   <glosstermEffect type="number">0</glosstermEffect>
-  <outputPath>C:/Users/Ben/source/repos/SwimClubMeet/SwimClubMeetApp/WebHelp/</outputPath>
+  <outputPath>C:/Users/Ben/Documents/My RoboHelp Projects/SwimClubMeet/</outputPath>
   <name>WebHelp</name>
   <starterPage>index.htm</starterPage>
   <defaultTopic>
-    <name>Home/Home.htm</name>
+    <name>Home</name>
     <path>../../contents/Home/Home.htm</path>
   </defaultTopic>
   <encoding></encoding>
   <lowercasenames></lowercasenames>
   <epub>
     <fonts></fonts>
-    <cover></cover>
     <title></title>
-    <author></author>
     <description></description>
     <rights></rights>
     <uuid></uuid>
     <date></date>
-    <check></check>
     <publisher></publisher>
   </epub>
   <mobileapp>
@@ -82,25 +79,24 @@
     <changeFrequency></changeFrequency>
   </sitemap>
   <skin>
-    <name>Charcoal_Grey</name>
-    <path>../skins/Charcoal_Grey/webhelp.skn</path>
+    <path>../skins/Charcoal_Grey/html5.skn</path>
+    <name>html5</name>
   </skin>
   <createThumbNails type="boolean">false</createThumbNails>
-  <favicon></favicon>
+  <use_thumbnails type="boolean">false</use_thumbnails>
+  <favicon>
+    <name>SCM_Help</name>
+    <path>../../ASSETS/SCM_Help.ico</path>
+  </favicon>
   <thumbnail></thumbnail>
+  <patchHomepage type="boolean">true</patchHomepage>
+  <gdprCompliance type="boolean">true</gdprCompliance>
   <pdf>
     <toclevel></toclevel>
-    <coverpage></coverpage>
     <pageSize></pageSize>
     <width></width>
     <height></height>
     <tocdepth></tocdepth>
     <margin></margin>
-    <masterpage></masterpage>
-    <multiHeaders></multiHeaders>
-    <tocMasterPages></tocMasterPages>
-    <topicMasterPages></topicMasterPages>
-    <gloMasterPages></gloMasterPages>
-    <indexMasterPages></indexMasterPages>
   </pdf>
 </preset>

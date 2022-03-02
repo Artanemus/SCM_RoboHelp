@@ -37,4 +37,5 @@
   <starterPage>index.htm</starterPage>
   <title>SwimClubMeet</title>
   <type>html5</type>
+  <use_thumbnails type="boolean">true</use_thumbnails>
 </preset>

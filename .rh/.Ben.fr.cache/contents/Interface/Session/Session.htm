@@ -1,0 +1,51 @@
+
+  Sessions Tab-Sheet
+  This is the starting point for building a 'Club Night'.  First, create a new session, next, enter it's events. 
+  
+  1. Tab-sheet controls. Session, Nominate, Heats. 
+    2. Session Table. An ordered list of the club's swimming nights.
+    3. Session Controls. Toggle visability, lock, new, delete, report.
+    4. Events Table. Swimming races for the current selected event.
+    5. Events Controls. Toggle expand, move up and down, new, delete, report. 
+   
+  The tables in detail.
+  Follow the links to see a full description of the tables.
+  
+    Session Table
+      Allows you to create, sort and delete 'Club Nights'.
+       
+    Events Table
+      Swimming races are constructed and arranged here. 
+  
+   
+  The Session Buttons
+  Set Session Visibility Button.
+  Toggles the visibility of locked sessions. The button changes it's icon to indicate it's toggled state. When enabled, all locked sessions will not be listed in the session table.
+  Lock sessions are colored 'tomatoe red'.
+  Lock Session Button.
+  Lock/unlock a selected session. When enabled, the selected session is locked and is painted tomatoe red. As you browse the sessions, this button will changes it's icon to indicate the current selected session's locked state.
+  A locked session disables data entry for events, nominations and heats. These tables will appear grayed to indicate their read-only state. Most controls for these tables are also grayed. However, you can still navigate events and print reports. Locking a session protects your data from accidential entry.
+  To un-lock a session, toggle the button.
+  New Session Button
+  Click the new button to create a new session. The 'create new session' dialogue appears. Enter a session date and starting time. You can also enter a session description or comment if you wish. These descriptions appear in reports.
+  Delete Session Button.
+  Deleting a session will delete all events, nominations, heats and entrant data. You will be prompted,  'do you wish to delete the session'. If your session contains RaceTimes you will be prompted a second time. There is no-undo.
+  A locked session cannot be deleted. This button will appear grayed if you have selected a locked session.
+  Session Report Button
+  Click this button to produces a session report ordered by event.
+  Cntrl-Click this button to produces a session report ordered by member.
+  The first page on each report gives the session date. All pages are numbered and displayed in the footer.
+  TODO: Version 1.4 doesn't display the days date!
+  Each report displays RaceTime (if entrant times have been entered), Personal Best (the entrant's fastest swimming time - prior to this session) and DIFF.
+  The DIFF or difference value is a negative or positive and shows the performance improvement, or not, for the event. A negative amount is what every swimmer wants to see.
+   Session Report Examples.
+  Clicking the Session Rpt* button produces a reports for the current selected session - ordered by event and heat.
+  
+  Clicking CTRL-Session Rpt* produces a report of the current selected session - ordered by member's LastName.
+  
+  Event Report Examples
+  Clicking the Event Rpt* button produces a report showing all the events for the current selected session.
+  
+  Clicking CNTRL-Event Rpt* produces a report of the current selected event and displays all the heats and members for that event.
+  .
+

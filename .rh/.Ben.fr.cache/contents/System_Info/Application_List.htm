@@ -1,0 +1,87 @@
+
+  Application List
+  Special note : During development - build versions may differ. Not all applications shown here may appear in each build. 
+  SwimClubMeet
+  The core application to administer your members and meets.
+    
+     
+  Special Applications bundled with SCM
+  
+    SCM_BuildMeAClub
+        
+        Builds me a club. It creates the SwimClubMeet database on your  MSSQL EXPRESS.  It creates all the tables and references, places essential data into those tables, builds SCM functions and sets up logins. There is a unique BMAC constructed for each new version of SCM.
+        
+        TBA - BuildMeAClub help files. 
+       
+    SCM_UpgradeDB
+      
+      Checks the current SCM MSSQL database version and upgrades the database to match the version in the current SCM installation package. It's capable of performing multi-upgrades, if needed. 
+      
+      Upgrades performed include table and field changes to MSSQL SCM, registry changes, preference file inclusion and changes and updates to the support SQLiteV3 databases.
+      
+      Only use this utitlity when requested by the developer.
+       
+    FDAdministrator
+      
+      FireDAC Administrator is a tool you can use to manage SCM internal FireDAC connection definitions. It does not allow you to browse the MSSQL database or work with SQL scripts. FDAdministrator has been distributed with this applications to give the administrators or users the ability to set up database connection definitions. 
+      
+      Only use this tool when requested by the developer.
+  
+  Standalone Applications bundled with SCM 
+  Notes on standalone applications. These applications have been written in a cross platform compiler. It's intended that in future releases there will be Linix, Mac, iPhone, Android and iPad variants of these applications. If you share your 'Server' over wi-fi then 'collectively' these remote applications perform all the features that the core application can do.
+  
+    SCM_Nominate, Beta.
+        
+        This is a stand alone application.. This application allows members to quickly nominate for the 'nights' events. It's like a kiosk -  swimmers enter their membership number and then nominate for the listed events.
+        
+        Set up a couple of tablets at the frount gate for quick event nomination. 
+       
+    SCM_Marshall, Beta.
+      
+      This is a stand alone application. This application lets your lane marshall to browse events and heats. Displays entrants, their lane numbers and racetime (once they have been entered by Admin or TimeKeeper) . The marshall can also flag a heat as 'raced'. 
+       
+    SCM_TimeKeeper, Beta.
+      
+      This is a stand alone application. This application lets your timekeepers track events, heats for their assigned lane. It shows the entrant name, timetobet and personal best for the assign lane. The timekeeper may enter the race time for the entrant which is then sent to the server. 
+        
+        Or set the roaming feature on. This enabled one "Grand' Timekeeper Official to collect each lane's time for each heat run.
+      
+    SCM_LeaderBoard, Beta.
+      
+      This is a windows 10 only, stand alone application. It uses a local SQLiteV3 to optimise performance and remove the load off the core MSSQL Server. This application allows you to track member, house and event scores, in real time. It includes a report system. Use this application to track scores for your end-of-season finals. May serve as a billboard.
+       
+    SCM_Help. Help for SwimClubMeet.  
+      
+      Forever a work in progress.
+       
+  
+  Other products (in development)
+  
+    SCM_Member 
+        
+        A stand-alone application edit member's details and add new members. Useful in deligating administration tasks.
+       
+    SCM_Stats
+        
+        Windows 10 only, stand alone application. Stats, graphs and pie charts for your club's annual general meeting.
+       
+    SCM_Reports
+      
+      Windows 10 only, stand alone application. Additional reports, barcode members cards, certificates, etc.
+       
+    SCM_Pre-Nominate
+      
+      Auto post members emails with attached 'personalized' data aware PDF nomination forms. Auto import the member's pre-nomination to the Club's next club night.
+       
+    SCM_ExtraHelp
+      
+      Additional help files for support applications. 
+  
+  Applications you must install to run  SCM,
+  Microsoft's SQL server Express
+  Microsoft SQL Server Express is a version of Microsoft's SQL Server relational database management system that is free to download, distribute and use. It comprises a database specifically targeted for embedded and smaller-scale applications.
+  Application you are advised to install (currently used for back-up and restore of your database)
+  Microsoft's Server Management Studio
+  SQL Server Management Studio (SSMS) is an integrated environment for managing any SQL infrastructure, from SQL Server to Azure SQL Database. SSMS provides tools to configure, monitor, and administer instances of SQL Server and databases. Use SSMS to deploy, monitor, and upgrade the data-tier components used by your applications, as well as build queries and scripts. It's free.
+  >
+

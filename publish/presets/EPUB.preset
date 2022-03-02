@@ -29,4 +29,5 @@
   <starterPage>Default.epub</starterPage>
   <title>SwimClubMeet</title>
   <type>epub</type>
+  <use_thumbnails type="boolean">false</use_thumbnails>
 </preset>

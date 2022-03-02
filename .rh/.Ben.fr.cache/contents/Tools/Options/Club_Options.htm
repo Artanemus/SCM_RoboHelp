@@ -1,0 +1,59 @@
+
+  Club Options
+  Swimming club options.
+  
+  
+    Summary description for each item on this tabsheet ...
+    
+      
+      
+    
+    
+      
+        Club Name
+        Read only field. The name of your amateur swimming association or organization.
+      
+      
+        Club Nickname
+        Read only field. A familiar or humorous name?
+      
+      
+        Email
+        The club's email address for general enquires.
+      
+      
+        Contact Number
+        General phone or mobile number for the club. 
+      
+      
+        Website
+        The internet address for the clubs home page.
+      
+      
+        Number of lanes
+        The width of the swimming pool given in lanes.
+      
+      
+        Pool length
+        The length of the swimming pool given in metres.
+      
+      
+        Season Starts
+        The start of the swimming season.
+      
+    
+  
+  Number of lanes
+  Any number of lanes can be entered. When printing out marshall and timekeeper reports, 10 lanes can comfortable fit a standard A4 page. Use the 'exclude gutter lanes' option in Auto-Build heats to ignore outside lanes that may contain obstacles, such as ladders and grates.
+  Pool length
+  Any pool length will be accepted.
+  Note: SCM has qualification 'tables' for two pool length, Short Course (25m) and Olympic Standard or Long Course (50m). SCM will auto-matically determine which table to used based on what is entered here. If your swimming pool doesn't conform to these two lengths, any pool longer than 33.3 yards (30.4m) is considered a long course pool. This means most olympic diving pools will be short course pools.
+  Season Starts
+  In Australia the summer season starts in October.The date given here is used in auditing and calculating members age. When scoring (for the leader-board) you can specify the swimmers age as of session date or season start. FYI :Auto-Build heats uses start of session for swimmers age. Future version of SCM may allow you to set these system defaults.
+  Club Name and Club Nickname
+  These values are used in all reports. In future versions of SCM, they will be used as verification data for user login to the official SCM website.
+  Why is Club Name and Nickname read-only?
+  These fields can be changed but you will need to make changes using SQL Server Management Studio. Currently there can only be one club identified in the MS SQL SwimClubMeet database. Making these fields read-only (within SCM) protects this vital application data.
+  Email, Contact Number, Website.
+  These values are currently not in use. In future versions of SCM, they will be used by Pre-Nominate and verification data for user login to the official SCM website.
+

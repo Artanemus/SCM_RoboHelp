@@ -1,0 +1,185 @@
+
+  Connect TCP/IP for SCM
+  Outline
+  An outline to getting other devices and support applications connected to the SwimClubMeet database. For the computer running the MS SQLEXPRESS server, the following must be done.
+  
+    Enable TCP for SQLEXPRESS server.
+    Set a static port number for SQLEXPRESS server. (Default 1433)
+    Restart the SQLEXPRESS server. (While in Computer Management)
+    Enable TCP logins for the SwimClubMeet database.
+    Restart the SQLEXPRESS server. (While in MSSMS)
+    Setup a 'scmAdmin' SwimClubMeet database login.
+    Set the firewall to allows communications on the port. (UDP, TCP)
+    Check the connection.
+  
+  On the computer(s) connecting ...
+  
+    Prepare it's firewall to allow communications on port 1433 .
+    When logging in, use IP address and port of the SQLEXPRESS server.
+    Login with username scmAdmin and password.
+  
+  Router, Wi-Fi considerations ...
+  
+    Ensure 'port forwarding' is enabled for the static port used by SQLEXPRESS server.
+  
+   
+  Detailed step-by-step guide ...
+  This guide assumes you have Windows 10 and are running SQLEXPRESS 2017 or 2019. 
+  Computer Management - Enable TCP for SQLEXPRESS server.
+  
+    
+      
+      
+    
+    
+      
+        
+          On the taskbar, in the extreme left, right mouse click the winodws logo.
+          From the pop-up right menu, select 'Computer Management'.
+          (The appearance may vary a little - it's dependant on what Windows 10 build you are running.)
+        
+         
+      
+    
+  
+   
+  The Computer Management app runs. We are looking for 'Protocols for SQLEXPRESS'
+  
+  Ensure  'TCP/IP' is enable.
+  Computer Management - Set TCP/IP configuration.
+  Double click 'TCP/IP' (found under the column 'Protocol Name') to open the Properties panel.
+  
+  Make sure Listen All is set to Yes.
+  Next - select the IP Addresses tab.
+  
+  We are looking for the 'IPALL'.
+  Blank out the TCP Dynamic Ports by removing it's '0'
+  Put the default SQLEXPRESS server port number '1433' into TCP Port
+  Press OK
+  Computer Management - Restart the SQLEXPRESS server.
+  While in the 'Computer Management', lets restart the SQLEXPRESS server.  
+  Locate 'SQL Server Services' - select it.
+  
+  Next, in right hand panel, select SQL Server (SQLEXPRESS) 
+  
+  Right mouse and select 'Restart' from the pop-down menu.
+  Restarting will ensure all of our changes are applied.
+  Ok - if you have made this far then you now have the server listening on port 1433.
+  Next step is to get the SQLEXPRESS database to accept remote logins. Close up any apps and lets move on.
+  Enable TCP logins for the SwimClubMeet database.
+  
+    
+      
+    
+    
+      
+        Start the Microsoft SQL Server Management Studio. 
+      
+    
+  
+  
+    
+      
+    
+    
+      
+        
+          
+            Connect to your SQLEXPRESS ....
+          Server name: localhost\SQLEXPRESS  
+          The dot variation, .\SQLEXPRESS,  is another alternative.
+          Or a fully qualified server name would be the name of your computer name with an attached instance name. As shown in the example.
+           Authentication :
+          Here you can use 'Windows Authentication'. 
+        
+      
+    
+  
+  Now that you have successfully logged in, the next step is to select the server name (top line).  The right mouse and select Properties from the popup menu
+  
+  With the Server Properties dialogue open, select the 'Security' tab. Then select the radiobutton 'SQL Server and Windows Authentication mode'. Doing this will enable remote login using the server's user accounts.
+  
+  Press OK. This change won't come into effect until we restart the server.
+  Restart the SQLEXPRESS server.
+  Select the server name (top line). Right mouse, but this time select 'Restart' from the popup menu.
+  
+  With that done, the next is to setup the remote login.
+  Setup a 'scmAdmin' SwimClubMeet remote database login.
+  When the SwimClubMeet application 'BuildMeAClub' was ran it created some useful 'Roles', SwimClubMeet Users and a single Login name.
+  Open up the Security branch. You'll see the remote login name scmAdmin. (There are multiply security branches, make sure you have selected the 'root' branch' as shown below.)
+  
+  Currently it's offline and has a random password. Double click scmAdmin.
+  
+  In the generals tab - you'll note, I've disabled 'Enforce password policy'. That way I can enter a 'short' password.
+  Go do the same - enter a  password for your scmAdmin user and then confirm the password by typing it again in the 'Confirm password' editbox.
+  Next we'll check mappings. Select the 'User Mappings' tab. Then select SwimClubMeet and confirm the following ...
+   
+  Make sure the following are checked ...
+  
+    db_datareader
+    db_datawriter
+    public (optional)
+    SCM_Administrator
+  
+  The last one, 'SCM_Administrator' allows the user scmAdmin to do select actions or tasks to the SwimClubMeet tables. 'SCM_Administrator' is a SQLSERVER 'role' definition. Some SCM system tables are in-accessable to scmAdmin. However when running any of the SwimClubMeet application, logged in as scmAdmin, all application functionality is operable. (Later... If you explore in the SwimClubMeet security sub-branch, you'll notice other SCM 'roles'.)
+  One last job. Select the Status tab. Select the radio button 'Enabled' for the 'Login' option.
+  
+  Press OK
+  And that should do it. It shouldn't be necessary to do another restart of the database changes. (?)
+  Close down MSSMS. 
+  Set the firewall to allows communications on the port. (UDP, TCP)
+  If you have a virus protection application running - then this will block port 1433, unless enabled.
+  Here are the steps to enable these port when using Windows Defender Firewall.
+  (You maybe using a different firewall/security application. Instructions to setup UDP/TCP will differ.)
+  Type 'Fire' in the Windows search box. Select the 'Windows Defender Firewall' app.
+  Once open, select 'Advance Settings'.
+  
+  Here it is open and I've selected Inbound Rules. You can see I've already made my SQLEXPRESS 1433 TCP inbound rule for the SQLEXPRESS 1433 static port.
+  
+  To create an inbound rule, select Action >> New Rule ...
+  
+  When the dialogue has open, select Port, then click Next
+  
+  We need to do both TCP and UDP. Lets start with UDP. Select the UDP radiobutton. Select 'Specific local ports' and then enter 1433 in the editbox.
+  
+  Click Next
+  
+  Select 'Allow the connection'. Click Next
+  
+  Select all checkboxes (enable across all connections).  Click Next
+  
+  Give it a title, maybe a description then click Finish.
+  RINSE AND REPEAT. Repeat the same procedure for TCP on port 1433.
+  Click Finish
+  Close the defender firewall application. The SQLEXPRESS 1433 port is now open across all connections.
+  NOW WE MUST CHECK
+  Does the login work locally? Lets test that out.
+  Close all apps. (DO A REBOOT, ENSURE EVERTHING IS INITIALISED)
+  Run SwimClubMeet and try this login...
+  
+  Did it work? Can you edit, delete, move stuff about? If it's worked - then your scmAdmin user is up and running.
+  Now we'll attempt to use the Loop-Back feature to test an IP connection. Disconnect from Wi-Fi. Remove ethernet cable, etc. (Restart PC?) Then try this... 
+  
+  Note the comma after the IP address, then the static port number 1433. Did it work? This isn't a solid test for IP connectivity - but it's a good indicator all is well. 
+  LIFT OFF
+  Well you are ready for the real world now. Get connected via local Wi-Fi, physical router or the internet! 
+  AFTER CONNECTION  - Check your server IP address in Computer Management - Protocols for SQLEXPRESS (typically IP4 or IP6) . 
+  You can also use ipconfig at the command line tool to find your current computer's ip address - the SQLEXPRESS server should be using these addresses. (?)
+  On the computer connecting ...
+  
+    Prepare it's firewall to allow communications on port 1433 .
+    When logging in, use the IP address and port of the (remote) SQLEXPRESS server.
+    Login with username scmAdmin and password.
+  
+  Router Configuration..
+  Important notes: 
+  Wi-Fi routers will need 'Port Forwarding' enabled for the 1433 port. (both TCP UDP) 
+  Your router acts as DNS and assigns IP adresses to each connection. Most routers have a setting to 'lease' a fixed IP address to the same computer on connection. The 'lease time' can be hours or 'forever'. Consider setting the lease time for computer with the MS SQL server to 'forever'. That way the login IP address will always be same. 
+  As each router is different, sorry no help session, instead refer to your router's manual..
+   
+   
+   
+   
+   
+   
+

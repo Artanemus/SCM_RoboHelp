@@ -1,0 +1,62 @@
+
+  Auto-Build Heats Dialogue
+  When the Heats tab-sheet is selected and the Build Heats button is pressed, the Build Heats dialogue is displayed.
+  Pressing the settings button expands the dialogue box to show additional options.
+   
+  
+    
+      
+      
+    
+    
+      
+        
+        1. The entrant's Time-To-Beat
+          2. Estimate a Time-To-Beat
+          3. Special Options.
+          4. Group by.
+          5. Seed method.
+      
+    
+  
+  
+    Overview of options ...
+  TTB is used to build a list of entrants, ordered by fastest to slowest.  These calculated racetimes will determine which heat and lane a swimmer is given.
+  1. The entrant's Time-To-Beat 
+  You are given three options to calculate the time-to-beat for each entrant. These options require that the entrant have previously raced the event. ie. there is historical data. The default is 'Use the average of the 3 fastest race times'. Only data that pre-dates the current selected session is used.
+  2. Estimate a Time-To-Beat 
+  This section of the dialogue can create a time-to-beat for an entrants with no historical race data.  By default, this is enabled. There is no good reason to disable this feature, other than to improve the DB Server performance.
+  The algorithm does this.
+  A. List all the swimmers of the same age and gender who have swum the event. Use only the bottom 50% and get the average time. If this fails (no data, or there is less than 4 swimmers) go to step B.
+  B. List all the swimmers of the same age - ignore gender ... rinse and repeat. If this fails go to step C.
+  C. List all the swimmers in an age bracket (currently set at : plus/minus 1 year) ... rinse and repeat. If this fails, step D.
+  D. Give this swimmer a race time of NULL. This swimmer will be placed in the slowest heat.
+  If you have a lot of data - many years of club nights - then it's time to tweak the percentage. I suggest dropping it over time to 30 percent. Typically, swimmers in untrialled events under-preform. Email me if I'm wrong.  
+  3. Special Options.
+  Seperate gender. For each gender, a list of entrants will be made, ordered fastest to slowest. Each list will be given seperate heats. eg. Split male and female into seperate heats. Said differently, boys don't race the girls.
+  Exclude gutter lanes. If checked, swimmers will not be placed in the outside lanes. eg. If you have an 8 lane pool - well now you have only 6. Helpful if you have ladders that protude in the side lanes.
+  4. Group by..
+  Another way to group entrants. Fine tune the stacking of entrant numbers across heats.
+  
+    Don't group ... disables group by.
+    Entrant's age ... swimmers with the same age are placed in the same heat. May produce a large amount of heats.
+    Membership type ... swimmers of the same membership type are placed in the same heat.
+  
+  5. Seed Method
+  A full description of seeding (with diagrams) is given here.
+  But in a 'nut-shell'.
+  SwimClubMeet (default). After filters and grouping, the resultant entrants are placed in a list fastest to slowest.  Fastest swimmers swim the last heat. Slowest are in the first heat.
+  For a eight lane pool - Swimmers are scattered as per Olymic Standards 4, 5, 3, 6, 2, 7, 1, 8. Fastest swimmer swims lane 4. Slowest swimmer in lane 8.
+  Circle Seeding. Gets a little more complicated. Say you have 8 lanes and 4 heats. Your seed depth is 2.
+  After filters and grouping, the resultant entrants are placed in a list fastest to slowest. Fastest heat is heat 4. Slowest is heat 1.
+  Only heats 3 and 4 are circle seeded. Heats 1 and 2 use the default seeding.
+  The fastest swimmer goes into heat 4 lane 4. The 2nd Fastest swimmer is placed in heat 3 lane 4. The 3rd fastest is place in heat 4 lane 5. The fourth fastest is placed in heat 4 lane 5. And so on .... 
+  Why use circle seeding? By mixing up the ranked swimmers, it'll change the racing dynamics and 'freshen-up' the competition. Just another reason why you want to go to 'Club Night'.
+  Circle seeding is best used on events with a large number of entrants. 
+  Special Note.
+  Any changes made in this dialogue become the new default settings used by SCM. Said differently - settings are mirrored in the Tool Options dialogue.
+  Learn more  ...
+  TTB is also mirrored in Options.  
+  Auto-Build is also mirrored in Options. 
+  Follow the link to a summary of TTB.  
+

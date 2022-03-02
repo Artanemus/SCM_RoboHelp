@@ -100,4 +100,5 @@
     <gloMasterPages></gloMasterPages>
     <indexMasterPages></indexMasterPages>
   </pdf>
+  <use_thumbnails type="boolean">false</use_thumbnails>
 </preset>

@@ -8,16 +8,12 @@
       <name>SCM_Main</name>
       <path>../../toc/SCM_Main.toc</path>
     </toc>
-    <index type="boolean">true</index>
-    <glossary>
-      <name>Default</name>
-      <path>../../glossary/Default.glo</path>
-    </glossary>
     <brs type="array"></brs>
     <language></language>
     <masterpage></masterpage>
     <mapFiles type="array"></mapFiles>
     <windowsSetting></windowsSetting>
+    <includereftopics type="boolean">true</includereftopics>
   </content>
   <title>SwimClubMeet</title>
   <type>pdf</type>
@@ -25,7 +21,6 @@
   <outputPath>C:/Users/Ben/Documents/My RoboHelp Projects/outputs/SwimClubMeet/Printed Documentation</outputPath>
   <name>Printed Documentation</name>
   <starterPage>SwimClubMeet_Alpha.pdf</starterPage>
-  <defaultTopic></defaultTopic>
   <encoding></encoding>
   <lowercasenames></lowercasenames>
   <epub>
@@ -90,10 +85,10 @@
     <height></height>
     <tocdepth></tocdepth>
     <margin type="array">
-      <marginitem type="number">10</marginitem>
-      <marginitem type="number">10</marginitem>
-      <marginitem type="number">10</marginitem>
-      <marginitem type="number">10</marginitem>
+      <marginitem>10mm</marginitem>
+      <marginitem>10mm</marginitem>
+      <marginitem>10mm</marginitem>
+      <marginitem>10mm</marginitem>
     </margin>
     <masterpage></masterpage>
     <multiHeaders type="boolean">false</multiHeaders>
@@ -101,5 +96,13 @@
     <topicMasterPages></topicMasterPages>
     <gloMasterPages></gloMasterPages>
     <indexMasterPages></indexMasterPages>
+    <multiheaders type="boolean">false</multiheaders>
+    <useTopicsAndChaptersForToc type="boolean">true</useTopicsAndChaptersForToc>
+    <portraitLayout type="boolean">true</portraitLayout>
+    <startTopicsFromNewPage type="boolean">true</startTopicsFromNewPage>
+    <startChapterFromNewPage type="boolean">true</startChapterFromNewPage>
+    <mergePdfs type="boolean">true</mergePdfs>
+    <embeddFonts type="boolean">true</embeddFonts>
   </pdf>
+  <use_thumbnails type="boolean">false</use_thumbnails>
 </preset>

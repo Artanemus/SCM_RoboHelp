@@ -103,4 +103,5 @@
   <thumbnail></thumbnail>
   <title>SwimClubMeet</title>
   <type>mobileapp</type>
+  <use_thumbnails type="boolean">true</use_thumbnails>
 </preset>

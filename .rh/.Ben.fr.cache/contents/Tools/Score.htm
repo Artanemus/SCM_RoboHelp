@@ -1,0 +1,86 @@
+
+  Tools Score
+  Setup
+  Points
+  Divisions
+  Leader Board
+  Reports
+   
+  Setup
+  Calculate the entrant's age as of ...
+  ... the start of the swimming season. 
+  The swimming season date is set in tools .. options.
+  ... the current session
+  Calculate the leader board score as of the ...
+  Future versions will allow for an accumlative score across multi-sessions. As of this build only the current season can be scored.
+  Find the entrant's placing for ...
+  ... the heat
+  For each heat, the swimmer is placed and scored.
+  ... the event
+  After all the heats in the event have been swum, SCM lists each swimmer, fastest to slowest. Then based on their place within this list, they and scored. 
+  Placement is calculated ...
+  ... Absolute
+  A swimmer is placed as ordered in the list (be it the heat or the event).
+  ... Relative 
+  Individual ordered lists (of swimmers) are made for each division type. Swimmers are then placed.  
+  Points
+   
+  
+    
+      
+      
+    
+    
+      
+        
+        
+          The first 32 places can be given a score.
+          (If in setup score is set to EVENT - ABSOLUTE, then in an event that has 4 heats with 8 swimmers, all swimmers will be given a score.)
+          Tenth of a point are allowed. Using tenths, can makes for better competition.
+          Leave the field empty (00.0) for a place to be unscored.
+          If in setup you have selected to score only heats, the number of pool lanes dictates the number of places SCM will scored. (Logical)
+          Unplaced points ... unplaced swimmers are scored zero. In future version of SCM this option will be editable. 
+        
+      
+    
+  
+   
+  Divisions
+  
+  A division is an age range for a given gender. Ages are inclusive. The 'Age From' value must be less or equal to the 'Age To' value.
+  Divisions are used when the score setup is RELATIVE.
+  You may have division that form INTERSECTIONS, INCLUSIONS. 
+  An example
+  A .. Girl's 8 years (8-8)
+    B .. Girl's 9 years (9-9)
+    C ... Girl's 8-12 years (8-12)
+  Both A and B are a subsets of C. (Division C holds the 'grand finalists' for the under 12 girl's.)
+  Members in this example will be scored twice. These scorings will be delineated in reports, as each member's scores will be described with the division that derived the score.
+  LeaderBoard
+  
+  Pressing Update will refresh the leaderboard display.
+  What the leaderboard displays is determined by your setting in the preceeding tabsheets (wit. SetUp, Score and Division).
+  IMPORTANT : Only events that are CLOSED are scored.
+  WARNING : Dead heats are score incorrectly. In future versions of SCM this will be fixed.
+  NOTE: the description text in the top header that describes the setup that produced the display.
+  To print the leaderboard go to the report tabsheet.
+  Report
+  
+  Leader Board
+  Print the current leaderboard. A re-calculation (or data refresh) is always done pior to printing.
+  Entrant Score
+  Displays place and points for both ABSOLUTE position and RELATIVE to division - grouped by division, then by entrant. A detailed report, including aggregates (for each member).
+  This report is for diagnostics. For a much 'cleaner' reports (and visual display) - use the LeaderBoard application.
+  NOTE: This report can take time to build. Be patient.
+  
+  Event Details
+  Displays the details of each event. The division held within that event and it's entrants.
+  This report is for diagnostics. For a much 'cleaner' reports (and visual display) - use the LeaderBoard application.
+  NOTE: This report can take time to build. Be patient.
+  
+  Division Members
+  List all the members of each division.
+  Members only need to be active to be in this list. If you divisions includes subsets, then some members may appear more than once in this list. 
+  NOTE: the title header displays how the age of each member is calculated.
+  
+

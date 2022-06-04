@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+
+  <script type="text/javascript" language="JavaScript">
+    //<![CDATA[
+    function reDo() {
+      if (innerWidth != origWidth || innerHeight != origHeight)
+        location.reload();
+    }
+    if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+      origWidth = innerWidth;
+      origHeight = innerHeight;
+      onresize = reDo;
+    }
+    onerror = null;
+  //]]>
+  </script>
+  <style type="text/css">/*<![CDATA[*/
+
+    < !-- div.WebHelpPopupMenu {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      z-index: 4;
+      visibility: hidden;
+    }
+
+    p.WebHelpNavBar {
+      text-align: right;
+    }
+
+    -->
+  
+/*]]>*/</style>
+
+  <script type="text/javascript">//<![CDATA[
+
+    gRootRelPath = "..";
+    gCommonRootRelPath = "..";
+    gTopicId = "2.5.1_3";
+  
+//]]></script>
+
+  <script type="text/javascript" src="../template/scripts/rh.min.js"></script>
+  <script type="text/javascript" src="../template/scripts/common.min.js"></script>
+  <script type="text/javascript" src="../template/scripts/topic.min.js"></script>
+  <script type="text/javascript" src="../template/scripts/topicwidgets.min.js"></script>
+<script type="text/javascript" src="../whxdata/projectsettings.js"></script>
+  <link rel="stylesheet" type="text/css" href="../template/styles/topic.min.css"/>
+  <link rel="stylesheet" type="text/css" href="../template/Charcoal_Grey/topicheader.css"/>
+  <meta name="topic-status" content="Draft"/>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="generator" content="Adobe RoboHelp 2020"/>
+  <title>Score</title>
+  <meta name="topic-status" content="Draft"/>
+  <link rel="stylesheet" type="text/css" href="../assets/css/default.css"/>
+  <meta name="template" content="../assets/masterpages/SCM.htt"/>
+</head>
+
+<body>
+  <div class="topic-header rh-hide" id="rh-topic-header" onclick="rh._.goToFullLayout()">
+    <div class="logo">
+    </div>
+    <div class="nav">
+      <div class="title" title="Score">
+        <span>Score</span>
+      </div>
+      <div class="gotohome" title="Click here to see this page in full context">
+        <span>Click here to see this page in full context</span>
+      </div>
+    </div>
+  </div>
+  <div class="topic-header-shadow rh-hide" id="rh-topic-header-shadow"></div>
+
+
+
+  <div style="background-color: #f5f5f5">
+    <p><span style="font-size:NaNpx"><br/>
+        <span style="font-size:26px">SwimClubMeet</span></span></p>
+  </div>
+  <div>
+  <h2 class="SCM_h2">Tools Score</h2>
+  <p><a href="Option_Score.htm#Score_Setup">Setup</a></p>
+  <p><a href="Option_Score.htm#Score_Points">Points</a></p>
+  <p><a href="Option_Score.htm#Score_Division">Divisions</a></p>
+  <p><a href="Option_Score.htm#Score_LeaderBoard">Leader Board</a></p>
+  <p><a href="Option_Score.htm#Score_Report">Reports</a></p>
+  <p> </p>
+  <h3 class="SCM_h3"><a id="Score_Setup"></a>Setup</h3>
+  <h4><img class="scmImage" src="../assets/images/Score_SetUp.jpg"/>Calculate the entrant&#39;s age as of ...</h4>
+  <p>... the start of the swimming season. </p>
+  <p>The swimming season date is set in <span class="SCM_MenuItem">tools </span>.. <span class="SCM_MenuItem">options</span>.</p>
+  <p>... the current session</p>
+  <h4>Calculate the leader board score as of the ...</h4>
+  <p>Future versions will allow for an accumlative score across multi-sessions. As of this build only the current season can be scored.</p>
+  <h4>Find the entrant&#39;s placing for ...</h4>
+  <p>... the heat</p>
+  <p>For each heat, the swimmer is placed and scored.</p>
+  <p>... the event</p>
+  <p>After all the heats in the event have been swum, SCM lists each swimmer, fastest to slowest. Then based on their place within this list, they and scored. </p>
+  <h4>Placement is calculated ...</h4>
+  <p>... Absolute</p>
+  <p>A swimmer is placed as ordered in the list (be it the heat or the event).</p>
+  <p>... Relative </p>
+  <p>Individual ordered lists (of swimmers) are made for each division type. Swimmers are then placed.  </p>
+  <h3 class="SCM_h3"><a id="Score_Points"></a>Points</h3>
+  <p> </p>
+  <table border="1" cellpadding="1" cellspacing="1" class="SCM_simple" style="border-collapse:collapse;" width="100%">
+    <colgroup>
+      <col width="50%"/>
+      <col width="50%"/>
+    </colgroup>
+    <tbody>
+      <tr>
+        <td><img class="scmImage" src="../assets/images/Score_Place.jpg"/></td>
+        <td>
+          <p>The first 32 places can be given a score.</p>
+          <p><span class="SCM_Quotes">(If in setup score is set to EVENT - ABSOLUTE, then in an event that has 4 heats with 8 swimmers, all swimmers will be given a score.)</span></p>
+          <p>Tenth of a point are allowed. Using tenths, can makes for better competition.</p>
+          <p>Leave the field empty (00.0) for a place to be unscored.</p>
+          <p>If in setup you have selected to score only heats, the number of pool lanes dictates the number of places SCM will scored. (Logical)</p>
+          <p>Unplaced points ... unplaced swimmers are scored zero. In future version of SCM this option will be editable. </p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <p> </p>
+  <h3 class="SCM_h3"><a id="Score_Division"></a>Divisions</h3>
+  <p><img src="../assets/images/Score_Divisions_A.jpg"/></p>
+  <p>A division is an age range for a given gender. Ages are inclusive. The &#39;Age From&#39; value must be less or equal to the &#39;Age To&#39; value.</p>
+  <p>Divisions are used when the score setup is RELATIVE.</p>
+  <p>You may have division that form INTERSECTIONS, INCLUSIONS. </p>
+  <p>An example</p>
+  <p>A .. Girl&#39;s 8 years (8-8)<br/>
+    B .. Girl&#39;s 9 years (9-9)<br/>
+    C ... Girl&#39;s 8-12 years (8-12)</p>
+  <p>Both A and B are a subsets of C. (Division C holds the &#39;grand finalists&#39; for the under 12 girl&#39;s.)</p>
+  <p>Members in this example will be scored twice. These scorings will be delineated in reports, as each member&#39;s scores will be described with the division that derived the score.</p>
+  <h3 class="SCM_h3"><a id="Score_LeaderBoard"></a>LeaderBoard</h3>
+  <p><img height="368" src="../assets/images/Score_LeaderBoard.jpg" width="600"/></p>
+  <p>Pressing Update will refresh the leaderboard display.</p>
+  <p>What the leaderboard displays is determined by your setting in the preceeding tabsheets (wit. SetUp, Score and Division).</p>
+  <p>IMPORTANT : Only events that are CLOSED are scored.</p>
+  <p>WARNING : Dead heats are score incorrectly. In future versions of SCM this will be fixed.</p>
+  <p>NOTE: the description text in the top header that describes the setup that produced the display.</p>
+  <p>To print the leaderboard go to the report tabsheet.</p>
+  <h3 class="SCM_h3"><a id="Score_Report"></a>Report</h3>
+  <p><img height="213" src="../assets/images/Score_Report.jpg" width="700"/></p>
+  <h4>Leader Board</h4>
+  <p>Print the current leaderboard. A re-calculation (or data refresh) is always done pior to printing.</p>
+  <h4>Entrant Score</h4>
+  <p>Displays place and points for both ABSOLUTE position and RELATIVE to division - grouped by division, then by entrant. A detailed report, including aggregates (for each member).</p>
+  <p>This report is for diagnostics. For a much &#39;cleaner&#39; reports (and visual display) - use the LeaderBoard application.</p>
+  <p>NOTE: This report can take time to build. Be patient.</p>
+  <p><img height="490" src="../assets/images/Score_Report_B.jpg" width="800"/></p>
+  <h4>Event Details</h4>
+  <p>Displays the details of each event. The division held within that event and it&#39;s entrants.</p>
+  <p>This report is for diagnostics. For a much &#39;cleaner&#39; reports (and visual display) - use the LeaderBoard application.</p>
+  <p>NOTE: This report can take time to build. Be patient.</p>
+  <p><img height="490" src="../assets/images/Score_Report_C.jpg" width="800"/></p>
+  <h4>Division Members</h4>
+  <p>List all the members of each division.</p>
+  <p>Members only need to be active to be in this list. If you divisions includes subsets, then some members may appear more than once in this list. </p>
+  <p>NOTE: the title header displays how the age of each member is calculated.</p>
+  <p><img src="../assets/images/Score_Report_D.jpg"/></p>
+
+</div>
+  <div>
+    <p> </p>
+  </div>
+
+</body></html>

@@ -1,0 +1,1 @@
+(function() {    var toc =  [{"name":"Nominees List","type":"item","tilePath":"","description":"","url":"Interface/Nominate/Nominees_Member_List.htm"},{"name":"Events List","type":"item","tilePath":"","description":"","url":"Interface/Nominate/Nominee_Events_List.htm"}];    window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:true });    })();

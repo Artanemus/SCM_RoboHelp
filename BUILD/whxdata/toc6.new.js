@@ -1,0 +1,1 @@
+(function() {    var toc =  [{"name":"Heat Table","type":"item","tilePath":"","description":"","url":"Interface/Heats/Heat_Table.htm"},{"name":"Entrant Table","type":"item","tilePath":"","description":"","url":"Interface/Heats/Entrant_Table.htm"}];    window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:true });    })();

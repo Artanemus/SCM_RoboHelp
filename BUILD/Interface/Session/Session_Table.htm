@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+
+  <script type="text/javascript" language="JavaScript">
+    //<![CDATA[
+    function reDo() {
+      if (innerWidth != origWidth || innerHeight != origHeight)
+        location.reload();
+    }
+    if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+      origWidth = innerWidth;
+      origHeight = innerHeight;
+      onresize = reDo;
+    }
+    onerror = null;
+  //]]>
+  </script>
+  <style type="text/css">/*<![CDATA[*/
+
+    < !-- div.WebHelpPopupMenu {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      z-index: 4;
+      visibility: hidden;
+    }
+
+    p.WebHelpNavBar {
+      text-align: right;
+    }
+
+    -->
+  
+/*]]>*/</style>
+
+  <script type="text/javascript">//<![CDATA[
+
+    gRootRelPath = "../..";
+    gCommonRootRelPath = "../..";
+    gTopicId = "2.2.0_1";
+  
+//]]></script>
+
+  <script type="text/javascript" src="../../template/scripts/rh.min.js"></script>
+  <script type="text/javascript" src="../../template/scripts/common.min.js"></script>
+  <script type="text/javascript" src="../../template/scripts/topic.min.js"></script>
+  <script type="text/javascript" src="../../template/scripts/topicwidgets.min.js"></script>
+<script type="text/javascript" src="../../whxdata/projectsettings.js"></script>
+  <link rel="stylesheet" type="text/css" href="../../template/styles/topic.min.css"/>
+  <link rel="stylesheet" type="text/css" href="../../template/Charcoal_Grey/topicheader.css"/>
+  <meta name="topic-status" content="Draft"/>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="generator" content="Adobe RoboHelp 2020"/>
+  <title>Session Table</title>
+  <meta name="topic-status" content="Draft"/>
+  <link rel="stylesheet" type="text/css" href="../../assets/css/default.css"/>
+  <meta name="template" content="../../assets/masterpages/SCM.htt"/>
+  <meta name="rh-index-keywords" content="session,table,create,new,edit,delete,status,sort"/>
+</head>
+
+<body>
+  <div class="topic-header rh-hide" id="rh-topic-header" onclick="rh._.goToFullLayout()">
+    <div class="logo">
+    </div>
+    <div class="nav">
+      <div class="title" title="Session Table">
+        <span>Session Table</span>
+      </div>
+      <div class="gotohome" title="Click here to see this page in full context">
+        <span>Click here to see this page in full context</span>
+      </div>
+    </div>
+  </div>
+  <div class="topic-header-shadow rh-hide" id="rh-topic-header-shadow"></div>
+
+
+
+  <div style="background-color: #f5f5f5">
+    <p><span style="font-size:NaNpx"><br/>
+        <span style="font-size:26px">SwimClubMeet</span></span></p>
+  </div>
+  <div>
+  <h2 class="SCM_h2"><a id="Session_Table"></a>Session Table</h2>
+  <p>Create new &#39;Club Nights&#39;, lock, hide, delete, and print reports. </p>
+  <p><img src="../../assets/images/SessionTable.JPG"/></p>
+  <table border="1" cellpadding="1" cellspacing="1" class="tblSimpleClean" style="border-width: 2px;border-style: solid;border-color: #000000;border-left: 0;border-right: 0;caption-side: top;background-color: #f5f5f5;text-align: left" width="100%">
+    <caption style="border-width: 1px;text-align: left; border-style: none;border-color: #000000">Summary description for each column ...</caption>
+    <colgroup>
+      <col width="10%"/>
+      <col width="50%"/>
+    </colgroup>
+    <tbody style="border-width: 1px;border-style: none;border-color: #000000">
+      <tr>
+        <td style="border-width: 1px;border-style: none;border-color: #000000;line-height: 2">Session Date</td>
+        <td style="border-width: 1px;border-style: none;border-color: #000000">The date and time for the &#39;Club Night&#39;. This CELL can be edited.</td>
+      </tr>
+      <tr>
+        <td style="border-width: 1px;border-style: none;border-color: #000000;line-height: 2">Description</td>
+        <td style="border-width: 1px;border-style: none;border-color: #000000">A text field to enter a short comment. This CELL acn be edited.</td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 style="border-width: 1px;border-style: none;border-color: #000000"><a id="Session_Row_Color"></a>A note about the ROW colour</h4>
+  <p>Tomatoe red indicates the session is locked. Typically, you would lock a session after all the events have been raced.</p>
+  <h4><img class="scmImage" src="../../assets/images/ic_fiber_new.png" style="border-width: 1px; border-style: none; border-color: rgb(0, 0, 0);"/><a id="Create_New_Session"></a>Create a new session</h4>
+  <p style="border-width: 1px;border-style: none;border-color: #000000">Click the new session button to create a new session. </p>
+  <p style="border-width: 1px;border-style: none;border-color: #000000">Or move to the last line and <span class="SCM_Keyboard">arrow down</span> or move to the last cell on the last line and press <span class="SCM_Button"><span class="SCM_Keyboard">tab</span></span>.</p>
+  <p style="border-width: 1px;border-style: none;border-color: #000000">A new session is auto-sorted into the session table based on it&#39;s session date. The most recent sessions are placed at the top. <span class="SCM_Quotes">(Re-sort needed? Click the refresh button)</span></p>
+  <p><span style="border-color:#000000;border-style:none;border-width:1px">A new session can also by created by clicking then <span class="SCM_Keyboard">Right-Mouse</span> button. The context sensitive popup menu appears, next click <span class="SCM_MenuItem">New Session</span>.</span></p>
+  <table border="1" cellpadding="1" cellspacing="1" class="SCM_simple" style="border-collapse:collapse;border-width:0px;border-style:none;border-color:#000000" width="100%">
+    <colgroup>
+      <col width="5%"/>
+      <col width="50%"/>
+    </colgroup>
+    <tbody>
+      <tr>
+        <td style="border-width: 0px;border-style: none;border-color: #000000"><img align="left" src="../../assets/images/NewSessionDLG.jpg"/></td>
+        <td style="border-width: 1px;border-style: none;border-color: #000000">
+          <p>The <span class="SCM_Quotes">New Session</span> dialogue box is displayed. It contains a quick pick calendar and time widget, making session times a little easier to enter. <span class="SCM_Quotes">(Calendar dates are localized to your region.)</span></p>
+          <p>There is also an editbox for the session description. Session descriptions are optional.</p>
+          <p><span class="SCM_Quotes">Perhaps a note on the nights weather?</span></p>
+          <p>When a session is cloned,  SCM will auto-enter a session description. </p>
+          <p style="border-width: 1px;border-style: none;border-color: #000000">The <span class="SCM_Quotes">New Session</span> dialogue can also be opened by pressing <span class="SCM_Keyboard">CTRL-INS</span>.</p>
+          <p style="border-width: 1px;border-style: none;border-color: #000000">For a new session, SCM will show &#39;today&#39;s&#39; date by default.</p>
+          <p style="border-width: 1px;border-style: none;border-color: #000000"> </p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <h4><a id="Edit_Session"></a>Edit a session</h4>
+  <p><span class="SCM_Keyboard">Click </span>or navigate by the <span class="SCM_Keyboard">tab<font color="#000000">
+        <font size="3"><span style="font-style:normal"><span style="font-weight:400"><span style="text-transform:none"> </span></span></span></font>
+      </font></span>
+    <font color="#000000">
+      <font size="3"><span style="font-style:normal"><span style="font-weight:400"><span style="text-transform:none">or </span></span></span></font>
+    </font><span class="SCM_Keyboard">arrow keys</span> to select the CELL. <span class="SCM_Keyboard">Click</span> again to enter edit mode. Or use the keyboard short-cut <span class="SCM_Keyboard">F2</span> or press <span class="SCM_Keyboard">enter</span>.  
+  </p>
+  <p>To exit edit-mode, press <span class="SCM_Keyboard">ENTER, TAB, SHIFT-TAB</span>. Or <span class="SCM_Keyboard">click </span>outside the CELL</p>
+  <p><img class="scmImage" src="../../assets/images/Session_IllegalDateTime.jpg"/>A note on session dates and times. </p>
+  <p>On exiting edit-mode, if the datetime is illegal, then the error dialogue appears.</p>
+  <p>After closing the dialogue, your erronous data entry is ignored and the CELL reverts.</p>
+  <p>.</p>
+  <p> </p>
+  <h4><span class="SCM_Keyboard"><img class="scmImage" src="../../assets/images/ic_delete.png"/></span><a id="Delete_Session"></a>Delete a session</h4>
+  <p><span class="SCM_Keyboard">Click </span>to delete a session, or press <span class="SCM_Button"><span class="SCM_Keyboard">CTRL-DEL</span></span>. Or <span class="SCM_Keyboard">right mouse click</span> to use the context sensitive popup menu and select <span class="SCM_MenuItem">Delete Session</span>. A dialogue is displayed to confirm deletion. There is no undo.</p>
+  <p>You can&#39;t delete a locked session. The delete button is grayed.</p>
+  <p style="margin-left: 40px;font-style: italic">Note: All the session&#39;s event, nominee, heat and entrant data be deleted. If you have recorded racetimes, then that data will be lost.</p>
+  <h4><span class="SCM_Keyboard"><img class="scmImage" src="../../assets/images/ic_action_lock.png"/></span><a id="Lock_Session"></a>Lock a Session</h4>
+  <p><span class="SCM_Keyboard">Click </span>to lock or un-lock a session. Or press the keyboard sort-cut <span class="SCM_Keyboard">Ctrl-L</span>. Or <span class="SCM_Keyboard">right mouse click</span> to use the context sensitive popup menu and select <span class="SCM_MenuItem">Toggle Lock</span>.</p>
+  <p>A locked session disables the event, nominee, heat and entrant tables. Selected controls across all multi tab-sheets are also disabled.</p>
+  <p>In locked mode, navigation of events can still be done with the heats tab-sheet navigation controls.</p>
+  <p>In locked mode, reports can be still be viewed and printed.</p>
+  <p><span class="SCM_Quotes">TODO: key mapped to ctrl-T. Popup menu text reads Toggle Session Status. Change</span></p>
+  <h4><span class="SCM_Keyboard"><img class="scmImage" src="../../assets/images/ic_action_visibility.png"/></span><a id="Session_Visibility"></a>Toggle Visibility</h4>
+  <p><span class="SCM_Keyboard">Click </span>to toggle the sessions visibility. If the visibility button is enabled then all closed sessions will be excluded from the list.</p>
+  <p> </p>
+  <p><span style="font-size: 12pt; font-weight: bold;"><img class="scmImage" src="../../assets/images/ic_refresh.png"/><a id="Sort_Session"></a>Sort. </span></p>
+  <p>Pressing the <span class="SCM_Keyboard">Refresh</span> button will re-sort the session table. The most recent session will be placed at the top of the table.</p>
+  <p>Or use the <span class="SCM_Button"><span class="SCM_Keyboard">Right-Mouse</span></span> PopUp Menu and select <span class="SCM_MenuItem">Sort</span>. </p>
+  <p><span class="SCM_Quotes">Note: Session Sort is depreciated and will be removed in future version of SCM.</span></p>
+  <p> </p>
+  <h4><img class="scmImage" src="../../assets/images/ic_credit_card.png"/><a id="Session_Report"></a>Sesssion Reports</h4>
+  <p>Click the <span class="SCM_Keyboard">Session Report</span> button. Or <span class="SCM_Button"><span class="SCM_Keyboard">Right-Mouse</span></span> for the PopUp Menu and select <span class="SCM_MenuItem">Session Rpt*</span> </p>
+  <p>Cntrl-Click for an alternative report style.</p>
+  <p>See <a href="Session.htm#Reports">Sessions Report Examples</a> for more.</p>
+  <p> </p>
+  <h4><a id="Session_PopUp_Menu"></a>Session right-mouse popup menu</h4>
+  <p><img align="left" class="scmImage" src="../../assets/images/PopUpSession.jpg" style="border-width: 1px; border-style: none; border-color: rgb(0, 0, 0);"/>1. New Session... Open the new session dialogue.<br/>
+    2. Clone Session - create a new session and copy the events of the current selected session into the new session. By default, the new session is given today&#39;s date .<br/>
+    3. Delete Session... (with cinfirmation dialogue)<br/>
+    4. Sort - depreciated, use the refresh button instead.<br/>
+    5. Toggle Session Lock - lock/unlock the session. Hot-key Ctrl-L<br/>
+    6. Session Report. Hold down control, then Click,  for an alternative session report.  </p>
+  <p> </p>
+  <h4><span class="SCM_Quotes"></span></h4>
+  <p> </p>
+
+</div>
+  <div>
+    <p> </p>
+  </div>
+
+</body></html>

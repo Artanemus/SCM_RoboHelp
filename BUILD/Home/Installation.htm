@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+
+  <script type="text/javascript" language="JavaScript">
+    //<![CDATA[
+    function reDo() {
+      if (innerWidth != origWidth || innerHeight != origHeight)
+        location.reload();
+    }
+    if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+      origWidth = innerWidth;
+      origHeight = innerHeight;
+      onresize = reDo;
+    }
+    onerror = null;
+  //]]>
+  </script>
+  <style type="text/css">/*<![CDATA[*/
+
+    < !-- div.WebHelpPopupMenu {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      z-index: 4;
+      visibility: hidden;
+    }
+
+    p.WebHelpNavBar {
+      text-align: right;
+    }
+
+    -->
+  
+/*]]>*/</style>
+
+  <script type="text/javascript">//<![CDATA[
+
+    gRootRelPath = "..";
+    gCommonRootRelPath = "..";
+    gTopicId = "1.0_2";
+  
+//]]></script>
+
+  <script type="text/javascript" src="../template/scripts/rh.min.js"></script>
+  <script type="text/javascript" src="../template/scripts/common.min.js"></script>
+  <script type="text/javascript" src="../template/scripts/topic.min.js"></script>
+  <script type="text/javascript" src="../template/scripts/topicwidgets.min.js"></script>
+<script type="text/javascript" src="../whxdata/projectsettings.js"></script>
+  <link rel="stylesheet" type="text/css" href="../template/styles/topic.min.css"/>
+  <link rel="stylesheet" type="text/css" href="../template/Charcoal_Grey/topicheader.css"/>
+  <meta name="topic-status" content="Draft"/>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="generator" content="Adobe RoboHelp 2020"/>
+  <title>Installation</title>
+  <meta name="topic-status" content="Draft"/>
+  <link rel="stylesheet" type="text/css" href="../assets/css/default.css"/>
+  <meta name="topic-comment" content="How to get the application running on your computer."/>
+  <meta name="template" content="../assets/masterpages/SCM.htt"/>
+  <meta name="rh-index-keywords" content="installation,MSSQL,MSSMS,SwimClubMeet.msi,SCM_BuildMeAClub.exe"/>
+</head>
+
+<body>
+  <div class="topic-header rh-hide" id="rh-topic-header" onclick="rh._.goToFullLayout()">
+    <div class="logo">
+    </div>
+    <div class="nav">
+      <div class="title" title="Installation">
+        <span>Installation</span>
+      </div>
+      <div class="gotohome" title="Click here to see this page in full context">
+        <span>Click here to see this page in full context</span>
+      </div>
+    </div>
+  </div>
+  <div class="topic-header-shadow rh-hide" id="rh-topic-header-shadow"></div>
+
+
+
+  <div style="background-color: #f5f5f5">
+    <p><span style="font-size:NaNpx"><br/>
+        <span style="font-size:26px">SwimClubMeet</span></span></p>
+  </div>
+  <div>
+  <h2 class="SCM_h2">Installation</h2>
+  <h4>OUTLINE</h4>
+  <ul class="Disc">
+    <li>Install MSSQL EXPRESS and SSMS from Microsoft.</li>
+    <li>Run the SwimClubMeet_x86_v#.exe install file.</li>
+    <li>Run the SCM_BuildMeAClub.exe.</li>
+  </ul>
+  <p>Microsoft contantly changes it&#39;s links to download pages - some of the links below may be broken.</p>
+  <h4>INSTALLATION IN DETAIL</h4>
+  <ol class="Decimal">
+    <li>Install Microsoft SQL Server Express<br/>
+      <br/>
+      <a href="https://www.microsoft.com/en-us/sql-server/sql-server-downloads">Microsoft&#39;s MSSQL Server download webpage</a><br/>
+      <br/>
+      Scroll down to select the EXPRESS version of MS SQL Server. <br/>
+      <br/>
+      <span class="SCM_Quotes">SQL Server Express is a free edition of SQL Server, ideal for development and production for desktop, web, and small server applications.</span><br/>
+      <br/>
+      It&#39;s been noted that express has now three variants.<br/>
+      LocalDB (SqlLocalDB)<br/>
+      Express (SQLEXPR)<br/>
+      Express with Advanced Services (SQLEXPRADV)<br/>
+      <br/>
+      Thankyou Microsoft for making installation even more confusing..... Select Express (SQLEXPR)<br/>
+      <br/>
+      Make a note of your server name (or instance) ... eg. localhost\\SQLEXPRESS<br/>
+       
+    </li>
+    <li style="border-width: 1px;border-style: none;border-color: #000000">Install Microsoft&#39;s SQL Server Management Studio (SSMS)<br/>
+      <br/>
+      <a href="https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-2017">Microsoft&#39;s SSMS download webpage</a><br/>
+      <br/>
+      <span class="SCM_Quotes">It&#39;s been noted that the latest express installation will offer you the option to include SSMS with it&#39;s install.</span> <br/>
+      <br/>
+      This is what Microsoft has to say about SSMS...<br/>
+      <br/>
+      <span class="SCM_Quotes" style="border-width: 1px;border-style: none;border-color: #000000">SSMS is an integrated environment for managing any SQL infrastructure, from SQL Server to Azure SQL Database. SSMS provides tools to configure, monitor, and administer instances of SQL. Use SSMS to deploy, monitor, and upgrade the data-tier components used by your applications, as well as build queries and scripts.</span><br/>
+      <br/>
+      <span class="SCM_Quotes" style="border-color:#000000;border-style:none;border-width:1px">Use SQL Server Management Studio (SSMS) to query, design, and manage your databases and data warehouses, wherever they are - on your local computer, or in the cloud.</span><br/>
+      <br/>
+      You&#39;ll be use this application to backup your <a class="glossterm" href="#" data-rhwidget="ExpandSpot" data-target="glossary">SCM </a><span class="expanding-content" data-targetname="glossary">SwimClubMeet</span>database.<br/>
+       
+    </li>
+    <li>Run the SwimClubMeet installer. This will install SwimClubMeet.exe.  The support apps, Marshall, TimeKeeper, LeaderBoard and Nominate have seperate installers.<br/>
+       </li>
+    <li>After installation locate the app &#39;SCM_BuildMeAClub.exe&#39; and run it. This creates the SwimClubMeet database and builds all the necessary tables and system data onto the MS SQLEXPRESS Server.<br/>
+       </li>
+    <li>You are ready to use the SwimClubMeet.exe application.</li>
+  </ol>
+  <p>For the next basic steps goto <a href="Getting_Started.htm">Getting Started</a> - your first club night using SwimClubMeet.  </p>
+
+</div>
+  <div>
+    <p> </p>
+  </div>
+
+</body></html>

@@ -1,52 +1,30 @@
 
-  Installation
-  OUTLINE
+  Installation 
+  OUTLINE 
   
-    Install MSSQL EXPRESS and SSMS from Microsoft.
-    Run the SwimClubMeet_x86_v#.exe install file.
-    Run the SCM_BuildMeAClub.exe.
+    Install Microsoft's SQLEXPRESS (and SSMS).
+    Run the SCM_BuildMeAClub installation file.
+    Run the SwimClubMeet installation file.
   
-  Microsoft contantly changes it's links to download pages - some of the links below may be broken.
   INSTALLATION IN DETAIL
   
     Install Microsoft SQL Server Express
       
-      Microsoft's MSSQL Server download webpage
+      There's heaps of videos and help files on the internet that will show you how to install MS SQLEXPRESS. Typing 'ms sql express download'  into Google search generally gets you the correct page.
       
-      Scroll down to select the EXPRESS version of MS SQL Server. 
+      It's recommened that you make a note of your server name (or instance) once the installation is complete .
+    
+    Install Microsoft's SQL Server Management Studio (SSMS) (optional)
       
-      SQL Server Express is a free edition of SQL Server, ideal for development and production for desktop, web, and small server applications.
+      It's been noted that the latest sqlexpress installation will offer you the option to include SSMS with it's install. 
       
-      It's been noted that express has now three variants.
-      LocalDB (SqlLocalDB)
-      Express (SQLEXPR)
-      Express with Advanced Services (SQLEXPRADV)
-      
-      Thankyou Microsoft for making installation even more confusing..... Select Express (SQLEXPR)
-      
-      Make a note of your server name (or instance) ... eg. localhost\\SQLEXPRESS
+      This can be used to backup your SCM database. (Or use a PowerShell script. But that's for geeks and IT experts.)
        
     
-    Install Microsoft's SQL Server Management Studio (SSMS)
-      
-      Microsoft's SSMS download webpage
-      
-      It's been noted that the latest express installation will offer you the option to include SSMS with it's install. 
-      
-      This is what Microsoft has to say about SSMS...
-      
-      SSMS is an integrated environment for managing any SQL infrastructure, from SQL Server to Azure SQL Database. SSMS provides tools to configure, monitor, and administer instances of SQL. Use SSMS to deploy, monitor, and upgrade the data-tier components used by your applications, as well as build queries and scripts.
-      
-      Use SQL Server Management Studio (SSMS) to query, design, and manage your databases and data warehouses, wherever they are - on your local computer, or in the cloud.
-      
-      You'll be use this application to backup your SCM database.
-       
+    Run the SCM_BuildMeAClub installation file. This will installl the BuildMeAClub app and SQL scripts needed to build the SwimClubMeet database on the SQLEXPRESS database server. After the installation is completed, type 'buildme' in the search bar to find the application. Then run it.
     
-    Run the SwimClubMeet installer. This will install SwimClubMeet.exe.  The support apps, Marshall, TimeKeeper, LeaderBoard and Nominate have seperate installers.
-       
-    After installation locate the app 'SCM_BuildMeAClub.exe' and run it. This creates the SwimClubMeet database and builds all the necessary tables and system data onto the MS SQLEXPRESS Server.
-       
-    You are ready to use the SwimClubMeet.exe application.
+    Run the SwimClubMeet installer. This will install SwimClubMeet.
+    
   
-  For the next basic steps goto Getting Started - your first club night using SwimClubMeet.  
+  For the next basic steps go to your first club night with SCM.  
 

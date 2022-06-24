@@ -1,107 +1,297 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+
 <preset>
-  <content>
-    <brs type="array"></brs>
-    <conditional></conditional>
-    <glossary>
-      <name>Default</name>
-      <path>../../glossary/Default.glo</path>
+  
+
+<content>
+    
+
+<brs type="array"></brs>
+    
+
+<conditional></conditional>
+    
+
+<glossary>
+      
+
+<name>Default</name>
+      
+
+<path>../../glossary/Default.glo</path>
     </glossary>
-    <index type="boolean">true</index>
-    <language></language>
-    <mapFiles></mapFiles>
-    <masterpage></masterpage>
-    <startPage></startPage>
-    <toc>
-      <name>SCM_Main</name>
-      <path>../../toc/SCM_Main.toc</path>
+    
+
+<index type="boolean">true</index>
+    
+
+<language></language>
+    
+
+<mapFiles></mapFiles>
+    
+
+<masterpage></masterpage>
+    
+
+<startPage></startPage>
+    
+
+<toc>
+      
+
+<name>SCM_Main</name>
+      
+
+<path>../../toc/SCM_Main.toc</path>
     </toc>
-    <variable></variable>
-    <windowsSetting></windowsSetting>
+    
+
+<variable></variable>
+    
+
+<windowsSetting></windowsSetting>
   </content>
-  <createThumbNails type="boolean">true</createThumbNails>
-  <defaultTopic>
-    <name>Home/Home.htm</name>
-    <path>../../contents/Home/Home.htm</path>
+  
+
+<createThumbNails type="boolean">true</createThumbNails>
+  
+
+<defaultTopic>
+    
+
+<name>Home/Home.htm</name>
+    
+
+<path>../../contents/SCM_SwimClubMeet/Intro/Home.htm</path>
   </defaultTopic>
-  <encoding></encoding>
-  <epub>
-    <author></author>
-    <check></check>
-    <cover></cover>
-    <date></date>
-    <description></description>
-    <fonts></fonts>
-    <publisher></publisher>
-    <rights></rights>
-    <title></title>
-    <uuid></uuid>
+  
+
+<encoding></encoding>
+  
+
+<epub>
+    
+
+<author></author>
+    
+
+<check></check>
+    
+
+<cover></cover>
+    
+
+<date></date>
+    
+
+<description></description>
+    
+
+<fonts></fonts>
+    
+
+<publisher></publisher>
+    
+
+<rights></rights>
+    
+
+<title></title>
+    
+
+<uuid></uuid>
   </epub>
-  <favicon></favicon>
-  <filter></filter>
-  <glosstermEffect type="number">0</glosstermEffect>
-  <lowercasenames></lowercasenames>
-  <mobileapp>
-    <android type="boolean">true</android>
-    <androidAlias></androidAlias>
-    <androidKeystore></androidKeystore>
-    <configfile>
-      <name>Mobile App</name>
-      <path>Mobile App/config.json</path>
+  
+
+<favicon></favicon>
+  
+
+<filter></filter>
+  
+
+<glosstermEffect type="number">0</glosstermEffect>
+  
+
+<lowercasenames></lowercasenames>
+  
+
+<mobileapp>
+    
+
+<android type="boolean">true</android>
+    
+
+<androidAlias></androidAlias>
+    
+
+<androidKeystore></androidKeystore>
+    
+
+<configfile>
+      
+
+<name>Mobile App</name>
+      
+
+<path>Mobile App/config.json</path>
     </configfile>
-    <description></description>
-    <iOS type="boolean">false</iOS>
-    <icon></icon>
-    <iosMobProvision></iosMobProvision>
-    <iosP12File></iosP12File>
-    <name></name>
-    <package></package>
-    <pgbChange></pgbChange>
-    <splash></splash>
-    <version></version>
-    <versionCode></versionCode>
+    
+
+<description></description>
+    
+
+<iOS type="boolean">false</iOS>
+    
+
+<icon></icon>
+    
+
+<iosMobProvision></iosMobProvision>
+    
+
+<iosP12File></iosP12File>
+    
+
+<name></name>
+    
+
+<package></package>
+    
+
+<pgbChange></pgbChange>
+    
+
+<splash></splash>
+    
+
+<version></version>
+    
+
+<versionCode></versionCode>
   </mobileapp>
-  <name>Mobile App</name>
-  <outputPath>C:/Users/Ben/Documents/My RoboHelp Projects/outputs/SwimClubMeet/Mobile App</outputPath>
-  <pdf>
-    <coverpage></coverpage>
-    <gloMasterPages></gloMasterPages>
-    <height></height>
-    <indexMasterPages></indexMasterPages>
-    <margin></margin>
-    <masterpage></masterpage>
-    <multiHeaders></multiHeaders>
-    <pageSize></pageSize>
-    <tocMasterPages></tocMasterPages>
-    <tocdepth></tocdepth>
-    <toclevel></toclevel>
-    <topicMasterPages></topicMasterPages>
-    <width></width>
+  
+
+<name>Mobile App</name>
+  
+
+<outputPath>C:/Users/Ben/Documents/My RoboHelp Projects/outputs/SwimClubMeet/Mobile App</outputPath>
+  
+
+<pdf>
+    
+
+<coverpage></coverpage>
+    
+
+<gloMasterPages></gloMasterPages>
+    
+
+<height></height>
+    
+
+<indexMasterPages></indexMasterPages>
+    
+
+<margin></margin>
+    
+
+<masterpage></masterpage>
+    
+
+<multiHeaders></multiHeaders>
+    
+
+<pageSize></pageSize>
+    
+
+<tocMasterPages></tocMasterPages>
+    
+
+<tocdepth></tocdepth>
+    
+
+<toclevel></toclevel>
+    
+
+<topicMasterPages></topicMasterPages>
+    
+
+<width></width>
   </pdf>
-  <search>
-    <autocomplete></autocomplete>
-    <autocorrect></autocorrect>
-    <context type="boolean">true</context>
-    <contextLimit>100</contextLimit>
-    <doSearchIndexing></doSearchIndexing>
-    <external></external>
-    <fileTypes></fileTypes>
-    <fuzzy type="boolean">true</fuzzy>
-    <glossary type="boolean">true</glossary>
-    <highlight></highlight>
-    <highlightcolor></highlightcolor>
-    <substring></substring>
-    <suggestion type="boolean">true</suggestion>
+  
+
+<search>
+    
+
+<autocomplete></autocomplete>
+    
+
+<autocorrect></autocorrect>
+    
+
+<context type="boolean">true</context>
+    
+
+<contextLimit>100</contextLimit>
+    
+
+<doSearchIndexing></doSearchIndexing>
+    
+
+<external></external>
+    
+
+<fileTypes></fileTypes>
+    
+
+<fuzzy type="boolean">true</fuzzy>
+    
+
+<glossary type="boolean">true</glossary>
+    
+
+<highlight></highlight>
+    
+
+<highlightcolor></highlightcolor>
+    
+
+<substring></substring>
+    
+
+<suggestion type="boolean">true</suggestion>
   </search>
-  <sitemap>
-    <changeFrequency></changeFrequency>
-    <helpBaseURL></helpBaseURL>
-    <use type="boolean">true</use>
+  
+
+<sitemap>
+    
+
+<changeFrequency></changeFrequency>
+    
+
+<helpBaseURL></helpBaseURL>
+    
+
+<use type="boolean">true</use>
   </sitemap>
-  <skin></skin>
-  <starterPage>index.html</starterPage>
-  <thumbnail></thumbnail>
-  <title>SwimClubMeet</title>
-  <type>mobileapp</type>
-  <use_thumbnails type="boolean">true</use_thumbnails>
+  
+
+<skin></skin>
+  
+
+<starterPage>index.html</starterPage>
+  
+
+<thumbnail></thumbnail>
+  
+
+<title>SwimClubMeet</title>
+  
+
+<type>mobileapp</type>
+  
+
+<use_thumbnails type="boolean">true</use_thumbnails>
 </preset>

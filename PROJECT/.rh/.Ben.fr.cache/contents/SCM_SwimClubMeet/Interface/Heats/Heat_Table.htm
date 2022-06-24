@@ -1,0 +1,182 @@
+
+  
+Heat Table
+  
+Create, delete, set a heat's status and order heats.
+  
+
+
+  
+
+    
+Summary description for each column ...
+    
+
+      
+
+      
+
+    
+    
+
+      
+
+        
+Heat#
+        
+A read-only field. The heat number.
+      
+      
+
+        
+Status
+        
+Displays either 
+Open, 
+Raced or 
+Closed. 
+      
+    
+  
+  
+ 
+  
+
+Navigating the heat table
+  
+Selection for the heat table is ROW based.
+  
+Arrow keys, 
+UP, DOWN, LEFT and 
+RIGHT will move through each ROW. Else 
+CLICK to selected.
+  
+Note: the heat table doesn't have CELLs that you can edit.
+  
+
+Heat Status
+  
+This column can display either 
+Open, Raced or 
+Closed. 
+By default a new heat is assigned 
+Open. When all heats are 
+Closed the event (in the Events Table) will display a check mark.
+  
+
+
+  
+A heat is considered 
+Raced when the Marshall flags it's been completed. The Marshall application can do this remotely.
+  
+A heat is considered 
+Closed when all the 
+race time data has been collected and entered. Typically this is the job of the events manager. Only the SwimClubMeet application can close heats.
+  
+You'll note that there are no CELLs you can 'touch' and make changes. The heat table is always set to ROW select.
+  
+When the heat status is 
+raced, the 
+Delete Heat button is disabled. You can still enter and make chages to race time. You can print reports.
+  
+
+TODO: When the heat status is set to raced, disable changes to the Entrant's Name!
+  
+When the heat staus is 
+closed, the 
+Delete Heat button is disabled. The entrant's table is dimmed. You can't make any changes in the entrant's table. You can print reports.
+  
+
+Toggle Heat Status
+  
+
+To toggle a Heats Status use the 
+Toggle Status button.
+  
+Or use the keyboard short-cut 
+ctrl-t.  Or 
+right-mouse click to access the context sensitive pop-up menu and then select 
+Toggle Status. 
+  
+
+Create New Heat
+  
+
+To create a new heat 
+click the 
+New Heat button. Or either move to the last line and 
+arrow down or move to the last field on the last line and press 
+tab. 
+  
+Or 
+right-mouse click to use the context sensitive popup menu and select 
+New Heat.
+  
+
+As new heats are inserted, they are automatically assigned an heat number.
+  
+Another way to create new heats is to use the 
+Auto-Build Heats button.
+  
+
+Delete heat
+  
+
+
+Click the 
+Delete Heat button. Or select the heat and press 
+CTRL-DELETE. Or 
+right-mouse click to use the context sensitive popup menu and select 
+Delete Heat. A dialogue will be shown to confirm the deletion. There is no undo.  
+  
+Heats that are 
+closed or 
+raced cannot be deleted.
+  
+When a heat is deleted, the member's nomination data still remain. Entrant's that belonged to the deleted heat are sent back to the nominations cache where they await a lane. So manual entrant assignment and 
+Auto-Create Heats all function as expected after heats have been deleted. 
+  
+
+Sort, change the heat order.
+  
+
+
+To move a heat (change it's stack order) use the 
+Move Heat buttons. Select the heat to move then press 
+ARROW-UP or 
+ARROW-DOWN buttons. The keyboard short-cuts are 
+ctrl-up and 
+ctrl-down. Sometimes it's not apparent that the heat have been moved. Checking the entrant data will affirm the heat has indeed been moved. 
+  
+
+Heat Table Popup-Menu
+  
+
+Right mouse click to access the context sensitive heat popup-menu.
+  
+
+
+  
+Overview of popup-menu
+  
+
+    
+Move Up - push the heat up the stack.
+    
+Move Down - push the heat down the stack
+    
+Toggle Heat Status - loop between open, raced and closed
+    
+New Heat - create a new heat and all it's (empty) lanes. Set it's status to open. Place it at the end of the stack.
+    
+Delete Heat - delete the selected heat and all it's entrant's and lanes. Renumber the stack.
+    
+Marshall sheet - A form for the marshall that has all the details on entrant's and their lanes. Holding CNTRL down while clicking the menu item results in an alternative form.
+    
+TimeKeeper sheet - A form for the grand timekeeper or individual timekeepers. There is space on the form to enter the swimmer's race time. Holding CNTRL down while clicking the menu item results in an alternative form.
+    
+Heat Report - Details for the selected heat or CNTRL press for details on all heats for this event.
+  
+  
+ 
+

@@ -21,17 +21,32 @@ h2.SCM_h2 {
 h3 {}
 h3.SCM_h3 {
   font-weight: bold;
-  font-size: 14pt;
+  font-size: 12pt;
   line-height: 1;
-  background-color: rgb(245, 245, 245);
-  padding: 10px 10px 10px 10px;
+  background-color: rgba(107, 161, 56, 0.32);
   border-width: 1px;
-  border-style: solid;
+  border-style: none;
   border-color: #000000;
   border-left: 0;
   border-right: 0;
   margin: 0px 0px 0px 0px;
   background-size: 0px 0px;
+  padding-top: 8px;
+  padding-right: 8px;
+  padding-bottom: 8px;
+  padding-left: 8px;
+  border-left-width: 1px;
+  border-left-style: none;
+  border-left-color: #000000;
+  border-top-width: 1px;
+  border-top-style: none;
+  border-top-color: #000000;
+  border-right-width: 1px;
+  border-right-style: none;
+  border-right-color: #000000;
+  border-bottom-width: 1px;
+  border-bottom-style: none;
+  border-bottom-color: #000000;
 }
 h4 {
   font-weight: bold;
@@ -50,6 +65,9 @@ h6 {
 }
 p {
   text-align: left;
+  column-rule-width: 1px;
+  column-rule-style: none;
+  column-rule-color: #000000;
 }
 p.SCM_Indent {
   font-size: 12.0pt;

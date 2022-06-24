@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+
 <map>
-  <title>Table of Contents</title>
-  <page navtitle="BuildMeAClub" href="../contents/SCM_BuildMeAClub/Home/Home.htm"></page>
+  
+
+<title>Table of Contents</title>
+  
+
+<page navtitle="BuildMeAClub" href="../contents/SCM_BuildMeAClub/BMAC_Intro/Home.htm"></page>
 </map>

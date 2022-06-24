@@ -1,41 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+
 <preset>
-  <content>
-    <brs type="array"></brs>
-    <glossary>
-      <name>Default</name>
-      <path>../../glossary/Default.glo</path>
+  
+
+<content>
+    
+
+<brs type="array"></brs>
+    
+
+<glossary>
+      
+
+<name>Default</name>
+      
+
+<path>../../glossary/Default.glo</path>
     </glossary>
-    <index type="boolean">true</index>
-    <masterpage></masterpage>
-    <toc>
-      <name>SCM_Main</name>
-      <path>../../toc/SCM_Main.toc</path>
+    
+
+<index type="boolean">true</index>
+    
+
+<masterpage></masterpage>
+    
+
+<toc>
+      
+
+<name>SCM_Main</name>
+      
+
+<path>../../toc/SCM_Main.toc</path>
     </toc>
   </content>
-  <createThumbNails type="boolean">true</createThumbNails>
-  <defaultTopic>
-    <name>Home/Home.htm</name>
-    <path>../../contents/Home/Home.htm</path>
+  
+
+<createThumbNails type="boolean">true</createThumbNails>
+  
+
+<defaultTopic>
+    
+
+<name>Home/Home.htm</name>
+    
+
+<path>../../contents/SCM_SwimClubMeet/Intro/Home.htm</path>
   </defaultTopic>
-  <glosstermEffect type="number">0</glosstermEffect>
-  <name>Responsive HTML5</name>
-  <outputPath>C:/Users/Ben/Documents/My RoboHelp Projects/outputs/SwimClubMeet/Responsive HTML5</outputPath>
-  <search>
-    <context type="boolean">true</context>
-    <contextLimit type="number">100</contextLimit>
-    <fuzzy type="boolean">true</fuzzy>
-    <glossary type="boolean">true</glossary>
-    <suggestion type="boolean">true</suggestion>
+  
+
+<glosstermEffect type="number">0</glosstermEffect>
+  
+
+<name>Responsive HTML5</name>
+  
+
+<outputPath>C:/Users/Ben/Documents/My RoboHelp Projects/outputs/SwimClubMeet/Responsive HTML5</outputPath>
+  
+
+<search>
+    
+
+<context type="boolean">true</context>
+    
+
+<contextLimit type="number">100</contextLimit>
+    
+
+<fuzzy type="boolean">true</fuzzy>
+    
+
+<glossary type="boolean">true</glossary>
+    
+
+<suggestion type="boolean">true</suggestion>
   </search>
-  <sitemap>
-    <changeFrequency></changeFrequency>
-    <helpBaseURL></helpBaseURL>
-    <use type="boolean">true</use>
+  
+
+<sitemap>
+    
+
+<changeFrequency></changeFrequency>
+    
+
+<helpBaseURL></helpBaseURL>
+    
+
+<use type="boolean">true</use>
   </sitemap>
-  <skin></skin>
-  <starterPage>index.htm</starterPage>
-  <title>SwimClubMeet</title>
-  <type>html5</type>
-  <use_thumbnails type="boolean">true</use_thumbnails>
+  
+
+<skin></skin>
+  
+
+<starterPage>index.htm</starterPage>
+  
+
+<title>SwimClubMeet</title>
+  
+
+<type>html5</type>
+  
+
+<use_thumbnails type="boolean">true</use_thumbnails>
 </preset>

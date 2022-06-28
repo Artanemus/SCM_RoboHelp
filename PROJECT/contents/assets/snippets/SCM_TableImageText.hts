@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="generator" content="Adobe RoboHelp 2020" />
+  <meta name="topic-comment" content="" />
+  <title>SCM_TableImageText</title>
+  <link rel="stylesheet" type="text/css" href="../css/default.css" />
+</head>
+<body>
+  <table border="1" cellpadding="1" cellspacing="1" style="border-collapse: collapse;width: 80%;border-width: 0px;border-style: none;border-color: rgb(0, 0, 0);font-family: &#39;Segoe UI&#39;;margin-right: 10px">
+    <colgroup>
+      <col style="" />
+    </colgroup>
+    <tbody>
+      <tr>
+        <td style="border-width: 0px;border-style: none;border-color: #000000;border-left-width: 0px;border-left-style: none;border-left-color: #000000;border-top-width: 0px;border-top-style: none;border-top-color: #000000;border-right-width: 0px;border-right-style: none;border-right-color: #000000;border-bottom-width: 0px;border-bottom-style: none;border-bottom-color: #000000"><img height="48" src="../images/Interface/SCM_Hero_Icon.png" style="float: left; margin-left: 10px; margin-right: 10px;" width="48" />Text for image goes here</td>
+      </tr>
+    </tbody>
+  </table>
+  <p> </p>
+</body>
+</html>

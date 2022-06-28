@@ -4,41 +4,59 @@
   1. Menu Bar.
   File, Session, Events, Nominate, Tools, Help. The menu bar has additional tools and commands. Check them out!
   2. Club name and nickname.
-  The name of the swimming organization/association and it's nickname.
-  Future versions of SCM will include the club's logo. 
-  3. Optional SQLEXPRESS record ID Info.
-  This area of the panel can show additional information (if enabled).
-  For user's who wish to track a record through the Microsoft's SQLEXPRESS SwimClubMeet database then record ID's can be displayed.
+  The name of the swimming organization/association and it's nickname. Future versions of SCM will include the club's logo. 
   
     
       
+        
       
-    
-    
       
         
-        
-          This is enabled in ...
+          3. Optional - SQLEXPRESS record identification information.
+            For those who wish to track a record through the Microsoft's SQLEXPRESS SwimClubMeet database then record ID's can be displayed.This is enabled in ...
+              
+              Tools >> Options >> Other ...  Then check the checkbox  'Show debug information'.
+              
+              If you are a power-user or computer nurd that understands the T-SQL language and want to 'drill-into' the SwimClubMeet database, then this may assist you in writing your queries.
             
-            Tools >> Options >> Other ...  
-            
-            Check the system option : 'Show debug information'.
-            
-            If you are a power-user, understand the T-SQL language and want to 'drill-into' the SwimClubMeet database, then this may assist you in writing your queries. 
           
         
       
     
   
   
-  4. Member's dialogue.
-  This button gives access to the member's dialogue. Here you can create a new members, enter data for each member, track a member's attendance, visualize a member's performance and more. See .... LINK
-  5. Refresh.
-  An important button if you are using the support apps (Marshall, Nominate, TimeKeeper). As these external apps can change data within you Microsoft's SQLEXPRESS SwimClubMeet database, this refresh button re-syncs the core app.
-  For example. if the Marshall disqualifies a swimmer, then after a re-fresh you'll see the heat display a check mark in the disqualified box.
-  For example. If the timekeeper enters a swimmers race time, then after a re-fresh, that time appears in the heat.
-  Tip:
-  To keep all connections to the database in sync, It's good practise to formulate and agree apoun a 'race running procedure'.
-  For example. After the Marshall has signaled that the heat has been 'raced'. Then it's time for the SCM adminiatrator to re-fresh the core application and check that all the race times have 'come-in', then close the heat.
+    
+      
+        
+      
+      
+        
+          
+            4. Member's dialogue.
+            This button gives access to the member's dialogue. Here you can create a new members, enter data for each member, track a member's attendance, visualize a member's performance and more. Follow this LINK for more information.
+          
+        
+      
+    
+  
+  
+    
+      
+        
+      
+      
+        
+          
+            5. Refresh.
+            An important button if you are using the support apps (Marshall, Nominate, TimeKeeper). As these external apps can change data within you Microsoft's SQLEXPRESS SwimClubMeet database, this refresh button re-syncs the core app.
+            For example: 
+              If the Marshall disqualifies a swimmer, then after a re-fresh you'll see the heat display a check mark in the disqualified box.
+              If the Timekeeper enters a swimmers race time, then after a re-fresh, that time appears in the heat.
+            To keep all connections to the database in sync, It's good practise to formulate or agree apoun a 'race running procedure'. For example: After the timekeeper signals the marshal that all racetime sare 'in', then the Marshal signals that the heat has been 'raced'. Then the SCM adminiatrator to re-freshes the core application and 'Q&A' that all the race times are accounted for. Only then does the SCM administator closes the heat.
+          
+        
+      
+    
+  
    
 

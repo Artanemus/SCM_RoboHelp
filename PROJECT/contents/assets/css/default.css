@@ -20,16 +20,14 @@ h2.SCM_h2 {
 }
 h3 {}
 h3.SCM_h3 {
-  font-weight: bold;
   font-size: 12pt;
   line-height: 1;
-  background-color: rgba(107, 161, 56, 0.32);
+  background-color: rgba(180, 180, 0, 0.20);
   border-width: 1px;
   border-style: none;
   border-color: #000000;
   border-left: 0;
   border-right: 0;
-  margin: 0px 0px 0px 0px;
   background-size: 0px 0px;
   padding-top: 8px;
   padding-right: 8px;
@@ -47,6 +45,13 @@ h3.SCM_h3 {
   border-bottom-width: 1px;
   border-bottom-style: none;
   border-bottom-color: #000000;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 20px;
+  width: 40%;
+  font-family: 'Fira Code Light';
+  font-style: italic;
 }
 h4 {
   font-weight: bold;
@@ -105,10 +110,7 @@ span.glosstext {
   color: #0000ff;
 }
 ol,
-ul {
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
+ul {}
 ol.Decimal {
   list-style-type: decimal;
 }
@@ -116,12 +118,15 @@ ul.Disc {
   list-style-type: disc;
 }
 span.SCM_Keyboard {
-  color: #001F3F;
-  font-size: 10.5pt;
-  font-style: italic;
+  color: #000000;
   text-align: left;
-  font-weight: bold;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
+  background-color: rgba(255, 66, 79, 0.23);
+  text-decoration: none;
+  padding-left: 4px;
+  padding-right: 4px;
+  font-style: italic;
+  font-family: 'Fira Code';
 }
 table.SCM_simple {
   border-width: 1px;
@@ -129,7 +134,7 @@ table.SCM_simple {
   border-color: #000000;
 }
 table.SCM_simple td {
-  border-width: 1px;
+  border-width: 0px;
   border-style: none;
   border-color: #000000;
 }
@@ -225,25 +230,73 @@ ol.RoundSquare>li>ol>li>ol>li>ol>li>ol>li>ol>li>ol>li>ol>li>ol>li>ol>li:before {
   content: counter(item10, disc);
 }
 span.SCM_Quotes {
-  font-size: NaNpx;
   font-style: italic;
-  font-family: Arial Narrow;
-  border-width: 1px;
+  font-family: 'Fira Code';
+  border-width: 0px;
   border-style: none;
   border-color: #000000;
-  letter-spacing: 1px;
-  color: #4b4b4b;
+  font-size: %;
+  background-color: rgba(180, 180, 0, 0.20);
+  border-left-width: 0px;
+  border-left-style: none;
+  border-left-color: #000000;
+  border-top-width: 0px;
+  border-top-style: none;
+  border-top-color: #000000;
+  border-right-width: 0px;
+  border-right-style: none;
+  border-right-color: #000000;
+  border-bottom-width: 0px;
+  border-bottom-style: none;
+  border-bottom-color: #000000;
+  padding-left: 4px;
+  padding-right: 4px;
 }
 span.SCM_MenuItem {
   font-style: italic;
-  font-family: Arial Narrow;
-  border-width: 1px;
+  font-family: 'Fira Code';
+  border-width: 0px;
   border-style: none;
   border-color: #000000;
-  letter-spacing: 3px;
   font-size: %;
-  font-weight: bold;
-  background-color: rgb(200, 200, 240);
+  background-color: rgba(200, 200, 255, 0.35);
+  border-left-width: 0px;
+  border-left-style: none;
+  border-left-color: #000000;
+  border-top-width: 0px;
+  border-top-style: none;
+  border-top-color: #000000;
+  border-right-width: 0px;
+  border-right-style: none;
+  border-right-color: #000000;
+  border-bottom-width: 0px;
+  border-bottom-style: none;
+  border-bottom-color: #000000;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+span.SCM_Term {
+  font-style: italic;
+  font-family: 'Fira Code';
+  border-width: 0px;
+  border-style: none;
+  border-color: #000000;
+  font-size: %;
+  background-color: rgba(255, 71, 255, 0.19);
+  border-left-width: 0px;
+  border-left-style: none;
+  border-left-color: #000000;
+  border-top-width: 0px;
+  border-top-style: none;
+  border-top-color: #000000;
+  border-right-width: 0px;
+  border-right-style: none;
+  border-right-color: #000000;
+  border-bottom-width: 0px;
+  border-bottom-style: none;
+  border-bottom-color: #000000;
+  padding-left: 4px;
+  padding-right: 4px;
 }
 img.scmImage {
   border-width: 1px;
@@ -253,5 +306,103 @@ img.scmImage {
   text-wrap: left;
   float: left;
   margin: 0px 10px 0px 0px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  font-family: 'Fira Code';
 }
-table.SCM_Basic_noBorders {}
+table.SCM_Basic_noBorders {
+  break-after: always;
+  border-width: 0px;
+  border-style: none;
+  border-color: transparent;
+  border-left-width: 1px;
+  border-left-style: none;
+  border-left-color: transparent;
+  border-top-width: 1px;
+  border-top-style: none;
+  border-top-color: transparent;
+  border-right-width: 1px;
+  border-right-style: none;
+  border-right-color: transparent;
+  border-bottom-width: 1px;
+  border-bottom-style: none;
+  border-bottom-color: transparent;
+  width: 80%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+p.SCM_Hint {
+  font-family: 'Arial Narrow';
+  color: #323232;
+  font-style: italic;
+  letter-spacing: 1px;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  background-color: rgba(197, 197, 0, 0.13);
+}
+div.SCM_Note {
+  color: #323232;
+  font-style: italic;
+  font-family: 'Arial Narrow';
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  background-color: rgba(175, 170, 0, 0.12);
+  height: 10px;
+  width: 70%;
+}
+ol {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+ul {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  --prefix-size: 40px;
+  --prefix-fixed-size: false;
+  --prefix-gap: 4px;
+  --list-indent: 40px;
+  --vertical-spacing: 8px;
+  counter-reset: item1;
+  list-style: none;
+  padding-left: var(--prefix-size);
+  margin-left: calc(var(--list-indent) - var(--prefix-size));
+}
+ul>li {
+  --prefix-size: 40px;
+  --prefix-fixed-size: false;
+  --prefix-gap: 4px;
+  --list-indent: 40px;
+  --vertical-spacing: 8px;
+  position: relative;
+  margin-top: calc(var(--vertical-spacing) / 2);
+  margin-bottom: calc(var(--vertical-spacing) / 2);
+}
+ul>li:before {
+  counter-increment: item1;
+  content: counter(item1, disc);
+  text-align: right;
+  position: absolute;
+  left: calc(-1 * var(--prefix-size) - var(--prefix-gap));
+  margin-right: var(--prefix-gap);
+  width: var(--prefix-size);
+  overflow: hidden;
+  line-height: 1;
+  vertical-align: ;
+}

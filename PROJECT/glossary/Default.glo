@@ -2,9 +2,12 @@
 
 <glossgroup id="Default">          
 <title>Glossary Definitions</title>        
+<glossentry id="Default_BMAC">
+<glossterm>BMAC</glossterm>
+<glossdef>BuildMeAClub is an external SCM application. It creates a SwimClubMeet database on the MS SQLEXPRESS database server. Typically BMAC is only ever run once.</glossdef></glossentry>
 <glossentry id="Default_ENTRANT">
-<glossterm>ENTRANT</glossterm>
-<glossdef>An active member who has been assigned a lane in a given event. </glossdef></glossentry>
+<glossterm>Entrant</glossterm>
+<glossdef>An active member who has been nominated for a given event and assigned a lane within a heat for that given event. </glossdef></glossentry>
 <glossentry id="Default_Event">
 <glossterm>Event</glossterm>
 <glossdef>A swimming race held over a set distance and stroke.</glossdef></glossentry>
@@ -17,9 +20,6 @@
 <glossentry id="Default_IT">
 <glossterm>IT</glossterm>
 <glossdef> Information technology.</glossdef></glossentry>
-<glossentry id="Default_MSSQL_EXPRESS">
-<glossterm>MSSQL EXPRESS</glossterm>
-<glossdef>Microsoft SQL Server Express is a version of Microsoft&#39;s SQL Server relational database management system that is free to download, distribute and use. It comprises a database specifically targeted for embedded and smaller-scale applications. The product traces its roots to the Microsoft Database Engine (MSDE) product, which was shipped with SQL Server 2000. The &quot;Express&quot; branding has been used since the release of SQL Server 2005.</glossdef></glossentry>
 <glossentry id="Default_Nominee">
 <glossterm>Nominee</glossterm>
 <glossdef>An active member who requests to swim an event.</glossdef></glossentry>
@@ -35,16 +35,16 @@
 <glossentry id="Default_Session">
 <glossterm>Session</glossterm>
 <glossdef>A club meeting where members compete against each other in swimming events.</glossdef></glossentry>
+<glossentry id="Default_MSSQL_EXPRESS">
+<glossterm>SQLEXPRESS</glossterm>
+<glossdef>Microsoft SQL Server Express is a version of Microsoft&#39;s SQL Server relational database management system that is free to download, distribute and use. It comprises a database specifically targeted for embedded and smaller-scale applications. The product traces its roots to the Microsoft Database Engine (MSDE) product, which was shipped with SQL Server 2000. The &quot;Express&quot; branding has been used since the release of SQL Server 2005.</glossdef></glossentry>
 <glossentry id="Default_SSMS">
 <glossterm>SSMS</glossterm>
 <glossdef>Microsoft&#39;s SQL Server Management Studio</glossdef></glossentry>
 <glossentry id="Default_TimeToBeat">
-<glossterm>TimeToBeat</glossterm>
-<glossdef>The anticipated racetime for the nominee to swim an event.
-An algorithm used by Auto-Build Heats to sort entrants fastest to slowest.</glossdef></glossentry>
-<glossentry id="Default_TTB">
 <glossterm>TTB</glossterm>
-<glossdef>Time-To-Beat</glossdef></glossentry>
-<glossentry id="Default_BMAC">
-<glossterm>BMAC</glossterm>
-<glossdef>Build me a club.</glossdef></glossentry></glossgroup>
+<glossdef>TimeToBeat. The anticipated race-time for the nominee or entrant to swim a given event.
+An algorithm used by Auto-Build Heats to sort entrants fastest to slowest.</glossdef></glossentry>
+<glossentry id="Default_DOB">
+<glossterm>DOB</glossterm>
+<glossdef>Date of birth. A DOB is required for all swimmers. Used by the Auto-Build Heats. DOB is used to calculate a TTB. </glossdef></glossentry></glossgroup>

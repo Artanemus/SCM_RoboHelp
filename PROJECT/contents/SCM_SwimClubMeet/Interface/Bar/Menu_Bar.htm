@@ -13,58 +13,207 @@
 <body>
   <h2 class="SCM_h2">Menu Bar</h2>
   <p>Access additional tools, setup SCM&#39;s options and more</p>
-  <p><img src="../../../assets/images/SCM_MenuBar.png" /></p>
-  <h3 class="SCM_h3"><a id="Menu_Item_File"></a>Menu Item File</h3>
-  <h4>Import CarnivalMeet...</h4>
-  <p>TBA. Import your members event and race time data from the recent carnival meet. The imported data will appear as a Session within SwimClubMeet. The session date will match the CarnivalMeet&#39;s date.</p>
-  <h4>Export CarnivalMeet...</h4>
-  <p>TBA. Export your members details (name, gender, DOB) and personal best across all raced events in prepartion for import into CarnivalMeet.</p>
-  <h4>Exit</h4>
-  <p>Closes the application. There is no need to save. Data is continuously written to the MSSQL server.</p>
-  <h3 class="SCM_h3"><a id="Menu_Item_Session"></a>Menu Item Session</h3>
-  <h4>New Session...</h4>
-  <h4>Delete Session....</h4>
-  <h4><a data-indexterm="clone" id="clone"></a> <a id="CloneSessionDLG"></a>Clone Session Dialogue</h4>
-  <p>The current selected session is duplicated and given todays date. Useful if you want to copy last weeks club night. No heats or nominations for the event are included.</p>
-  <p><img src="../../../assets/images/CloneSessionDLG.JPG" /></p>
-  <h3 class="SCM_h3"><a id="Menu_Item_Events"></a>Menu Item Events</h3>
-  <p><img class="scmImage" src="../../../assets/images/Event_Menu_Items.jpg" />1. Build event finals<br />
-    <br />
-    2. Build event semi-finals<br />
-    <br />
-    3. Build event quarter-Finals<br />
-    <br />
-    4. Master Championships<br />
-    <br />
-    5. Relay
-  </p>
+  <h3 class="SCM_h3"><a id="Menu_Item_File"></a>Menu Item - File</h3>
+  <div>
+    <table border="1" cellpadding="1" cellspacing="1" style="border-collapse: collapse;width: 80%;border-width: 0px;border-style: none;border-color: rgb(0, 0, 0);font-family: &#39;Segoe UI&#39;;margin-right: 10px">
+      <colgroup>
+        <col style="" />
+      </colgroup>
+      <tbody>
+        <tr>
+          <td style="border-width: 0px;border-style: none;border-color: #000000;border-left-width: 0px;border-left-style: none;border-left-color: #000000;border-top-width: 0px;border-top-style: none;border-top-color: #000000;border-right-width: 0px;border-right-style: none;border-right-color: #000000;border-bottom-width: 0px;border-bottom-style: none;border-bottom-color: #000000"><br />
+            <img src="../../../assets/images/MenuBar/mb_File.png" style="float: left; margin-left: 10px; margin-right: 10px; cursor: nwse-resize;" />
+            <h4>Import XLS ...</h4>
+            <p>TBA. Imports a &#39;XLS Export&#39; into <a class="glossterm" data-glossterm="Default_SCM_" href="#">SCM </a>as a session. The date and time matches the time of the original export. The XLS must have the correct SCM header else import will fail.</p>
+            <h4>Export XLS ... </h4>
+            <p>TBA. Exports the CarnivalMeet data but in XLS format. This is a multi-sheet XLS that can be loaded in Microsoft&#39;s Excel. The file is also useful to gain a snapshot into the club members and their performances. Future extensions to SCM will include a coaching application that can also use this raw data.</p>
+            <h4>Import CarnivalMeet ...</h4>
+            <p>TBA. Import your member&#39;s events and race-times from a CarnivalMeet. The imported data will appear as a session. The session date and time will match the date and time of the Carnival-Meet. The session will only contain the data for your members and not the participating swimming club(s) members that joined in the carnival. Nominations and Events that don&#39;t include any of your club members will still be displayed.</p>
+            <h4>Export CarnivalMeet ...</h4>
+            <p>TBA. Export your members details (clubname, swimmer name, gender, DOB) and personal bests (PBs) across all raced events in preparation for import into the SCM_CarnivalMeet application.</p>
+            <h4>Exit</h4>
+            <p>Closes the application. There is no need to save as your data is continuously written to the <a class="glossterm" data-glossterm="Default_MSSQL_EXPRESS" href="#">MSSQL EXPRESS</a> database server.</p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <h3 class="SCM_h3"><a id="Menu_Item_Session"></a>Menu Item - Session</h3>
+  <div>
+    <table border="1" cellpadding="1" cellspacing="1" style="border-collapse: collapse;width: 80%;border-width: 0px;border-style: none;border-color: rgb(0, 0, 0);font-family: &#39;Segoe UI&#39;;margin-right: 10px">
+      <colgroup>
+        <col style="" />
+      </colgroup>
+      <tbody>
+        <tr>
+          <td style="border-width: 0px;border-style: none;border-color: #000000;border-left-width: 0px;border-left-style: none;border-left-color: #000000;border-top-width: 0px;border-top-style: none;border-top-color: #000000;border-right-width: 0px;border-right-style: none;border-right-color: #000000;border-bottom-width: 0px;border-bottom-style: none;border-bottom-color: #000000"><br />
+            <img src="../../../assets/images/MenuBar/mb_Session.png" style="float: left; margin-left: 10px; margin-right: 10px;" />
+            <h4>New Session...</h4>
+            <p>Create a new club-night. Enter a date and time for your new session. Optionally, add a short note to make the night memerable. eg. &#39;Clear skies and bar-b-que&#39;. </p>
+            <h4>Edit Session...</h4>
+            <p>Opens the edit session dialogue box. Here you can modify date, time or note.</p>
+            <h4><a data-indexterm="clone" id="clone"></a> <a id="CloneSessionDLG"></a>Clone Session ...</h4>
+            <p>The current selected session is duplicated and given today&#39;s date. Useful if you want to copy last weeks club night. Only events are carried across. Member&#39;s nominations and heats are not cloned.</p>
+            <h4>Lock/Unlock</h4>
+            <p>This is a toggle to make the current selected session and it&#39;s events and heats read-only. The session gets painted &#39;tomatoe red&#39; when locked.</p>
+            <h4>Build ALL Heats ...</h4>
+            <p>Takes the nominations and constructs heats for all events in the current selected session. Existing heats that are raced or closed are not effected by this action.</p>
+            <h4>Print All Marshall Reports ...</h4>
+            <p>Send to printer or PDF. Be aware, if the windows print-spooler is enabled you may need to abort the print jobs here.</p>
+            <h4>Print ALL Timekeeper Reports ...</h4>
+            <p>Send to printer or PDF.</p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
   <p> </p>
+  <h3 class="SCM_h3"><a id="Menu_Item_Events"></a>Menu Item - Events</h3>
+  <div> 
+    <table border="1" cellpadding="1" cellspacing="1" style="border-collapse: collapse;width: 80%;border-width: 0px;border-style: none;border-color: rgb(0, 0, 0);font-family: &#39;Segoe UI&#39;;margin-right: 10px">
+      <colgroup>
+        <col style="" />
+      </colgroup>
+      <tbody>
+        <tr>
+          <td style="border-width: 0px;border-style: none;border-color: #000000;border-left-width: 0px;border-left-style: none;border-left-color: #000000;border-top-width: 0px;border-top-style: none;border-top-color: #000000;border-right-width: 0px;border-right-style: none;border-right-color: #000000;border-bottom-width: 0px;border-bottom-style: none;border-bottom-color: #000000"><img src="../../../assets/images/MenuBar/mb_Events.png" style="float: left; margin-left: 10px; margin-right: 10px;" />Build event finals ...<br />
+            <br />
+            Build event semi-finals ...<br />
+            <br />
+            Build event quarter-Finals ...<br />
+            <br />
+            Master Championships ...<br />
+            <br />
+            Relay ...
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <p> </p>
+  </div>
+  <h3 class="SCM_h3">Menu Item - Nominate</h3>
+  <div>
+    <table border="1" cellpadding="1" cellspacing="1" style="border-collapse: collapse;width: 80%;border-width: 0px;border-style: none;border-color: rgb(0, 0, 0);font-family: &#39;Segoe UI&#39;;margin-right: 10px">
+      <colgroup>
+        <col style="" />
+      </colgroup>
+      <tbody>
+        <tr>
+          <td style="border-width: 0px;border-style: none;border-color: #000000;border-left-width: 0px;border-left-style: none;border-left-color: #000000;border-top-width: 0px;border-top-style: none;border-top-color: #000000;border-right-width: 0px;border-right-style: none;border-right-color: #000000;border-bottom-width: 0px;border-bottom-style: none;border-bottom-color: #000000">
+            <h4><img src="../../../assets/images/MenuBar/mb_Nominate.png" style="float: left; margin-left: 10px; margin-right: 10px;" />Clear event nominations ...</h4>
+            <p>Removes all nominations from the selected event. If the nominee has been assigned a lane, then they are removed from that lane. Should a heat become empty, then the heat is removed.</p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
   <p> </p>
+  <h3 class="SCM_h3"><a id="Menu_Item_Tools"></a>Menu Item - Tools</h3>
+  <p>The tools have lots of features and deserve their own special pages, so follow the links to learn more.</p>
   <p> </p>
-  <h3 class="SCM_h3">Menu Item Nominate</h3>
-  <p>Clear event nomination. Removes all nominations and any entrant assignment for the selected event. Depreciated, will be dropped in future version.</p>
-  <h3 class="SCM_h3"><a id="Menu_Item_Tools"></a>Menu Item Tools</h3>
-  <h4><img src="../../../assets/images/Tool_Menu_Items.jpg" /></h4>
+  <div>
+    <table border="1" cellpadding="1" cellspacing="1" style="border-collapse: collapse;width: 80%;border-width: 0px;border-style: none;border-color: rgb(0, 0, 0);font-family: &#39;Segoe UI&#39;;margin-right: 10px">
+      <colgroup>
+        <col style="" />
+      </colgroup>
+      <tbody>
+        <tr>
+          <td style="border-width: 0px;border-style: none;border-color: #000000;border-left-width: 0px;border-left-style: none;border-left-color: #000000;border-top-width: 0px;border-top-style: none;border-top-color: #000000;border-right-width: 0px;border-right-style: none;border-right-color: #000000;border-bottom-width: 0px;border-bottom-style: none;border-bottom-color: #000000"><img src="../../../assets/images/MenuBar/mb_Tools.png" style="float: left; margin-left: 10px; margin-right: 10px;" /><span style="font-size: 12pt; font-weight: bold;">Options ...</span>
+            <p>👉 Allows you to setup your swimming club. Set you clubname, nickname, website, etc.<br />
+              Here you can also set the length of your pool, season start date and number of lanes.<br />
+              👉 Adjust the parameters used by TTB and Auto-Build.<br />
+              👉 Set parameters for nomination.<br />
+              👉 And other miscellaneous system settings.<br />
+              <br />
+              Follow this link to learn more about...  <a href="../../Tools/Options/Options.htm">Options</a>
+            </p>
+            <h4>Qualify Times ...</h4>
+            <p>👉 Here you can set the qualifying and trial distance (and time) to determine whether a member is permitted to swim an event of given distance and stroke. It takes into consideration gender and pool type (Short or long course).<br />
+              👉 Also print &#39;qualification&#39; reports such as &quot;Who isn&#39;t qualified, but is swimming the event anyway, despite your best efforts!&quot;  <br />
+              <br />
+              Follow this link to learn more about...  <a href="../../Tools/Qualify_Times.htm">Qualify Times</a>
+            </p>
+            <h4>Membership Type</h4>
+            <p>Follow this link to learn more about...  <a href="../../Tools/Membership_Type.htm">Membership Type</a></p>
+            <h4>Score</h4>
+            <p>Score your end of year club finals. Score ABSOLUTE, RELATIVE (to division). Score the event or each heat. And more. </p>
+            <p>See ... Score</p>
+            <h4>House</h4>
+            <p>Create, delete houses. Assign house logos, mottos. Assign members to houses. Can be scored for house totals.</p>
+            <p>See ... House</p>
+            <h4>Clean MSSQL ...</h4>
+            <p>This tool scans your MS SQL SwimClubMeet database, looking for orphaned files and other stuff. If I&#39;ve written the code correctly, then it&#39;ll find nothing. None destructive.</p>
+            <p>Comforting to run, every now and then. Send me an email if you see something.</p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <p> </p>
+  </div>
   <h4> </h4>
-  <h4>Options</h4>
-  <p>See...  <a href="../../Tools/Options/Options.htm">Options</a></p>
-  <h4>Qualify Times</h4>
-  <p>See...  <a href="../../Tools/Qualify_Times.htm">Qualify Times</a></p>
-  <h4>Membership Type</h4>
-  <p>See...  <a href="../../Tools/Membership_Type.htm">Membership Type</a></p>
-  <h4>Score</h4>
-  <p>Score your end of year club finals. Score ABSOLUTE, RELATIVE (to division). Score the event or each heat. And more. </p>
-  <p>See ... Score</p>
-  <h4>House</h4>
-  <p>Create, delete houses. Assign house logos, mottos. Assign members to houses. Can be scored for house totals.</p>
-  <p>See ... House</p>
-  <h4>Clean MSSQL ...</h4>
-  <p>This tool scans your MS SQL SwimClubMeet database, looking for orphaned files and other stuff. If I&#39;ve written the code correctly, then it&#39;ll find nothing. None destructive.</p>
-  <p>Comforting to run, every now and then. Send me an email if you see something.</p>
+  <h4> </h4>
   <h3 class="SCM_h3"><a id="Menu_Item_Help"></a>Menu Item Help</h3>
-  <h4><a data-indexterm="about" id="about"></a> <a id="AboutDLG"></a>About Dialogue</h4>
-  <p>Displays information on  <a class="glossterm" data-glossterm="Default_SCM_" href="#">SCM </a>including version number, copyright and trademark. The picture is a microscopic look at fish scales.</p>
-  <p><span class="SCM_Quotes">Future versions of this dialogue will show the (internal) MSSQL SwimClubMeet database version and the (internal) SQLite3 LeaderBoard database version.</span> </p>
-  <p><img src="../../../assets/images/AboutDLG.JPG" /></p>
+  <div>
+    <table border="1" cellpadding="1" cellspacing="1" style="border-collapse: collapse;width: 80%;border-width: 0px;border-style: none;border-color: rgb(0, 0, 0);font-family: &#39;Segoe UI&#39;;margin-right: 10px">
+      <colgroup>
+        <col style="" />
+      </colgroup>
+      <tbody>
+        <tr>
+          <td style="border-width: 0px;border-style: none;border-color: #000000;border-left-width: 0px;border-left-style: none;border-left-color: #000000;border-top-width: 0px;border-top-style: none;border-top-color: #000000;border-right-width: 0px;border-right-style: none;border-right-color: #000000;border-bottom-width: 0px;border-bottom-style: none;border-bottom-color: #000000">
+            <h4><img src="../../../assets/images/MenuBar/mb_Help.png" style="float: left; margin-left: 10px; margin-right: 10px;" /><a data-indexterm="about" id="about"></a> <a id="AboutDLG"></a>About ...</h4>
+            <p>Displays information on  <a class="glossterm" data-glossterm="Default_SCM_" href="#">SCM </a>including version number, copyright and trademark.</p>
+            <div>
+              <!-- CSS only -->
+              <div><span style="font-family:&#39;Fira Code Light&#39;;font-style:italic"> </span>
+                <p style="margin-top: 20px;margin-right: 20px;margin-bottom: 20px;margin-left: 20px;padding-top: 10px;padding-right: 10px;padding-bottom: 10px;padding-left: 10px;width: 80%;background-color: rgba(180, 180, 0, 0.20)"><span style="font-family:&#39;Fira Code Light&#39;;font-style:italic"> <svg class="bi bi-info-circle" fill="currentColor" height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"></path>
+                      <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"></path>
+                    </svg> Future versions of the help menu will allow you to view the help file locally or on the internet. </span></p>
+                <span style="font-family:&#39;Fira Code Light&#39;;font-style:italic"> </span>
+              </div>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div>
+      <table border="1" cellpadding="1" cellspacing="1" style="border-collapse: collapse;width: 80%;border-width: 0px;border-style: none;border-color: rgb(0, 0, 0);font-family: &#39;Segoe UI&#39;;margin-right: 10px">
+        <colgroup>
+          <col style="" />
+        </colgroup>
+        <tbody>
+          <tr>
+            <td style="border-width: 0px;border-style: none;border-color: #000000;border-left-width: 0px;border-left-style: none;border-left-color: #000000;border-top-width: 0px;border-top-style: none;border-top-color: #000000;border-right-width: 0px;border-right-style: none;border-right-color: #000000;border-bottom-width: 0px;border-bottom-style: none;border-bottom-color: #000000">
+              <h4><img src="../../../assets/images/MenuBar/mb_AboutDlg.png" style="float: left; margin-left: 10px; margin-right: 10px;" />About SwimClubMeet in detail.</h4>
+              <p>Product Version must match exactly the version number used by the SwimClubMeet database on the SQLEXPRESS database server. The database version can be found in the dbo.SCMSystem table.</p>
+              <figure><img src="../../../assets/images/System/dbo.SCMSystem_Snip_TableValues.jpg" title="snippet of the dbo.SCMSystem table" />
+                <figcaption><span style="font-family:&#39;Fira Code Light&#39;;font-size:75%">Snippet of the dbo.SCMSystem table.</span></figcaption>
+              </figure>
+              <br />
+              If the version doesn&#39;t match, you may see data error messages. <br />
+              <br />
+              Build Version (that&#39;s the .1.0 portion seen in the image) indicates the  release version of SCM that you have installed. To find the most resent release go to the SCM website. <br />
+              <br />
+              FYI : The picture is a microscopic look at fish scales. (Suitably themed 🙂)
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <p> </p>
+      <div>
+        <!-- CSS only -->
+        <div><span style="font-family:&#39;Fira Code Light&#39;;font-style:italic"> </span>
+          <p style="margin-top: 20px;margin-right: 20px;margin-bottom: 20px;margin-left: 20px;padding-top: 10px;padding-right: 10px;padding-bottom: 10px;padding-left: 10px;width: 80%;background-color: rgba(180, 180, 0, 0.20)"><span style="font-family:&#39;Fira Code Light&#39;;font-style:italic"> <svg class="bi bi-info-circle" fill="currentColor" height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"></path>
+                <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"></path>
+              </svg> Future versions of this dialogue will show the (internal) MS SQLEXPRESS SwimClubMeet database version. </span></p>
+          <span style="font-family:&#39;Fira Code Light&#39;;font-style:italic"> </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <p> </p>
+  <p> </p>
 </body>
 </html>

@@ -1,57 +1,206 @@
 
   Menu Bar
   Access additional tools, setup SCM's options and more
+  Menu Item - File
   
-  Menu Item File
-  Import CarnivalMeet...
-  TBA. Import your members event and race time data from the recent carnival meet. The imported data will appear as a Session within SwimClubMeet. The session date will match the CarnivalMeet's date.
-  Export CarnivalMeet...
-  TBA. Export your members details (name, gender, DOB) and personal best across all raced events in prepartion for import into CarnivalMeet.
-  Exit
-  Closes the application. There is no need to save. Data is continuously written to the MSSQL server.
-  Menu Item Session
-  New Session...
-  Delete Session....
-   Clone Session Dialogue
-  The current selected session is duplicated and given todays date. Useful if you want to copy last weeks club night. No heats or nominations for the event are included.
+    
+      
+        
+      
+      
+        
+          
+            
+            Import XLS ...
+            TBA. Imports a 'XLS Export' into SCM as a session. The date and time matches the time of the original export. The XLS must have the correct SCM header else import will fail.
+            Export XLS ... 
+            TBA. Exports the CarnivalMeet data but in XLS format. This is a multi-sheet XLS that can be loaded in Microsoft's Excel. The file is also useful to gain a snapshot into the club members and their performances. Future extensions to SCM will include a coaching application that can also use this raw data.
+            Import CarnivalMeet ...
+            TBA. Import your member's events and race-times from a CarnivalMeet. The imported data will appear as a session. The session date and time will match the date and time of the Carnival-Meet. The session will only contain the data for your members and not the participating swimming club(s) members that joined in the carnival. Nominations and Events that don't include any of your club members will still be displayed.
+            Export CarnivalMeet ...
+            TBA. Export your members details (clubname, swimmer name, gender, DOB) and personal bests (PBs) across all raced events in preparation for import into the SCM_CarnivalMeet application.
+            Exit
+            Closes the application. There is no need to save as your data is continuously written to the MSSQL EXPRESS database server.
+          
+        
+      
+    
   
-  Menu Item Events
-  1. Build event finals
+  Menu Item - Session
+  
     
-    2. Build event semi-finals
+      
+        
+      
+      
+        
+          
+            
+            New Session...
+            Create a new club-night. Enter a date and time for your new session. Optionally, add a short note to make the night memerable. eg. 'Clear skies and bar-b-que'. 
+            Edit Session...
+            Opens the edit session dialogue box. Here you can modify date, time or note.
+             Clone Session ...
+            The current selected session is duplicated and given today's date. Useful if you want to copy last weeks club night. Only events are carried across. Member's nominations and heats are not cloned.
+            Lock/Unlock
+            This is a toggle to make the current selected session and it's events and heats read-only. The session gets painted 'tomatoe red' when locked.
+            Build ALL Heats ...
+            Takes the nominations and constructs heats for all events in the current selected session. Existing heats that are raced or closed are not effected by this action.
+            Print All Marshall Reports ...
+            Send to printer or PDF. Be aware, if the windows print-spooler is enabled you may need to abort the print jobs here.
+            Print ALL Timekeeper Reports ...
+            Send to printer or PDF.
+          
+        
+      
     
-    3. Build event quarter-Finals
+  
+   
+  Menu Item - Events
+   
     
-    4. Master Championships
+      
+        
+      
+      
+        
+          Build event finals ...
+            
+            Build event semi-finals ...
+            
+            Build event quarter-Finals ...
+            
+            Master Championships ...
+            
+            Relay ...
+          
+        
+      
     
-    5. Relay
+     
+  
+  Menu Item - Nominate
+  
+    
+      
+        
+      
+      
+        
+          
+            Clear event nominations ...
+            Removes all nominations from the selected event. If the nominee has been assigned a lane, then they are removed from that lane. Should a heat become empty, then the heat is removed.
+          
+        
+      
+    
+  
+   
+  Menu Item - Tools
+  The tools have lots of features and deserve their own special pages, so follow the links to learn more.
+   
+  
+    
+      
+        
+      
+      
+        
+          Options ...
+            👉 Allows you to setup your swimming club. Set you clubname, nickname, website, etc.
+              Here you can also set the length of your pool, season start date and number of lanes.
+              👉 Adjust the parameters used by TTB and Auto-Build.
+              👉 Set parameters for nomination.
+              👉 And other miscellaneous system settings.
+              
+              Follow this link to learn more about...  Options
+            
+            Qualify Times ...
+            👉 Here you can set the qualifying and trial distance (and time) to determine whether a member is permitted to swim an event of given distance and stroke. It takes into consideration gender and pool type (Short or long course).
+              👉 Also print 'qualification' reports such as "Who isn't qualified, but is swimming the event anyway, despite your best efforts!"  
+              
+              Follow this link to learn more about...  Qualify Times
+            
+            Membership Type
+            Follow this link to learn more about...  Membership Type
+            Score
+            Score your end of year club finals. Score ABSOLUTE, RELATIVE (to division). Score the event or each heat. And more. 
+            See ... Score
+            House
+            Create, delete houses. Assign house logos, mottos. Assign members to houses. Can be scored for house totals.
+            See ... House
+            Clean MSSQL ...
+            This tool scans your MS SQL SwimClubMeet database, looking for orphaned files and other stuff. If I've written the code correctly, then it'll find nothing. None destructive.
+            Comforting to run, every now and then. Send me an email if you see something.
+          
+        
+      
+    
+     
   
    
    
-   
-  Menu Item Nominate
-  Clear event nomination. Removes all nominations and any entrant assignment for the selected event. Depreciated, will be dropped in future version.
-  Menu Item Tools
-  
-   
-  Options
-  See...  Options
-  Qualify Times
-  See...  Qualify Times
-  Membership Type
-  See...  Membership Type
-  Score
-  Score your end of year club finals. Score ABSOLUTE, RELATIVE (to division). Score the event or each heat. And more. 
-  See ... Score
-  House
-  Create, delete houses. Assign house logos, mottos. Assign members to houses. Can be scored for house totals.
-  See ... House
-  Clean MSSQL ...
-  This tool scans your MS SQL SwimClubMeet database, looking for orphaned files and other stuff. If I've written the code correctly, then it'll find nothing. None destructive.
-  Comforting to run, every now and then. Send me an email if you see something.
   Menu Item Help
-   About Dialogue
-  Displays information on  SCM including version number, copyright and trademark. The picture is a microscopic look at fish scales.
-  Future versions of this dialogue will show the (internal) MSSQL SwimClubMeet database version and the (internal) SQLite3 LeaderBoard database version. 
   
+    
+      
+        
+      
+      
+        
+          
+             About ...
+            Displays information on  SCM including version number, copyright and trademark.
+            
+              
+               
+                 
+                      
+                      
+                     Future versions of the help menu will allow you to view the help file locally or on the internet. 
+                 
+              
+            
+          
+        
+      
+    
+    
+      
+        
+          
+        
+        
+          
+            
+              About SwimClubMeet in detail.
+              Product Version must match exactly the version number used by the SwimClubMeet database on the SQLEXPRESS database server. The database version can be found in the dbo.SCMSystem table.
+              
+                Snippet of the dbo.SCMSystem table.
+              
+              
+              If the version doesn't match, you may see data error messages. 
+              
+              Build Version (that's the .1.0 portion seen in the image) indicates the  release version of SCM that you have installed. To find the most resent release go to the SCM website. 
+              
+              FYI : The picture is a microscopic look at fish scales. (Suitably themed 🙂)
+            
+          
+        
+      
+       
+      
+        
+         
+           
+                
+                
+               Future versions of this dialogue will show the (internal) MS SQLEXPRESS SwimClubMeet database version. 
+           
+        
+      
+    
+  
+   
+   
 

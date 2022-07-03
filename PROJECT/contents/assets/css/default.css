@@ -17,6 +17,7 @@ h2.SCM_h2 {
   border-left: 0;
   border-right: 0;
   padding: 10px 10px 10px 10px;
+  font-family: 'Fira Code';
 }
 h3 {}
 h3.SCM_h3 {
@@ -55,11 +56,9 @@ h3.SCM_h3 {
 }
 h4 {
   font-weight: bold;
-  font-size: 105%;
   border-width: 0px;
   border-style: none;
   border-color: #000000;
-  margin-left: 8px;
   line-height: 1;
   border-left-width: 0px;
   border-left-style: none;
@@ -73,7 +72,28 @@ h4 {
   border-bottom-width: 0px;
   border-bottom-style: none;
   border-bottom-color: #000000;
-  margin-bottom: 1%;
+}
+h4.SCM_h4 {
+  font-size: 105%;
+  border-width: 0px;
+  border-style: none;
+  border-color: #000000;
+  margin-left: 16px;
+  line-height: 1;
+  border-left-width: 0px;
+  border-left-style: none;
+  border-left-color: #000000;
+  border-top-width: 0px;
+  border-top-style: none;
+  border-top-color: #000000;
+  border-right-width: 0px;
+  border-right-style: none;
+  border-right-color: #000000;
+  border-bottom-width: 0px;
+  border-bottom-style: none;
+  border-bottom-color: #000000;
+  margin-bottom: 5px;
+  font-family: 'Fira Code Light';
 }
 h5 {
   font-weight: bold;
@@ -88,13 +108,6 @@ p {
   column-rule-width: 1px;
   column-rule-style: none;
   column-rule-color: #000000;
-}
-p.SCM_Indent {
-  font-size: 12.0pt;
-  margin-top: 0pt;
-  margin-bottom: 0pt;
-  margin: NaNpx NaNpx NaNpx px;
-  margin-left: 40px;
 }
 a.expandspot {
   color: #008000;
@@ -128,6 +141,15 @@ ol,
 ul {}
 ol.Decimal {
   list-style-type: decimal;
+  --prefix-size: 40px;
+  --prefix-fixed-size: false;
+  --prefix-gap: 4px;
+  --list-indent: 40px;
+  --vertical-spacing: 32px;
+  counter-reset: item1;
+  list-style: none;
+  padding-left: var(--prefix-size);
+  margin-left: calc(var(--list-indent) - var(--prefix-size));
 }
 ul.Disc {
   list-style-type: disc;
@@ -352,7 +374,7 @@ table.SCM_Basic_noBorders {
   margin-left: 20px;
 }
 p.SCM_Hint {
-  font-family: 'Arial Narrow';
+  font-family: 'Fira Code Light';
   color: #323232;
   font-style: italic;
   letter-spacing: 1px;
@@ -365,6 +387,7 @@ p.SCM_Hint {
   padding-bottom: 10px;
   padding-left: 10px;
   background-color: rgba(197, 197, 0, 0.13);
+  font-size: 85%;
 }
 div.SCM_Note {
   color: #323232;
@@ -420,4 +443,129 @@ ul>li:before {
   overflow: hidden;
   line-height: 1;
   vertical-align: ;
+}
+ol.Decimal>li {
+  --prefix-size: 40px;
+  --prefix-fixed-size: false;
+  --prefix-gap: 4px;
+  --list-indent: 40px;
+  --vertical-spacing: 32px;
+  position: relative;
+  margin-top: calc(var(--vertical-spacing) / 2);
+  margin-bottom: calc(var(--vertical-spacing) / 2);
+}
+ol.Decimal>li:before {
+  counter-increment: item1;
+  content: counter(item1, decimal)" •";
+  text-align: right;
+  position: absolute;
+  left: calc(-1 * var(--prefix-size) - var(--prefix-gap));
+  width: var(--prefix-size);
+  overflow: hidden;
+  margin-right: var(--prefix-gap);
+}
+ol.Decimal>li>ol {
+  --prefix-size: 40px;
+  --prefix-fixed-size: false;
+  --prefix-gap: 4px;
+  --list-indent: 40px;
+  --vertical-spacing: 0px;
+  counter-reset: item2;
+  list-style: none;
+  padding-left: var(--prefix-size);
+  margin-left: calc(var(--list-indent) - var(--prefix-size));
+}
+ol.Decimal>li>ol>li {
+  --prefix-size: 40px;
+  --prefix-fixed-size: false;
+  --prefix-gap: 4px;
+  --list-indent: 40px;
+  --vertical-spacing: 0px;
+  position: relative;
+  margin-top: calc(var(--vertical-spacing) / 2);
+  margin-bottom: calc(var(--vertical-spacing) / 2);
+}
+ol.Decimal>li>ol>li:before {
+  counter-increment: item2;
+  content: counter(item2, decimal);
+  text-align: right;
+  position: absolute;
+  left: calc(-1 * var(--prefix-size) - var(--prefix-gap));
+  margin-right: var(--prefix-gap);
+  width: var(--prefix-size);
+  overflow: hidden;
+}
+:root {
+  --thickhdrevenrows-theme-color: #666666;
+  --thickhdrevenrows-row-color: rgba(102, 102, 102, 0.5);
+  --hdrevenrows-theme-color: #ed7d31;
+  --hdrevenrows-row-color: rgba(237, 125, 49, 0.25);
+  --hdrevenrows-brdr-color: rgba(237, 125, 49, 0.5);
+  --evenrows-theme-color: #bfbfbf;
+  --evenrows-row-color: rgba(191, 191, 191,  0.5);
+}
+table.thickhdrevenrows {
+  border-collapse: collapse;
+}
+table.thickhdrevenrows tr:first-child {
+  border-width: 3px;
+  border-style: solid;
+  border-color: var(--thickhdrevenrows-theme-color);
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
+}
+table.thickhdrevenrows td {
+  border-width: 1px;
+  border-style: solid;
+  border-color: var(--thickhdrevenrows-theme-color);
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+table.thickhdrevenrows tr:nth-child(even) td {
+  background-color: var(--thickhdrevenrows-row-color);
+}
+table.thickhdrevenrows tr:first-child td {
+  text-align: center;
+}
+table.hdrevenrows {
+  border-collapse: collapse;
+}
+table.hdrevenrows td {
+  border-width: 1px;
+  border-style: solid;
+  border-color: var(--hdrevenrows-brdr-color);
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+table.hdrevenrows tr:first-child td {
+  background-color: var(--hdrevenrows-theme-color);
+  color: #FFFFFF;
+}
+table.hdrevenrows tr:nth-child(even) td {
+  background-color: var(--hdrevenrows-row-color);
+}
+p.SCM_FiraCode {
+  font-family: 'Fira Code';
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+table.evenrows {
+  border-collapse: collapse;
+}
+table.evenrows td {
+  padding-top: 2px;
+  padding-right: 4px;
+  padding-bottom: 2px;
+  padding-left: 4px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: var(--evenrows-theme-color);
+}
+table.evenrows tr:nth-child(even) td {
+  background-color: var(--evenrows-row-color);
 }

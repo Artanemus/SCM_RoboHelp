@@ -1,10 +1,45 @@
 
   Auto-Build Options
-  
+   
   Auto-Build Options in detail.
-  Seperate Gender
-  Exclude outside lanes
-  Group entrants by...
-  Seed Method
-  Seed Depth
+   
+  
+    
+      
+        
+      
+      
+        
+          
+            1. TTB algorithm 1
+            The time-to-beat determine which heat and lanes the entrant will be placed into. The TTB is calculated on demand.
+            Current three algorithms are provided.
+              
+              Use the last known race-time. A search is done looking back through time, excluding the current session, for the first match for the event type that the entrant race in. If none are found, SCM moves to algorithm 2
+            
+            Use the average of the 3 fastest race-times. The three fastest times for the event type are found for the entrant. The search excludes the current session and any session that post dates the current session. An average is calculated. Finding only one event is acceptable. If none are found, SCM moves to algorithm 2
+            2. TTB algorithm 2 (new entrants)
+            For entrants new to the event type this algorithm has several paths.
+            A. find all swimmers of gender and age that have swum the event type. Extract the bottom ?? percent and find the average race-time.
+            B. find all swimmers of any gender and 
+            C. widen the age baracket
+             
+            3. Gender and lane count
+            If Seperate gender is checked then there will be seperate heats for girls and boys. Defined another way, boys will not race against girls. The order of the heats is slowest to fastest, with the girl swimming prior to the boys.
+            if Exclude outside lanes is checked then gutter lanes will not be used in events. If you have an eight lane pool, lane 1 and lane 8 will not be swum in.
+            4. Group by ...
+            Selecting Don't group disables grouping.
+            Currently only two group types are defined. 
+            Entrant's age. Swimmers are placed into heats based on the age (calculated using the members DOB). This may result in many heats with few participants in each heat.
+            Entant's membership type. The membership table is inspected and the members are organised into heats based on type. This is one way to collectively gather swimmers in broad age group categories. It's dependant on keeping the member's membership type up-to-date. An audit at the start of theeach  swimming season would be needed. 
+            5. Seed Method ...
+            details
+          
+        
+      
+    
+     
+  
+  Changes made in this dialogue are remembered next time you use the tool.
+  Events don't store snap-shots of these settings when auto-build is enacted. 
 

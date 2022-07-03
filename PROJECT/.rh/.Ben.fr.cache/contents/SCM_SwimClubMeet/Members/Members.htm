@@ -7,50 +7,66 @@
   1. Member's Detail
   ID, Name, DOB, Gender, Type, Email Address, Active, etc. 
   2. Member's Table
-  An XLS style grid showing a list of members. Filters are available. 
-  3. Member's History
+  An XLS style grid showing a full list of all members. Filters are available. 
+  3. Member's Chart
+  Shows a visual representation of a member's performance for a set distance and stroke. This chart can be printed.
+  4. Member's History
   Session Date, Distance, Stroke, Time. The member's personal best for each stroke. 
-  4. Member's Chart
-  Shows a visual representation of the member's perfromance for a set distance and stroke. These charts can be printed.
   5. Member's reports.
-  
-    Current selected member's report for details, history and chart.
-       
+  Current selected member's report for details, history and chart.
+    
     Summary reports for all members. 
-       
+     
   
   6. Find a member.
   A dialogue to locate a member within the database. 
    
-  Buttons
-  Buttons that are common to all tabs.
+  Buttons and navigator
   
-  Find...
-  Search for a member using wildcards and filters. For more information ...
-  Goto ID...
-  
-    
-      
-      
-    
     
       
         
-          Click this button to jump to an member's mebershipt number.
-            A dialogue box opens, type in a membership number, then click Goto to cue-to the member. 
+      
+      
+        
+          
+            Record navigator
+            The navigator is a special control that allows you to move through each member's records. Here's a link to a summary of the controls ... Members Navigator
             
-            The membership number is a read/write field that can be modified by the user.
+              Find...
+            Search for a member using wildcards and filters. To learn more about the find dialogue follow the link ... Members Find
             
-            Cntrl-Click this button to Goto a member's ID.
-          The member's ID is a read only number. Assigned by SCM, each new member is given a unique identification.
+              Goto Member*
+            The * indicates that this button has two methods. 
+            
+              
+                
+                  
+                
+                
+                  
+                    
+                      Method 1 : CNTRL-Mouse Click Goto Member to quickly jump to the member's membership#. Enter a membership# into the editbox. If a member doesn't have a membership# then a message appears saying it doesn't exsist.
+                      If a valid number is entered, Click Goto. 
+                       
+                    
+                  
+                  
+                    
+                      Method 2: Mouse Click Goto Member to locate a member's ID.
+                      An ID is a unique identification number that is automatically created by SQLEXPRESS when a new member is created. Normally this number isn't visible. It does however appear in the Member's Details tabsheet. It's the first parameter that appears at the very top of the tab-sheet. 
+                      It can also be displayed in the header bar if 🗹 show debug information is enabled (To locate this option goto the menu bar and follow the bread crumbs tools → options → other). For the member's ID field to be populated you need to be positioned on a swimming lane that has an entrant assigned.
+                    
+                  
+                
+              
+            
+            Close
+            Exit the member's dialogue and return to SwimClubMeet's main form.
+          
         
       
     
+     
   
-  Normally the member's ID isn't made visible within the application. Visiblity is enabled when tools options other 'Show debug information' is checked.
-  You can use the member's ID to generate membership numbers (using MSSMS SQL)
-  Close
-  Exit the members dialogue.
-  Navigation Bar
-  For more information...
 

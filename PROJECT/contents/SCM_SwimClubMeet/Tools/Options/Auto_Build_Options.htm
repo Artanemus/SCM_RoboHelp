@@ -1,21 +1,57 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml"><head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <meta name="generator" content="Adobe RoboHelp 2020"/>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="generator" content="Adobe RoboHelp 2020" />
   <title>Options AutoBuild</title>
-  <meta name="topic-status" content="Draft"/>
-  <link rel="stylesheet" type="text/css" href="../../../assets/css/default.css"/>
-  <meta name="template" content="../../../assets/masterpages/SCM.htt"/>
+  <meta name="topic-status" content="Draft" />
+  <link rel="stylesheet" type="text/css" href="../../../assets/css/default.css" />
+  <meta name="template" content="../../../assets/masterpages/SCM.htt" />
 </head>
 <body>
   <h2 class="SCM_h2">Auto-Build Options</h2>
-  <p><img src="../../../assets/images/OptionsAutoBuild.JPG"/></p>
+  <p> </p>
   <h3 class="SCM_h3">Auto-Build Options in detail.</h3>
-  <p>Seperate Gender</p>
-  <p>Exclude outside lanes</p>
-  <p>Group entrants by...</p>
-  <p>Seed Method</p>
-  <p>Seed Depth</p>
-
-</body></html>
+  <p> </p>
+  <div>
+    <table border="1" cellpadding="1" cellspacing="1" style="border-collapse: collapse;width: 80%;border-width: 0px;border-style: none;border-color: rgb(0, 0, 0);font-family: &#39;Segoe UI&#39;;margin-right: 10px">
+      <colgroup>
+        <col style="" />
+      </colgroup>
+      <tbody>
+        <tr>
+          <td style="border-width: 0px;border-style: none;border-color: #000000;border-left-width: 0px;border-left-style: none;border-left-color: #000000;border-top-width: 0px;border-top-style: none;border-top-color: #000000;border-right-width: 0px;border-right-style: none;border-right-color: #000000;border-bottom-width: 0px;border-bottom-style: none;border-bottom-color: #000000">
+            <h4 class="SCM_h4"><img src="../../../assets/images/AutoBuild/AutoB_Ledger.JPG" style="float: left; margin-left: 10px; margin-right: 10px;" />1. TTB algorithm 1</h4>
+            <p>The time-to-beat determine which heat and lanes the entrant will be placed into. The TTB is calculated on demand.</p>
+            <p>Current three algorithms are provided.<br />
+              <br />
+              Use the last known race-time. A search is done looking back through time, excluding the current session, for the first match for the event type that the entrant race in. If none are found, SCM moves to algorithm 2
+            </p>
+            <p>Use the average of the 3 fastest race-times. The three fastest times for the event type are found for the entrant. The search excludes the current session and any session that post dates the current session. An average is calculated. Finding only one event is acceptable. If none are found, SCM moves to algorithm 2</p>
+            <h4 class="SCM_h4">2. TTB algorithm 2 (new entrants)</h4>
+            <p>For entrants new to the event type this algorithm has several paths.</p>
+            <p>A. find all swimmers of gender and age that have swum the event type. Extract the bottom ?? percent and find the average race-time.</p>
+            <p>B. find all swimmers of any gender and </p>
+            <p>C. widen the age baracket</p>
+            <p> </p>
+            <h4 class="SCM_h4">3. Gender and lane count</h4>
+            <p>If <span class="SCM_MenuItem">Seperate gender</span> is checked then there will be seperate heats for girls and boys. Defined another way, boys will not race against girls. The order of the heats is slowest to fastest, with the girl swimming prior to the boys.</p>
+            <p>if <span class="SCM_MenuItem">Exclude outside lanes</span> is checked then gutter lanes will not be used in events. If you have an eight lane pool, lane 1 and lane 8 will not be swum in.</p>
+            <h4 class="SCM_h4">4. Group by ...</h4>
+            <p>Selecting <span class="SCM_MenuItem">Don&#39;t group</span> disables grouping.</p>
+            <p>Currently only two group types are defined. </p>
+            <p>Entrant&#39;s age. Swimmers are placed into heats based on the age (calculated using the members DOB). This may result in many heats with few participants in each heat.</p>
+            <p>Entant&#39;s membership type. The membership table is inspected and the members are organised into heats based on type. This is one way to collectively gather swimmers in broad age group categories. It&#39;s dependant on keeping the member&#39;s membership type up-to-date. An audit at the start of theeach  swimming season would be needed. </p>
+            <h4 class="SCM_h4">5. Seed Method ...</h4>
+            <p>details</p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <p> </p>
+  </div>
+  <p>Changes made in this dialogue are remembered next time you use the tool.</p>
+  <p>Events don&#39;t store snap-shots of these settings when auto-build is enacted. </p>
+</body>
+</html>

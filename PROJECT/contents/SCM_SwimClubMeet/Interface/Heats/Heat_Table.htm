@@ -1,114 +1,448 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta name="generator" content="Adobe RoboHelp 2020" />
-  <title>Heat Grid</title>
-  <meta name="topic-status" content="Draft" />
-  <link rel="stylesheet" type="text/css" href="../../../assets/css/default.css" />
-  <meta name="template" content="../../../assets/masterpages/SCM.htt" />
-  <meta name="rh-index-keywords" content="table,heat status,create,new,delete,sort" />
-</head>
-<body>
-  <h2 class="SCM_h2" style="border-width: 1px;border-style: solid;border-color: #000000;border-left: 0;border-right: 0">Heat Table</h2>
-  <p style="border-width: 1px;border-style: none;border-color: #000000">Create, delete, set a heat&#39;s status and order heats.</p>
-  <p style="border-width: 1px;border-style: none;border-color: #000000"><img src="../../../assets/images/Heats_Table.jpg" /></p>
-  <table border="1" cellpadding="1" cellspacing="1" class="tblSimpleClean" style="border-width: 2px;border-style: solid;border-color: #000000;border-left: 0;border-right: 0;caption-side: top;background-color: #f5f5f5;text-align: left" width="100%">
-    <caption style="border-width: 1px;text-align: left; border-style: none;border-color: #000000">Summary description for each column ...</caption>
-    <colgroup>
-      <col width="10%" />
-      <col width="50%" />
-    </colgroup>
-    <tbody style="border-width: 1px;border-style: none;border-color: #000000">
-      <tr>
-        <td style="border-width: 1px;border-style: none;border-color: #000000;line-height: 2">Heat#</td>
-        <td style="border-width: 1px;border-style: none;border-color: #000000">A read-only field. The heat number.</td>
-      </tr>
-      <tr>
-        <td style="border-width: 1px;border-style: none;border-color: #000000;line-height: 2">Status</td>
-        <td style="border-width: 1px;border-style: none;border-color: #000000">Displays either <span class="SCM_Quotes">Open</span>, <span class="SCM_Quotes">Raced </span>or <span class="SCM_Quotes">Closed</span>. </td>
-      </tr>
-    </tbody>
-  </table>
-  <p> </p>
-  <h3 class="SCM_h3"><a id="Navigate_Heat_Table"></a>Navigating the heat table</h3>
-  <p>Selection for the heat table is ROW based.</p>
-  <p>Arrow keys, <span class="SCM_Keyboard">UP, DOWN, LEFT</span> and  <span class="SCM_Keyboard">RIGHT </span>will move through each ROW. Else <span class="SCM_Keyboard">CLICK </span>to selected.</p>
-  <p>Note: the heat table doesn&#39;t have CELLs that you can edit.</p>
-  <p><a id="Heat_Status"></a>Heat Status</p>
-  <p style="border-width: 1px;border-style: none;border-color: #000000">This column can display either <span class="SCM_Quotes">Open, Raced</span> or <span class="SCM_Quotes">Closed</span>. <span>By default a new heat is assigned <span class="SCM_Quotes">Open</span>. </span>When all heats are <span class="SCM_Quotes">Closed </span>the event (in the Events Table) will display a check mark.</p>
-  <p style="border-width: 1px;border-style: none;border-color: #000000"><img src="../../../assets/images/Event_Checked.jpg" /></p>
-  <p>A heat is considered <span class="SCM_Quotes">Raced </span>when the Marshall flags it&#39;s been completed. The Marshall application can do this remotely.</p>
-  <p style="border-width: 1px;border-style: none;border-color: #000000">A heat is considered <span class="SCM_Quotes">Closed </span>when all the <span style="border-color:#000000;border-style:none;border-width:1px">race time data </span>has been collected and entered. Typically this is the job of the events manager. Only the SwimClubMeet application can close heats.</p>
-  <p style="border-width: 1px;border-style: none;border-color: #000000">You&#39;ll note that there are no CELLs you can &#39;touch&#39; and make changes. The heat table is always set to ROW select.</p>
-  <p style="border-width: 1px;border-style: none;border-color: #000000">When the heat status is <span class="SCM_Quotes">raced</span>, the <span class="SCM_MenuItem">Delete Heat</span> button is disabled. You can still enter and make chages to race time. You can print reports.</p>
-  <p style="border-width: 1px;border-style: none;border-color: #000000"><span class="SCM_Quotes">TODO: When the heat status is set to raced, disable changes to the Entrant&#39;s Name!</span></p>
-  <p style="border-width: 1px;border-style: none;border-color: #000000">When the heat staus is <span class="SCM_Quotes">closed</span>, the <span class="SCM_MenuItem">Delete Heat</span> button is disabled. The entrant&#39;s table is dimmed. You can&#39;t make any changes in the entrant&#39;s table. You can print reports.</p>
-  <h4><a id="Toggle_Heat_Status"></a>Toggle Heat Status</h4>
-  <p><img align="left" src="../../../assets/images/ic_autorenew.png" />To toggle a Heats Status use the <span class="SCM_MenuItem">Toggle Status</span> button.</p>
-  <p>Or use the keyboard short-cut  <span class="SCM_Keyboard">ctrl-t. </span> Or <span class="SCM_Keyboard">right-mouse click</span> to access the context sensitive pop-up menu and then select <span class="SCM_MenuItem">Toggle Status</span>. </p>
-  <table border="1" cellpadding="1" cellspacing="1" style="border-collapse: collapse;width: 80%;border-width: 0px;border-style: none;border-color: rgb(0, 0, 0);font-family: &#39;Segoe UI&#39;;margin-right: 10px">
-    <tbody>
-      <tr>
-        <td style="border-width: 0px;border-style: none;border-color: #000000;border-left-width: 0px;border-left-style: none;border-left-color: #000000;border-top-width: 0px;border-top-style: none;border-top-color: #000000;border-right-width: 0px;border-right-style: none;border-right-color: #000000;border-bottom-width: 0px;border-bottom-style: none;border-bottom-color: #000000">
-          <p style="text-align: left">When all the heats for an event are <span class="SCM_Quotes">closed</span> then the event (in the event&#39;s table) will display a checkmark.</p>
-          <p style="text-align: left">The entrant table will appear grey when a heat is  <span class="SCM_Quotes">closed</span>. You can&#39;t modify the entrant&#39;s table when the heat is <span class="SCM_Quotes">closed</span>.</p>
-          <p style="text-align: left"><span class="SCM_Quotes">Closed</span> heats can&#39;t be modified or deleted.</p>
-          <p style="text-align: left">Entrant&#39;s in <span class="SCM_Quotes">closed</span> and <span class="SCM_Quotes">raced</span> heats are excluded from a auto-build events. </p>
-          <p style="text-align: left">Report printing is a available regardless of the heat status.</p>
-          <p style="text-align: left"><span class="SCM_Quotes">(When using a paperless setup, the Marshall will toggle the heat as raced. When the TimeKeepers have completed entered the all race times, the Event&#39;s Manager will close the heat. After closing the heat, no Marshall or TimeKeeper will have access to the heat. )</span></p>
-        </td>
-      </tr>
-    </tbody>
-  </table>
-  <h4><a id="Create_New_Heat"></a>Create New Heat</h4>
-  <p style="border-width: 1px;border-style: none;border-color: #000000"><img align="left" src="../../../assets/images/ic_fiber_new.png" style="border-width: 1px; border-style: none; border-color: rgb(0, 0, 0); padding: 0px 10px 0px 0px;" />To create a new heat <span class="SCM_Keyboard" style="border-bottom:undefined;border-color:#000000;border-left:undefined;border-right:undefined;border-style:none;border-top:undefined;border-width:1px;">click </span>the <span class="SCM_MenuItem">New Heat</span> button. Or either move to the last line and <span class="SCM_Keyboard">arrow down</span> or move to the last field on the last line and press <span class="SCM_Keyboard">tab</span>. </p>
-  <p>Or  <span class="SCM_Keyboard">right-mouse click</span> to use the context sensitive popup menu and select <span class="SCM_MenuItem">New Heat</span>.</p>
-  <p><span>As new heats are inserted, they are automatically assigned an heat number.</span></p>
-  <p>Another way to create new heats is to use the <span class="SCM_Keyboard">Auto-Build Heats</span> button.</p>
-  <p>Just fill with swimmers using the ellipse menu button.  See   <a href="Entrant_Table.htm">Entrant&#39;s table</a> for more details on building heats manually.</p>
-  <p>The number of lanes created is determined by the <span class="SCM_MenuItem">Number Of Swimming Lanes</span> preference, found in the options menu.</p>
-  <p>Another way to create new heats is to use  <span class="SCM_Keyboard">Auto-Build Heats</span>.</p>
-  <h4><a id="Delete_Heat"></a>Delete heat</h4>
-  <p style="border-width: 1px;border-style: none;border-color: #000000"><img align="left" src="../../../assets/images/ic_delete.png" style="border-width: 1px;border-style: none;border-color: #000000;padding: 0px 10px 0px 0px" /> <span class="SCM_Keyboard" style="border-color:#000000;border-style:none;border-width:1px">Click </span>the <span class="SCM_MenuItem">Delete Heat</span> button. Or select the heat and press <span class="SCM_Keyboard">CTRL-DELETE</span>. Or  <span class="SCM_Keyboard">right-mouse click</span> to use the context sensitive popup menu and select <span class="SCM_MenuItem">Delete Heat</span>. A dialogue will be shown to confirm the deletion. There is no undo.  </p>
-  <p>Heats that are <span class="SCM_Quotes">closed </span>or <span class="SCM_Quotes">raced </span>cannot be deleted.</p>
-  <p>When a heat is deleted, the member&#39;s nomination data still remain. Entrant&#39;s that belonged to the deleted heat are sent back to the nominations cache where they await a lane. So manual entrant assignment and <span class="SCM_MenuItem">Auto-Create Heats</span> all function as expected after heats have been deleted. </p>
-  <p>Delete the heat. You are asked to confirm if you wish to delete the heat. This button will be grayed (disabled) if the heat has been <span class="SCM_Quotes">raced</span> or <span class="SCM_Quotes">closed</span>.</p>
-  <p>Currently there is no un-do for this action.</p>
-  <h4><a id="Sort_Move_Heat"></a>Sort, change the heat order.</h4>
-  <p><img align="left" src="../../../assets/images/ic_keyboard_arrow_up.png" /> <img align="left" src="../../../assets/images/ic_keyboard_arrow_down.png" />To move a heat (change it&#39;s stack order) use the <span class="SCM_MenuItem">Move Heat</span> buttons. Select the heat to move then press <span class="SCM_Keyboard">ARROW-UP</span> or <span class="SCM_Keyboard">ARROW-DOWN</span> buttons. The keyboard short-cuts are <span class="SCM_Keyboard">ctrl-up</span> and <span class="SCM_Keyboard">ctrl-down</span>. Sometimes it&#39;s not apparent that the heat have been moved. Checking the entrant data will affirm the heat has indeed been moved. </p>
-  <p>The heat numbers are automatically updated</p>
-  <p>The keyboard short-cuts are <span class="SCM_Keyboard">ctrl-up</span> and <span class="SCM_Keyboard">ctrl-down</span>.</p>
-  <p>Auto-build heats</p>
-  <p>Pressing the settings icon found within the dialogue will expand it&#39;s window and display additional options.</p>
-  <p><img src="../../../assets/images/AutoBuildHeatsDlg.jpg" /></p>
-  <p class="SCM_Indent" style="border-width: 1px;border-style: none;border-color: #000000">On running, all <span class="SCM_Quotes">open </span>heats are cleared.  Heats that are  <span class="SCM_Quotes">closed</span> or  <span class="SCM_Quotes">raced</span> remain in place. New heats created by &#39;auto-build&#39; are appended to the end of the table and the table is renumbered. (wit: Your heats are re-ordered.)<br />
-    <br />
-    <br />
-    <br />
-    The number of heats created is dependant on the number of nominees. Nominees that are included in   <span class="SCM_Quotes">closed</span> or  <span class="SCM_Quotes">raced</span> don&#39;t take part in the auto-build.
-  </p>
-  <p class="SCM_Indent" style="border-width: 1px;border-style: none;border-color: #000000"> </p>
-  <p class="SCM_Indent" style="border-width: 1px;border-style: none;border-color: #000000">The &#39;TimeToBeat&#39; determines which lane a nominee is given.</p>
-  <p class="SCM_Indent" style="border-width: 1px;border-style: none;border-color: #000000"> </p>
-  <p class="SCM_Indent" style="border-width: 1px;border-style: none;border-color: #000000">For clarity, once a nominee is given a lane, then a nominee is officially an entrant.</p>
-  <p class="SCM_Indent" style="border-width: 1px;border-style: none;border-color: #000000"> </p>
-  <p class="SCM_Indent" style="border-width: 1px;border-style: none;border-color: #000000">The fastest heat will be run last. If you seperate by gender, women&#39;s events will race first.</p>
-  <h4><a id="Heat_Table_Popup_Menu"></a>Heat Table Popup-Menu</h4>
-  <p><span class="SCM_Keyboard">Right mouse click</span> to access the context sensitive heat popup-menu.</p>
-  <p><img src="../../../assets/images/Heat_PopUp_Menu.jpg" /></p>
-  <p>Overview of popup-menu</p>
-  <ul class="Disc">
-    <li>Move Up - push the heat up the stack.</li>
-    <li>Move Down - push the heat down the stack</li>
-    <li>Toggle Heat Status - loop between open, raced and closed</li>
-    <li>New Heat - create a new heat and all it&#39;s (empty) lanes. Set it&#39;s status to open. Place it at the end of the stack.</li>
-    <li>Delete Heat - delete the selected heat and all it&#39;s entrant&#39;s and lanes. Renumber the stack.</li>
-    <li>Marshall sheet - A form for the marshall that has all the details on entrant&#39;s and their lanes. Holding CNTRL down while clicking the menu item results in an alternative form.</li>
-    <li>TimeKeeper sheet - A form for the grand timekeeper or individual timekeepers. There is space on the form to enter the swimmer&#39;s race time. Holding CNTRL down while clicking the menu item results in an alternative form.</li>
-    <li>Heat Report - Details for the selected heat or CNTRL press for details on all heats for this event.</li>
-  </ul>
-  <p> </p>
-</body>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="generator" content="Adobe RoboHelp 2020" />
+    <title>Heat Grid</title>
+    <meta name="topic-status" content="Draft" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../../../assets/css/default.css"
+    />
+    <meta name="template" content="../../../assets/masterpages/SCM.htt" />
+    <meta
+      name="rh-index-keywords"
+      content="table,heat status,create,new,delete,sort"
+    />
+  </head>
+  <body>
+    <h2
+      class="SCM_h2"
+      style="
+        border-width: 1px;
+        border-style: solid;
+        border-color: #000000;
+        border-left: 0;
+        border-right: 0;
+      "
+    >
+      Heat Grid
+    </h2>
+    <p>Create, delete, set a heat&#39;s status and order heats.</p>
+    <p><img src="../../../assets/images/Heats/Heats_Grid_Ledger.png" /></p>
+    <table
+      cellpadding="1"
+      cellspacing="1"
+      class="tblSimpleClean"
+      style="
+        border-width: 2px;
+        border-style: solid;
+        border-color: #000000;
+        border-left: 0;
+        border-right: 0;
+        caption-side: top;
+        background-color: #f5f5f5;
+        text-align: left;
+      "
+      width="100%"
+    >
+      <caption
+        style="
+          border-width: 1px;
+          text-align: left;
+          border-style: none;
+          border-color: #000000;
+        "
+      >
+        Summary description for each column ...
+      </caption>
+      <colgroup>
+        <col width="10%" />
+        <col width="50%" />
+      </colgroup>
+      <tbody>
+        <tr>
+          <td
+            style="
+              border-width: 1px;
+              border-style: none;
+              border-color: #000000;
+              line-height: 2;
+            "
+          >
+            Heat#
+          </td>
+          <td>A read-only field. The heat number.</td>
+        </tr>
+        <tr>
+          <td
+            style="
+              border-width: 1px;
+              border-style: none;
+              border-color: #000000;
+              line-height: 2;
+            "
+          >
+            Status
+          </td>
+          <td>
+            Displays either <span class="SCM_Quotes">Open</span>,
+            <span class="SCM_Quotes">Raced </span>or
+            <span class="SCM_Quotes">Closed</span>.
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <p> </p>
+    <h3 class="SCM_h3">
+      <a id="Navigate_Heat_Table"></a>Navigating the heat grid
+    </h3>
+    <div>
+      <table
+        cellpadding="1"
+        cellspacing="1"
+        style="
+        border-collapse: collapse;
+        width: 80%;border-width: 0px;
+        border-style: none;
+        border-color: rgb(0, 0, 0);
+        font-family:  &#39;Segoe UI&#39;;;
+        margin-right: 10px
+        "
+        
+      >
+        <colgroup>
+          <!-- <col style="" /> -->
+        </colgroup>
+        <tbody>
+          <tr>
+            <td
+              style="
+                border-width: 0px;
+                border-style: none;
+                border-color: #000000;
+                border-left-width: 0px;
+                border-left-style: none;
+                border-left-color: #000000;
+                border-top-width: 0px;
+                border-top-style: none;
+                border-top-color: #000000;
+                border-right-width: 0px;
+                border-right-style: none;
+                border-right-color: #000000;
+                border-bottom-width: 0px;
+                border-bottom-style: none;
+                border-bottom-color: #000000;
+              "
+            >
+              <p>
+                <img
+                  src="../../../assets/images/Heats/Heats_Grid.jpg"
+                  style="float: left; margin-left: 10px; margin-right: 10px"
+                />Selection for the heat grid is ROW based. If any ROW is
+                highlighted, then the grid has focus.
+              </p>
+              <p>
+                Ensure the heat grid has focus, then use the arrow keys,
+                <span class="SCM_Keyboard">UP, DOWN, LEFT</span> and
+                <span class="SCM_Keyboard">RIGHT </span> to move through each
+                ROW. Or alternatively. use the mouse to selected a ROW. Note the
+                column and record selector (the right bracket symbol) on the
+                extreme left of the grid.. Clicking in this column will also
+                select a ROW.
+              </p>
+              <p>
+                The display of the lane grid will change as you browse the
+                heats.
+              </p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p> </p>
+    <h3 class="SCM_h3">Heat grid ... pop-up menu.</h3>
+    <div>
+      <table
+        cellpadding="1"
+        cellspacing="1"
+        style="border-collapse: collapse;width: 80%;border-width: 0px;border-style: none;border-color: rgb(0, 0, 0);font-family: &#39;Segoe UI&#39;;;margin-right: 10px"
+      >
+        <colgroup>
+          <!-- <col style="" /> -->
+        </colgroup>
+        <tbody>
+          <tr>
+            <td
+              style="
+                border-width: 0px;
+                border-style: none;
+                border-color: #000000;
+                border-left-width: 0px;
+                border-left-style: none;
+                border-left-color: #000000;
+                border-top-width: 0px;
+                border-top-style: none;
+                border-top-color: #000000;
+                border-right-width: 0px;
+                border-right-style: none;
+                border-right-color: #000000;
+                border-bottom-width: 0px;
+                border-bottom-style: none;
+                border-bottom-color: #000000;
+              "
+            >
+              <img
+                src="../../../assets/images/PopupMenu/PU_Heats.jpg"
+                style="
+                  float: left;
+                  margin-left: 10px;
+                  margin-right: 10px;
+                  cursor: nwse-resize;
+                "
+              />Hover over the grid then right-mouse click to access the context
+              sensitive pop-up menu.
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <p> </p>
+      <p> </p>
+      <h3 class="SCM_h3">Other miscellaneous (important) stuff.</h3>
+      <p>
+        If the session has been locked, heat grid, lane grid and buttons will be
+        disabled (grayed). With the exception of the heats report button. With
+        the session locked you can still print heat reports.
+      </p>
+      <p>
+        The number of lanes shown is determined by the
+        <span class="SCM_MenuItem">Number Of Swimming Lanes</span> preference,
+        found in the options menu.
+      </p>
+      <p class="SCM_Indent">
+        For clarity, once a nominee is given a lane, then that nominee is
+        officially an entrant.
+      </p>
+      <p> </p>
+    </div>
+    <h3 class="SCM_h3">
+      <a id="Heat_Status"></a>Working with the heat status.
+    </h3>
+    <p>
+      The heat status column can display either
+      <span class="SCM_Quotes">Open, Raced</span> or
+      <span class="SCM_Quotes">Closed</span>.
+    </p>
+    <p>
+      <span
+        >By default a new heat is assigned <span class="SCM_Quotes">Open</span>.
+      </span>
+    </p>
+    <div style="margin-left: 20px">
+      <p>
+        <span></span>👉You can toggle the heat status by first selecting the
+        heat and then use the short-cut key
+        <span class="SCM_Keyboard">CNTRL+T</span>.
+      </p>
+      <p>
+        <span></span>👉Or <span class="SCM_Keyboard">RMouse</span> click to
+        access the pop-up menu and then select
+        <span class="SCM_MenuItem">Toggle Heat Status</span>.
+      </p>
+      <p>
+        <span></span>👉Or click the
+        <span class="SCM_Keyboard">Toggle Heat</span> button to cycle through
+        the states.
+      </p>
+    </div>
+    <p>
+      When the heat status is <span class="SCM_Quotes">raced</span>, the
+      <span class="SCM_Keyboard">Move Up</span>,
+      <span class="SCM_Keyboard">Move Down</span> and
+      <span class="SCM_Keyboard">Delete Heat</span> buttons are disabled. All of
+      the lane buttons will also be disabled. You can still enter and make
+      changes to race time. You can print reports and create new heats.
+    </p>
+    <p>
+      When the heat status is <span class="SCM_Quotes">closed</span>, the
+      <span class="SCM_Keyboard">Move Up</span>,
+      <span class="SCM_Keyboard">Move Down</span> and
+      <span class="SCM_Keyboard">Delete Heat</span> buttons and lane buttons
+      remain disabled. The entrant&#39;s table is dimmed. You can&#39;t make any
+      changes in the lane grid. You can print reports and create new heats.
+    </p>
+    <p>
+      When running a paperless setup and after closing a heat, neither
+      <span class="SCM_Term">SCM_Marshal</span> or
+      <span class="SCM_Term">SCM_Timekeeper</span> applications can make changes
+      to the heat.
+    </p>
+    <p>
+      When ALL of the heats for an event are
+      <span class="SCM_Quotes">closed</span> then the event (in the event&#39;s
+      grid) will display a check-mark.
+    </p>
+    <p>
+      Very Special Note: <span class="SCM_Quotes">closed</span> and
+      <span class="SCM_Quotes">raced</span> heats are excluded from auto-build
+      events.
+    </p>
+    <p> </p>
+    <h3
+      class="SCM_h3"
+      style="border-width: 1px; border-style: none; border-color: rgb(0, 0, 0)"
+    >
+      Side note : Pool procedure
+    </h3>
+    <p>
+      If you are running in paperless mode, that is, your are using the support
+      applications <span class="SCM_Term">SCM_Marshal</span> and
+      <span class="SCM_Term">SCM_TimeKeeper</span>, it&#39;s good to instigate
+      some pool procedure.
+    </p>
+    <p>
+      A heat is considered <span class="SCM_Quotes">raced </span>when the
+      Referee blows his whistle. The Chief Marshal or Referee can set the heat
+      status using the <span class="SCM_Term">SCM_Marshal</span> application..
+    </p>
+    <p>
+      A heat is considered <span class="SCM_Quotes">closed </span>when all the
+      <span style="border-color: #000000; border-style: none; border-width: 1px"
+        >race time data </span
+      >has been entered into the database. Times can be entered by the Chief
+      Timekeeper at the poolside by using the
+      <span class="SCM_Term">SCM_TimeKeeper</span> application.
+    </p>
+    <p>
+      Only the core application can close heats. After the Referee flags the
+      heat is over the Chief Recorder does an Q&amp;A and then closes the heat.
+    </p>
+    <p> </p>
+    <!-- CHANGING STACK ORDER -->
+    <h3 class="SCM_h3">Moving heats</h3>
+    <div style="margin-left: 20px">
+      <p>
+        👉 To move heats, first select the heat, then use the short cut keys
+        <span class="SCM_Keyboard">CTRL+UP</span> and
+        <span class="SCM_Keyboard">CTRL+DOWN</span>.
+      </p>
+      <p>
+        👉 Or <span class="SCM_Keyboard">RMouse</span> click and use the pop-up
+        menu, then select <span class="SCM_MenuItem">Move Up</span> or
+        <span class="SCM_MenuItem">Move Down</span> from the menu.
+      </p>
+      <p>
+        👉 Or click either of the
+        <span class="SCM_Keyboard">Move Heat</span> buttons to change the stack
+        order. Note: You can hover over these buttons for a helpful hint.
+      </p>
+    </div>
+    <p>
+      This function may be disabled, it depends on the status of the heat or
+      session.
+    </p>
+    <p>
+      Note: ROWS are automatically renumbered as you move heats in the stack.
+    </p>
+    <!-- CREATE NEW HEAT -->
+    <h3 class="SCM_h3"><a id="Create_New_Heat"></a>Create New Heat</h3>
+    <div>
+      <div style="margin-left: 20px">
+        <p>
+          👉 To create a new heat click the
+          <span class="SCM_Keyboard">New Heat</span> button.
+        </p>
+        <p>
+          👉 Or <span class="SCM_Keyboard">RMouse</span> click to use the
+          context sensitive popup menu and select
+          <span class="SCM_MenuItem">New Heat</span>.
+        </p>
+      </div>
+    </div>
+    <p>As new heats are automatically assigned an heat number.</p>
+    <p>
+      This function may be disabled, it depends on the status of the session.
+    </p>
+    <p>
+      Another way to create new heats is to use the
+      <span class="SCM_Keyboard">Auto-build heats</span> button.
+    </p>
+    <p>
+      To learn more on how to manually add swimmers to your new heat, follow
+      this link.
+    </p>
+    <!-- DELETE HEAT -->
+    <h3 class="SCM_h3"><a id="Delete_Heat"></a>Delete heat</h3>
+    <div>
+      <div style="margin-left: 20px">
+        <p>
+          👉 To delete, first select the heat, then press
+          <span class="SCM_Keyboard">CTRL+DELETE</span>.
+        </p>
+        <p>
+          👉 Or <span class="SCM_Keyboard">RMouse</span> click to use the
+          context sensitive popup menu and select
+          <span class="SCM_MenuItem">New Heat</span>.
+        </p>
+        <p>
+          👉 Or click the <span class="SCM_Keyboard">Delete Heat</span> button.
+        </p>
+      </div>
+    </div>
+    <p>
+      In all these methods, a dialogue will be shown to confirm the deletion.
+      WARNING: There is no undo.
+    </p>
+    <p>
+      Heats that are <span class="SCM_Quotes">closed </span>or
+      <span class="SCM_Quotes">raced </span>cannot be deleted. If the session is
+      locked, then you can&#39;t delete heats.
+    </p>
+    <p>
+      Note: When a heat is deleted, the member&#39;s nomination data still
+      remain. Entrant&#39;s that belonged to the deleted heat are sent back to
+      the nominations cache where they await a lane. You don&#39;t lose
+      nominations when you delete a heat.
+    </p>
+    <p> </p>
+    <!-- AUTO-BUILD HEATS -->
+    <h3 class="SCM_h3">Auto-build heats - summary ...</h3>
+    <div style="margin-left: 20px">
+      <p>
+        👉 The only way to run
+        <span class="SCM_Keyboard">Auto-build heats</span> is to click the
+        button.
+      </p>
+    </div>
+    <p>
+      The Auto-Build dialogue will display. Select your options and press
+      <span class="SCM_MenuItem">Yes</span> to start.
+    </p>
+    <p>
+      Note: Only the current event is operated on. To do ALL events, you need to
+      select EACH event and click the button.
+    </p>
+    <p>
+      On running, all <span class="SCM_Quotes">open </span>heats are cleared.
+      Heats that are <span class="SCM_Quotes">closed</span> or
+      <span class="SCM_Quotes">raced</span> remain in place. New heats created
+      by <span class="SCM_Keyboard">Auto-build heats</span> are appended to the
+      end of the table and the table is renumbered. (wit: Your heats are
+      re-ordered.)<br />
+      <br />
+      The number of heats created is dependant on the number of nominees.
+      Nominees that are included in <span class="SCM_Quotes">closed</span> or
+      <span class="SCM_Quotes">raced</span> are excluded from the auto-build.
+    </p>
+    <p>
+      The fastest heat will be run last. If you seperate by gender, women&#39;s
+      events will race first.
+    </p>
+    <p>
+      To learn more about <span class="SCM_Keyboard">Auto-build heats</span> and
+      it&#39;s features follow this link.
+    </p>
+  </body>
 </html>

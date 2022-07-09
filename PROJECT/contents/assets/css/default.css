@@ -7,7 +7,7 @@ h1 {
   font-weight: bold;
   font-size: 24.0pt;
 }
-h2 {}
+/* h2 {} */
 h2.SCM_h2 {
   font-size: 16pt;
   border-width: 1px;
@@ -19,7 +19,7 @@ h2.SCM_h2 {
   padding: 10px 10px 10px 10px;
   font-family: 'Fira Code';
 }
-h3 {}
+/* h3 {} */
 h3.SCM_h3 {
   font-size: 12pt;
   line-height: 1;
@@ -137,8 +137,8 @@ span.glosstext {
   font-weight: normal;
   color: #0000ff;
 }
-ol,
-ul {}
+/* ol, */
+/* ul {} */
 ol.Decimal {
   list-style-type: decimal;
   --prefix-size: 40px;
@@ -272,7 +272,7 @@ span.SCM_Quotes {
   border-width: 0px;
   border-style: none;
   border-color: #000000;
-  font-size: %;
+  /* font-size: %; */
   background-color: rgba(180, 180, 0, 0.20);
   border-left-width: 0px;
   border-left-style: none;
@@ -295,7 +295,7 @@ span.SCM_MenuItem {
   border-width: 0px;
   border-style: none;
   border-color: #000000;
-  font-size: %;
+  /* font-size: %; */
   background-color: rgba(200, 200, 255, 0.35);
   border-left-width: 0px;
   border-left-style: none;
@@ -318,7 +318,7 @@ span.SCM_Term {
   border-width: 0px;
   border-style: none;
   border-color: #000000;
-  font-size: %;
+  /* font-size: %; */
   background-color: rgba(255, 71, 255, 0.19);
   border-left-width: 0px;
   border-left-style: none;
@@ -340,7 +340,7 @@ img.scmImage {
   border-style: none;
   border-color: #000000;
   text-align: left;
-  text-wrap: left;
+  /* text-wrap: left; */
   float: left;
   margin: 0px 10px 0px 0px;
   padding-top: 10px;
@@ -442,7 +442,7 @@ ul>li:before {
   width: var(--prefix-size);
   overflow: hidden;
   line-height: 1;
-  vertical-align: ;
+  /* vertical-align: ; */
 }
 ol.Decimal>li {
   --prefix-size: 40px;

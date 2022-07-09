@@ -9,7 +9,8 @@
   <link rel="stylesheet" type="text/css" href="../css/default.css" />
 </head>
 <body>
-  <table border="1" cellpadding="1" cellspacing="1" style="border-collapse: collapse;width: 80%;border-width: 0px;border-style: none;border-color: rgb(0, 0, 0);font-family: &#39;Segoe UI&#39;;margin-right: 10px">
+  <table border="1" cellpadding="1" cellspacing="1" 
+  style='border-collapse: collapse;width: 80%;border-width: 0px;border-style: none;border-color: rgb(0, 0, 0);font-family: "Segoe UI";margin-right: 10px'>
     <colgroup>
       <col style="" />
     </colgroup>
@@ -19,6 +20,6 @@
       </tr>
     </tbody>
   </table>
-  <p> </p>
+  <p></p>
 </body>
 </html>

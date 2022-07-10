@@ -11,28 +11,18 @@
       type="text/css"
       href="../../../assets/css/default.css"
     />
+    <link rel="stylesheet" type="text/css" href="../../../assets/css/SCM.css" />
     <meta name="template" content="../../../assets/masterpages/SCM.htt" />
     <meta
       name="rh-index-keywords"
-      content="table,entrant,outline,laneAssignment,create,new,clear,lanes,racetime,TimeToBet,personalbest,PB,disqualified,scratched"
+      content="table,entrant,outline,laneAssignment,create,new,clear,lanes,racetime,TimeToBeat,personalbest,PB,disqualified,scratched"
     />
   </head>
   <body>
-    <h2
-      class="SCM_h2"
-      style="
-        border-width: 1px;
-        border-style: solid;
-        border-color: #000000;
-        border-left: 0;
-        border-right: 0;
-      "
-    >
-      Lane Grid
-    </h2>
+    <h2 class="SCM_h2">Lane Grid</h2>
     <p><img src="../../../assets/images/Entrants/Ent_Grid_Ledger.png" /></p>
     <p>
-      This section details the Entrant&#39;s table. It discusses the different
+      This section details the Entrant's table. It discusses the different
       functions of the ellipse button. How to manually assign a nominee to a
       lane. How to nominate and assign an active member to a lane. How to enter
       race times, disqualifications and scratch a swimmer. 
@@ -105,7 +95,7 @@
               padding-bottom: 20px;
             "
           >
-            Entrant&#39;s Name
+            Entrant's Name
           </td>
           <td style="vertical-align: top; padding-bottom: 20px">
             Here you have access to the ellipse button which allows you to enter
@@ -167,7 +157,7 @@
             PB
           </td>
           <td style="vertical-align: top; padding-bottom: 20px">
-            A read-only field. The entrant&#39;s Personal Best for this event.
+            A read-only field. The entrant's Personal Best for this event.
           </td>
         </tr>
         <tr>
@@ -210,176 +200,286 @@
         </tr>
       </tbody>
     </table>
-    <p> </p>
-    <h3 class="SCM_h3">
-      <a id="Navigate_Entrant_Table"></a>Navigating the entrants table
-    </h3>
+
+    <!-- NAVIGATION -->
+    <h3 class="SCM_h3"><a id="LG_Navigate"></a>Navigating the lane grid</h3>
+    <p>Selection in the lane grid is cell based.</p>
     <p>
-      Selection is CELL based. Only three cells are editable. They are race
-      time, scratched and disqualified.
-    </p>
-    <p><span style="text-decoration: underline">Moving about.</span></p>
-    <p style="margin-left: 40px">
-      Arrow keys, <span class="SCM_Keyboard">UP</span>,
+      Arrow keys will navigate across all cells. Use
+      <span class="SCM_Keyboard">UP</span>,
       <span class="SCM_Keyboard">DOWN</span>,
       <span class="SCM_Keyboard">LEFT</span> and 
-      <span class="SCM_Keyboard">RIGHT </span>will move across all cells.
+      <span class="SCM_Keyboard">RIGHT </span>. Left ad right arrow keys don't
+      navigate off the current row.
     </p>
-    <p style="margin-left: 40px">
+    <!-- CSS only -->
+    <div class="SCM_Hint">
+      <p>
+        <svg
+          class="bi bi-info-circle"
+          fill="currentColor"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
+          ></path>
+
+          <path
+            d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"
+          ></path>
+        </svg>
+        Info: These arrow keys are a little querky! You'll notice the left arrow
+        can gets stuck inside time editboxes. They also effect how checkboxes
+        are drawn. A developer's nightmare. Future releases will improve arrow
+        key performance. 👍
+      </p>
+    </div>
+    <p>
       <span class="SCM_Keyboard">TAB </span>and
       <span class="SCM_Keyboard">SHIFT-TAB</span> key will only move to the
-      CELLs that are editable.
+      cells that are editable. They are race time, scratched and disqualified.
+    </p>
+
+    <!-- POPUP MENU -->
+    <h3 class="SCM_h3">Lane grid ... pop-up menu.</h3>
+    <div>
+      <table class="SCM_tblImgText">
+        <colgroup>
+          <col />
+        </colgroup>
+        <tbody>
+          <tr class="SCM_trImgText">
+            <td>
+              <p>
+                <img
+                  src="../../../assets/images/PopupMenu/PU_Lanes.jpg"
+                  style="
+                    float: left;
+                    margin-left: 10px;
+                    margin-right: 10px;
+                    cursor: nwse-resize;
+                  "
+                />
+                Hover over the grid then
+                <span class="SCM_Keyboard">RMouse</span> click to access the
+                context sensitive pop-up menu.
+              </p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- RACETIME -->
+
+    <div>
+      <h3 class="SCM_h3"><a id="LG_RaceTime"></a>RaceTime.</h3>
+      <p>
+        It's in this cell that you enter a swimmer's time for racing the event.
+      </p>
+  
+      <p>
+        Selecting the cell will auto-matically place it in edit mode with all
+        its contents selected. Just start typing. If you want to use the edit
+        cursor, then press <span class="SCM_Keyboard">ENTER </span>or
+        <span class="SCM_Keyboard">F2 </span>or
+        <span class="SCM_Keyboard">LMOUSE</span> click the cell a second time
+        and the cursor will appear.
+      </p>
+      <p>
+        The <span class="SCM_MenuItem">RaceTime</span> cell is special in that
+        it uses a template or editmask. When useing the arrow keys to navigate
+        you'll notice that the decimal period and colon characters are skipped
+        over. Only numerical keys are accepted. Only minutes, secounds and
+        milliseconds can be entered. Hours are not considered.
+      </p>
+      <p>
+        Hold down <span class="SCM_Keyboard">SHIFT</span> while using the arrow
+        keys, will select a portion of the time.
+      </p>
+      <p>
+        <span class="SCM_Keyboard">DOUBLE LMOUSE</span> click to select all.
+      </p>
+      <p>
+        To zero the time (00:00.000),  select all and then press <span class="SCM_Keyboard">BACKSPACE</span> .
+      </p>
+
+      <p>
+        Press <span class="SCM_Keyboard">ESC</span> to clear what's been entered
+        and restore the previous known value. This doesn't exit you from edit
+        mode.
+      </p>
+      <p>
+        To exit edit mode, press
+        <span class="SCM_Keyboard">ENTER, TAB, SHIFT-TAB</span>. Or
+        <span class="SCM_Keyboard">click </span>outside the CELL.
+      </p>
+    </div>
+    <!-- CSS only -->
+    <div class="SCM_Hint">
+      <p>
+        <svg
+          class="bi bi-info-circle"
+          fill="currentColor"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
+          ></path>
+
+          <path
+            d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"
+          ></path>
+        </svg>
+
+          Info: The quickest method to enter a stack of entrant's
+          race-times is to start at the top. Check that the cell's contents is all
+          selected...
+        </p>
+        <p>
+          Enter the value, including leading zeros. Remember, only
+          numericals (eg. If you want to enter 31 seconds and 41/100ths, do this, type
+          003141).
+        </p> 
+      <p>Then arrow down. Rinse and repeat.</p>
+
+    </div>
+    <p>
+      Entering an invalid time, for example 01:62.20, will be ignored. You can't
+      have 62 seconds! The race time will revert when you exit edit-mode -
+      ignoring your erronous entry. Note: you aren't prompted with an error
+      message. Double check your race times.
+    </p>    
+    
+    <p>The <span class="SCM_Term">SCM_TimeKeeper</span> application can set a swimmer's race time remotely.</p>
+
+    <p>Most human timekeepers aren't the best at recording 1000ths. The reason
+      SwimClubMeet accepts this precision is to prepare itself for electronic
+      touch-pads. A future addition.</p>
+
+     
+
+    <!-- EDIT SCRATCH AND DISQUALIFY -->
+    <h3 class="SCM_h3">Scratched, Disqualified</h3>
+    <p>
+      To toggle the press the  <span class="SCM_Keyboard">SPACE</span> key or mouse
+      <span class="SCM_Keyboard">LMOUSE</span> click will toggle the checkbox.
     </p>
     <p>
-      <span style="text-decoration: underline"
-        >race time - enter edit mode.</span
-      >
+      The <span class="SCM_Term">SCM_Marshal</span> application can also
+      remotely modify scratched and disqualify.
     </p>
-    <p style="margin-left: 40px">
-      Press <span class="SCM_Keyboard">ENTER </span>or
-      <span class="SCM_Keyboard">F2 </span>or
-      <span class="SCM_Keyboard">CLICK </span>the selected CELL.
-    </p>
+
+    <!-- Manual lane assignment -->
+    <h3 class="SCM_h3">Entrant's Name - Manual Assignment</h3>
+    <p>To section describes how to manually place a nominee in an empty lane or bump a nominee...</p>
+    <!-- CSS only -->
+    <div class="SCM_Hint">
+      <p>
+        <svg
+          class="bi bi-info-circle"
+          fill="currentColor"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
+          ></path>
+
+          <path
+            d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"
+          ></path>
+        </svg>
+        Info: To navigate and edit the Entrant's Name cell, use the mouse.
+      </p>
+    </div>
+
     <p>
-      <span style="text-decoration: underline">race time - edit mode.</span>
+      Notice, you can't edit the swimmers name. The only active part is the
+      <span class="SCM_Keyboard">ellipse</span> button, which is located at the
+      far end of the cell.
     </p>
-    <p style="margin-left: 40px">
-      A template is used in this CELL. Arrow keys allow you to select a time
-      portion, skipping delimeters.
-      <span class="SCM_Keyboard">DOUBLE CLICK</span> to select all. Only
-      numerical keys are accepted. Select all and then
-      <span class="SCM_Keyboard">BACKSPACE </span>to zero.
-    </p>
-    <p style="margin-left: 0px">
-      <span style="text-decoration: underline"></span>
-    </p>
-    <p>
-      <span style="text-decoration: underline"
-        >race time - exit edit mode.</span
-      >
-    </p>
-    <p style="margin-left: 40px">
-      Press <span class="SCM_Keyboard">ENTER, TAB, SHIFT-TAB</span>. Or
-      <span class="SCM_Keyboard">click </span>outside the CELL.
-    </p>
-    <p style="margin-left: 0px">
-      <span style="text-decoration: underline">SCRATCHED, DISQUALIFIED</span>
-    </p>
-    <p style="margin-left: 40px">
-      Pressing the  <span class="SCM_Keyboard">SPACE </span>key or mouse
-      <span class="SCM_Keyboard">CLICK </span>will toggle the checkbox.
-    </p>
-    <h3 class="SCM_h3">Entrant Name Column</h3>
-    <h4><a id="Manual_Lane_Assignment"></a>Manual Lane Assignment.</h4>
-    <p>To manually place a nominee in an empty lane or bump a nominee...</p>
-    <p>
-      Select the Entrant&#39;s Name CELL of the lane you want to re-assign. A
-      selection box appears around the CELL.
-    </p>
-    <p><img src="../../../assets/images/LaneAssignmentA.png" /></p>
-    <p>
-      Click the cell once more. Doing so has set the CELL to edit mode. Another
-      way to enter edit mode is to use the keyboard short-cut
-      <span class="SCM_Keyboard">f2</span>. Yet another way is to use the
-      <span class="SCM_Keyboard">enter </span>key.
-    </p>
-    <p><img src="../../../assets/images/LaneAssignmentB.png" /></p>
-    <p>
-      Notice, you can&#39;t edit the swimmers name. The only active part is the
-      <span class="SCM_Keyboard">ellipse </span>button, which is located at the
-      far end of the CELL.
-    </p>
-    <h4 style="border-width: 1px; border-style: none; border-color: #000000">
-      <a id="Ellipse_Method1"></a>Ellipse button. Method 1.
-    </h4>
-    <p style="border-width: 1px; border-style: none; border-color: #000000">
-      <span class="SCM_Keyboard">
-        <img
-          align="left"
-          src="../../../assets/images/ic_action_more_horiz.png"
-          style="
-            border-width: 1px;
-            border-style: solid;
-            border-color: rgb(0, 0, 0);
-            padding: 0px 0px 0px 0px;
-            margin: 0px 10px 0px 0px;
-          "
-        />Left mouse click</span
-      >
-      the <span class="SCM_Keyboard">ellipse</span> button to open the
-      <span class="SCM_MenuItem">Quick Pick Nominee</span> dialogue.
-    </p>
-    <p style="border-width: 1px; border-style: none; border-color: #000000">
-      <span style="border-color: #000000; border-style: none; border-width: 1px"
-        >For this event ...</span
-      >
-    </p>
-    <p
-      style="
-        margin: undefinedpx 10px undefinedpx undefinedpx;
-        border-width: 1px;
-        border-style: none;
-        border-color: #000000;
-      "
-    >
-      <img
-        align="left"
-        src="../../../assets/images/QuickPickNomineeSection.JPG"
-        style="margin: 0px 10px 0px 0px"
+
+    <h3 class="SCM_h3">
+      <a id="LG_Ellipse_01"></a>Ellipse button. Method 1.
+    </h3>
+
+    <div>
+      <p>
+        <span class="SCM_Keyboard">LMOUSE</span> the ellipse button to open the
+        <span class="SCM_MenuItem">Quick Pick Nominee</span> dialogue.
+      </p>
+    </div>
+
+    <div>
+      <p>
+      <img class="SCM_Image"
+        src="../../../assets/images/Entrants\Ent_QuickPick_NomineeDlg.JPG"
       />
+      </p>
+    </div>
+
+    <div>
+    <p>
+      The swimmers shown in this dialogue are all nominees that haven't been given a lane in the current selected event.
     </p>
-    <p style="margin: undefinedpx 10px undefinedpx undefinedpx">
-      The swimmers shown in the list are all
-      <span style="font-weight: bold">nominees</span> that
-      <span style="font-weight: bold">haven&#39;t</span> been given a lane. 
+    <p>
+      If it's empty, then ever swimmer that nominated has been given a lane.
     </p>
-    <p style="margin: undefinedpx 10px undefinedpx undefinedpx">
-      If the list is empty, then ever swimmer that nominated has a lane.
-    </p>
-    <p style="margin: undefinedpx 10px undefinedpx undefinedpx">
+    <p>
       Clicking a column heading will sort by that column. Click again will
       invert the sort order.
     </p>
-    <p style="margin: undefinedpx 10px undefinedpx undefinedpx">
+    <p>
       If the list is very long, then use the search editbox to narrow it down.
       It used wildcards, so you only need to enter a part or snippet of a
-      nominee&#39;s name. It reacts in real time to your key strokes. To see the
+      nominee's name. It reacts in real time to your key strokes. To see the
       full list again, clear the search editbox.
     </p>
-    <p style="margin: undefinedpx 10px undefinedpx undefinedpx">
+    <p>
       The
       <a class="glossterm" data-glossterm="Default_TimeToBeat" href="#"
         >TimeToBeat</a
       >, age and gender give you useful information on whom to pick, when
       manually constructing a heat.
     </p>
-    <p style="margin: undefinedpx 10px undefinedpx undefinedpx">
-      <span class="SCM_Keyboard">Double click</span> on the chosen record to
+    <p>
+      <span class="SCM_Keyboard">DOUBLE LMOUSE</span> click on the chosen record to
       place the nominee into the lane. Else click the
-      <span class="SCM_Keyboard">post</span> button. As expected, the
-      <span class="SCM_Keyboard">cancel</span> button closes the dialogue
+      <span class="SCM_Keyboard">Post</span> button. As expected, the
+      <span class="SCM_Keyboard">Cancel</span> button closes the dialogue
       without any changes being made.
     </p>
-    <p style="margin: undefinedpx 10px undefinedpx undefinedpx">
-      If you are re-assigning swimmers. Then the swimmer who has been
-      &#39;bumped&#39; out of their lane is returned to the nominees list,
-      awaiting a lane assignment.
+    <p>
+      If you are re-assigning swimmers. Then the swimmer who has been 'bumped'
+      out of their lane and is returned to the nominees stack, awaiting a lane
+      assignment.
     </p>
-    <p style="margin: undefinedpx 10px undefinedpx undefinedpx">
+    <p>
       The process works on blank lanes - you can fill a blank lane with a
-      nominee. But to empty a lane of it&#39;s entrant, use the
-      <span class="SCM_Keyboard">empty lane</span> button.
+      nominee. But to empty a lane of it's entrant, use the
+      <span class="SCM_Keyboard">Empty Lane</span> button.
     </p>
-    <p style="margin: undefinedpx 10px undefinedpx undefinedpx">
-      Once the assignment is done and the dialogue closes, to exit &#39;edit
-      mode&#39;, either <span class="SCM_Keyboard">tab </span>or
-      <span class="SCM_Keyboard">click </span>outside the CELL. Exiting
+    <p>
+      Once the assignment is done and the dialogue closes, to exit 'edit mode',
+      either <span class="SCM_Keyboard">TAB</span> or
+      <span class="SCM_Keyboard">LMOUSE</span> click outside the cell. Exiting
       edit-mode finalizes the change.
     </p>
-    <h4 style="border-width: 1px; border-style: none; border-color: #000000">
-      <a id="Ellipse_Method2"></a>Ellipse button. Method 2.
-    </h4>
-    <p style="margin: undefinedpx 10px undefinedpx undefinedpx">
+  </div>
+
+    <h3 class="SCM_h3">
+      <a id="LG_Ellipse_Method2"></a>Ellipse button. Method 2.
+    </h3>
+    <p>
       <span class="SCM_Keyboard"></span>
       <span
         style="border-color: #000000; border-style: none; border-width: 1px"
@@ -401,8 +501,8 @@
         style="border-width: 1px; border-style: none; border-color: #000000"
         >Cntrl-left mouse click</span
       >
-      the cell&#39;s <span class="SCM_Keyboard">Ellipse</span> button to open
-      the <span class="SCM_MenuItem">Quick Pick Member</span> dialogue.
+      the cell's <span class="SCM_Keyboard">Ellipse</span> button to open the
+      <span class="SCM_MenuItem">Quick Pick Member</span> dialogue.
     </p>
     <p
       style="
@@ -434,9 +534,11 @@
     <p style="margin: undefinedpx 10px undefinedpx undefinedpx">
       The magic done here is this... if you assign a member to a lane then you
       have also  <span style="font-weight: bold">nominated </span>that member
-      for the event. &#39;Two birds with one stone&#39;. You created both a
-      nominee and an entrant.
+      for the event. 'Two birds with one stone'. You created both a nominee and
+      an entrant.
     </p>
+
+
     <h4><a id="Moving_Entrants"></a>Moving Entrants </h4>
     <p>
       <img
@@ -469,11 +571,12 @@
       Us the <span class="SCM_Keyboard"> Switch Lanes</span> button as an
       alternative method to swap an entrant between lanes and events. 
     </p>
+
     <h3 class="SCM_h3">More entrant table columns.</h3>
     <h4><a id="Lane_Number_Column"></a>Lane#</h4>
     <p>
-      A read-only CELL. The pool&#39;s lane number. The number of lanes that
-      appears in the table is determined by 
+      A read-only CELL. The pool's lane number. The number of lanes that appears
+      in the table is determined by 
     </p>
     <p>
       <span class="SCM_MenuItem">Tools </span>...
@@ -481,90 +584,13 @@
       <span class="SCM_MenuItem">Club </span>...
       <span class="SCM_MenuItem">Number of lanes</span>  
     </p>
-    <h4>race time</h4>
-    <p>
-      It&#39;s in this CELL that you enter a swimmer&#39;s time for racing the
-      event.
-    </p>
-    <p>
-      Select the CELL by  <span class="SCM_Keyboard">Tab </span>or 
-      <span class="SCM_Keyboard">mouse click</span>, a selection box appears
-      arround the CELL.
-    </p>
-    <p><img src="../../../assets/images/RaceTime_SnipitA.JPG" /></p>
-    <p>
-      Press <span class="SCM_Keyboard">enter </span>or
-      <span class="SCM_Keyboard">Click </span>the cell once more. Doing so has
-      set the CELL to edit mode. Yet another way to enter edit mode is to use
-      the keyboard short-cut <span class="SCM_Keyboard">f2</span>.
-    </p>
-    <p>
-      <img
-        align="left"
-        src="../../../assets/images/RaceTime_SnipitB.JPG"
-        style="margin: 0px; padding: 0px 10px 0px 0px"
-      />This CELL uses a template to assist you in entering time. The  &#39;
-      <span style="font-weight: bold; font-size: 150%">:</span>&#39;, &#39;
-      <span style="font-weight: bold; font-size: 150%">.</span>&#39; characters
-      cannot be type over. Use the  <span class="SCM_Keyboard">left </span>and
-      <span class="SCM_Keyboard">right arrow</span> keys to navigate.
-      <span class="SCM_Keyboard">Double click</span> to select all.
-    </p>
-    <p>
-      The quickest method to entering race times is to select all, then start
-      typing. If you want to enter 31 seconds and 41/100ths, do this, type
-      003141. There is no need to type the &#39;
-      <span style="font-weight: bold; font-size: 150%">:</span>&#39;, &#39;
-      <span style="font-weight: bold; font-size: 150%">.</span>&#39; characters.
-    </p>
-    <p>
-      Entering an invalid time, for example 01:62.20, will be ignored. You
-      can&#39;t have 62 seconds! The race time will revert when you exit
-      edit-mode - ignoring your erronous entry. Note: you aren&#39;t prompted
-      with an error message. Double check your race times.
-    </p>
-    <p>
-      To finalize your changes, exit edit-mode by pressing 
-      <span class="SCM_Keyboard">tab </span>or
-      <span class="SCM_Keyboard">enter</span> or
-      <span class="SCM_Keyboard">arrow up</span> or
-      <span class="SCM_Keyboard">arrow down</span> or
-      <span class="SCM_Keyboard">click </span>outside the CELL.
-    </p>
-    <p>
-      To clear a race time, select all and press the
-      <span class="SCM_Keyboard">backspace </span>key. The race time will be set
-      to zero. When you exit edit-mode the CELL will be painted blank.
-    </p>
-    <p>
-      The TimeKeepers application can set a swimmer&#39;s race time remotely.
-    </p>
-    <p>
-      <span
-        class="SCM_Quotes"
-        style="border-width: 1px; border-style: none; border-color: #000000"
-        >Most human timekeepers aren&#39;t the best at recording 1000ths. The
-        reason SwimClubMeet accepts this precision is to prepare itself for
-        electronic touch-pads. A future addition.</span
-      >
-    </p>
-    <p>
-      <span
-        class="SCM_Quotes"
-        style="border-width: 1px; border-style: none; border-color: #000000"
-        >TODO: race time additional keyboard short-cuts : CTRL-A select all.
-        CTRL-C copy to clipboard. CTRL-P paste from clipboard. CTRL-X cut
-        (clear) race time. Warning message or visual indicator for illegal race
-        times.</span
-      >
-    </p>
+
+
+
     <h4><a id="TimeToBeat_Entrant_Column"></a>TimeToBeat</h4>
     <p>
       This is a read only calculated field. 
-      <a
-        class="glossterm"
-        data-glossterm="Default_SCM_"
-        href="Entrant_Table.htm"
+      <a class="glossterm" data-glossterm="Default_SCM_" href="Lane_Grid.htm"
         >SCM
       </a>
       has determined that the entrant will most likely swim the event in this
@@ -579,7 +605,7 @@
     <h4><a id="PersonalBest_Entrant_Column"></a>PersonalBest </h4>
     <p>
       This is a read only calculated field. The Personal Best (
-      <a class="glossterm" data-glossterm="Default_PB" href="Entrant_Table.htm"
+      <a class="glossterm" data-glossterm="Default_PB" href="Lane_Grid.htm"
         >PB</a
       >) is an entrants best race time achieved for the event - up to but
       excluding the current session.
@@ -587,12 +613,12 @@
     <h4><a id="Disqualified_Entrant_Column"></a>D</h4>
     <p>
       If checked this indicates the entrant has been disqualified by the race
-      marshall. The Marshall&#39;s application can set this remotely.
+      marshall. The Marshall's application can set this remotely.
     </p>
     <h4><a id="Scratched_Entrant_Column"></a>S</h4>
     <p>
       If checked this indicates the entrant was scratched from the event. (A
-      no-show.) The Marshall&#39;s application can set this remotely.
+      no-show.) The Marshall's application can set this remotely.
     </p>
     <h4><a id="Entrant_PopUp_Menu"></a>Entrant Popup Menu</h4>
     <p><img src="../../../assets/images/EntrantPopupMenu.JPG" /></p>
@@ -609,8 +635,8 @@
       <li>Strike entrant removes the swimmer from the event and nomination.</li>
       <li>Sort (Depreciated - flagged for removal in the next update.)</li>
       <li>
-        Selecting member&#39;s details will result in the members dialogue being
-        opened and the selected entrant&#39;s details being displayed
+        Selecting member's details will result in the members dialogue being
+        opened and the selected entrant's details being displayed
       </li>
     </ul>
     <h4> </h4>

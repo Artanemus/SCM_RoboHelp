@@ -12,23 +12,23 @@
 <body>
   <p>This special tool creates the SwimClubMeet database on SQLEXPRESS.</p>
   <p>It ensures that you have SQLEXPRESS by asking you to login into the SQL server.</p>
-  <p>If successfull it&#39;ll display the button &#39;Build Me A Club&#39;.</p>
+  <p>If successfull it'll display the button 'Build Me A Club'.</p>
   <p>When you press this button it will first make some checks.</p>
-  <p>If you already have a SwimClubMeet database on you SQL server, it&#39;ll abort.</p>
+  <p>If you already have a SwimClubMeet database on you SQL server, it'll abort.</p>
   <p>The application has a large number of SQL scripts that it will run on the SQL server.</p>
   <p>SCM_BuildMeAClub uses the sqlcmd.exe commandline utility when processing these scripts. SQLcmd.exe is installed by default when use first install SQLEXPRESS.</p>
-  <p>The application will check that you have SQLcmd.exe installed. If it can&#39;t find the utiltiy it will abort.</p>
-  <p>As it runs it will display it&#39;s progress and display information in the application&#39;s text window.</p>
+  <p>The application will check that you have SQLcmd.exe installed. If it can't find the utiltiy it will abort.</p>
+  <p>As it runs it will display it's progress and display information in the application's text window.</p>
   <p>As it runs, it will create the SwimClubMeet database, create all of the tables, procedures and scalar functions. </p>
-  <p>Then it will populate some of the tables with &#39;starter&#39; data.</p>
+  <p>Then it will populate some of the tables with 'starter' data.</p>
   <p>It will create a user, scmAdmin. A set of roles : SCM_Administrator, SCM_Marshall and SCM_User.</p>
   <p>It will assign permissions for each role on each table.</p>
-  <p>As the SQL server performs it&#39;s given tasks it will log it&#39;s progress to a file created in the user&#39;s document folder. That file is named SCM_BuildMeAClub.log..</p>
+  <p>As the SQL server performs it's given tasks it will log it's progress to a file created in the user's document folder. That file is named SCM_BuildMeAClub.log..</p>
   <p>If the SQL server encounters any errors, it will log the errors to this file.</p>
   <p>If the command line utility SQLcmd.exe encounters an error, it will log the error to the SCM_BuildMeAClub text windows.</p>
   <p>Typically the whole build process is over within a minute or two.</p>
   <p> </p>
-  <p><span class="SCM_Quotes">NOTE: the term &#39;SQLEXPRESS&#39; and &#39;SQL server&#39; are identical in meaning.</span></p>
+  <p><span class="SCM_Quotes">NOTE: the term 'SQLEXPRESS' and 'SQL server' are identical in meaning.</span></p>
   <p> </p>
 </body>
 </html>

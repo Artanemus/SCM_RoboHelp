@@ -11,6 +11,7 @@
       type="text/css"
       href="../../../assets/css/default.css"
     />
+    <link rel="stylesheet" type="text/css" href="../../../assets/css/SCM.css" />
     <meta name="template" content="../../../assets/masterpages/SCM.htt" />
     <meta
       name="rh-index-keywords"
@@ -30,113 +31,21 @@
     >
       Heat Grid
     </h2>
-    <p>Create, delete, set a heat&#39;s status and order heats.</p>
+    <p>Create, delete, set a heat's status and order heats.</p>
     <p><img src="../../../assets/images/Heats/Heats_Grid_Ledger.png" /></p>
-    <table
-      cellpadding="1"
-      cellspacing="1"
-      class="tblSimpleClean"
-      style="
-        border-width: 2px;
-        border-style: solid;
-        border-color: #000000;
-        border-left: 0;
-        border-right: 0;
-        caption-side: top;
-        background-color: #f5f5f5;
-        text-align: left;
-      "
-      width="100%"
-    >
-      <caption
-        style="
-          border-width: 1px;
-          text-align: left;
-          border-style: none;
-          border-color: #000000;
-        "
-      >
-        Summary description for each column ...
-      </caption>
-      <colgroup>
-        <col width="10%" />
-        <col width="50%" />
-      </colgroup>
-      <tbody>
-        <tr>
-          <td
-            style="
-              border-width: 1px;
-              border-style: none;
-              border-color: #000000;
-              line-height: 2;
-            "
-          >
-            Heat#
-          </td>
-          <td>A read-only field. The heat number.</td>
-        </tr>
-        <tr>
-          <td
-            style="
-              border-width: 1px;
-              border-style: none;
-              border-color: #000000;
-              line-height: 2;
-            "
-          >
-            Status
-          </td>
-          <td>
-            Displays either <span class="SCM_Quotes">Open</span>,
-            <span class="SCM_Quotes">Raced </span>or
-            <span class="SCM_Quotes">Closed</span>.
-          </td>
-        </tr>
-      </tbody>
-    </table>
-    <p> </p>
+
+    <!-- NAVIGATION OF THE GRID -->
     <h3 class="SCM_h3">
       <a id="Navigate_Heat_Table"></a>Navigating the heat grid
     </h3>
     <div>
-      <table
-        cellpadding="1"
-        cellspacing="1"
-        style="
-        border-collapse: collapse;
-        width: 80%;border-width: 0px;
-        border-style: none;
-        border-color: rgb(0, 0, 0);
-        font-family:  &#39;Segoe UI&#39;;;
-        margin-right: 10px
-        "
-        
-      >
+      <table class="SCM_tblImgText">
         <colgroup>
-          <!-- <col style="" /> -->
+          <col />
         </colgroup>
         <tbody>
-          <tr>
-            <td
-              style="
-                border-width: 0px;
-                border-style: none;
-                border-color: #000000;
-                border-left-width: 0px;
-                border-left-style: none;
-                border-left-color: #000000;
-                border-top-width: 0px;
-                border-top-style: none;
-                border-top-color: #000000;
-                border-right-width: 0px;
-                border-right-style: none;
-                border-right-color: #000000;
-                border-bottom-width: 0px;
-                border-bottom-style: none;
-                border-bottom-color: #000000;
-              "
-            >
+          <tr class="SCM_trImgText">
+            <td>
               <p>
                 <img
                   src="../../../assets/images/Heats/Heats_Grid.jpg"
@@ -145,7 +54,12 @@
                 highlighted, then the grid has focus.
               </p>
               <p>
-                Ensure the heat grid has focus, then use the arrow keys,
+                Heat# and status columns are read only. Heat# is auto assigned.
+                Status can be toggled using keyboard, button or pop-up menu.
+              </p>
+              <p>
+                To move about the grid, ensure the heat grid has focus, then use
+                the arrow keys,
                 <span class="SCM_Keyboard">UP, DOWN, LEFT</span> and
                 <span class="SCM_Keyboard">RIGHT </span> to move through each
                 ROW. Or alternatively. use the mouse to selected a ROW. Note the
@@ -162,55 +76,40 @@
         </tbody>
       </table>
     </div>
-    <p> </p>
+
+    <!-- POPUP MENU -->
     <h3 class="SCM_h3">Heat grid ... pop-up menu.</h3>
     <div>
-      <table
-        cellpadding="1"
-        cellspacing="1"
-        style="border-collapse: collapse;width: 80%;border-width: 0px;border-style: none;border-color: rgb(0, 0, 0);font-family: &#39;Segoe UI&#39;;;margin-right: 10px"
-      >
+      <table class="SCM_tblImgText">
         <colgroup>
-          <!-- <col style="" /> -->
+          <col />
         </colgroup>
         <tbody>
-          <tr>
-            <td
-              style="
-                border-width: 0px;
-                border-style: none;
-                border-color: #000000;
-                border-left-width: 0px;
-                border-left-style: none;
-                border-left-color: #000000;
-                border-top-width: 0px;
-                border-top-style: none;
-                border-top-color: #000000;
-                border-right-width: 0px;
-                border-right-style: none;
-                border-right-color: #000000;
-                border-bottom-width: 0px;
-                border-bottom-style: none;
-                border-bottom-color: #000000;
-              "
-            >
-              <img
-                src="../../../assets/images/PopupMenu/PU_Heats.jpg"
-                style="
-                  float: left;
-                  margin-left: 10px;
-                  margin-right: 10px;
-                  cursor: nwse-resize;
-                "
-              />Hover over the grid then right-mouse click to access the context
-              sensitive pop-up menu.
+          <tr class="SCM_trImgText">
+            <td>
+              <p>
+                <img
+                  src="../../../assets/images/PopupMenu/PU_Heats.jpg"
+                  style="
+                    float: left;
+                    margin-left: 10px;
+                    margin-right: 10px;
+                    cursor: nwse-resize;
+                  "
+                />
+                Hover over the grid then
+                <span class="SCM_Keyboard">RMouse</span> click to access the
+                context sensitive pop-up menu.
+              </p>
             </td>
           </tr>
         </tbody>
       </table>
-      <p> </p>
-      <p> </p>
-      <h3 class="SCM_h3">Other miscellaneous (important) stuff.</h3>
+    </div>
+
+    <!-- Miscellaneous note -->
+    <div>
+      <h3 class="SCM_h3">Miscellaneous notes.</h3>
       <p>
         If the session has been locked, heat grid, lane grid and buttons will be
         disabled (grayed). With the exception of the heats report button. With
@@ -227,6 +126,7 @@
       </p>
       <p> </p>
     </div>
+
     <h3 class="SCM_h3">
       <a id="Heat_Status"></a>Working with the heat status.
     </h3>
@@ -270,7 +170,7 @@
       <span class="SCM_Keyboard">Move Up</span>,
       <span class="SCM_Keyboard">Move Down</span> and
       <span class="SCM_Keyboard">Delete Heat</span> buttons and lane buttons
-      remain disabled. The entrant&#39;s table is dimmed. You can&#39;t make any
+      remain disabled. The entrant's table is dimmed. You can't make any
       changes in the lane grid. You can print reports and create new heats.
     </p>
     <p>
@@ -281,7 +181,7 @@
     </p>
     <p>
       When ALL of the heats for an event are
-      <span class="SCM_Quotes">closed</span> then the event (in the event&#39;s
+      <span class="SCM_Quotes">closed</span> then the event (in the event's
       grid) will display a check-mark.
     </p>
     <p>
@@ -299,7 +199,7 @@
     <p>
       If you are running in paperless mode, that is, your are using the support
       applications <span class="SCM_Term">SCM_Marshal</span> and
-      <span class="SCM_Term">SCM_TimeKeeper</span>, it&#39;s good to instigate
+      <span class="SCM_Term">SCM_TimeKeeper</span>, it's good to instigate
       some pool procedure.
     </p>
     <p>
@@ -398,12 +298,12 @@
     <p>
       Heats that are <span class="SCM_Quotes">closed </span>or
       <span class="SCM_Quotes">raced </span>cannot be deleted. If the session is
-      locked, then you can&#39;t delete heats.
+      locked, then you can't delete heats.
     </p>
     <p>
-      Note: When a heat is deleted, the member&#39;s nomination data still
-      remain. Entrant&#39;s that belonged to the deleted heat are sent back to
-      the nominations cache where they await a lane. You don&#39;t lose
+      Note: When a heat is deleted, the member's nomination data still
+      remain. Entrant's that belonged to the deleted heat are sent back to
+      the nominations cache where they await a lane. You don't lose
       nominations when you delete a heat.
     </p>
     <p> </p>
@@ -437,12 +337,12 @@
       <span class="SCM_Quotes">raced</span> are excluded from the auto-build.
     </p>
     <p>
-      The fastest heat will be run last. If you seperate by gender, women&#39;s
+      The fastest heat will be run last. If you seperate by gender, women's
       events will race first.
     </p>
     <p>
       To learn more about <span class="SCM_Keyboard">Auto-build heats</span> and
-      it&#39;s features follow this link.
+      it's features follow this link.
     </p>
   </body>
 </html>

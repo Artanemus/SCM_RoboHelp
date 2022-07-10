@@ -6,25 +6,14 @@
   2. Club name and nickname.
   The name of the swimming organization/association and it's nickname. Future versions of SCM will include the club's logo. 
   
+    3. Optional - SQLEXPRESS record identification information.
+    For those who wish to track a record through the Microsoft's SQLEXPRESS SwimClubMeet database then these record ID's can be displayed. This is enabled in ...
+      
+      Tools → Options → Other ...  Then check   🗹 Show debug information.
+      
+      If you are a power-user and understand the T-SQL language and want to 'drill-into' the SwimClubMeet database, then this may assist you in writing and debugging your queries.
     
-      
-        
-      
-      
-        
-          
-            3. Optional - SQLEXPRESS record identification information.
-            For those who wish to track a record through the Microsoft's SQLEXPRESS SwimClubMeet database then these record ID's can be displayed. This is enabled in ...
-              
-              Tools → Options → Other ...  Then check   🗹 Show debug information.
-              
-              If you are a power-user and understand the T-SQL language and want to 'drill-into' the SwimClubMeet database, then this may assist you in writing and debugging your queries.
-            
-            Here's a link to more detail - if you are the curious type ... Show Debug Information
-          
-        
-      
-    
+    Here's a link to more detail - if you are the curious type ... Show Debug Information
   
   
     
@@ -61,32 +50,15 @@
     
   
   
+  
     
+         
+        Tip:
+    If you are running in paperless mode, that is, your are using the support applications SCM_Marshal and SCM_TimeKeeper , it's good to instigate some pool procedure. 
+    A heat is considered raced when the Referee blows his whistle. The Chief Marshal or Referee can set the heat status using the SCM_Marshal application.. 
+    A heat is considered closed when all the race time data >has been entered into the database. 
+    Race-times can be entered by the Chief Timekeeper at the poolside by using the SCM_TimeKeeper application. Only the core application can close heats. 
+    After the Referee flags the heat is over the Chief Recorder does an Q&A and then closes the heat. 
      
-      
-              
-             Tip: To keep all connections to the database in sync, It's good practice to formulate or agree upon a 'race running procedure'. 
-              
-            For example: Assuming we are using SCM_Marshal and SCM_TimeKeeper apps. Someone has been tasked to collect all the race times and enter them using the SCM_timeKeeper app.
-              
-              After the timekeeper signals to the marshal that all race times are in, then the marshal may set the heat status as raced. The marshal flags the SCM administrator who refreshes the core application. Does a 'Q&A' to check all the race times are indeed accounted for. Then closes the heat.
-       
-    
   
-   
-  
-    
-      
-        
-      
-      
-        
-          
-             
-          
-        
-      
-    
-  
-   
 

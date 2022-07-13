@@ -18,14 +18,15 @@
       content="table,entrant,outline,laneAssignment,create,new,clear,lanes,racetime,TimeToBeat,personalbest,PB,disqualified,scratched"
     />
   </head>
+
   <body>
     <h2 class="SCM_h2">Lane Grid</h2>
     <p><img src="../../../assets/images/Entrants/Ent_Grid_Ledger.png" /></p>
     <p>
-      This section details the Entrant's table. It discusses the different
-      functions of the ellipse button. How to manually assign a nominee to a
-      lane. How to nominate and assign an active member to a lane. How to enter
-      race times, disqualifications and scratch a swimmer. 
+      This section details the lane grid. It discusses the different functions
+      of the ellipse button. How to manually assign a nominee to a lane. How to
+      nominate and assign an active member to a lane. How to enter race times,
+      disqualifications and scratch a swimmer.
     </p>
     <table
       cellpadding="1"
@@ -205,12 +206,26 @@
     <h3 class="SCM_h3"><a id="LG_Navigate"></a>Navigating the lane grid</h3>
     <p>Selection in the lane grid is cell based.</p>
     <p>
+      <span class="SCM_Keyboard">TAB </span>and
+      <span class="SCM_Keyboard">SHIFT+TAB</span> are the most efficient way of
+      moving around the grid. <span class="SCM_Keyboard">TAB </span>and
+      <span class="SCM_Keyboard">SHIFT+TAB</span> key will only move to the
+      cells that are editable. Those cells are
+      <span class="SCM_Term">RaceTime</span>,
+      <span class="SCM_Term">scratched</span> and
+      <span class="SCM_Term">disqualified</span>. Pressing
+      <span class="SCM_Keyboard">TAB </span> at the end of a line will move you
+      down to the next lane. Pressing
+      <span class="SCM_Keyboard">SHIFT+TAB </span> at the beginning of a line
+      will move you up a lane.
+    </p>
+    <p>
       Arrow keys will navigate across all cells. Use
       <span class="SCM_Keyboard">UP</span>,
       <span class="SCM_Keyboard">DOWN</span>,
-      <span class="SCM_Keyboard">LEFT</span> and 
-      <span class="SCM_Keyboard">RIGHT </span>. Left ad right arrow keys don't
-      navigate off the current row.
+      <span class="SCM_Keyboard">LEFT</span> and
+      <span class="SCM_Keyboard">RIGHT </span>. Left and right arrow keys don't
+      navigate off the current lane.
     </p>
     <!-- CSS only -->
     <div class="SCM_Hint">
@@ -226,7 +241,6 @@
           <path
             d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
           ></path>
-
           <path
             d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"
           ></path>
@@ -237,148 +251,129 @@
         key performance. 👍
       </p>
     </div>
-    <p>
-      <span class="SCM_Keyboard">TAB </span>and
-      <span class="SCM_Keyboard">SHIFT-TAB</span> key will only move to the
-      cells that are editable. They are race time, scratched and disqualified.
-    </p>
 
     <!-- POPUP MENU -->
     <h3 class="SCM_h3">Lane grid ... pop-up menu.</h3>
-    <div>
-      <table class="SCM_tblImgText">
-        <colgroup>
-          <col />
-        </colgroup>
-        <tbody>
-          <tr class="SCM_trImgText">
-            <td>
-              <p>
-                <img
-                  src="../../../assets/images/PopupMenu/PU_Lanes.jpg"
-                  style="
-                    float: left;
-                    margin-left: 10px;
-                    margin-right: 10px;
-                    cursor: nwse-resize;
-                  "
-                />
-                Hover over the grid then
-                <span class="SCM_Keyboard">RMouse</span> click to access the
-                context sensitive pop-up menu.
-              </p>
-            </td>
-          </tr>
-        </tbody>
-      </table>
+    <table class="SCM_tblImgText">
+      <colgroup>
+        <col />
+      </colgroup>
+      <tbody>
+        <tr class="SCM_trImgText">
+          <td>
+            <p>
+              <img
+                src="../../../assets/images/PopupMenu/PU_Lanes.jpg"
+                style="
+                  float: left;
+                  margin-left: 10px;
+                  margin-right: 10px;
+                  cursor: nwse-resize;
+                "
+              />
+              Hover over the grid then
+              <span class="SCM_Keyboard">RMouse</span> click to access the
+              context sensitive pop-up menu.
+            </p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- MOVING ENTRANTS - CHANGING THE LANE ORDER -->
+    <h3 class="SCM_h3">Moving Entrants in Lanes</h3>
+
+    <div style="margin-left: 20px">
+      <p>
+        👉 To move the entrant, first select the lane, then use the short cut
+        keys <span class="SCM_Keyboard">CTRL+UP</span> and
+        <span class="SCM_Keyboard">CTRL+DOWN</span>.
+      </p>
+      <p>
+        👉 Or <span class="SCM_Keyboard">RMouse</span> click and use the pop-up
+        menu, then select <span class="SCM_MenuItem">Move Up</span> or
+        <span class="SCM_MenuItem">Move Down</span> from the menu.
+      </p>
+      <p>
+        👉 Or click either of the
+        <span class="SCM_Keyboard">Move Lane</span> buttons to change the stack
+        order.
+      </p>
+      <p>
+        👉 Or click the <span class="SCM_Keyboard">Swap Lane</span> button. This
+        function can also be found in the pop-up menu. More about the function
+        below.
+      </p>
     </div>
+
+    <p>
+      Moving entrants may be disabled, it depends on the status of the heat or
+      session.
+    </p>
+    <p>
+      It's possible to move an entrant into the previous or next heat just by
+      using the short-cut keys or buttons.
+    </p>
+    <p>Note: You can hover over any of the buttons for a helpful hint.</p>
 
     <!-- RACETIME -->
+    <h3 class="SCM_h3"><a id="LG_RaceTime"></a>Grid Column - RaceTime.</h3>
+    <p>
+      It's in this cell that you enter a swimmer's time for racing the event.
+    </p>
+    <p>
+      Selecting the cell will auto-matically place it in edit mode with all its
+      contents selected. Just start typing. If you want to use the edit cursor,
+      then press <span class="SCM_Keyboard">ENTER </span>or
+      <span class="SCM_Keyboard">F2 </span>or
+      <span class="SCM_Keyboard">LMOUSE</span> click the cell a second time and
+      the cursor will appear.
+    </p>
+    <p>
+      The <span class="SCM_MenuItem">RaceTime</span> cell is special in that it
+      uses a template or editmask. When the cursor is enabled and you are using
+      the arrow keys to navigate you'll notice that the decimal period and colon
+      characters are skipped over. Only numerical keys are accepted. Only
+      minutes, secounds and milliseconds can be entered. Hours are not
+      considered.
+    </p>
+    <p>
+      Hold down <span class="SCM_Keyboard">SHIFT</span> while using the arrow
+      keys, will select a portion of the time for editing.
+    </p>
+    <p><span class="SCM_Keyboard">DOUBLE LMOUSE</span> click to select all.</p>
+    <p>
+      To zero the time (00:00.000), select all and then press
+      <span class="SCM_Keyboard">BACKSPACE</span> .
+    </p>
+    <p>
+      Press <span class="SCM_Keyboard">ESC</span> to clear what's been entered
+      and restore the previous known value. This doesn't exit you from edit
+      mode.
+    </p>
+    <p>
+      To exit edit mode, press
+      <span class="SCM_Keyboard"
+        >ENTER, TAB, SHIFT-TAB, ARROW UP, ARROW DOWN</span
+      >. Or <span class="SCM_Keyboard">LMOUSE</span> click outside the cell.
+    </p>
 
-    <div>
-      <h3 class="SCM_h3"><a id="LG_RaceTime"></a>RaceTime.</h3>
-      <p>
-        It's in this cell that you enter a swimmer's time for racing the event.
-      </p>
-  
-      <p>
-        Selecting the cell will auto-matically place it in edit mode with all
-        its contents selected. Just start typing. If you want to use the edit
-        cursor, then press <span class="SCM_Keyboard">ENTER </span>or
-        <span class="SCM_Keyboard">F2 </span>or
-        <span class="SCM_Keyboard">LMOUSE</span> click the cell a second time
-        and the cursor will appear.
-      </p>
-      <p>
-        The <span class="SCM_MenuItem">RaceTime</span> cell is special in that
-        it uses a template or editmask. When useing the arrow keys to navigate
-        you'll notice that the decimal period and colon characters are skipped
-        over. Only numerical keys are accepted. Only minutes, secounds and
-        milliseconds can be entered. Hours are not considered.
-      </p>
-      <p>
-        Hold down <span class="SCM_Keyboard">SHIFT</span> while using the arrow
-        keys, will select a portion of the time.
-      </p>
-      <p>
-        <span class="SCM_Keyboard">DOUBLE LMOUSE</span> click to select all.
-      </p>
-      <p>
-        To zero the time (00:00.000),  select all and then press <span class="SCM_Keyboard">BACKSPACE</span> .
-      </p>
-
-      <p>
-        Press <span class="SCM_Keyboard">ESC</span> to clear what's been entered
-        and restore the previous known value. This doesn't exit you from edit
-        mode.
-      </p>
-      <p>
-        To exit edit mode, press
-        <span class="SCM_Keyboard">ENTER, TAB, SHIFT-TAB</span>. Or
-        <span class="SCM_Keyboard">click </span>outside the CELL.
-      </p>
-    </div>
-    <!-- CSS only -->
-    <div class="SCM_Hint">
-      <p>
-        <svg
-          class="bi bi-info-circle"
-          fill="currentColor"
-          height="16"
-          viewBox="0 0 16 16"
-          width="16"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
-          ></path>
-
-          <path
-            d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"
-          ></path>
-        </svg>
-
-          Info: The quickest method to enter a stack of entrant's
-          race-times is to start at the top. Check that the cell's contents is all
-          selected...
-        </p>
-        <p>
-          Enter the value, including leading zeros. Remember, only
-          numericals (eg. If you want to enter 31 seconds and 41/100ths, do this, type
-          003141).
-        </p> 
-      <p>Then arrow down. Rinse and repeat.</p>
-
-    </div>
     <p>
       Entering an invalid time, for example 01:62.20, will be ignored. You can't
       have 62 seconds! The race time will revert when you exit edit-mode -
       ignoring your erronous entry. Note: you aren't prompted with an error
       message. Double check your race times.
-    </p>    
-    
-    <p>The <span class="SCM_Term">SCM_TimeKeeper</span> application can set a swimmer's race time remotely.</p>
-
-    <p>Most human timekeepers aren't the best at recording 1000ths. The reason
+    </p>
+    <p>
+      The <span class="SCM_Term">SCM_TimeKeeper</span> application can set a
+      swimmer's race time remotely.
+    </p>
+    <p>
+      Most human timekeepers aren't the best at recording 1000ths. The reason
       SwimClubMeet accepts this precision is to prepare itself for electronic
-      touch-pads. A future addition.</p>
-
-     
-
-    <!-- EDIT SCRATCH AND DISQUALIFY -->
-    <h3 class="SCM_h3">Scratched, Disqualified</h3>
-    <p>
-      To toggle the press the  <span class="SCM_Keyboard">SPACE</span> key or mouse
-      <span class="SCM_Keyboard">LMOUSE</span> click will toggle the checkbox.
-    </p>
-    <p>
-      The <span class="SCM_Term">SCM_Marshal</span> application can also
-      remotely modify scratched and disqualify.
+      touch-pads. A future addition.
     </p>
 
-    <!-- Manual lane assignment -->
-    <h3 class="SCM_h3">Entrant's Name - Manual Assignment</h3>
-    <p>To section describes how to manually place a nominee in an empty lane or bump a nominee...</p>
     <!-- CSS only -->
     <div class="SCM_Hint">
       <p>
@@ -393,254 +388,372 @@
           <path
             d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
           ></path>
-
           <path
             d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"
           ></path>
         </svg>
-        Info: To navigate and edit the Entrant's Name cell, use the mouse.
+        Info: The quickest method to enter a stack of entrant's race-times is to
+        start at the top. Check that the cell's contents is all selected...
       </p>
-    </div>
-
-    <p>
-      Notice, you can't edit the swimmers name. The only active part is the
-      <span class="SCM_Keyboard">ellipse</span> button, which is located at the
-      far end of the cell.
-    </p>
-
-    <h3 class="SCM_h3">
-      <a id="LG_Ellipse_01"></a>Ellipse button. Method 1.
-    </h3>
-
-    <div>
       <p>
-        <span class="SCM_Keyboard">LMOUSE</span> the ellipse button to open the
-        <span class="SCM_MenuItem">Quick Pick Nominee</span> dialogue.
+        Enter the value, including leading zeros. Remember, only numericals (eg.
+        If you want to enter 31 seconds and 41/100ths, do this, type 003141).
       </p>
+      <p>Then arrow down. Rinse and repeat.</p>
     </div>
 
-    <div>
-      <p>
-      <img class="SCM_Image"
-        src="../../../assets/images/Entrants\Ent_QuickPick_NomineeDlg.JPG"
-      />
-      </p>
-    </div>
+    <!-- LANE NUMBER -->
+    <h3 class="SCM_h3">Grid Column - Lane Number.</h3>
+    <p>
+      A read-only cell. The lane number is auto-assigned and sorted by SCM. The
+      number of lanes that appears in the grid is determined by settings found
+      in the menu bar.
+    </p>
+    <p>
+      <span class="SCM_MenuItem"
+        >Tools ➡ Options ➡ Club ➡ Number of lanes.</span
+      >
+    </p>
 
-    <div>
-    <p>
-      The swimmers shown in this dialogue are all nominees that haven't been given a lane in the current selected event.
-    </p>
-    <p>
-      If it's empty, then ever swimmer that nominated has been given a lane.
-    </p>
-    <p>
-      Clicking a column heading will sort by that column. Click again will
-      invert the sort order.
-    </p>
-    <p>
-      If the list is very long, then use the search editbox to narrow it down.
-      It used wildcards, so you only need to enter a part or snippet of a
-      nominee's name. It reacts in real time to your key strokes. To see the
-      full list again, clear the search editbox.
-    </p>
-    <p>
-      The
-      <a class="glossterm" data-glossterm="Default_TimeToBeat" href="#"
-        >TimeToBeat</a
-      >, age and gender give you useful information on whom to pick, when
-      manually constructing a heat.
-    </p>
-    <p>
-      <span class="SCM_Keyboard">DOUBLE LMOUSE</span> click on the chosen record to
-      place the nominee into the lane. Else click the
-      <span class="SCM_Keyboard">Post</span> button. As expected, the
-      <span class="SCM_Keyboard">Cancel</span> button closes the dialogue
-      without any changes being made.
-    </p>
-    <p>
-      If you are re-assigning swimmers. Then the swimmer who has been 'bumped'
-      out of their lane and is returned to the nominees stack, awaiting a lane
-      assignment.
-    </p>
-    <p>
-      The process works on blank lanes - you can fill a blank lane with a
-      nominee. But to empty a lane of it's entrant, use the
-      <span class="SCM_Keyboard">Empty Lane</span> button.
-    </p>
-    <p>
-      Once the assignment is done and the dialogue closes, to exit 'edit mode',
-      either <span class="SCM_Keyboard">TAB</span> or
-      <span class="SCM_Keyboard">LMOUSE</span> click outside the cell. Exiting
-      edit-mode finalizes the change.
-    </p>
-  </div>
-
+    <!-- TIMETOBEAT     -->
     <h3 class="SCM_h3">
-      <a id="LG_Ellipse_Method2"></a>Ellipse button. Method 2.
+      <a id="Lane_TimeToBeat"></a>Grid Column - TimeToBeat (TTB).
     </h3>
     <p>
-      <span class="SCM_Keyboard"></span>
-      <span
-        style="border-color: #000000; border-style: none; border-width: 1px"
-      >
-        <span class="SCM_Keyboard">
-          <img
-            align="left"
-            src="../../../assets/images/ic_action_more_horiz.png"
-            style="
-              border-width: 1px;
-              border-style: solid;
-              border-color: rgb(0, 0, 0);
-              padding: 0px 0px 0px 0px;
-              margin: 0px 10px 0px 0px;
-            " /></span
-      ></span>
-      <span
-        class="SCM_Keyboard"
-        style="border-width: 1px; border-style: none; border-color: #000000"
-        >Cntrl-left mouse click</span
-      >
-      the cell's <span class="SCM_Keyboard">Ellipse</span> button to open the
-      <span class="SCM_MenuItem">Quick Pick Member</span> dialogue.
-    </p>
-    <p
-      style="
-        margin: undefinedpx 10px undefinedpx undefinedpx;
-        border-width: 1px;
-        border-style: none;
-        border-color: #000000;
-      "
-    >
-      The dialogue is very simular. Note the title on the caption bar is
-      different, and list is significantly larger.
-    </p>
-    <p
-      style="
-        margin: undefinedpx 10px undefinedpx undefinedpx;
-        border-width: 1px;
-        border-style: none;
-        border-color: #000000;
-      "
-    >
-      <span style="font-weight: bold">All </span>active club
-      <span style="font-weight: bold">members</span> who swim appear in this
-      list. With the <span style="font-weight: bold">exception </span>of
-      swimmers who have been given a lane in the event. 
-    </p>
-    <p style="margin: undefinedpx 10px undefinedpx undefinedpx">
-      Functionality is identical to the previous dialogue.
-    </p>
-    <p style="margin: undefinedpx 10px undefinedpx undefinedpx">
-      The magic done here is this... if you assign a member to a lane then you
-      have also  <span style="font-weight: bold">nominated </span>that member
-      for the event. 'Two birds with one stone'. You created both a nominee and
-      an entrant.
-    </p>
-
-
-    <h4><a id="Moving_Entrants"></a>Moving Entrants </h4>
-    <p>
-      <img
-        align="left"
-        src="../../../assets/images/ic_keyboard_arrow_up.png"
-        style="
-          border-width: 1px;
-          border-style: none;
-          border-color: rgb(0, 0, 0);
-        "
-      />
-      <img
-        align="left"
-        src="../../../assets/images/ic_keyboard_arrow_down.png"
-      />To move entrants to a different lane, select the lane with the entrant
-      you wish to move, click the <span class="SCM_Keyboard">arrow up</span> or
-      <span class="SCM_Keyboard">arrow down</span> buttons. This works for empty
-      lanes too.
+      A read-only cell, calculated by SCM. It's the most likely time it'll for
+      the entrant to swim the event. Calculations are based on the members
+      historical data using the algorithym selected in options.
     </p>
     <p>
-      To move an entrant into the previous or next heat, continue pressing the
-      <span class="SCM_Keyboard">arrow up</span> or
-      <span class="SCM_Keyboard">arrow down</span> buttons.
-    </p>
-    <p>
-      The keyboard short-cuts are <span class="SCM_Keyboard">ctrl-up</span> and
-      <span class="SCM_Keyboard">ctrl-down</span>.
-    </p>
-    <p>
-      Us the <span class="SCM_Keyboard"> Switch Lanes</span> button as an
-      alternative method to swap an entrant between lanes and events. 
-    </p>
-
-    <h3 class="SCM_h3">More entrant table columns.</h3>
-    <h4><a id="Lane_Number_Column"></a>Lane#</h4>
-    <p>
-      A read-only CELL. The pool's lane number. The number of lanes that appears
-      in the table is determined by 
-    </p>
-    <p>
-      <span class="SCM_MenuItem">Tools </span>...
-      <span class="SCM_MenuItem">Options </span>...
-      <span class="SCM_MenuItem">Club </span>...
-      <span class="SCM_MenuItem">Number of lanes</span>  
-    </p>
-
-
-
-    <h4><a id="TimeToBeat_Entrant_Column"></a>TimeToBeat</h4>
-    <p>
-      This is a read only calculated field. 
-      <a class="glossterm" data-glossterm="Default_SCM_" href="Lane_Grid.htm"
-        >SCM
-      </a>
-      has determined that the entrant will most likely swim the event in this
-      time (based on historical data).
-    </p>
-    <p>
-      Auto-Create Heats usesTimeToBeat to build a list of swimmers, ordered
-      fastest to lowest.  Swimmers without a TTB will be placed in the slowest
+      Auto-Build Heats uses TimeToBeat to build a list of swimmers, ordered
+      fastest to lowest. Swimmers without a TTB will be placed in the slowest
       heat. If you would like to know more about how TTB works, then follow this
       <a href="../../System/TTB_How_it_works.htm">link</a>.
     </p>
-    <h4><a id="PersonalBest_Entrant_Column"></a>PersonalBest </h4>
+
+    <!-- PERSONAL BEST -->
+    <h3 class="SCM_h3">
+      <a id="Lane_PersonalBest"></a>Grid Column - PersonalBest (PB).
+    </h3>
     <p>
-      This is a read only calculated field. The Personal Best (
-      <a class="glossterm" data-glossterm="Default_PB" href="Lane_Grid.htm"
-        >PB</a
-      >) is an entrants best race time achieved for the event - up to but
-      excluding the current session.
+      This is a read only calculated field. The Personal Best is an entrants
+      best race time achieved for the event - up to but excluding the current
+      session.
     </p>
-    <h4><a id="Disqualified_Entrant_Column"></a>D</h4>
+
+    <!-- DISQUALIFIED   -->
+    <h3 class="SCM_h3">
+      <a id="Lane_Disqualified"></a>Grid Colum - Disqualified (D)
+    </h3>
     <p>
       If checked this indicates the entrant has been disqualified by the race
       marshall. The Marshall's application can set this remotely.
     </p>
-    <h4><a id="Scratched_Entrant_Column"></a>S</h4>
+    <p>
+      Press the <span class="SCM_Keyboard">SPACE</span> key or mouse
+      <span class="SCM_Keyboard">LMOUSE</span> click to toggle.
+    </p>
+
+    <!-- SCRATCHED    -->
+    <h3 class="SCM_h3">
+      <a id="Lane_Scratched"></a>Grid Colum - Scratched (S)
+    </h3>
     <p>
       If checked this indicates the entrant was scratched from the event. (A
-      no-show.) The Marshall's application can set this remotely.
+      no-show.) The Marshall's application can set this remotely.
     </p>
-    <h4><a id="Entrant_PopUp_Menu"></a>Entrant Popup Menu</h4>
-    <p><img src="../../../assets/images/EntrantPopupMenu.JPG" /></p>
-    <h4>Overview of popup menu ...</h4>
-    <ul class="Disc">
-      <li>
-        Select move up or move down to shift the swimmer into a different lane.
-      </li>
-      <li>Select swap lane to open the swap lane dialogue.</li>
-      <li>
-        Empty lane removes the swimmer from the event but does not remove the
-        swimmers nomination.
-      </li>
-      <li>Strike entrant removes the swimmer from the event and nomination.</li>
-      <li>Sort (Depreciated - flagged for removal in the next update.)</li>
-      <li>
-        Selecting member's details will result in the members dialogue being
-        opened and the selected entrant's details being displayed
-      </li>
-    </ul>
-    <h4> </h4>
-    <p> </p>
-    <p> </p>
+    <p>
+      Press the <span class="SCM_Keyboard">SPACE</span> key or mouse
+      <span class="SCM_Keyboard">LMOUSE</span> click to toggle.
+    </p>
+
+    <!-- SWAP LANES-->
+    <h3 class="SCM_h3">Swap Lanes</h3>
+    <p>To open the <span class="SCM_Term">Swap Lane</span> dialogue.</p>
+    <div style="margin-left: 20px">
+      <p>
+        👉 <span class="SCM_Keyboard">RMouse</span> click and then select from
+        the pop-up menu <span class="SCM_MenuItem">Swap Lanes ...</span>.
+      </p>
+      <p>👉 Or click the <span class="SCM_Keyboard">Swap Lane</span> button.</p>
+    </div>
+    <p>
+      It's not necessary to select the lane prior to opening the dialogue, but
+      it can be helpful as it will auto-fill the dialogue for you.
+    </p>
+    <table class="SCM_tblImgText">
+      <colgroup>
+        <col />
+      </colgroup>
+      <tbody>
+        <tr class="SCM_trImgText">
+          <td>
+            <img
+              class="SCM_Image"
+              src="../../../assets/images/Entrants/Ent_SwapLaneDlg.JPG"
+              alt="Swap Lane Dialogue"
+            />
+            <p>
+              Swimmers can be swapped in the current heat or across any heat
+              that exists in the current selected event. You are permitted to
+              swap empty lanes.
+            </p>
+            <p>Use the arrow icons to alter to the heat and lane number.</p>
+            <p>
+              👉 Click the <span class="SCM_Keyboard">Swap Lane</span> button to
+              complete.
+            </p>
+            <p>
+              👉 Or click <span class="SCM_Keyboard">Cancel</span> button to
+              close without changes.
+            </p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- EMPTY LANE-->
+    <h3 class="SCM_h3">Empty Lane - Clear the Entrant.</h3>
+    <p>
+      Empty lane will clear the swimmer from the lane and return the member to
+      the nomination stack, awaiting lane assignment.
+    </p>
+    <p>
+      The member is no longer an entrant, but remains a nominee for the event.
+    </p>
+    <p>You can perform the action by first selecting the lane and then ...</p>
+    <div style="margin-left: 20px">
+      <p>👉 Use the short cut key <span class="SCM_Keyboard">CTRL+X</span>.</p>
+      <p>
+        👉 Or <span class="SCM_Keyboard">RMouse</span> click and use the pop-up
+        menu, then select <span class="SCM_MenuItem">Empty Lane</span> from the
+        menu.
+      </p>
+      <p>
+        👉 Or click the <span class="SCM_Keyboard">Empty Lane</span> button.
+      </p>
+    </div>
+
+    <table class="SCM_tblImgText">
+      <colgroup>
+        <col />
+      </colgroup>
+      <tbody>
+        <tr class="SCM_trImgText">
+          <td>
+            <img
+              class="SCM_Image"
+              src="../../../assets/images/Entrants/Ent_EmptyTheLaneDlg.jpg"
+              alt="Empty Lane"
+            />
+            <p>A confirmation dialogue box will appear.</p>
+            <p>
+              Press <span class="SCM_Keyboard">Yes</span> to complete the
+              process. It's safe to empty an empty lane.
+            </p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- SCRUB LANE-->
+    <h3 class="SCM_h3">
+      Scrub Lane - Strike the Entrant and remove nomination.
+    </h3>
+    <p>
+      <span class="SCM_Term">Scrub Lane</span> is more thorough. It'll clears
+      the member from the lane and removes the nomination reference for the
+      current selected event. If the member wishes to compete in the event, the
+      member will have to re-nominate.
+    </p>
+    <p>You can perform the action by first selecting the lane and then ...</p>
+    <div style="margin-left: 20px">
+      <p>
+        👉 Use the short cut key <span class="SCM_Keyboard">CTRL+Del</span>.
+      </p>
+      <p>
+        👉 Or <span class="SCM_Keyboard">RMouse</span> click and use the pop-up
+        menu, then select <span class="SCM_MenuItem">Strike Entrant</span> from
+        the menu.
+      </p>
+      <p>
+        👉 Or click the <span class="SCM_Keyboard">Strike Entrant</span> button.
+      </p>
+    </div>
+
+    <table class="SCM_tblImgText">
+      <colgroup>
+        <col />
+      </colgroup>
+      <tbody>
+        <tr class="SCM_trImgText">
+          <td>
+            <img
+              class="SCM_Image"
+              src="../../../assets/images/Entrants/Ent_StrikeEntrantDlg.jpg"
+              alt="Empty Lane"
+            />
+            <p>A confirmation dialogue box will appear.</p>
+            <p>
+              Press <span class="SCM_Keyboard">Yes</span> to complete the
+              process.
+            </p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Manual lane assignment -->
+    <h2 class="SCM_h2">Manual Assignment of Entrants (Build-Heats Manaually).</h2>
+    <p>
+      This section describes how to manually build heats using the
+      <span class="SCM_Keyboard">ellipse</span> button and hand placing nominees.
+    </p>
+    <p>
+      Note that in the <span class="SCM_Term">Entrant's Name</span> cell, you
+      can't edit the swimmer's name. The only active part is the
+      <span class="SCM_Keyboard">ellipse</span> button, which is located at the
+      far end of the cell.
+    </p>
+    <p>
+      The ellipse button has two methods activated by
+      <span class="SCM_Keyboard">LMOUSE</span> click or
+      <span class="SCM_Keyboard">CNTRL+LMOUSE</span> click.
+    </p>
+
+    <!-- CSS only -->
+    <div class="SCM_Hint">
+      <p>
+        <svg
+          class="bi bi-info-circle"
+          fill="currentColor"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
+          ></path>
+          <path
+            d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"
+          ></path>
+        </svg>
+        Info: To navigate too the ellipse button, use the mouse. Select the entrant, then the ellipse will appear.
+      </p>
+    </div>
+
+    <!-- ELLIPSE BUTTON METHOD 1 -->
+    <h3 class="SCM_h3"><a id="LG_Ellipse_01"></a>Ellipse button. Method 1.</h3>
+    <p>
+      <span class="SCM_Keyboard">LMOUSE</span> click the ellipse button to open
+      the <span class="SCM_MenuItem">Quick Pick Nominee</span> dialogue.
+    </p>
+
+    <table class="SCM_tblImgText">
+      <colgroup>
+        <col />
+      </colgroup>
+      <tbody>
+        <tr class="SCM_trImgText">
+          <td>
+            <img
+              class="SCM_Image"
+              src="../../../assets/images/Entrants\Ent_QuickPick_NomineeDlg.JPG"
+              alt="Nominee QuickPick Dialogue"
+            />
+            <p>
+              The swimmers listed in this dialogue are all nominees that haven't
+              been given a lane in the current selected event.
+            </p>
+            <p>
+              If the quick-pick list is empty, then every nominee has a lane.
+            </p>
+            <p>
+              Clicking a column heading will sort by that column. Click again
+              will invert the sort.
+            </p>
+            <p>
+              If the list is very long, then use the search box. It used
+              wildcards, so you only a need snippet of the nominee's name. It
+              reacts in real time to your key strokes. To see the full list
+              again, clear the search box.
+            </p>
+            <p>
+              The TimeToBeat, PersonalBest, AGE and Gender will give you useful information on whom to
+              pick and where to place in the current selected heat.
+            </p>
+            <p>
+              👉 <span class="SCM_Keyboard">DOUBLE LMOUSE</span> click on the
+              chosen record to place the nominee into the lane.
+            </p>
+            <p>
+              👉 Or select nominee then click the <span class="SCM_Keyboard">Post</span> button.
+            </p>
+            <p>
+              👉 To close the dialogue without making any changes, click the
+              <span class="SCM_Keyboard">Cancel</span> button.
+            </p>
+            <p>
+              If the lane is filled with a swimmer prior to opening the
+              Quick-Pick dialogue, then the swimmer get's 'bumped' out of the
+              lane and is replaced with the selected nominee. The 'bumped'
+              swimmer will be returned to the nominee's stack, awaiting a lane
+              assignment.
+            </p>
+            <p>
+              When the lane is empty, prior to opening the Quick-Pick, then that
+              lane will be filled with the nominee you chose.
+            </p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- ELLIPSE BUTTON. METHOD 2 -->
+    <h3 class="SCM_h3">
+      <a id="LG_Ellipse_Method2"></a>Ellipse button. Method 2.
+    </h3>
+    <p>
+      This method differs in that you
+      <span class="SCM_Keyboard">CNTRL-LMOUSE</span> click the cell's
+      <span class="SCM_Keyboard">Ellipse</span> button to open the
+      <span class="SCM_MenuItem">Quick Pick Member</span> dialogue.
+    </p>
+
+    <table class="SCM_tblImgText">
+      <colgroup>
+        <col />
+      </colgroup>
+      <tbody>
+        <tr class="SCM_trImgText">
+          <td>
+            <img class="SCM_Image"
+            src="../../../assets/images/Entrants\Ent_QuickPick_MemberDlg.JPG"
+            alt="Members QuickPick Dialogue"" />
+            <p>
+              This dialogue may appear very simular to method 1, but if you look
+              closely you'll notice that the title is different. Also the list
+              is likely to be significantly larger.
+            </p>
+            <p>
+              This dialogue displays all active club members who do swim with
+              one exception. Members who have been given a lane in the current
+              selected event are excluded.
+            </p>
+            <p>
+              The functionality of this dialogue is identical to the previous
+              (method 1).
+            </p>
+            <p>The symantics is different...</p>
+            <p>
+              If you assign a member from this list to a lane then you have also
+              nominated that member for the event. 'Two birds with one stone'.
+              You created both a nominee and an entrant.
+            </p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
   </body>
 </html>

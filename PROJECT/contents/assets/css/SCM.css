@@ -42,7 +42,7 @@ h4.SCM_h4 {
   font-family: "Fira Code Light";
 }
 
-span.SCM_Keyboard {
+span.SCM_KBM {
   color: #000000;
   text-align: left;
   /* text-transform: uppercase; */
@@ -54,7 +54,7 @@ span.SCM_Keyboard {
   font-family: "Fira Code";
 }
 
-span.SCM_Quotes {
+span.SCM_Quote {
   font-style: italic;
   font-family: "Fira Code";
   border-width: 0px;
@@ -66,7 +66,7 @@ span.SCM_Quotes {
   padding-right: 4px;
 }
 
-span.SCM_MenuItem {
+span.SCM_MI {
   font-style: italic;
   font-family: "Fira Code";
   border-width: 0px;
@@ -105,7 +105,8 @@ img.SCM_Image {
   font-family: "Fira Code";
 }
 
-table.SCM_Basic_noBorders {
+table.SCM_Table {
+  font-family: "Fira Code";
   break-after: always;
   border-width: 0px;
   border-style: none;
@@ -116,6 +117,7 @@ table.SCM_Basic_noBorders {
   margin-right: 20px;
   margin-bottom: 20px;
   margin-left: 20px;
+
 }
 
 div.SCM_Hint {
@@ -152,12 +154,6 @@ div.SCM_Note {
   width: 70%;
 }
 
-p.SCM_FiraCode {
-  font-family: "Fira Code";
-  margin-top: 1px;
-  margin-bottom: 1px;
-}
-
 table.SCM_tblImgText {
   border-collapse: collapse;
   width: 90%;
@@ -180,3 +176,21 @@ tr.SCM_trImgText {
   border-style: none;
   border-color: #000000;
 }
+
+/* these 2xtable_data styles are for SCM grid descriptions */
+td.SCM_c1
+{
+  max-width: 25px; 
+  text-align: right; 
+  padding-right: 10px; 
+  padding-bottom: 10px; 
+  vertical-align: top; 
+}  
+
+td.SCM_c2
+{
+  max-width: 50px; 
+  text-align: left; 
+  padding-left: 10px; 
+  padding-bottom: 10px;  
+}  

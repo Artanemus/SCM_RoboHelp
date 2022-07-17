@@ -1,6 +1,7 @@
 /*Created with Adobe RoboHelp 2019.*/
 body {
-  font-family: Arial;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  font-size: large;
   background-color: #ffffff;
 }
 
@@ -89,32 +90,12 @@ span.glosstext {
 /* ul {} */
 ol.Decimal {
   list-style-type: decimal;
-  --prefix-size: 40px;
-  --prefix-fixed-size: false;
-  --prefix-gap: 4px;
-  --list-indent: 40px;
-  --vertical-spacing: 32px;
   counter-reset: item1;
   list-style: none;
-  padding-left: var(--prefix-size);
-  margin-left: calc(var(--list-indent) - var(--prefix-size));
 }
 
 ul.Disc {
   list-style-type: disc;
-}
-
-
-table.SCM_simple {
-  border-width: 1px;
-  border-style: none;
-  border-color: #000000;
-}
-
-table.SCM_simple td {
-  border-width: 0px;
-  border-style: none;
-  border-color: #000000;
 }
 
 ol.RoundSquare {

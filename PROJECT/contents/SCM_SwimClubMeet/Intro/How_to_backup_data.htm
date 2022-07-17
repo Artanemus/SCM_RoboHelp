@@ -1,41 +1,118 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta name="generator" content="Adobe RoboHelp 2020" />
-  <title>BackUpYourData</title>
-  <meta name="topic-status" content="Draft" />
-  <link rel="stylesheet" type="text/css" href="../../assets/css/default.css" />
-  <meta name="template" content="../../assets/masterpages/SCM.htt" />
-  <meta name="search-keywords" content="" />
-  <meta name="rh-index-keywords" content="backup, MSSMS, MSSQL" />
-</head>
-<body>
-  <h2 class="SCM_h2">How to backup your SCM data.</h2>
-  <p>It important to schedule a regular backup of your data. You may very well keep years of historical data and it would be tragic to lose it.</p>
-  <p>Backup and restore of the <a class="glossterm" data-glossterm="Default_SCM_" href="#">SCM </a>database is done with <span>Microsoft's <span style="border-width: 1px;border-style: none;border-color: #000000">SQL Server Management Studio</span></span><span style="border-width: 1px;border-style: none;border-color: #000000"> (<a class="glossterm" data-glossterm="Default_SSMS" href="#">SSMS</a>). </span><span class="glosstext"></span></p>
-  <p>Run the application.</p>
-  <p>Connect to your <a class="glossterm" data-glossterm="Default_MSSQL_EXPRESS" href="#">SQLEXP<span class="glosstext"></span>RESS</a>  database server.</p>
-  <p>Expand <span class="SCM_MenuItem">Databases </span>in the Object Explorer panel by pressing its <span><span class="SCM_Keyboard">+</span></span> symbol</p>
-  <p>Hover over <span class="SCM_MenuItem">SwimClubMeet </span>and <span class="SCM_Keyboard">Right-Mouse</span> click to show the context sensitive pop-up menu</p>
-  <p>Select the menu item <span class="SCM_MenuItem">Tasks</span>, then select <span class="SCM_MenuItem">Back Up ...</span></p>
-  <p>Your back up settings should read ...</p>
-  <p class="SCM_Indent">Database: SwimClubMeet<br />
-    Backup type: Full<br />
-    Back up to: Disk</p>
-  <p>If a backup filename isn't listed, press <span class="SCM_Keyboard">Add </span>button to select a backup destination. </p>
-  <p>Press <span class="SCM_Keyboard">OK </span> button to begin the backup.</p>
-  <p>Remember to store your backup in a safe place.</p>
-  <p>Next step : <a href="Learn_more.htm">Learn some more about SCM.</a></p>
-  <p> </p>
-  <!-- CSS only -->
-  <div><span style="font-family:'Fira Code Light';font-style:italic"> </span>
-    <p style="margin-top: 20px;margin-right: 20px;margin-bottom: 20px;margin-left: 20px;padding-top: 10px;padding-right: 10px;padding-bottom: 10px;padding-left: 10px;width: 80%;background-color: rgba(180, 180, 0, 0.20)"><span style="font-family:'Fira Code Light';font-style:italic"><span style="font-family:'Fira Code Light';font-style:italic"><svg class="bi bi-info-circle-fill" fill="currentColor" height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg">
-            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z" style="font-family: 'Fira Code Light';font-style: italic"></path>
-          </svg> This may change in future releases. A backup option may be included in the menubar under the file menu.</span></span></p>
-    <span style="font-family:'Fira Code Light';font-style:italic"> </span>
-  </div>
-  <p> </p>
-</body>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="generator" content="Adobe RoboHelp 2020" />
+    <title>BackUpYourData</title>
+    <meta name="topic-status" content="Draft" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../../assets/css/default.css"
+    />
+    <link rel="stylesheet" type="text/css" href="../../assets/css/SCM.css" />
+    <meta name="template" content="../../assets/masterpages/SCM.htt" />
+    <meta name="search-keywords" content="" />
+    <meta name="rh-index-keywords" content="backup, MSSMS, MSSQL" />
+  </head>
+  <body>
+    <h2 class="SCM_h2">How to backup your SCM data.</h2>
+    <p>
+      It important to schedule a regular backup of your data. You may very well
+      keep years of historical data and it would be tragic to lose it.
+    </p>
+    <p>
+      Backup and restore of the
+      <a class="glossterm" data-glossterm="Default_SCM_" href="#">SCM </a
+      >database is done with
+      <span
+        >Microsoft's
+        <span
+          style="border-width: 1px; border-style: none; border-color: #000000"
+          >SQL Server Management Studio</span
+        ></span
+      ><span
+        style="border-width: 1px; border-style: none; border-color: #000000"
+      >
+        (<a class="glossterm" data-glossterm="Default_SSMS" href="#">SSMS</a
+        >). </span
+      ><span class="glosstext"></span>
+    </p>
+    <p>Run the application.</p>
+    <p>
+      Connect to your
+      <a class="glossterm" data-glossterm="Default_MSSQL_EXPRESS" href="#"
+        >SQLEXP<span class="glosstext"></span>RESS</a
+      >
+      database server.
+    </p>
+    <p>
+      Expand <span class="SCM_MI">Databases </span>in the Object Explorer panel
+      by pressing its <span><span class="SCM_KBM">+</span></span> symbol
+    </p>
+    <p>
+      Hover over <span class="SCM_MI">SwimClubMeet </span>and
+      <span class="SCM_KBM">RMOUSE</span> click to show the context
+      sensitive pop-up menu
+    </p>
+    <p>
+      Select the menu item <span class="SCM_MI">Tasks</span>, then select
+      <span class="SCM_MI">Back Up ...</span>
+    </p>
+    <p>Your back up settings should read ...</p>
+    <p class="SCM_Indent">
+      Database: SwimClubMeet<br />
+      Backup type: Full<br />
+      Back up to: Disk
+    </p>
+    <p>
+      If a backup filename isn't listed, press
+      <span class="SCM_KBM">Add </span>button to select a backup destination.
+    </p>
+    <p>Press <span class="SCM_KBM">OK </span> button to begin the backup.</p>
+    <p>Remember to store your backup in a safe place.</p>
+    <p>Next step : <a href="Learn_more.htm">Learn some more about SCM.</a></p>
+    <p></p>
+    <!-- CSS only -->
+    <div>
+      <span style="font-family: 'Fira Code Light'; font-style: italic"> </span>
+      <p
+        style="
+          margin-top: 20px;
+          margin-right: 20px;
+          margin-bottom: 20px;
+          margin-left: 20px;
+          padding-top: 10px;
+          padding-right: 10px;
+          padding-bottom: 10px;
+          padding-left: 10px;
+          width: 80%;
+          background-color: rgba(180, 180, 0, 0.2);
+        "
+      >
+        <span style="font-family: 'Fira Code Light'; font-style: italic"
+          ><span style="font-family: 'Fira Code Light'; font-style: italic"
+            ><svg
+              class="bi bi-info-circle-fill"
+              fill="currentColor"
+              height="16"
+              viewBox="0 0 16 16"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"
+                style="font-family: 'Fira Code Light'; font-style: italic"
+              ></path>
+            </svg>
+            This may change in future releases. A backup option may be included
+            in the menubar under the file menu.</span
+          ></span
+        >
+      </p>
+      <span style="font-family: 'Fira Code Light'; font-style: italic"> </span>
+    </div>
+    <p></p>
+  </body>
 </html>

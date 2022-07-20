@@ -1,58 +1,150 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta name="generator" content="Adobe RoboHelp 2020" />
-  <title>Options AutoBuild</title>
-  <meta name="topic-status" content="Draft" />
-  <link rel="stylesheet" type="text/css" href="../../../assets/css/default.css" />
-  <link rel="stylesheet" type="text/css" href="../../../assets/css/SCM.css" />
-  <meta name="template" content="../../../assets/masterpages/SCM.htt" />
-</head>
-<body>
-  <h2 class="SCM_h2">Auto-Build Options</h2>
-  <p> </p>
-  <h3 class="SCM_h3">Auto-Build Options in detail.</h3>
-  <p> </p>
-  <div>
-    <table border="1" cellpadding="1" cellspacing="1" style="border-collapse: collapse;width: 80%;border-width: 0px;border-style: none;border-color: rgb(0, 0, 0);font-family: 'Segoe UI';margin-right: 10px">
-      <colgroup>
-        <col style="" />
-      </colgroup>
-      <tbody>
-        <tr>
-          <td style="border-width: 0px;border-style: none;border-color: #000000;border-left-width: 0px;border-left-style: none;border-left-color: #000000;border-top-width: 0px;border-top-style: none;border-top-color: #000000;border-right-width: 0px;border-right-style: none;border-right-color: #000000;border-bottom-width: 0px;border-bottom-style: none;border-bottom-color: #000000">
-            <h4 class="SCM_h4"><img src="../../../assets/images/AutoBuild/AutoB_Ledger.JPG" style="float: left; margin-left: 10px; margin-right: 10px;" />1. TTB algorithm 1</h4>
-            <p>The time-to-beat determine which heat and lanes the entrant will be placed into. The TTB is calculated on demand.</p>
-            <p>Current three algorithms are provided.<br />
-              <br />
-              Use the last known race-time. A search is done looking back through time, excluding the current session, for the first match for the event type that the entrant race in. If none are found, SCM moves to algorithm 2
-            </p>
-            <p>Use the average of the 3 fastest race-times. The three fastest times for the event type are found for the entrant. The search excludes the current session and any session that post dates the current session. An average is calculated. Finding only one event is acceptable. If none are found, SCM moves to algorithm 2</p>
-            <h4 class="SCM_h4">2. TTB algorithm 2 (new entrants)</h4>
-            <p>For entrants new to the event type this algorithm has several paths.</p>
-            <p>A. find all swimmers of gender and age that have swum the event type. Extract the bottom ?? percent and find the average race-time.</p>
-            <p>B. find all swimmers of any gender and </p>
-            <p>C. widen the age baracket</p>
-            <p> </p>
-            <h4 class="SCM_h4">3. Gender and lane count</h4>
-            <p>If <span class="SCM_MI">Seperate gender</span> is checked then there will be seperate heats for girls and boys. Defined another way, boys will not race against girls. The order of the heats is slowest to fastest, with the girl swimming prior to the boys.</p>
-            <p>if <span class="SCM_MI">Exclude outside lanes</span> is checked then gutter lanes will not be used in events. If you have an eight lane pool, lane 1 and lane 8 will not be swum in.</p>
-            <h4 class="SCM_h4">4. Group by ...</h4>
-            <p>Selecting <span class="SCM_MI">Don't group</span> disables grouping.</p>
-            <p>Currently only two group types are defined. </p>
-            <p>Entrant's age. Swimmers are placed into heats based on the age (calculated using the members DOB). This may result in many heats with few participants in each heat.</p>
-            <p>Entant's membership type. The membership table is inspected and the members are organised into heats based on type. This is one way to collectively gather swimmers in broad age group categories. It's dependant on keeping the member's membership type up-to-date. An audit at the start of theeach  swimming season would be needed. </p>
-            <h4 class="SCM_h4">5. Seed Method ...</h4>
-            <p>details</p>
-          </td>
-        </tr>
-      </tbody>
-    </table>
-    <p> </p>
-  </div>
-  <p>Changes made in this dialogue are remembered next time you use the tool.</p>
-  <p>Events don't store snap-shots of these settings when auto-build is enacted. </p>
-</body>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="generator" content="Adobe RoboHelp 2020" />
+    <title>Options AutoBuild</title>
+    <meta name="topic-status" content="Draft" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../../../assets/css/default.css"
+    />
+    <link rel="stylesheet" type="text/css" href="../../../assets/css/SCM.css" />
+    <meta name="template" content="../../../assets/masterpages/SCM.htt" />
+  </head>
+
+  <body>
+    <h2 class="SCM_h2">Auto-Build Options</h2>
+    <p></p>
+    <h3 class="SCM_h3">Auto-Build Options in detail.</h3>
+    <p></p>
+    <div>
+      <table class="SCM_tblImgText">
+        <colgroup>
+          <col />
+        </colgroup>
+        <tbody>
+          <tr class="SCM_trImgText">
+            <td>
+              <img
+                src="../../../assets/images/AutoBuild/AutoB_Ledger.JPG"
+                style="
+                  float: left;
+                  margin-left: 10px;
+                  margin-right: 10px;
+                  cursor: nwse-resize;
+                "
+              />
+              Displayed is the Auto Build Heats dialogue that pops up each time
+              you press the
+              <span class="SCM_KBM">Auto-Build Heats</span> button.
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3 class="SCM_h3">1. TimeToBeat (TTB) - Primary option</h3>
+    <p>
+      The time-to-beat determine which heat and lanes the entrant will be placed
+      into. The TTB is calculated on demand.
+    </p>
+    <p>You have a pick of three algorithms.</p>
+    <div style="margin-left: 20px">
+      <p>
+        👉 Use the last known race-time. SCM will excluding the current session
+        when searching. If nothing is found. SCM uses the secondary option, if
+        enabled.
+      </p>
+      <p>
+        👉 Use the average of the 3 fastest race-times. The search excludes the
+        current session and sessions that post dates the current. An average
+        race-time is calculated. Finding only one record is acceptable. If none
+        are found, SCM moves to the secondary option, if enabled
+      </p>
+      <p>
+        👉 Use particpants personal best (PB). If nothing is found, SCM uses the
+        secondary option, if enabled.
+      </p>
+    </div>
+
+    <h3 class="SCM_h3">2. Entrants without race-times - Secondary option.</h3>
+    <p>
+      For entrants new to the event type, this algorithm will use brute force to
+      find a race-time and calculate a TTB. The process goes like this...
+    </p>
+    <p>
+      If a member doesn't have any race time data, then a time is calculated
+      based on the mean average of the bottom 50% (default), with consideration
+      to age and gender.
+    </p>
+    <p>
+      If there's still insufficient data, SCM will ignore gender and try once
+      more.
+    </p>
+    <p>
+      If there is still not enough data (at least 4 records) then it will
+      re-calculate, doing an age spread (plus or minus 1 year). There are
+      currently no options for you to adjust minimum records and the spread
+      values.
+    </p>
+
+    <p>
+      If after all this, a suitable race time can't be found, then the
+      TimeToBeat is left empty. This effectively places the swimmer in the
+      slowest heats.
+    </p>
+
+    <p>
+      For a more comprehensive discussion on the workings of TTB follow this...
+      <a href="../../System/TTB_How_it_works.htm">link</a>.
+    </p>
+
+    <h3 class="SCM_h3">3. Gender and lane count</h3>
+    <p>
+      If <span class="SCM_MI">Seperate gender</span> is checked then there will
+      be seperate heats for girls and boys. Said another way, boys will not race
+      against girls. The order of the heats is slowest to fastest, with the girl
+      swimming prior to the boys.
+    </p>
+    <p>
+      if <span class="SCM_MI">Exclude outside lanes</span> is checked then
+      gutter lanes will not be used in events. If you have an eight lane pool,
+      lane 1 and 8 will not be filled with swimmers. Helpful if your club is
+      small and you want to run more heats, or if ladders obstruct the gutter
+      lanes. It should be pointed out that all your pools lanes still appear in
+      the lane grid, gutter exclusion on or off.
+    </p>
+
+    <h3 class="SCM_h3">4. Group by ...</h3>
+    <p>Currently only two group types are defined.</p>
+    <div style="margin-left: 20px">
+      <p>
+        👉 Entrant's age. Swimmers are placed into heats based on their age
+        (calculated using the members DOB). Depending on club size, this may
+        result in many heats with few participants in each heat.
+      </p>
+      <p>
+        👉 Entant's membership type. The membership table is inspected and the
+        members are organised into heats based on type. This is one way to
+        collectively gather swimmers into broad categories based on age. It's
+        dependant on keeping the member's membership type up-to-date. An audit
+        at the start of the each swimming season would be needed. Useful option for club championships.
+      </p>
+      <p>Need a little bit more information on the membership types? Follow this <a href="../../Tools/Membership_Type.htm">link</a>.</p>
+    </div>
+    <p>Selecting <span class="SCM_MI">Don't group</span> disables grouping.</p>
+
+    <h3 class="SCM_h3">5. Seed Method ...</h3>
+    <p>A topic that has it's own page. To learn what seeding is and how it works, follow this <a href="../../System/How_seeding_works.htm">link</a>.</p>
+
+    <h3 class="SCM_h3">Other miscellaneous notes ...</h3>
+    <p>
+      Changes made in this dialogue are remembered next time you use the tool.
+      Individual events don't store snap-shots of these settings when auto-build is
+      enacted. There is only one set of parameters and it's up to you to manage it state (spoken like a programmer). 
+    </p>
+  </body>
 </html>

@@ -1,75 +1,115 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta name="generator" content="Adobe RoboHelp 2020" />
-  <title>Session_idx</title>
-  <meta name="topic-status" content="Draft" />
-  <link rel="stylesheet" type="text/css" href="../../../assets/css/default.css" />
-  <link rel="stylesheet" type="text/css" href="../../../assets/css/SCM.css" />
-  <meta name="template" content="../../../assets/masterpages/SCM.htt" />
-  <meta name="rh-index-keywords" content="session,outline,report,event" />
-  <meta name="search-keywords" content="outline,summary" />
-</head>
-<body>
-  <h2 class="SCM_h2">Sessions Tab-Sheet</h2>
-  <p>This is the starting point for building a 'Club Night'.  First, create a new session, next, enter it's events. </p>
-  <p><img src="../../../assets/images/Interface/TabSheet1_Ledger_A.png" /></p>
-  <p>1. Tab-sheet controls. Session, Nominate, Heats. <br />
-    <br />
-    2. Session Table. An ordered list of the club's swimming nights.<br />
-    <br />
-    3. Session Controls. Toggle sessions visibility, lock, new, delete, report.<br />
-    <br />
-    4. Events Table. Swimming races for the current selected event.<br />
-    <br />
-    5. Events Controls. Toggle expand, move up and down, new, delete, report. 
-  </p>
-  <p> </p>
-  <h3 class="SCM_h3"><a id="Session_Tabsheet_Tables"></a>The tables in detail.</h3>
-  <p>Follow the links to see a full description of the tables.</p>
-  <ol class="RoundSquare">
-    <li><a href="Session_Table.htm">Session Table</a><br />
-      <br />
-      Allows you to create, sort and delete 'Club Nights'.<br />
-      <br />
-       
-    </li>
-    <li><a href="Events_Table.htm">Events Table</a><br />
-      <br />
-      Swimming races are constructed and arranged here. 
-    </li>
-  </ol>
-  <p> </p>
-  <h3 class="SCM_h3"><a id="Session_Buttons"></a>The Session Buttons</h3>
-  <h4><img class="SCM_Image" src="../../../assets/images/ic_action_visibility.png" /> <a id="Session_Visibility_Button"></a>Set Session Visibility Button.</h4>
-  <p>Toggles the visibility of locked sessions. The button changes it's icon to indicate it's toggled state. When enabled, all locked sessions will not be listed in the session table.</p>
-  <p><span class="SCM_Quote">Lock sessions are colored 'tomatoe red'.</span></p>
-  <h4><img class="SCM_Image" src="../../../assets/images/ic_action_lock.png" /> <a id="Locked_Session_Button"></a>Lock Session Button.</h4>
-  <p>Lock/unlock a selected session. When enabled, the selected session is locked and is painted tomatoe red. As you browse the sessions, this button will changes it's icon to indicate the current selected session's locked state.</p>
-  <p>A locked session disables data entry for events, nominations and heats. These tables will appear grayed to indicate their read-only state. Most controls for these tables are also grayed. However, you can still navigate events and print reports. Locking a session protects your data from accidential entry.</p>
-  <p>To un-lock a session, toggle the button.</p>
-  <h4><img class="SCM_Image" src="../../../assets/images/ic_fiber_new.png" /> <a id="New_Session_Button"></a>New Session Button</h4>
-  <p><span class="SCM_KBM">Click </span>the new button to create a new session. The 'create new session' dialogue appears. Enter a session date and starting time. You can also enter a session description or comment if you wish. These descriptions appear in reports.</p>
-  <h4><img class="SCM_Image" src="../../../assets/images/ic_delete.png" /> <a id="Delete_Session_Button"></a>Delete Session Button.</h4>
-  <p>Deleting a session will delete all events, nominations, heats and entrant data. You will be prompted,  'do you wish to delete the session'. If your session contains race times you will be prompted a second time. There is no-undo.</p>
-  <p>A locked session cannot be deleted. This button will appear grayed if you have selected a locked session.</p>
-  <h4><img class="SCM_Image" src="../../../assets/images/ic_credit_card.png" /> <a id="Session_Report_Button"></a>Session Report Button</h4>
-  <p><span class="SCM_KBM">Click </span>this button to produces a session report ordered by event.</p>
-  <p><span class="SCM_KBM">Cntrl-Click</span> this button to produces a session report ordered by member.</p>
-  <p>The first page on each report gives the session date. All pages are numbered and displayed in the footer.</p>
-  <p>Each report displays race time (if entrant times have been entered), Personal Best (the entrant's fastest swimming time - prior to this session) and DIFF.</p>
-  <p>The DIFF or difference value is a negative or positive and shows the performance improvement, or not, for the event. A negative amount is what every swimmer wants to see.</p>
-  <h3 class="SCM_h3"><a id="Session_Report_Examples"></a> Session Report Examples. <span></span></h3>
-  <p>Clicking the <span class="SCM_Button"> <span class="SCM_KBM">Session Rpt*</span></span> button produces a reports for the current selected session - ordered by event and heat.</p>
-  <p><img src="../../../assets/images/SessionRPT.JPG" /></p>
-  <p>Clicking  <span class="SCM_Button"></span> <span class="SCM_KBM"> <span class="SCM_Button">CTRL-Session Rpt</span>*</span> produces a report of the current selected session - ordered by member's LastName.</p>
-  <p><img src="../../../assets/images/SessionRPTCNTRL.JPG" /></p>
-  <h3 class="SCM_h3"><a id="Event_Report_Examples"></a>Event Report Examples</h3>
-  <p>Clicking the <span class="SCM_KBM">Event Rpt*</span> button produces a report showing all the events for the current selected session.</p>
-  <p><img src="../../../assets/images/EventRpt.JPG" /></p>
-  <p>Clicking  <span class="SCM_KBM">CNTRL-Event Rpt*</span> produces a report of the current selected event and displays all the heats and members for that event.</p>
-  <p><img src="../../../assets/images/EventRptCNTRL.JPG" />.</p>
-</body>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="generator" content="Adobe RoboHelp 2020" />
+    <title>Session Index</title>
+    <meta name="topic-status" content="Draft" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../../../assets/css/default.css"
+    />
+    <link rel="stylesheet" type="text/css" href="../../../assets/css/SCM.css" />
+    <meta name="template" content="../../../assets/masterpages/SCM.htt" />
+    <meta name="rh-index-keywords" content="session,outline,report,event" />
+    <meta name="search-keywords" content="outline,summary" />
+  </head>
+  <body>
+    <h2 class="SCM_h2">Sessions Tab-Sheet</h2>
+    <div style="text-align: center">
+      <div style="display: inline-block; width: 80%">
+        <p>
+          This is the starting point for building a 'Club Night'. First, create
+          a new session, next, enter it's events. Follow the links below to
+          learn more.
+        </p>
+      </div>
+    </div>
+    <div style="text-align: center">
+      <div style="display: inline-block">
+        <img
+          class="SCM_Image"
+          src="../../../assets/images/Interface/TabSheet1_Ledger_A.png"
+          alt="Sesssion Tab-Sheet."
+          width="100%"
+          max-width:
+          600px
+        />
+      </div>
+    </div>
+    <div>
+      <table class="SCM_Table">
+        <caption style="text-align: auto; padding-bottom: 10px">
+          LEDGER SUMMARY OF THE SESSION TAB-SHEET....
+        </caption>
+        <colgroup>
+          <col />
+          <col />
+        </colgroup>
+        <tbody>
+          <tr>
+            <td class="SCM_c1">
+              1. <a href="Session_Grid.htm">Session Grid</a>
+            </td>
+            <td class="SCM_c2">
+              An ordered list of the club's swimming nights.
+            </td>
+          </tr>
+          <tr>
+            <td class="SCM_c1">
+              2. <a href="Session_Buttons.htm">Session Buttons</a>
+            </td>
+            <td class="SCM_c2">
+              Toggle sessions visibility, lock, new, delete, report.
+            </td>
+          </tr>
+          <tr>
+            <td class="SCM_c1">3. <a href="Event_Grid.htm">Event Grid</a></td>
+            <td class="SCM_c2">
+              Swimming races for the current selected event.
+            </td>
+          </tr>
+          <tr>
+            <td class="SCM_c1">
+              4. <a href="Event_Buttons.htm">Event Buttons</a>
+            </td>
+            <td class="SCM_c2">
+              Toggle expand, move up and down, new, delete, report.
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3 class="SCM_h3">
+      <a id="Session_Tabsheet_Tables"></a>Jump to the other Tab-Sheets.
+    </h3>
+    <div>
+      <table class="SCM_Table">
+        <caption style="text-align: auto; padding-bottom: 10px">
+          QUICK LINKS ....
+        </caption>
+        <colgroup>
+          <col />
+          <col />
+        </colgroup>
+        <tbody>
+          <tr>
+            <td class="SCM_c1">
+              <a href="../Nominate/Nominate_idx.htm">Nominate</a>
+            </td>
+            <td class="SCM_c2">Nominate your members to the night's events.</td>
+          </tr>
+          <tr>
+            <td class="SCM_c1"><a href="../Heats/Heat_idx.htm">Heats</a></td>
+            <td class="SCM_c2">
+              Auto-Build heats and print marshal and timekeeper sheets.
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
 </html>

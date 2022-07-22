@@ -194,3 +194,26 @@ td.SCM_c2
   padding-left: 10px; 
   padding-bottom: 10px;  
 }  
+
+/* Used to display NEXT/PREV across top of form */
+
+a.SCM_a{
+   text-decoration: none;
+   font-weight: bold;
+   color: white;
+   background: cornflowerblue;
+   padding: 7px 10px;
+   border-radius: 4px;  
+   font-size: 19px;
+}
+a.SCM_a:hover{
+background-color: rgba(100, 149, 237, 85%);
+}
+a.SCM_a:focus{
+   outline: 3px solid rgb(100, 149, 237 / 50%);
+}
+div.SCM_flex{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 20px;
+}

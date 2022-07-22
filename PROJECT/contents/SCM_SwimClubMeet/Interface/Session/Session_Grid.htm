@@ -22,7 +22,7 @@
 
     <meta
       name="rh-index-keywords"
-      content="session,table,create,new,edit,delete,status,sort"
+      content="session,table,create,new,edit,delete,status,sort, clone"
     />
   </head>
 
@@ -47,7 +47,7 @@
     <div>
       <table class="SCM_Table">
         <caption style="text-align: auto; padding-bottom: 10px">
-          Summary description for each column ...
+          COLUMN DESCRIPTION  ...
         </caption>
         <colgroup>
           <col />
@@ -72,7 +72,7 @@
 
     <!-- CREATE NEW SESSION -->
     <h3 class="SCM_h3">
-      <a id="sess_Create_New_Session"></a>Create a new session.
+      <a id="sess_New"></a>Create a new session.
     </h3>
 
     <table class="SCM_tblImgText">
@@ -139,7 +139,7 @@
     </table>
 
     <!-- POPUP MENU -->
-    <h3 class="SCM_h3"><a id="sess_New_SessionDLG"></a>Session Pop-up Menu.</h3>
+    <h3 class="SCM_h3"><a id="sess_PopUp"></a>Session Pop-up Menu.</h3>
     <table class="SCM_tblImgText">
       <colgroup>
         <col />
@@ -165,7 +165,7 @@
     </table>
 
     <!-- NEW SESSION DIALOGUE -->
-    <h3 class="SCM_h3"><a id="sess_New_SessionDLG"></a>New Session Dialogue</h3>
+    <h3 class="SCM_h3"><a id="sess_NewDLG"></a>New Session Dialogue</h3>
 
     <table class="SCM_tblImgText">
       <colgroup>
@@ -196,18 +196,38 @@
     </table>
 
     <!-- EDITING WITHIN THE GRID -->
-    <h3 class="SCM_h3"><a id="Edit_Session"></a>Editing within the grid.</h3>
+    <h3 class="SCM_h3"><a id="sess_EditGrid"></a>Editing within the grid.</h3>
     <p>
-      If you are not using the session dialogue and are instead editing directly
-      into the grid, here are some helpful tips.
+      If you are not using the session dialogue (recommended) and are instead
+      editing directly into the grid, here are some helpful tips.
     </p>
 
     <p>
-      Use the mouse, arrow or tab keys to navigate cells. Use F2 to enter edit
-      mode for a cell
+      Use the mouse, arrow or tab keys to navigate cells. To enter edit mode...
+    </p>
+    <div style="margin-left: 20px">
+      <p>
+        👉 Have focus on the cell and then press
+        <span class="SCM_KBM">F2</span> or <span class="SCM_KBM">ENTER</span>.
+      </p>
+      <p>
+        👉 <span class="SCM_KBM">LMOUSE</span> the cell to focus on cell, then
+        <span class="SCM_KBM">LMOUSE</span> again.
+      </p>
+    </div>
+    <p>
+      In edit mode you will notice that the cell uses an editmask. This ensures
+      the date and time are correctly formatted. Also the time section uses 24
+      hour notation.
     </p>
     <p>
-      To exit edit mode, press ENTER, TAB, SHIFT-TAB or click outside the cell.
+      To exit edit mode, press
+      <span class="SCM_KBM">ENTER, TAB, SHIFT-TAB, ARROW</span> or
+      <span class="SCM_KBM">LMOUSE</span> click outside the cell.
+    </p>
+    <p>
+      Please note, currently the windows cursor is not tracking correctly in
+      this grid, it will be fixed in future releases.
     </p>
 
     <table class="SCM_tblImgText">
@@ -239,7 +259,7 @@
     </table>
 
     <!-- DELETE A SESSION -->
-    <h3 class="SCM_h3"><a id="sess_Delete_Session"></a>Delete a session</h3>
+    <h3 class="SCM_h3"><a id="sess_Delete"></a>Delete a session</h3>
     <table class="SCM_tblImgText">
       <colgroup>
         <col />
@@ -269,7 +289,7 @@
               <p>
                 👉 or hover over the session grid and
                 <span class="SCM_KBM">RMOUSE</span> click to use the pop-up
-                menu. Select <span class="SCM_MI">delete session</span>.
+                menu. Select <span class="SCM_MI">Delete Session...</span>.
               </p>
               <p>
                 👉 or select a session and then use the keyboard short-cut
@@ -307,7 +327,7 @@
     </table>
 
     <!-- TOGGLE LOCK UNLOCK -->
-    <h3 class="SCM_h3">Lock a Session.</h3>
+    <h3 class="SCM_h3"><a id="sess_LockUnlock"></a>Lock a Session.</h3>
     <table class="SCM_tblImgText">
       <colgroup>
         <col />
@@ -355,7 +375,7 @@
     </table>
 
     <!-- SESSION VISIBILITY -->
-    <h3 class="SCM_h3">Toggle Session Visibility.</h3>
+    <h3 class="SCM_h3"><a id="sess_Visibility"></a>Toggle Session Visibility.</h3>
     <table class="SCM_tblImgText">
       <colgroup>
         <col />
@@ -392,7 +412,7 @@
     </table>
 
     <!-- RE-SORT SESSION -->
-    <h3 class="SCM_h3">Re-Sort Session.</h3>
+    <h3 class="SCM_h3"><a id="sess_ReSort"></a>Re-Sort Session.</h3>
     <table class="SCM_tblImgText">
       <colgroup>
         <col />
@@ -430,8 +450,50 @@
       session by editing within the grid.
     </p>
 
+    <!-- CLONE SESSION -->
+    <h3 class="SCM_h3"><a id="sess_Clone"></a>Clone Session.</h3>
+    <table class="SCM_tblImgText">
+      <colgroup>
+        <col />
+      </colgroup>
+      <tbody>
+        <tr class="SCM_trImgText">
+          <td>
+            <img
+              src="../../../assets/images/Session/Session_CloneDlg.jpg"
+              style="
+                float: left;
+                margin-left: 10px;
+                margin-right: 10px;
+                cursor: nwse-resize;
+              "
+            />
+            The current selected session is uses to build a duplicate. The clone is
+      given today's date. It's assigned a description with the metadata
+      <span class="SCM_Term">CLONE OF: Club Night #DATETIME#</span>. 
+      <p>Only the
+      events of the original are copied into the clone. (Nomination, Heats,
+      Entrants and Race-Times are ignored).</p>
+      <p>To clone a session ...</p>
+      <div style="margin-left: 20px">
+        <p>
+          👉 Goto the <span class="SCM_Term">Menu Bar</span> and follow the bread
+          crumbs... <span class="SCM_MI">Session ➡ Clone Session...</span>
+        </p>
+        <p>
+          👉 or hover over the session grid and
+          <span class="SCM_KBM">RMOUSE</span> click. The pop-up menu will appear,
+          select <span class="SCM_MI">Clone Session...</span>.
+        </p>
+      </div>
+  
+          </td>
+        </tr>
+      </tbody>
+    </table>    
+
     <!-- REPORT -->
-    <h3 class="SCM_h3">View the Session Report.</h3>
+    <h3 class="SCM_h3"><a id="sess_ViewReport"></a>View the Session Report.</h3>
     <table class="SCM_tblImgText">
       <colgroup>
         <col />

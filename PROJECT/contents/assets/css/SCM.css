@@ -1,5 +1,5 @@
 h2.SCM_h2 {
-  font-size: 16pt;
+  /* font-size: 16pt; */
   border-width: 1px;
   border-style: solid;
   border-color: #f5bd98;
@@ -11,7 +11,7 @@ h2.SCM_h2 {
 }
 
 h3.SCM_h3 {
-  font-size: 12pt;
+  /* font-size: larger; */
   line-height: 1;
   background-color: rgba(180, 180, 0, 0.2);
   border-width: 1px;
@@ -26,13 +26,13 @@ h3.SCM_h3 {
   padding-left: 8px;
   margin-top: 30px;
   margin-bottom: 10px;
-  width: 50%;
+  width: 60%;
   font-family: "Fira Code Light";
   font-style: italic;
 }
 
 h4.SCM_h4 {
-  font-size: 105%;
+  font-size: 100%;
   border-width: 0px;
   border-style: none;
   border-color: #000000;

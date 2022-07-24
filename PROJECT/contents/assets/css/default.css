@@ -88,6 +88,8 @@ span.glosstext {
 
 /* ol, */
 /* ul {} */
+
+/*
 ol.Decimal {
   list-style-type: decimal;
   counter-reset: item1;
@@ -242,6 +244,8 @@ ul>li {
   margin-bottom: calc(var(--vertical-spacing) / 2);
 }
 
+
+
 ul>li:before {
   counter-increment: item1;
   content: counter(item1, disc);
@@ -252,8 +256,8 @@ ul>li:before {
   width: var(--prefix-size);
   overflow: hidden;
   line-height: 1;
-  /* vertical-align: ; */
 }
+
 
 ol.Decimal>li {
   --prefix-size: 40px;
@@ -310,6 +314,8 @@ ol.Decimal>li>ol>li:before {
   width: var(--prefix-size);
   overflow: hidden;
 }
+
+*/
 
 :root {
   --thickhdrevenrows-theme-color: #666666;

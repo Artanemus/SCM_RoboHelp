@@ -117,7 +117,6 @@ table.SCM_Table {
   margin-right: 20px;
   margin-bottom: 20px;
   margin-left: 20px;
-
 }
 
 div.SCM_Hint {
@@ -178,42 +177,56 @@ tr.SCM_trImgText {
 }
 
 /* these 2xtable_data styles are for SCM grid descriptions */
-td.SCM_c1
-{
-  max-width: 25px; 
-  text-align: right; 
-  padding-right: 10px; 
-  padding-bottom: 10px; 
-  vertical-align: top; 
-}  
+td.SCM_c1 {
+  max-width: 25px;
+  text-align: right;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  vertical-align: top;
+}
 
-td.SCM_c2
-{
-  max-width: 50px; 
-  text-align: left; 
-  padding-left: 10px; 
-  padding-bottom: 10px;  
-}  
+td.SCM_c2 {
+  max-width: 50px;
+  text-align: left;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
 
 /* Used to display NEXT/PREV across top of form */
 
-a.SCM_a{
-   text-decoration: none;
-   font-weight: bold;
-   color: white;
-   background: cornflowerblue;
-   padding: 7px 10px;
-   border-radius: 4px;  
-   font-size: 19px;
+a.SCM_a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  background: cornflowerblue;
+  padding: 7px 10px;
+  border-radius: 4px;
+  font-size: 19px;
 }
-a.SCM_a:hover{
-background-color: rgba(100, 149, 237, 85%);
+a.SCM_a:hover {
+  background-color: rgba(100, 149, 237, 85%);
 }
-a.SCM_a:focus{
-   outline: 3px solid rgb(100, 149, 237 / 50%);
+a.SCM_a:focus {
+  outline: 3px solid rgb(100, 149, 237 / 50%);
 }
-div.SCM_flex{
-   display: flex;
-   justify-content: space-between;
-   margin-top: 20px;
+div.SCM_flex {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+/* CUSTOM FINGER LIST */
+
+ul.custom {
+  list-style-type: none;
+  padding: 0;
+}
+/* Line spacing for list item */
+ul.custom li.aa {
+  margin-bottom: 8px;
+}
+/* Finger pointer */
+ul.custom li.aa:before {
+  content: "👉🏻 ";
+
 }

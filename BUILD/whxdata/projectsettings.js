@@ -2,12 +2,12 @@
 (function() {
 rh = window.rh;
 model = rh.model;
-var defaultTopic = "Home/Home.htm";
+var defaultTopic = "SCM_SwimClubMeet/Intro/Home.htm";
 rh._.exports(defaultTopic);
-rh.consts('DEFAULT_TOPIC', encodeURI("Home/Home.htm"));
+rh.consts('DEFAULT_TOPIC', encodeURI("SCM_SwimClubMeet/Intro/Home.htm"));
 rh.consts('HOME_FILEPATH', encodeURI('index.htm'));
 rh.consts('START_FILEPATH', encodeURI('index.htm'));
-rh.consts('HELP_ID', '6205b105-48ef-4eca-914e-309a76b7c15a' || 'preview');
+rh.consts('HELP_ID', '00641514-f057-4145-ad25-5cc19317bd11' || 'preview');
 rh.consts('LNG_SUBSTR_SEARCH', 0);
 
 model.publish(rh.consts('KEY_LNG_NAME'), "en");

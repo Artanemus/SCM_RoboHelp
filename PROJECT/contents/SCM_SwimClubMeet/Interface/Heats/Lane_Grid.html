@@ -11,7 +11,7 @@
       type="text/css"
       href="../../../assets/css/default.css"
     />
-    <link rel="stylesheet" type="text/css" href="../../../assets/css/SCM.css" />
+    <link rel="stylesheet" type="text/css" href="../../assets/css/SCM.css" />
     <meta name="template" content="../../../assets/masterpages/SCM.htt" />
     <meta
       name="rh-index-keywords"
@@ -20,215 +20,107 @@
   </head>
 
   <body>
-    <h2 class="SCM_h2">Lane Grid</h2>
-    <p><img src="../../../assets/images/Entrants/Ent_Grid_Ledger.png" /></p>
-    <p>
-      This section details the lane grid. It discusses the different functions
-      of the ellipse button. How to manually assign a nominee to a lane. How to
-      nominate and assign an active member to a lane. How to enter race times,
-      disqualifications and scratch a swimmer.
-    </p>
-    <table
-      cellpadding="1"
-      cellspacing="1"
-      class="tblSimpleClean"
-      style="
-        border-width: 2px;
-        border-style: solid;
-        border-color: #000000;
-        border-left: 0;
-        border-right: 0;
-        caption-side: top;
-        background-color: #f5f5f5;
-        text-align: left;
-      "
-      width="100%"
-    >
-      <caption
-        style="
-          border-width: 1px;
-          text-align: left;
-          border-style: none;
-          border-color: #000000;
-        "
-      >
-        Summary of the columns displayed ...
-      </caption>
-      <colgroup>
-        <col width="10%" />
-        <col width="50%" />
-      </colgroup>
-      <tbody
-        style="border-width: 1px; border-style: none; border-color: #000000"
-      >
-        <tr>
-          <td
-            style="
-              border-width: 1px;
-              border-style: none;
-              border-color: #000000;
-              line-height: 1;
-              text-align: right;
-              padding-right: 10px;
-              vertical-align: top;
-              padding-bottom: 20px;
-              padding-top: 20px;
-            "
-          >
-            Lane
-          </td>
-          <td
-            style="vertical-align: top; padding-bottom: 20px; padding-top: 20px"
-          >
-            A read-only field. The pool lane number.
-          </td>
-        </tr>
-        <tr>
-          <td
-            style="
-              border-width: 0px;
-              border-style: none;
-              border-color: #000000;
-              line-height: 1;
-              text-align: right;
-              padding-right: 10px;
-              vertical-align: top;
-              padding-bottom: 20px;
-            "
-          >
-            Entrant's Name
-          </td>
-          <td style="vertical-align: top; padding-bottom: 20px">
-            Here you have access to the ellipse button which allows you to enter
-            a nominee manually into a lane. Prefixed to the name is the swimmers
-            age and gender.
-          </td>
-        </tr>
-        <tr>
-          <td
-            style="
-              border-width: 1px;
-              border-style: none;
-              border-color: #000000;
-              line-height: 1;
-              text-align: right;
-              padding-right: 10px;
-              vertical-align: top;
-              padding-bottom: 20px;
-            "
-          >
-            race time
-          </td>
-          <td style="vertical-align: top; padding-bottom: 20px">
-            The swimmers time for the event, given by the Chief Timekeeper.
-          </td>
-        </tr>
-        <tr>
-          <td
-            style="
-              border-width: 1px;
-              border-style: none;
-              border-color: #000000;
-              line-height: 1;
-              text-align: right;
-              padding-right: 10px;
-              vertical-align: top;
-              padding-bottom: 20px;
-            "
-          >
-            TimeToBeat
-          </td>
-          <td style="vertical-align: top; padding-bottom: 20px">
-            A read-only field. A predicted race time for the entrant.
-          </td>
-        </tr>
-        <tr>
-          <td
-            style="
-              border-width: 1px;
-              border-style: none;
-              border-color: #000000;
-              line-height: 1;
-              text-align: right;
-              padding-right: 10px;
-              vertical-align: top;
-              padding-bottom: 20px;
-            "
-          >
-            PB
-          </td>
-          <td style="vertical-align: top; padding-bottom: 20px">
-            A read-only field. The entrant's Personal Best for this event.
-          </td>
-        </tr>
-        <tr>
-          <td
-            style="
-              border-width: 1px;
-              border-style: none;
-              border-color: #000000;
-              line-height: 1;
-              text-align: right;
-              padding-right: 10px;
-              vertical-align: top;
-              padding-bottom: 20px;
-            "
-          >
-            D
-          </td>
-          <td style="vertical-align: top; padding-bottom: 20px">
-            Indicates if the entrant was disqualified.
-          </td>
-        </tr>
-        <tr>
-          <td
-            style="
-              border-width: 1px;
-              border-style: none;
-              border-color: #000000;
-              line-height: 1;
-              text-align: right;
-              padding-right: 10px;
-              vertical-align: top;
-              padding-bottom: 20px;
-            "
-          >
-            S
-          </td>
-          <td style="vertical-align: top; padding-bottom: 20px">
-            Indicates if the entrant was scratched. (No show.)
-          </td>
-        </tr>
-      </tbody>
-    </table>
+    <h2 class="scm_h2">Lane Grid</h2>
+
+    <div style="text-align: center">
+      <div style="display: inline-block">
+        <p>
+          This section details the lane grid. It discusses the different
+          functions of the ellipse button. How to manually assign a nominee to a
+          lane. How to nominate and assign an active member to a lane. How to
+          enter race times, disqualifications and scratch a swimmer..
+        </p>
+      </div>
+    </div>
+    <div style="text-align: center">
+      <div style="display: inline-block">
+        <img
+          class="scm_img"
+          src="../../../assets/images/Entrants/Ent_Grid_Ledger.png"
+          alt="Lane Grid with ledger."
+        />
+      </div>
+    </div>
+    <div>
+      <table class="scm_table_idx">
+        <caption style="text-align: auto; padding-bottom: 10px">
+          Summary of the columns displayed ...
+        </caption>
+        <colgroup>
+          <col />
+          <col />
+        </colgroup>
+        <tbody>
+          <tr>
+            <td class="scm_c1">1. Lane</td>
+            <td class="scm_c2">A read-only field. The pool lane number.</td>
+          </tr>
+          <tr>
+            <td class="scm_c1">2. Entrant's Name</td>
+            <td class="scm_c2">
+              Here you have access to the ellipse button which allows you to
+              enter a nominee manually into a lane. Prefixed to the name is the
+              swimmers age and gender.
+            </td>
+          </tr>
+          <tr>
+            <td class="scm_c1">3. race time</td>
+            <td class="scm_c2">
+              The swimmers time for the event, given by the Chief Timekeeper.
+            </td>
+          </tr>
+          <tr>
+            <td class="scm_c1">4. TimeToBeat</td>
+            <td class="scm_c2">
+              A read-only field. A predicted race time for the entrant
+              calculated on demand by SCM.
+            </td>
+          </tr>
+          <tr>
+            <td class="scm_c1">5.PersonalBest</td>
+            <td class="scm_c2">
+              A read-only field. The entrant's Personal Best for this event.
+            </td>
+          </tr>
+          <tr>
+            <td class="scm_c1">6. Lables</td>
+            <td class="scm_c2">
+              S - Indicates if the entrant was scratched. (No show.) 
+              <div style="display: inline-block">D - Indicates if the entrant was disqualified.</div>
+              
+            </td>
+          </tr>
+          <tr>
+            <td class="scm_c1">7. Buttons</td>
+            <td class="scm_c2">Lane Grid Buttons.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
 
     <!-- NAVIGATION -->
-    <h3 class="SCM_h3"><a id="LG_Navigate"></a>Navigating the lane grid</h3>
+    <h3 class="scm_h3"><a id="LG_Navigate"></a>Navigating the lane grid</h3>
     <p>Selection in the lane grid is cell based.</p>
     <p>
-      <span class="SCM_KBM">TAB </span>and
-      <span class="SCM_KBM">SHIFT+TAB</span> are the most efficient way of
-      moving around the grid. <span class="SCM_KBM">TAB </span>and
-      <span class="SCM_KBM">SHIFT+TAB</span> key will only move to the
-      cells that are editable. Those cells are
-      <span class="SCM_Term">RaceTime</span>,
-      <span class="SCM_Term">scratched</span> and
-      <span class="SCM_Term">disqualified</span>. Pressing
-      <span class="SCM_KBM">TAB </span> at the end of a line will move you
-      down to the next lane. Pressing
-      <span class="SCM_KBM">SHIFT+TAB </span> at the beginning of a line
-      will move you up a lane.
+      <span class="scm_kbm">TAB </span>and
+      <span class="scm_kbm">SHIFT+TAB</span> are the most efficient way of
+      moving around the grid. <span class="scm_kbm">TAB </span>and
+      <span class="scm_kbm">SHIFT+TAB</span> key will only move to the cells
+      that are editable. Those cells are <span class="scm_term">RaceTime</span>,
+      <span class="scm_term">scratched</span> and
+      <span class="scm_term">disqualified</span>. Pressing
+      <span class="scm_kbm">TAB </span> at the end of a line will move you down
+      to the next lane. Pressing <span class="scm_kbm">SHIFT+TAB </span> at the
+      beginning of a line will move you up a lane.
     </p>
     <p>
       Arrow keys will navigate across all cells. Use
-      <span class="SCM_KBM">UP</span>,
-      <span class="SCM_KBM">DOWN</span>,
-      <span class="SCM_KBM">LEFT</span> and
-      <span class="SCM_KBM">RIGHT </span>. Left and right arrow keys don't
-      navigate off the current lane.
+      <span class="scm_kbm">UP</span>, <span class="scm_kbm">DOWN</span>,
+      <span class="scm_kbm">LEFT</span> and <span class="scm_kbm">RIGHT </span>.
+      Left and right arrow keys don't navigate off the current lane.
     </p>
     <!-- CSS only -->
-    <div class="SCM_Hint">
+    <div class="scm_div_hint">
       <p>
         <svg
           class="bi bi-info-circle"
@@ -253,13 +145,13 @@
     </div>
 
     <!-- POPUP MENU -->
-    <h3 class="SCM_h3">Lane grid ... pop-up menu.</h3>
-    <table class="SCM_tblImgText">
+    <h3 class="scm_h3">Lane grid ... pop-up menu.</h3>
+    <table class="scm_table_img">
       <colgroup>
         <col />
       </colgroup>
       <tbody>
-        <tr class="SCM_trImgText">
+        <tr class="scm_tr_img">
           <td>
             <p>
               <img
@@ -272,8 +164,8 @@
                 "
               />
               Hover over the grid then
-              <span class="SCM_KBM">RMouse</span> click to access the
-              context sensitive pop-up menu.
+              <span class="scm_kbm">RMouse</span> click to access the context
+              sensitive pop-up menu.
             </p>
           </td>
         </tr>
@@ -281,26 +173,26 @@
     </table>
 
     <!-- MOVING ENTRANTS - CHANGING THE LANE ORDER -->
-    <h3 class="SCM_h3">Moving Entrants in Lanes</h3>
+    <h3 class="scm_h3">Moving Entrants in Lanes</h3>
 
     <div style="margin-left: 20px">
       <p>
         👉 To move the entrant, first select the lane, then use the short cut
-        keys <span class="SCM_KBM">CTRL+UP</span> and
-        <span class="SCM_KBM">CTRL+DOWN</span>.
+        keys <span class="scm_kbm">CTRL+UP</span> and
+        <span class="scm_kbm">CTRL+DOWN</span>.
       </p>
       <p>
-        👉 Or <span class="SCM_KBM">RMouse</span> click and use the pop-up
-        menu, then select <span class="SCM_MI">Move Up</span> or
-        <span class="SCM_MI">Move Down</span> from the menu.
+        👉 Or <span class="scm_kbm">RMouse</span> click and use the pop-up menu,
+        then select <span class="scm_mi">Move Up</span> or
+        <span class="scm_mi">Move Down</span> from the menu.
       </p>
       <p>
         👉 Or click either of the
-        <span class="SCM_KBM">Move Lane</span> buttons to change the stack
+        <span class="scm_kbm">Move Lane</span> buttons to change the stack
         order.
       </p>
       <p>
-        👉 Or click the <span class="SCM_KBM">Swap Lane</span> button. This
+        👉 Or click the <span class="scm_kbm">Swap Lane</span> button. This
         function can also be found in the pop-up menu. More about the function
         below.
       </p>
@@ -317,45 +209,43 @@
     <p>Note: You can hover over any of the buttons for a helpful hint.</p>
 
     <!-- RACETIME -->
-    <h3 class="SCM_h3"><a id="LG_RaceTime"></a>Grid Column - RaceTime.</h3>
+    <h3 class="scm_h3"><a id="LG_RaceTime"></a>Grid Column - RaceTime.</h3>
     <p>
       It's in this cell that you enter a swimmer's time for racing the event.
     </p>
     <p>
       Selecting the cell will auto-matically place it in edit mode with all its
       contents selected. Just start typing. If you want to use the edit cursor,
-      then press <span class="SCM_KBM">ENTER </span>or
-      <span class="SCM_KBM">F2 </span>or
-      <span class="SCM_KBM">LMOUSE</span> click the cell a second time and
-      the cursor will appear.
+      then press <span class="scm_kbm">ENTER </span>or
+      <span class="scm_kbm">F2 </span>or
+      <span class="scm_kbm">LMOUSE</span> click the cell a second time and the
+      cursor will appear.
     </p>
     <p>
-      The <span class="SCM_MI">RaceTime</span> cell is special in that it
-      uses a template or editmask. When the cursor is enabled and you are using
-      the arrow keys to navigate you'll notice that the decimal period and colon
+      The <span class="scm_mi">RaceTime</span> cell is special in that it uses a
+      template or editmask. When the cursor is enabled and you are using the
+      arrow keys to navigate you'll notice that the decimal period and colon
       characters are skipped over. Only numerical keys are accepted. Only
       minutes, secounds and milliseconds can be entered. Hours are not
       considered.
     </p>
     <p>
-      Hold down <span class="SCM_KBM">SHIFT</span> while using the arrow
-      keys, will select a portion of the time for editing.
+      Hold down <span class="scm_kbm">SHIFT</span> while using the arrow keys,
+      will select a portion of the time for editing.
     </p>
-    <p><span class="SCM_KBM">DOUBLE LMOUSE</span> click to select all.</p>
+    <p><span class="scm_kbm">DOUBLE LMOUSE</span> click to select all.</p>
     <p>
       To zero the time (00:00.000), select all and then press
-      <span class="SCM_KBM">BACKSPACE</span> .
+      <span class="scm_kbm">BACKSPACE</span> .
     </p>
     <p>
-      Press <span class="SCM_KBM">ESC</span> to clear what's been entered
-      and restore the previous known value. This doesn't exit you from edit
-      mode.
+      Press <span class="scm_kbm">ESC</span> to clear what's been entered and
+      restore the previous known value. This doesn't exit you from edit mode.
     </p>
     <p>
       To exit edit mode, press
-      <span class="SCM_KBM"
-        >ENTER, TAB, SHIFT-TAB, ARROW UP, ARROW DOWN</span
-      >. Or <span class="SCM_KBM">LMOUSE</span> click outside the cell.
+      <span class="scm_kbm">ENTER, TAB, SHIFT-TAB, ARROW UP, ARROW DOWN</span>.
+      Or <span class="scm_kbm">LMOUSE</span> click outside the cell.
     </p>
 
     <p>
@@ -365,7 +255,7 @@
       message. Double check your race times.
     </p>
     <p>
-      The <span class="SCM_Term">SCM_Timekeeper</span> application can set a
+      The <span class="scm_term">SCM_Timekeeper</span> application can set a
       swimmer's race time remotely.
     </p>
     <p>
@@ -375,7 +265,7 @@
     </p>
 
     <!-- CSS only -->
-    <div class="SCM_Hint">
+    <div class="scm_div_hint">
       <p>
         <svg
           class="bi bi-info-circle"
@@ -403,20 +293,18 @@
     </div>
 
     <!-- LANE NUMBER -->
-    <h3 class="SCM_h3">Grid Column - Lane Number.</h3>
+    <h3 class="scm_h3">Grid Column - Lane Number.</h3>
     <p>
       A read-only cell. The lane number is auto-assigned and sorted by SCM. The
       number of lanes that appears in the grid is determined by settings found
       in the menu bar.
     </p>
     <p>
-      <span class="SCM_MI"
-        >Tools ➡ Options ➡ Club ➡ Number of lanes.</span
-      >
+      <span class="scm_mi">Tools ➡ Options ➡ Club ➡ Number of lanes.</span>
     </p>
 
     <!-- TIMETOBEAT     -->
-    <h3 class="SCM_h3">
+    <h3 class="scm_h3">
       <a id="Lane_TimeToBeat"></a>Grid Column - TimeToBeat (TTB).
     </h3>
     <p>
@@ -432,7 +320,7 @@
     </p>
 
     <!-- PERSONAL BEST -->
-    <h3 class="SCM_h3">
+    <h3 class="scm_h3">
       <a id="Lane_PersonalBest"></a>Grid Column - PersonalBest (PB).
     </h3>
     <p>
@@ -442,7 +330,7 @@
     </p>
 
     <!-- DISQUALIFIED   -->
-    <h3 class="SCM_h3">
+    <h3 class="scm_h3">
       <a id="Lane_Disqualified"></a>Grid Colum - Disqualified (D)
     </h3>
     <p>
@@ -450,12 +338,12 @@
       marshall. The Marshal's application can set this remotely.
     </p>
     <p>
-      Press the <span class="SCM_KBM">SPACE</span> key or mouse
-      <span class="SCM_KBM">LMOUSE</span> click to toggle.
+      Press the <span class="scm_kbm">SPACE</span> key or mouse
+      <span class="scm_kbm">LMOUSE</span> click to toggle.
     </p>
 
     <!-- SCRATCHED    -->
-    <h3 class="SCM_h3">
+    <h3 class="scm_h3">
       <a id="Lane_Scratched"></a>Grid Colum - Scratched (S)
     </h3>
     <p>
@@ -463,33 +351,33 @@
       no-show.) The Marshal's application can set this remotely.
     </p>
     <p>
-      Press the <span class="SCM_KBM">SPACE</span> key or mouse
-      <span class="SCM_KBM">LMOUSE</span> click to toggle.
+      Press the <span class="scm_kbm">SPACE</span> key or mouse
+      <span class="scm_kbm">LMOUSE</span> click to toggle.
     </p>
 
     <!-- SWAP LANES-->
-    <h3 class="SCM_h3">Swap Lanes</h3>
-    <p>To open the <span class="SCM_Term">Swap Lane</span> dialogue.</p>
+    <h3 class="scm_h3">Swap Lanes</h3>
+    <p>To open the <span class="scm_term">Swap Lane</span> dialogue.</p>
     <div style="margin-left: 20px">
       <p>
-        👉 <span class="SCM_KBM">RMouse</span> click and then select from
-        the pop-up menu <span class="SCM_MI">Swap Lanes ...</span>.
+        👉 <span class="scm_kbm">RMouse</span> click and then select from the
+        pop-up menu <span class="scm_mi">Swap Lanes ...</span>.
       </p>
-      <p>👉 Or click the <span class="SCM_KBM">Swap Lane</span> button.</p>
+      <p>👉 Or click the <span class="scm_kbm">Swap Lane</span> button.</p>
     </div>
     <p>
       It's not necessary to select the lane prior to opening the dialogue, but
       it can be helpful as it will auto-fill the dialogue for you.
     </p>
-    <table class="SCM_tblImgText">
+    <table class="scm_table_img">
       <colgroup>
         <col />
       </colgroup>
       <tbody>
-        <tr class="SCM_trImgText">
+        <tr class="scm_tr_img">
           <td>
             <img
-              class="SCM_Image"
+              class="scm_img"
               src="../../../assets/images/Entrants/Ent_SwapLaneDlg.JPG"
               alt="Swap Lane Dialogue"
             />
@@ -500,12 +388,12 @@
             </p>
             <p>Use the arrow icons to alter to the heat and lane number.</p>
             <p>
-              👉 Click the <span class="SCM_KBM">Swap Lane</span> button to
+              👉 Click the <span class="scm_kbm">Swap Lane</span> button to
               complete.
             </p>
             <p>
-              👉 Or click <span class="SCM_KBM">Cancel</span> button to
-              close without changes.
+              👉 Or click <span class="scm_kbm">Cancel</span> button to close
+              without changes.
             </p>
           </td>
         </tr>
@@ -513,7 +401,7 @@
     </table>
 
     <!-- EMPTY LANE-->
-    <h3 class="SCM_h3">Empty Lane - Clear the Entrant.</h3>
+    <h3 class="scm_h3">Empty Lane - Clear the Entrant.</h3>
     <p>
       Empty lane will clear the swimmer from the lane and return the member to
       the nomination stack, awaiting lane assignment.
@@ -523,33 +411,30 @@
     </p>
     <p>You can perform the action by first selecting the lane and then ...</p>
     <div style="margin-left: 20px">
-      <p>👉 Use the short cut key <span class="SCM_KBM">CTRL+X</span>.</p>
+      <p>👉 Use the short cut key <span class="scm_kbm">CTRL+X</span>.</p>
       <p>
-        👉 Or <span class="SCM_KBM">RMouse</span> click and use the pop-up
-        menu, then select <span class="SCM_MI">Empty Lane</span> from the
-        menu.
+        👉 Or <span class="scm_kbm">RMouse</span> click and use the pop-up menu,
+        then select <span class="scm_mi">Empty Lane</span> from the menu.
       </p>
-      <p>
-        👉 Or click the <span class="SCM_KBM">Empty Lane</span> button.
-      </p>
+      <p>👉 Or click the <span class="scm_kbm">Empty Lane</span> button.</p>
     </div>
 
-    <table class="SCM_tblImgText">
+    <table class="scm_table_img">
       <colgroup>
         <col />
       </colgroup>
       <tbody>
-        <tr class="SCM_trImgText">
+        <tr class="scm_tr_img">
           <td>
             <img
-              class="SCM_Image"
+              class="scm_img"
               src="../../../assets/images/Entrants/Ent_EmptyTheLaneDlg.jpg"
               alt="Empty Lane"
             />
             <p>A confirmation dialogue box will appear.</p>
             <p>
-              Press <span class="SCM_KBM">Yes</span> to complete the
-              process. It's safe to empty an empty lane.
+              Press <span class="scm_kbm">Yes</span> to complete the process.
+              It's safe to empty an empty lane.
             </p>
           </td>
         </tr>
@@ -557,51 +442,44 @@
     </table>
 
     <!-- SCRUB LANE-->
-    <h3 class="SCM_h3">
+    <h3 class="scm_h3">
       Scrub Lane - Strike the Entrant and remove nomination.
     </h3>
     <p>
-      <span class="SCM_Term">Scrub Lane</span> is more thorough. It'll clears
+      <span class="scm_term">Scrub Lane</span> is more thorough. It'll clears
       the member from the lane and removes the nomination reference for the
       current selected event. If the member wishes to compete in the event, the
       member will have to re-nominate.
     </p>
     <p>You can perform the action by first selecting the lane and then ...</p>
     <div style="margin-left: 20px">
+      <p>👉 Use the short cut key <span class="scm_kbm">CTRL+Del</span>.</p>
       <p>
-        👉 Use the short cut key <span class="SCM_KBM">CTRL+Del</span>.
+        👉 Or <span class="scm_kbm">RMouse</span> click and use the pop-up menu,
+        then select <span class="scm_mi">Strike Entrant</span> from the menu.
       </p>
-      <p>
-        👉 Or <span class="SCM_KBM">RMouse</span> click and use the pop-up
-        menu, then select <span class="SCM_MI">Strike Entrant</span> from
-        the menu.
-      </p>
-      <p>
-        👉 Or click the <span class="SCM_KBM">Strike Entrant</span> button.
-      </p>
+      <p>👉 Or click the <span class="scm_kbm">Strike Entrant</span> button.</p>
     </div>
 
-    <table class="SCM_tblImgText">
+    <table class="scm_table_img">
       <colgroup>
         <col />
       </colgroup>
       <tbody>
-        <tr class="SCM_trImgText">
+        <tr class="scm_tr_img">
           <td>
             <img
-              class="SCM_Image"
+              class="scm_img"
               src="../../../assets/images/Entrants/Ent_StrikeEntrantDlg.jpg"
               alt="Empty Lane"
             />
             <p>A confirmation dialogue box will appear.</p>
             <p>
-              Press <span class="SCM_KBM">Yes</span> to complete the
-              process.
+              Press <span class="scm_kbm">Yes</span> to complete the process.
             </p>
           </td>
         </tr>
       </tbody>
     </table>
-
   </body>
 </html>

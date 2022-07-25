@@ -1,0 +1,128 @@
+
+    Header Bar
+    
+    1. Menu Bar.
+    
+      File, Session, Events, Nominate, Tools, Help. The menu bar has additional
+      tools and commands. Check them out!
+    
+    2. Club name and nickname.
+    
+      The name of the swimming organization/association and
+      it's nickname. Future versions of SCM will include the club's logo. 
+    
+    
+      
+        3. Optional - SQLEXPRESS record identification information.
+      
+      
+        For those who wish to track a record through the Microsoft's SQLEXPRESS
+        SwimClubMeet database then these record ID's can be displayed. This is
+        enabled in ...
+        
+        Tools → Options → Other ...  Then check   🗹 Show debug information.
+        
+        If you are a power-user and understand the T-SQL language and want to
+        'drill-into' the SwimClubMeet database, then this may assist you in
+        writing and debugging your queries.
+      
+      
+        Here's a link to more detail - if you are the curious type ...
+        Show Debug Information
+      
+    
+    
+      
+        
+          
+        
+        
+          
+            
+              
+              4. Member's dialogue.
+              
+                This button gives access to the member's dialogue. Here you can
+                create a new members, enter data for each member, track a
+                member's attendance, visualize a member's performance and more.
+                For more information follow this link ...
+                Members
+              
+            
+          
+        
+      
+    
+    
+      
+        
+          
+        
+        
+          
+            
+              
+               5. Refresh.
+              
+                An important button if you are using the support apps (Marshal,
+                Nominate, Timekeeper, etc). As these external apps can change
+                data within you Microsoft's SQLEXPRESS SwimClubMeet database,
+                this refresh button re-syncs the core app.
+              
+              
+                The core application does auto-resync at set points in the code.
+                For example : When you move between tabsheets it will
+                requery tables pertaining to the tabsheet you selected. The
+                refresh button is a more inclusive, an all incompassing
+                re-sync. 
+              
+              
+                Here are some examples when a refresh might be in order: 
+                👉 If the Marshal disqualifies swimmers, then after a re-fresh
+                you'll see the heat display check marks in the disqualified
+                box.
+                👉 If the Timekeeper enters swimmers race times, then after a
+                re-fresh, those times will appears in each entrant's lane.
+              
+            
+          
+        
+      
+    
+    
+    
+      
+        
+          
+        
+         Tip:
+      
+      
+        If you are running in paperless mode, that is, your are using the
+        support applications SCM_Marshal and
+        SCM_Timekeeper , it's good to instigate
+        some pool procedure.
+      
+      
+        A heat is considered raced when the
+        Referee blows the whistle. The Chief Marshal or Referee can set the heat
+        status to raced  by using the
+        SCM_Marshal application..
+      
+      
+        A heat is considered closed when all the
+        race time data has been entered into the database.
+      
+      
+        Race-times can be entered by the Chief Timekeeper at the poolside by
+        using the SCM_Timekeeper application. They
+        can't close the heat, only the core
+        application can do that.
+      
+      
+        After the Referee flags the heat is over the Chief Recorder does an
+        Q&A and then closes the heat.
+      
+    
+  
+

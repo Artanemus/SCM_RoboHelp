@@ -1,50 +1,125 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml"><head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>SCM_MasterPage</title>
-    <link rel="stylesheet" type="text/css" href="../css/default.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/default.css" />
+    <link rel="stylesheet" type="text/css" href="../css/SCM.css" />
+
+    <!-- Google Fonts - Fira Code light and medium -->
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin=""
+    />
+    
     <link
       rel="stylesheet"
-      type="text/css"
-      href="../css/SCM.css"
+      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&amp;display=swap"
     />
 
-</head>
+    <!-- &  ...may need to use...  &amp; -->
 
-<body>
+    <!-- Google Icons -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+  </head>
+
+  <body>
     <div data-region="header" style="background-color: #f5f5f5">
-        <p><span style="font-size:26px"></span></p>
-        <table border="1" cellpadding="1" cellspacing="1" style="border-collapse:collapse;width:100%;border-width:0px;border-style:none;border-color:#000000;border-left-width:10px;border-left-style:none;border-left-color:#000000;border-top-width:10px;border-top-style:none;border-top-color:#000000;border-right-width:10px;border-right-style:none;border-right-color:#000000;border-bottom-width:10px;border-bottom-style:none;border-bottom-color:#000000">
-            <colgroup>
-                <col style="width:100%"/>
-            </colgroup>
-            <tbody>
-                <tr>
-                    <td style="border-width: 0px;border-style: none;border-color: #000000;border-left-width: 0px;border-left-style: none;border-left-color: #000000;border-top-width: 0px;border-top-style: none;border-top-color: #000000;border-right-width: 0px;border-right-style: none;border-right-color: #000000;border-bottom-width: 0px;border-bottom-style: none;border-bottom-color: #000000">
-                        <span style="font-size:26px"><img alt="SCM Hero Icon" height="48" src="../images/Interface/SCM_Hero_Icon.png" style="padding: 10px; float: left;" title="SCm_Hero_Icon" width="48"/>
-                        </span>
-                        <span style="font-size:NaNpx"><span style="font-size:26px"><br/>
-                                SwimClubMeet</span>
-                        </span>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
+      <p><span style="font-size: 26px"></span></p>
+      <table
+        border="1"
+        cellpadding="1"
+        cellspacing="1"
+        style="
+          border-collapse: collapse;
+          width: 100%;
+          border-width: 0px;
+          border-style: none;
+          border-color: #000000;
+          border-left-width: 10px;
+          border-left-style: none;
+          border-left-color: #000000;
+          border-top-width: 10px;
+          border-top-style: none;
+          border-top-color: #000000;
+          border-right-width: 10px;
+          border-right-style: none;
+          border-right-color: #000000;
+          border-bottom-width: 10px;
+          border-bottom-style: none;
+          border-bottom-color: #000000;
+        "
+      >
+        <colgroup>
+          <col style="width: 100%" />
+        </colgroup>
+        <tbody>
+          <tr>
+            <td
+              style="
+                border-width: 0px;
+                border-style: none;
+                border-color: #000000;
+                border-left-width: 0px;
+                border-left-style: none;
+                border-left-color: #000000;
+                border-top-width: 0px;
+                border-top-style: none;
+                border-top-color: #000000;
+                border-right-width: 0px;
+                border-right-style: none;
+                border-right-color: #000000;
+                border-bottom-width: 0px;
+                border-bottom-style: none;
+                border-bottom-color: #000000;
+              "
+            >
+              <span style="font-size: 26px"
+                ><img
+                  alt="SCM Hero Icon"
+                  height="48"
+                  src="../images/Interface/SCM_Hero_Icon.png"
+                  style="padding: 10px; float: left"
+                  title="SCm_Hero_Icon"
+                  width="48"
+                />
+              </span>
+              <span style="font-size: NaNpx"
+                ><span style="font-size: 26px"
+                  ><br />
+                  SwimClubMeet</span
+                >
+              </span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
     </div>
     <div data-region="topic">
-        <p>This is Body Placeholder text for your Master Page. Topics created using this Master Page will get this text
-            by default. Replace text of this Body Placeholder with your default content for topics.</p>
-        <p> </p>
-        <p>Area outside this Body Placeholder represents the layout of the Master Page which will not be shown in the
-            associated topics but will be present in the output. The Body Placeholder content will be replaced by actual
-            topic content in the output.</p>
-        <p> </p>
-        <p>Use Master Page to define the layout of your topic in the output.</p>
+      <p>
+        This is Body Placeholder text for your Master Page. Topics created using
+        this Master Page will get this text by default. Replace text of this
+        Body Placeholder with your default content for topics.
+      </p>
+      <p></p>
+      <p>
+        Area outside this Body Placeholder represents the layout of the Master
+        Page which will not be shown in the associated topics but will be
+        present in the output. The Body Placeholder content will be replaced by
+        actual topic content in the output.
+      </p>
+      <p></p>
+      <p>Use Master Page to define the layout of your topic in the output.</p>
     </div>
     <div data-region="footer">
-        <p> </p>
+      <p></p>
     </div>
-
-
-</body></html>
+  </body>
+</html>

@@ -17,46 +17,46 @@
               
               Import XLS ...
               
-                TBA. Imports an XLS into
-                SCM as a session. The XLS must have the correct SCM header else
+                TBA. Imports an XLS into
+                SCM as a session. The XLS must have the correct SCM header else
                 import will fail. The date and time of the newly created session
-                will match the creation date of the XLS.  An 'Export
+                will match the creation date of the XLS.  An 'Export
                 XLS' will always import successfully.
                 
                 Future extension to SCM will include an application that allows
                 for the injection of new members and their historical data via
-                an XLS import. This extension will be a stand-alone application
+                an XLS import. This extension will be a stand-alone application
                 for PC only.
               
-              Export XLS ... 
+              Export XLS ... 
               
                 TBA. Exports the CarnivalMeet data but in XLS format. This is a
                 multi-sheet XLS that can be loaded in Microsoft's Excel. The
                 file is also useful to gain a snapshot into the club members and
-                their performances. Future extensions to SCM will include a
-                coaching application that can also use this raw data.
+                their performances. Future extensions to SCM will include a
+                coaching application that can also use this raw data.
               
-              Import CarnivalMeet ...
+              Import CarnivalMeet ...
               
                 TBA. Import your member's events and race-times from
-                a Carnival-Meet. The imported data will appear as a session. The
-                session date and time will match the date and time of the
-                Carnival-Meet. The session will only contain the data for your
-                members and not the participating clubs that joined the
+                a Carnival-Meet. The imported data will appear as a session. The
+                session date and time will match the date and time of the
+                Carnival-Meet. The session will only contain the data for your
+                members and not the participating clubs that joined the
                 carnival. Nominations and Events that don't include any of
                 your club members will still be displayed.
               
-              Export CarnivalMeet ...
+              Export CarnivalMeet ...
               
                 TBA. Export your members details (clubname, swimmer name,
-                gender, DOB) and personal bests (PBs) across all raced events in
+                gender, DOB) and personal bests (PBs) across all raced events in
                 preparation for import into the SCM_CarnivalMeet application.
               
               Exit
               
-                Closes the application. There is no need to save as your data is
+                Closes the application. There is no need to save as your data is
                 continuously written to the
-                MSSQL EXPRESS database server.
+                MSSQL EXPRESS database server.
               
             
           
@@ -77,7 +77,7 @@
               
                 Create a new club-night. Enter a date and time for your new
                 session. Optionally, add a short note to make the night
-                memerable. eg. 'Clear skies and bar-b-que'. 
+                memerable. eg. 'Clear skies and bar-b-que'. 
               
               Edit Session...
               
@@ -97,7 +97,7 @@
               Lock/Unlock
               
                 This is a toggle to make the current selected session and
-                it's events and heats read-only. The session gets painted
+                it's events and heats read-only. The session gets painted
                 'tomatoe red' when locked.
               
               Build ALL Heats ...
@@ -108,7 +108,7 @@
                 Auto-Build Heats dialogue is opened. Select your configuration
                 for building all heats and press OK.
               
-              Print All Marshall Reports ...
+              Print All Marshal Reports ...
               
                 Send to printer or PDF. Be aware, if the windows print-spooler
                 is enabled you may need to abort the print jobs here.
@@ -120,7 +120,7 @@
         
       
     
-     
+     
     Menu Item - Events
     
       
@@ -140,12 +140,12 @@
               Master Championships ...
               
               Relay ...
-               
+               
             
           
         
       
-       
+       
     
     Menu Item - Nominate
     
@@ -164,17 +164,17 @@
                 Removes all nominations from the selected event. If the nominee
                 has been assigned a lane, then they are removed from that lane.
                 Should a heat become empty, then the heat is removed.
-                 
+                 
               
             
           
         
       
     
-     
+     
     Menu Item - Tools
     
-      The tools drop-down has lots of features. Each deserve their own special
+      The tools drop-down has lots of features. Each deserve their own special
       pages, so follow the links to learn more.
     
     
@@ -192,14 +192,14 @@
               
                 👉 Allows you to setup your swimming club. Set you clubname,
                 nickname, website, etc.
-                Here you can also set the length of your pool, season start date
+                Here you can also set the length of your pool, season start date
                 and number of lanes.
                 👉 Adjust the parameters used by Time-To-Beat (TTB)
-                and Auto-Build Heats.
+                and Auto-Build Heats.
                 👉 Set parameters for nomination.
                 👉 And other miscellaneous SCM system settings.
                 
-                Follow this link to learn more about... 
+                Follow this link to learn more about... 
                 Options
               
               
@@ -210,11 +210,11 @@
                 to determine whether a member is permitted to swim an event of
                 given distance and stroke. It takes into consideration gender
                 and pool type (Short or long course).
-                👉 Also print qualification reports such as "Who isn't
-                qualified, but is swimming the event anyway, despite your best
-                efforts!"  
+                👉 Also print qualification reports such as "Who isn't
+                qualified, but is swimming the event anyway, despite your best
+                efforts!"  
                 
-                Follow this link to learn more about... 
+                Follow this link to learn more about... 
                 Qualify Times
               
               
@@ -228,13 +228,13 @@
                 populated with data. View this data as examples.
               
               
-                Follow this link to learn more about... 
+                Follow this link to learn more about... 
                 Membership Type
               
               Score ...
               
                 Score your end of year club finals. Score ABSOLUTE, RELATIVE (to
-                division). Score the event or each heat. And more. 
+                division). Score the event or each heat. And more. 
               
               
                 Score is a work-in-progress. With the release of SCM_LeaderBoard
@@ -245,8 +245,8 @@
               House ...
               
                 Create, delete houses. Assign house logos, mottos. Assign
-                members to houses. House data can be used by SCM_LeaderBoard to
-                display house totals.
+                members to houses. House data can be used by SCM_LeaderBoard to
+                display house totals.
               
               
                 What's the point of houses in clubs, you ask? Good question.
@@ -254,11 +254,11 @@
                 
                 BUT.... Perhaps your club is in truth a school running a
                 swimming carnival. Think about the combine strengths of using
-                SCM, Import XLS and the SCM_LeaderBoard
+                SCM, Import XLS and the SCM_LeaderBoard
                 application.
               
               
-                House is work-in-progress. With the release of SCM_LeaderBoard
+                House is work-in-progress. With the release of SCM_LeaderBoard
                 it'll a have full meaning.
               
               See ... House
@@ -271,8 +271,8 @@
               
               
                 🖐 DEVELOPER : If I've written SCM correctly, then it'll
-                find nothing. This routine is non-destructive. Comforting to run
-                every now and then. Send me an email if you see something.
+                find nothing. This routine is non-destructive. Comforting to run
+                every now and then. Send me an email if you see something.
                 (I've never seen an error.)
               
             
@@ -295,8 +295,8 @@
                 About ...
               
               
-                Displays information on 
-                SCM including version number, copyright and trademark.
+                Displays information on 
+                SCM including version number, copyright and trademark.
               
               
                 
@@ -305,7 +305,7 @@
                   
                   
                     
-                      Future versions of the help menu will allow you the
+                      Future versions of the help menu will allow you the
                       chose of viewing the help file locally or on the internet.
                     
                   
@@ -345,12 +345,12 @@
                 
                 
                 If the version doesn't match, you may see database
-                errors. 
+                errors. 
                 
                 The Build Version (that's the
                 .1.0 portion seen in the image) indicates the release version of
                 SCM that you have installed. To find the most resent release go
-                to the SCM website. 
+                to the SCM website. 
                 
                 FYI : The picture is a microscopic look at fish scales.
                 (Suitably themed 🙂)
@@ -358,7 +358,7 @@
             
           
         
-         
+         
         
           
           
@@ -380,7 +380,7 @@
         
       
     
-     
-     
+     
+     
   
 

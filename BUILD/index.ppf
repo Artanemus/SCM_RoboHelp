@@ -3,202 +3,350 @@
   <contextmap>
     
   </contextmap>
-  <topiclist defaulttopic="Home\Home.htm">
+  <topiclist defaulttopic="SCM_SwimClubMeet\Intro\Home.htm">
     
     <topic>
-      Home\Home.htm
+      assets\snippets_SCM\SCM_BoilerPlate.html
     </topic>
     
     <topic>
-      Home\Start_Up.htm
+      assets\snippets_SCM\SCM_Center.html
     </topic>
     
     <topic>
-      Home\System_Requirements.htm
+      assets\snippets_SCM\SCM_Finger.html
     </topic>
     
     <topic>
-      Home\Installation.htm
+      assets\snippets_SCM\SCM_Hint.html
     </topic>
     
     <topic>
-      Home\Getting_Started.htm
+      assets\snippets_SCM\SCM_Info.html
     </topic>
     
     <topic>
-      Home\How_to_backup_data.htm
+      assets\snippets_SCM\SCM_PoolProcedure.html
     </topic>
     
     <topic>
-      Home\Learn_more.htm
+      assets\snippets_SCM\SCM_PrevNext.html
     </topic>
     
     <topic>
-      Interface\Interface.htm
+      assets\snippets_SCM\SCM_Table.html
     </topic>
     
     <topic>
-      Interface\Login\SCM_Login.htm
+      assets\snippets_SCM\SCM_TableImageText.html
     </topic>
     
     <topic>
-      Interface\Session\Session.htm
+      SCM_BuildMeAClub\BMAC_Intro\BMAC_Details.htm
     </topic>
     
     <topic>
-      Interface\Session\Session_Table.htm
+      SCM_BuildMeAClub\BMAC_Intro\BMAC_Login.htm
     </topic>
     
     <topic>
-      Interface\Session\Events_Table.htm
+      SCM_BuildMeAClub\BMAC_Intro\Home.htm
     </topic>
     
     <topic>
-      Interface\Nominate\Nominate.htm
+      SCM_SwimClubMeet\Interface\Bar\Header_Bar.htm
     </topic>
     
     <topic>
-      Interface\Nominate\Nominees_Member_List.htm
+      SCM_SwimClubMeet\Interface\Bar\Menu_Bar.htm
     </topic>
     
     <topic>
-      Interface\Nominate\Nominee_Events_List.htm
+      SCM_SwimClubMeet\Interface\Bar\Status_Bar.htm
     </topic>
     
     <topic>
-      Interface\Heats\Heats.htm
+      SCM_SwimClubMeet\Interface\Heats\AutoBuildHeatsDlg.htm
     </topic>
     
     <topic>
-      Interface\Heats\Heat_Table.htm
+      SCM_SwimClubMeet\Interface\Heats\Heat_Buttons.htm
     </topic>
     
     <topic>
-      Interface\Heats\Entrant_Table.htm
+      SCM_SwimClubMeet\Interface\Heats\Heat_Grid.htm
     </topic>
     
     <topic>
-      Tools\Options\Options.htm
+      SCM_SwimClubMeet\Interface\Heats\Heat_idx.htm
     </topic>
     
     <topic>
-      Tools\Options\Club_Options.htm
+      SCM_SwimClubMeet\Interface\Heats\Heat_ManualBuild.html
     </topic>
     
     <topic>
-      Tools\Options\TTB_Options.htm
+      SCM_SwimClubMeet\Interface\Heats\Heat_Navigator.htm
     </topic>
     
     <topic>
-      Tools\Options\Auto_Build_Options.htm
+      SCM_SwimClubMeet\Interface\Heats\Lane_Buttons.htm
     </topic>
     
     <topic>
-      Tools\Options\Nominate_Options.htm
+      SCM_SwimClubMeet\Interface\Heats\Lane_Grid.html
     </topic>
     
     <topic>
-      Tools\Options\System_Options.htm
+      SCM_SwimClubMeet\Interface\Login\SCM_Login.htm
     </topic>
     
     <topic>
-      Tools\Qualify_Times.htm
+      SCM_SwimClubMeet\Interface\Nominate\Nom_Events_List.htm
     </topic>
     
     <topic>
-      Tools\Membership_Type.htm
+      SCM_SwimClubMeet\Interface\Nominate\Nom_Member_List.htm
     </topic>
     
     <topic>
-      Tools\Score.htm
+      SCM_SwimClubMeet\Interface\Nominate\Nominate_idx.htm
     </topic>
     
     <topic>
-      Tools\House.htm
+      SCM_SwimClubMeet\Interface\Session\Event_Buttons.htm
     </topic>
     
     <topic>
-      Interface\Menu_Bar.htm
+      SCM_SwimClubMeet\Interface\Session\Event_Grid.htm
     </topic>
     
     <topic>
-      Interface\Status_Bar.htm
+      SCM_SwimClubMeet\Interface\Session\Session_Buttons.Htm
     </topic>
     
     <topic>
-      Members\Members.htm
+      SCM_SwimClubMeet\Interface\Session\Session_CreateDlg.htm
     </topic>
     
     <topic>
-      Members\Members_Details.htm
+      SCM_SwimClubMeet\Interface\Session\Session_Grid.htm
     </topic>
     
     <topic>
-      Members\Member_List.htm
+      SCM_SwimClubMeet\Interface\Session\Session_idx.htm
     </topic>
     
     <topic>
-      Members\Members_History.htm
+      SCM_SwimClubMeet\Interface\Interface_idx.htm
     </topic>
     
     <topic>
-      Members\Members_Chart.htm
+      SCM_SwimClubMeet\Intro\BackupYourData.htm
     </topic>
     
     <topic>
-      Members\Members_Report.htm
+      SCM_SwimClubMeet\Intro\Home.htm
     </topic>
     
     <topic>
-      Members\Member_Find.htm
+      SCM_SwimClubMeet\Intro\Installation.htm
     </topic>
     
     <topic>
-      Special_Controls\Special_Controls.htm
+      SCM_SwimClubMeet\Intro\LearnMore.htm
     </topic>
     
     <topic>
-      Special_Controls\Navigator.htm
+      SCM_SwimClubMeet\Intro\MyFirstClubNight.htm
     </topic>
     
     <topic>
-      Special_Controls\Build_Heats_Dialogue.htm
+      SCM_SwimClubMeet\Intro\StartHere.htm
     </topic>
     
     <topic>
-      Special_Controls\New_Session_Dialogue.htm
+      SCM_SwimClubMeet\Intro\SysRequirements.htm
     </topic>
     
     <topic>
-      Special_Controls\Quick_Pick.htm
+      SCM_SwimClubMeet\Members\Mem_Buttons.htm
     </topic>
     
     <topic>
-      System_Info\System_Info.htm
+      SCM_SwimClubMeet\Members\Mem_Chart.htm
     </topic>
     
     <topic>
-      System_Info\Application_List.htm
+      SCM_SwimClubMeet\Members\Mem_Details.htm
     </topic>
     
     <topic>
-      System_Info\Version_Info.htm
+      SCM_SwimClubMeet\Members\Mem_Find.htm
     </topic>
     
     <topic>
-      System_Info\Connection_Overview.htm
+      SCM_SwimClubMeet\Members\Mem_Goto.htm
     </topic>
     
     <topic>
-      System_Info\Connecting_SCM.htm
+      SCM_SwimClubMeet\Members\Mem_History.htm
     </topic>
     
     <topic>
-      System_Info\TTB_How_it_works.htm
+      SCM_SwimClubMeet\Members\Mem_List.htm
     </topic>
     
     <topic>
-      System_Info\How_seeding_works.htm
+      SCM_SwimClubMeet\Members\Mem_Navigator.htm
+    </topic>
+    
+    <topic>
+      SCM_SwimClubMeet\Members\Mem_Report.htm
+    </topic>
+    
+    <topic>
+      SCM_SwimClubMeet\Members\Members_idx.htm
+    </topic>
+    
+    <topic>
+      SCM_SwimClubMeet\Reports\Reports_idx.htm
+    </topic>
+    
+    <topic>
+      SCM_SwimClubMeet\Reports\Rpt_Events.htm
+    </topic>
+    
+    <topic>
+      SCM_SwimClubMeet\Reports\Rpt_Heats.htm
+    </topic>
+    
+    <topic>
+      SCM_SwimClubMeet\Reports\Rpt_Marshal.htm
+    </topic>
+    
+    <topic>
+      SCM_SwimClubMeet\Reports\Rpt_Members.htm
+    </topic>
+    
+    <topic>
+      SCM_SwimClubMeet\Reports\Rpt_MembershipType.htm
+    </topic>
+    
+    <topic>
+      SCM_SwimClubMeet\Reports\Rpt_Nominate.htm
+    </topic>
+    
+    <topic>
+      SCM_SwimClubMeet\Reports\Rpt_QualifyGeneral.htm
+    </topic>
+    
+    <topic>
+      SCM_SwimClubMeet\Reports\Rpt_QualifySession.htm
+    </topic>
+    
+    <topic>
+      SCM_SwimClubMeet\Reports\Rpt_QualifyTimes.htm
+    </topic>
+    
+    <topic>
+      SCM_SwimClubMeet\Reports\Rpt_Score.htm
+    </topic>
+    
+    <topic>
+      SCM_SwimClubMeet\Reports\Rpt_Session.htm
+    </topic>
+    
+    <topic>
+      SCM_SwimClubMeet\Reports\Rpt_TimeKeeper.htm
+    </topic>
+    
+    <topic>
+      SCM_SwimClubMeet\System\Application_List.htm
+    </topic>
+    
+    <topic>
+      SCM_SwimClubMeet\System\Color_Ledger.htm
+    </topic>
+    
+    <topic>
+      SCM_SwimClubMeet\System\Connecting_SCM.htm
+    </topic>
+    
+    <topic>
+      SCM_SwimClubMeet\System\Connection_Overview.htm
+    </topic>
+    
+    <topic>
+      SCM_SwimClubMeet\System\How_seeding_works.htm
+    </topic>
+    
+    <topic>
+      SCM_SwimClubMeet\System\Keyboard_shortcuts.htm
+    </topic>
+    
+    <topic>
+      SCM_SwimClubMeet\System\KickStartTTB.htm
+    </topic>
+    
+    <topic>
+      SCM_SwimClubMeet\System\Pool_Protocol.html
+    </topic>
+    
+    <topic>
+      SCM_SwimClubMeet\System\System_idx.htm
+    </topic>
+    
+    <topic>
+      SCM_SwimClubMeet\System\TTB_How_it_works.htm
+    </topic>
+    
+    <topic>
+      SCM_SwimClubMeet\System\Version_Info.htm
+    </topic>
+    
+    <topic>
+      SCM_SwimClubMeet\Tools\Tool_Options\Opt_AutoBuild.htm
+    </topic>
+    
+    <topic>
+      SCM_SwimClubMeet\Tools\Tool_Options\Opt_Club.htm
+    </topic>
+    
+    <topic>
+      SCM_SwimClubMeet\Tools\Tool_Options\Opt_Nominate.htm
+    </topic>
+    
+    <topic>
+      SCM_SwimClubMeet\Tools\Tool_Options\Opt_System.htm
+    </topic>
+    
+    <topic>
+      SCM_SwimClubMeet\Tools\Tool_Options\Opt_TTB.htm
+    </topic>
+    
+    <topic>
+      SCM_SwimClubMeet\Tools\Tool_Options\Options_idx.htm
+    </topic>
+    
+    <topic>
+      SCM_SwimClubMeet\Tools\Tool_House.htm
+    </topic>
+    
+    <topic>
+      SCM_SwimClubMeet\Tools\Tool_MembershipType.htm
+    </topic>
+    
+    <topic>
+      SCM_SwimClubMeet\Tools\Tool_QualifyTimes.htm
+    </topic>
+    
+    <topic>
+      SCM_SwimClubMeet\Tools\Tool_Score.htm
+    </topic>
+    
+    <topic>
+      SCM_SwimClubMeet\Tools\Tools_idx.htm
     </topic>
     
   </topiclist>

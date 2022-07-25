@@ -1,54 +1,114 @@
 
-  
-TimeToBeat How it works
-  
-SwimMeetClub keeps a log of all 
-race times swum by that members.
-  
-It's this 
-racing data that SwimClubMeet uses to calculate the TimeToBeat. The more data the better.
-  
+    TimeToBeat ...
 
+    
+      
+        
+          The TimeToBeat settings located in options.
+        
+      
+    
+    
+      
+        
+      
+    
 
-TimeToBeat is always calculated based on the events swum up to but excluding the current session. Data outside of these bounds is ignored.
-  
+    TTB settings.
+    Where do I go to adjust the TimeToBeat algorithm?
 
+    
+      
+        👉 Go to the menu bar and follow the bread-crumbs
+         Tools ➡ Options ➡ TimeToBet 
+      
+      👉 Or 'on-the-fly', when doing an Auto-Build Heats.
+    
+    
+      There is only one set of parameters. The two above methods modify the same
+      set. The methods are congruent.
+    
 
-TimeToBeat is calculated actively, in real time. By default it uses the average of the 3 fastest times the member has swum. Alternatively it can use the last known race time or the member's personal best .
-  
-If a member doesn't have any 
-race time data, then a time is calculated based on the mean average of the bottom 50% (default), with consideration to age and gender. If there is still insufficient data it'll ignore gender. It there is still not enough data (default:  at least 4 records) then it will re-calculate, doing an age spread (default: plus or minus 1 year).
-  
-If after all this process time, a suitable race time can't be found, then the 
-TimeToBeat is left empty. (For an Auto-Build Heats, this effectively sends that swimmer to the slowest heats.)
-  
-This algorithm can be set in 
+    How it works.
+    
+      SwimMeetClub keeps a log of all the race times swum by every member in
+      your club. It could easily store hundreds of years of racing data.
+    
 
-Tools - 
-Options - 
+    
+      It's this racing data that SwimClubMeet uses to calculate the TimeToBeat.
+      The more data there is, the better the results.
+    
 
-TTB 
+    
+      TimeToBeat is always calculated based on the events swum up to but not
+      including the current selected session. Future data, sessions which
+      post-date the current select session, are excluded. If you select a
+      session in the middle of SCM's stack of sessions, then all the sessions
+      above it are ignored.
+    
+    
+      There is one exception to the rules given above. When making Finals,
+      Semi-Finals and Quarter-Finals the racetimes of the current selected
+      session is considered. (Think about it, it makes sense 😉.)
+    
 
-.
-  
-Also, 'on-the-fly', when doing an Auto-Build Heats 
+    
+      TimeToBeat is calculated actively, in real time. By default it uses the
+      average of the 3 fastest times the member has swum. Alternatively it can
+      use the last known race time or the member's personal best. You get to
+      chose which one of these in the options dialogue.
+    
 
-.
-  
- 
-  
+    
+      If a member doesn't have any race time data, then a time is calculated
+      based on the mean average of the bottom 50% (default), with consideration
+      to age and gender. You can turn this feature off in the option dialogue.
+      Why you would do this - I don't know - perhaps you want to maually arrange
+      swimmers new to the event? You might lower the percentage rate as you gain
+      more race data. It's very dependant on the club demographics as to what is
+      the perfect percentage.
+    
 
-Notes for Auto-Build Heats:
-  
+    
+      If there's still insufficient data, SCM will ignore gender and try once
+      more.
+    
+    
+      If there is still not enough data (at least 4 records) then it will
+      re-calculate, doing an age spread (plus or minus 1 year). There are
+      currently no options for you to adjust minimum records and the spread
+      values.
+    
 
-TimeToBeat is used to select the heat and lane that a member will be given. In the moment that the Auto-Build button is pressed, all TTBs are calculated for all nominees for the given event, in real time. The data used is all the race times of all members that pre-dates the selected session. The TTB data is used to build a list of entrants, fastest to slowest. Those without a T
-TB will end at the bottom of this list and placed 
-into the slowest heat. A new member, without a race history, may be incorrectly place for the first instance but once a race has been swum and their race time data is entered, that member will always be placed correctly.
-  
- 
-  
+    
+      If after all this, a suitable race time can't be found, then the
+      TimeToBeat is left empty. This effectively places the swimmer in the
+      slowest heats.
+    
 
-If you want to 'kick-start' your TimeToBet algorithm (you have just installed the application and you have no data) then you could add a session that is dated prior to the new swimming season. Populate that session with events, filled with the personal best times for all of your members. That way when the first club night is played ... entrants are correctly placed.
+    Auto-Build button.
+    This is what happens when you press the Auto-Build Heats button.
+
+    
+      TimeToBeat is used to select the heat and lane that a member will be
+      given. In the moment that the Auto-Build button is pressed, all TTBs are
+      calculated for all nominees for the given event, in real time. The data
+      used is all the race times of all members that pre-dates the selected
+      session. The TTB data is used to build a list of entrants, fastest to
+      slowest. Those without a TTB will end at the bottom of this list and
+      placed into the slowest heat. A new member, without a race history, may be
+      incorrectly place for the first instance but once a race has been swum and
+      their race time data is entered, that member will always be placed
+      correctly.
+    
+
+    I have no race data ...
+
+    
+      If you want to know how to kick-start your TimeToBet algorithm then
+      follow this ...
+      link
+    
   
- 
 

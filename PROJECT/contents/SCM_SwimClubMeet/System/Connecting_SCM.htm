@@ -16,14 +16,14 @@
   </head>
   <body>
     <!-- OUTLINE -->
-    <h2 class="SCM_h2">Connect TCP/IP for SCM</h2>
+    <h2 class="scm_h2">Connect TCP/IP for SCM</h2>
     <p style="margin-left: 6%; margin-right: 6%">
-      <span class="SCM_Quote">
+      <span class="scm_quote">
         An outline to getting other devices and support applications connected
         to the SwimClubMeet database.
       </span>
     </p>
-    <h2 class="SCM_h2">Outline - Step-by-Step</h2>
+    <h2 class="scm_h2">Outline - Step-by-Step</h2>
     <p>
       For the computer running the MS SQLEXPRESS database server, the following
       must be done.
@@ -40,13 +40,13 @@
     </div>
 
     <p style="margin-left: 6%; margin-right: 6%">
-      <span class="SCM_Quote">
+      <span class="scm_quote">
         Changing settings will require a restart of the database server, else
         the changes are ignored.
       </span>
     </p>
 
-    <h3 class="SCM_h3">On the computer(s) that will be connecting ...</h3>
+    <h3 class="scm_h3">On the computer(s) that will be connecting ...</h3>
     <ul>
       <li>Prepare PC firewall to allow communications on the assigned port.</li>
       <li>
@@ -56,7 +56,7 @@
       <li>Remote logins must use database server accounts. ie. scmAdmin.</li>
     </ul>
 
-    <h3 class="SCM_h3">Router, Wi-Fi considerations ...</h3>
+    <h3 class="scm_h3">Router, Wi-Fi considerations ...</h3>
     <ul>
       <li>Ensure port forwarding is enabled for the assigned port.</li>
       <li>
@@ -65,7 +65,7 @@
       </li>
     </ul>
 
-    <h2 class="SCM_h2">Detailed step-by-step guide ...</h2>
+    <h2 class="scm_h2">Detailed step-by-step guide ...</h2>
 
     <div style="display: inline-block">
       <p>
@@ -76,9 +76,9 @@
       </p>
       <p>
         In this example I'm using the
-        <span class="SCM_Term">SQL Server Configuration Manager</span>. You can
+        <span class="scm_term">SQL Server Configuration Manager</span>. You can
         also access these settings with the
-        <span class="SCM_Term">Computer Management</span> panel. You will have
+        <span class="scm_term">Computer Management</span> panel. You will have
         to drill down into the tree to find the service. A database restart can
         also be done from this panel.
       </p>
@@ -86,12 +86,12 @@
 
     <!-- ENABLE TCP/IP -->
 
-    <h3 class="SCM_h3" style="width: 100%">
+    <h3 class="scm_h3" style="width: 100%">
       1. Enable TCP for the database server.
     </h3>
     <p>
       Run the
-      <span class="SCM_Term">SQL Server Configuration Manager</span>
+      <span class="scm_term">SQL Server Configuration Manager</span>
       application. This application is installed with Microsoft's SQLEXPRESS. To
       locate this application use the windows start button and navigate to
       Microsoft SQL Server folder.
@@ -101,12 +101,12 @@
       windows search box (found on the task bar).
     </p>
 
-    <table class="SCM_tblImgText">
+    <table class="scm_table_img">
       <colgroup>
         <col />
       </colgroup>
       <tbody>
-        <tr class="SCM_trImgText">
+        <tr class="scm_tr_img">
           <td>
             <img
               src="../../assets/images/Connect/Con_Config_TCPIP_Enable.JPG"
@@ -123,17 +123,17 @@
               the process of being enabled.
             </p>
             <div style="display: inline-block">
-              <ul class="custom">
-                <li class="aa">
-                  Ensure <span class="SCM_MI">Protocols for SQLEXPRESS</span> is
+              <ul class="scm_ul">
+                <li class="scm_ul">
+                  Ensure <span class="scm_mi">Protocols for SQLEXPRESS</span> is
                   selected.
                 </li>
-                <li class="aa">
-                  Then select <span class="SCM_MI">TCP/IP</span>.
+                <li class="scm_ul">
+                  Then select <span class="scm_mi">TCP/IP</span>.
                 </li>
-                <li class="aa">
-                  <span class="SCM_KBM">RMOUSE</span> click and select
-                  <span class="SCM_MI">Enabled</span> from the popup menu.
+                <li class="scm_ul">
+                  <span class="scm_kbm">RMOUSE</span> click and select
+                  <span class="scm_mi">Enabled</span> from the popup menu.
                 </li>
               </ul>
             </div>
@@ -142,16 +142,16 @@
       </tbody>
     </table>
 
-    <h3 class="SCM_h3" style="width: 100%">
+    <h3 class="scm_h3" style="width: 100%">
       2. Set a static port number for the database server.
     </h3>
-    <table class="SCM_tblImgText">
+    <table class="scm_table_img">
       <colgroup>
         <col />
       </colgroup>
       <tbody>
         <!-- SETTING UP PORTS -->
-        <tr class="SCM_trImgText">
+        <tr class="scm_tr_img">
           <td>
             <img
               src="../../assets/images/Connect/Con_Config_TCPIP_Properties.JPG"
@@ -170,17 +170,17 @@
             </p>
 
             <div style="display: inline-block">
-              <ul class="custom">
-                <li class="aa">
-                  <span class="SCM_MI">Protocols for SQLEXPRESS</span> is
+              <ul class="scm_ul">
+                <li class="scm_ul">
+                  <span class="scm_mi">Protocols for SQLEXPRESS</span> is
                   selected.
                 </li>
-                <li class="aa">
-                  Then select <span class="SCM_MI">TCP/IP</span>.
+                <li class="scm_ul">
+                  Then select <span class="scm_mi">TCP/IP</span>.
                 </li>
-                <li class="aa">
-                  <span class="SCM_KBM">RMOUSE</span> click and select
-                  <span class="SCM_MI">Properties</span> from the popup menu.
+                <li class="scm_ul">
+                  <span class="scm_kbm">RMOUSE</span> click and select
+                  <span class="scm_mi">Properties</span> from the popup menu.
                 </li>
               </ul>
             </div>
@@ -190,12 +190,12 @@
     </table>
 
     <!-- PROPERTIES - LISTEN ALL -->
-    <table class="SCM_tblImgText">
+    <table class="scm_table_img">
       <colgroup>
         <col />
       </colgroup>
       <tbody>
-        <tr class="SCM_trImgText">
+        <tr class="scm_tr_img">
           <td>
             <img
               src="../../assets/images/Connect/Con_PropertiesDlg_Protocol.JPG"
@@ -222,12 +222,12 @@
     </table>
 
     <!-- PROPERTIES - IP ADDRESSS -->
-    <table class="SCM_tblImgText">
+    <table class="scm_table_img">
       <colgroup>
         <col />
       </colgroup>
       <tbody>
-        <tr class="SCM_trImgText">
+        <tr class="scm_tr_img">
           <td>
             <img
               src="../../assets/images/Connect/Con_PropertiesDlg_IPAddress.JPG"
@@ -239,31 +239,31 @@
               "
             />
             This image displays the IP Addresses. At the bottom of the list is
-            <span class="SCM_MI">IPALL</span>.
+            <span class="scm_mi">IPALL</span>.
             <p>
-              👉🏻 Ensure <span class="SCM_MI">TCP Dynamic Ports</span> is blank.
+              👉🏻 Ensure <span class="scm_mi">TCP Dynamic Ports</span> is blank.
             </p>
             <p>
-              👉🏻 Assign <span class="SCM_KBM">1433</span> into
-              <span class="SCM_MI">TCP Port</span>. This is SQLEXPRESS default
+              👉🏻 Assign <span class="scm_kbm">1433</span> into
+              <span class="scm_mi">TCP Port</span>. This is SQLEXPRESS default
               port.
             </p>
             <p>
-              👉🏻 Press <span class="SCM_KBM">OK</span>, to save your changes.
+              👉🏻 Press <span class="scm_kbm">OK</span>, to save your changes.
             </p>
           </td>
         </tr>
       </tbody>
     </table>
 
-    <h4 class="SCM_h4">Restart the database server.</h4>
+    <h4 class="scm_h4">Restart the database server.</h4>
     <!-- RESTART THE DATABASE SERVER -->
-    <table class="SCM_tblImgText">
+    <table class="scm_table_img">
       <colgroup>
         <col />
       </colgroup>
       <tbody>
-        <tr class="SCM_trImgText">
+        <tr class="scm_tr_img">
           <td>
             <img
               src="../../assets/images/Connect/Con_Config_Restart.PNG"
@@ -277,12 +277,12 @@
             For these changes to be assigned, a restart is required.
             <p>This image shows the database server being restarted.</p>
             <div style="display: inline-block">
-              <ul class="custom">
-                <li class="aa">First select SQL Server Services.</li>
-                <li class="aa">Then select SQL Server (SQLEXPRESS).</li>
-                <li class="aa">
-                  <span class="SCM_KBM">RMOUSE</span> click and select
-                  <span class="SCM_MI">Restart</span> from the popup menu.
+              <ul class="scm_ul">
+                <li class="scm_ul">First select SQL Server Services.</li>
+                <li class="scm_ul">Then select SQL Server (SQLEXPRESS).</li>
+                <li class="scm_ul">
+                  <span class="scm_kbm">RMOUSE</span> click and select
+                  <span class="scm_mi">Restart</span> from the popup menu.
                 </li>
               </ul>
             </div>
@@ -291,16 +291,16 @@
       </tbody>
     </table>
 
-    <h3 class="SCM_h3" ; style="width: 100%">
+    <h3 class="scm_h3" style="width: 100%">
       3. Enable remote logins for the database server..
     </h3>
 
-    <table class="SCM_tblImgText">
+    <table class="scm_table_img">
       <colgroup>
         <col />
       </colgroup>
       <tbody>
-        <tr class="SCM_trImgText">
+        <tr class="scm_tr_img">
           <td>
             <img
               src="../../assets/images/Connect/Con_MSSMS_Properties.JPG"
@@ -321,8 +321,8 @@
               server name (top line).
             </p>
             <p>
-              Then <span class="SCM_KBM">RMOUSE</span> click and select
-              <span class="SCM_MI">Properties</span> from the popup menu.
+              Then <span class="scm_kbm">RMOUSE</span> click and select
+              <span class="scm_mi">Properties</span> from the popup menu.
             </p>
           </td>
         </tr>
@@ -340,17 +340,17 @@
             <p>With the Server Properties dialogue open...</p>
 
             <!-- <div style="display: inline-block"> -->
-            <ul class="custom">
-              <li class="aa">
-                Select the <span class="SCM_MI">Security tab</span>.
+            <ul class="scm_ul">
+              <li class="scm_ul">
+                Select the <span class="scm_mi">Security tab</span>.
               </li>
-              <li class="aa">
+              <li class="scm_ul">
                 Then enable the radiobutton
-                <span class="SCM_KBM"
+                <span class="scm_kbm"
                   >SQL Server and Windows Authentication mode</span
                 >.
               </li>
-              <li class="aa">Press <span class="SCM_KBM">OK</span>.</li>
+              <li class="scm_ul">Press <span class="scm_kbm">OK</span>.</li>
             </ul>
             <!-- </div>               -->
             <p>
@@ -363,21 +363,21 @@
       </tbody>
     </table>
 
-    <h4 class="SCM_h4">Restart the SQLEXPRESS server.</h4>
+    <h4 class="scm_h4">Restart the SQLEXPRESS server.</h4>
     <p>
       Select the server name (top line). Right mouse, but this time select
       'Restart' from the popup menu.
     </p>
 
     <!-- CREATE USER - LOGIN NAME + PASSWORD -->
-    <h3 class="SCM_h3" style="width: 100%">4. Setup a database login.</h3>
+    <h3 class="scm_h3" style="width: 100%">4. Setup a database login.</h3>
 
-    <table class="SCM_tblImgText">
+    <table class="scm_table_img">
       <colgroup>
         <col />
       </colgroup>
       <tbody>
-        <tr class="SCM_trImgText">
+        <tr class="scm_tr_img">
           <td>
             <img
               src="../../assets/images/Connect/Con_MSSMS_LoginPassW.JPG"
@@ -389,8 +389,9 @@
               "
             />
             <p>
-              When the application SCM_BuildMeAClub ran it created some
-              useful Roles and Schemas within the SwimClubMeet database. These can be used to setup your remote logins.
+              When the application SCM_BuildMeAClub ran it created some useful
+              Roles and Schemas within the SwimClubMeet database. These can be
+              used to setup your remote logins.
             </p>
             <p>
               The next task is to create a login. Then assign permissions so
@@ -448,7 +449,7 @@
     <p>Close down MSSMS.</p>
 
     <!-- FIREWALL -->
-    <h3 class="SCM_h3" style="width: 100%">
+    <h3 class="scm_h3" style="width: 100%">
       5. Set the firewall to allows communications on the port. (UDP, TCP)
     </h3>
     <p>
@@ -465,7 +466,7 @@
     </p>
 
     <!-- CHECK, DEBUG CONNECTION  -->
-    <h3 class="SCM_h3">6. Test the connection.</h3>
+    <h3 class="scm_h3">6. Test the connection.</h3>
     <p>Disable your firewall.</p>
     <p>Does the login work locally? Lets test that out.</p>
     <p>Close all apps. DO A REBOOT, ENSURE EVERTHING IS INITIALISED.</p>
@@ -487,11 +488,11 @@
       indicator all is well.
     </p>
 
-    <h2 class="SCM_h2">Router Configuration..</h2>
+    <h2 class="scm_h2">Router Configuration..</h2>
     <p><span class="expandtext">Important notes: </span></p>
     <p>
-      Wi-Fi routers will need 'Port Forwarding' enabled for the assigned
-       port, in both direction, for protocols TCP and UDP.
+      Wi-Fi routers will need 'Port Forwarding' enabled for the assigned port,
+      in both direction, for protocols TCP and UDP.
     </p>
     <p>
       Your router acts as DNS and assigns IP adresses to each connection. Most

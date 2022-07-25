@@ -1,0 +1,133 @@
+
+    Auto-Build Heats Dialogue.
+
+    
+      
+        Each time you press the Auto-Build Heats button this dialogue is displayed.
+      
+    
+    
+      
+        
+      
+    
+
+    
+    1. TimeToBeat (TTB) - Primary option
+    
+      The time-to-beat determine which heat and lanes the entrant will be placed
+      into. The TTB is calculated on demand.
+    
+    You have a pick of three algorithms.
+    
+      
+        👉 Use the last known race-time. SCM will excluding the current session
+        when searching. If nothing is found. SCM uses the secondary option, if
+        enabled.
+      
+      
+        👉 Use the average of the 3 fastest race-times. The search excludes the
+        current session and sessions that post dates the current. An average
+        race-time is calculated. Finding only one record is acceptable. If none
+        are found, SCM moves to the secondary option, if enabled
+      
+      
+        👉 Use particpants personal best (PB). If nothing is found, SCM uses the
+        secondary option, if enabled. Else the entrant is placed in the slowest heat.
+      
+      
+        Unless specified, TTB is calculated from data that pre-dates
+        the current selected session. 
+      
+    
+
+    
+    2. Members without race-times - Secondary option.
+    
+      For entrants new to the event type, this algorithm will use brute force to
+      find a race-time and calculate a TTB. The process goes like this...
+    
+    
+      If a member doesn't have any race time data, then a time is calculated
+      based on the mean average of the bottom 50% (default), with consideration
+      to age and gender.
+    
+    
+      If there's still insufficient data, SCM will ignore gender and try once
+      more.
+    
+    
+      If there is still not enough data (at least 4 records) then it will
+      re-calculate, doing an age spread (plus or minus 1 year). There are
+      currently no options for you to adjust minimum records and the spread
+      values.
+    
+
+    
+      If after all this, a suitable race time can't be found, then the
+      TimeToBeat is left empty. This effectively places the swimmer in the
+      slowest heats.
+    
+
+    
+      For a more comprehensive discussion on the workings of TTB follow this...
+      link.
+    
+
+    
+    3. Gender and lane count
+    
+      If Seperate gender is checked then there will
+      be seperate heats for each gender. ie. Boys will not race against girls.
+      The order of the heats is slowest to fastest, with the girl swimming prior
+      to the boys.
+    
+    
+      if Exclude outside lanes is checked then
+      gutter lanes will not be used in events. If you have an eight lane pool,
+      lane 1 and 8 will not be filled with swimmers. Helpful if your club is
+      small and you want to run more heats, or if ladders obstruct the gutter
+      lanes. It should be pointed out that all your pools lanes still appear in
+      the lane grid, gutter exclusion on or off.
+    
+
+    
+    4. Group by ...
+    Currently only two group types are defined.
+    
+      
+        👉 Entrant's age. Swimmers are placed into heats based on their age
+        (calculated using the members DOB). Depending on club size, this may
+        result in many heats with few participants in each heat.
+      
+      
+        👉 Entant's membership type. The membership table is inspected and the
+        members are organised into heats based on type. This is one way to
+        collectively gather swimmers into broad categories based on age. It's
+        dependant on keeping the member's membership type up-to-date. An audit
+        at the start of the each swimming season would be needed. Useful option
+        for club championships.
+      
+      
+        Need a little bit more information on the membership types? Follow this
+        link.
+      
+    
+    Selecting Don't group disables grouping.
+
+    
+    5. Seed Method ...
+    
+      A topic that has it's own page. To learn what seeding is and how it works,
+      follow this link.
+    
+
+    Other miscellaneous notes ...
+    
+      Changes made in this dialogue are remembered next time you use the tool.
+      Individual events don't store snap-shots of these settings when auto-build
+      is enacted. There is only one set of parameters and it's up to you to
+      manage its state.
+    
+  
+

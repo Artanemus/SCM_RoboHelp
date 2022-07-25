@@ -1,792 +1,104 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<map>
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-<title>Table of Contents</title>
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-<page navtitle="SwimClubMeet" href="../contents/SCM_SwimClubMeet/Intro/Home.htm"></page>
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-<book navtitle="START HERE ..." href="../contents/SCM_SwimClubMeet/Intro/Start_Up.htm">
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-<page navtitle="System Requirements" href="../contents/SCM_SwimClubMeet/Intro/System_Requirements.htm"></page>
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-<page navtitle="Installation of the software." href="../contents/SCM_SwimClubMeet/Intro/Installation.htm"></page>
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-<page navtitle="Your first club night with SCM" href="../contents/SCM_SwimClubMeet/Intro/Getting_Started.htm"></page>
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-<page navtitle="How to backup your club's data" href="../contents/SCM_SwimClubMeet/Intro/How_to_backup_data.htm"></page>
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-<page navtitle="Learn more about SCM" href="../contents/SCM_SwimClubMeet/Intro/Learn_more.htm"></page>
-  </book>
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-<book navtitle="The Interface" href="../contents/SCM_SwimClubMeet/Interface/Interface.htm">
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-<book navtitle="Login" href="../contents/SCM_SwimClubMeet/Interface/Login/SCM_Login.htm"></book>
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-<book navtitle="Sessions" href="../contents/SCM_SwimClubMeet/Interface/Session/Session.htm">
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-<page href="../contents/SCM_SwimClubMeet/Interface/Session/Session_Table.htm"></page>
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-<page href="../contents/SCM_SwimClubMeet/Interface/Session/Events_Table.htm"></page>
-    </book>
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-<book navtitle="Nominate" href="../contents/SCM_SwimClubMeet/Interface/Nominate/Nominate.htm">
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-<page navtitle="Nominees List" href="../contents/SCM_SwimClubMeet/Interface/Nominate/Nominees_Member_List.htm"></page>
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-<page navtitle="Events List" href="../contents/SCM_SwimClubMeet/Interface/Nominate/Nominee_Events_List.htm"></page>
-    </book>
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-<book navtitle="Heats" href="../contents/SCM_SwimClubMeet/Interface/Heats/Heats.htm">
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-<page navtitle="Heat Table" href="../contents/SCM_SwimClubMeet/Interface/Heats/Heat_Table.htm"></page>
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-<page href="../contents/SCM_SwimClubMeet/Interface/Heats/Entrant_Table.htm"></page>
-    </book>
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-<book navtitle="Tools">
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-<book href="../contents/SCM_SwimClubMeet/Tools/Options/Options.htm">
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-<page navtitle="Club" href="../contents/SCM_SwimClubMeet/Tools/Options/Club_Options.htm"></page>
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-<page navtitle="TTB" href="../contents/SCM_SwimClubMeet/Tools/Options/TTB_Options.htm"></page>
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-<page navtitle="AutoBuild" href="../contents/SCM_SwimClubMeet/Tools/Options/Auto_Build_Options.htm"></page>
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-<page navtitle="Nominate" href="../contents/SCM_SwimClubMeet/Tools/Options/Nominate_Options.htm"></page>
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-<page navtitle="Other" href="../contents/SCM_SwimClubMeet/Tools/Options/System_Options.htm"></page>
+<map type="toc">
+  <title>Table of Contents</title>
+  <book navtitle="SCM SwimClubMeet" format="html" processing-role="normal">
+    <book navtitle="Interface" href="../contents/SCM_SwimClubMeet/Interface/Interface_idx.htm" format="html" processing-role="normal">
+      <book navtitle="Bar" format="html" processing-role="normal">
+        <page href="../contents/SCM_SwimClubMeet/Interface/Bar/Header_Bar.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/SCM_SwimClubMeet/Interface/Bar/Menu_Bar.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/SCM_SwimClubMeet/Interface/Bar/Status_Bar.htm" format="html" processing-role="normal"></page>
       </book>
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-<page href="../contents/SCM_SwimClubMeet/Tools/Qualify_Times.htm"></page>
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-<page href="../contents/SCM_SwimClubMeet/Tools/Membership_Type.htm"></page>
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-<page navtitle="Score" href="../contents/SCM_SwimClubMeet/Tools/Score.htm"></page>
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-<page navtitle="House" href="../contents/SCM_SwimClubMeet/Tools/House.htm"></page>
+      <book navtitle="Heats" format="html" processing-role="normal">
+        <page href="../contents/SCM_SwimClubMeet/Interface/Heats/AutoBuildHeatsDlg.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/SCM_SwimClubMeet/Interface/Heats/Heat_Buttons.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/SCM_SwimClubMeet/Interface/Heats/Heat_Grid.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/SCM_SwimClubMeet/Interface/Heats/Heat_idx.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/SCM_SwimClubMeet/Interface/Heats/Heat_ManualBuild.html" format="html" processing-role="normal"></page>
+        <page href="../contents/SCM_SwimClubMeet/Interface/Heats/Heat_Navigator.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/SCM_SwimClubMeet/Interface/Heats/Lane_Buttons.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/SCM_SwimClubMeet/Interface/Heats/Lane_Grid.html" format="html" processing-role="normal"></page>
+      </book>
+      <book navtitle="Login" format="html" processing-role="normal">
+        <page href="../contents/SCM_SwimClubMeet/Interface/Login/SCM_Login.htm" format="html" processing-role="normal"></page>
+      </book>
+      <book navtitle="Nominate" format="html" processing-role="normal">
+        <page href="../contents/SCM_SwimClubMeet/Interface/Nominate/Nom_Events_List.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/SCM_SwimClubMeet/Interface/Nominate/Nom_Member_List.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/SCM_SwimClubMeet/Interface/Nominate/Nominate_idx.htm" format="html" processing-role="normal"></page>
+      </book>
+      <book navtitle="Session" format="html" processing-role="normal">
+        <page href="../contents/SCM_SwimClubMeet/Interface/Session/Event_Buttons.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/SCM_SwimClubMeet/Interface/Session/Event_Grid.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/SCM_SwimClubMeet/Interface/Session/Session_Buttons.Htm" format="html" processing-role="normal"></page>
+        <page href="../contents/SCM_SwimClubMeet/Interface/Session/Session_CreateDlg.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/SCM_SwimClubMeet/Interface/Session/Session_Grid.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/SCM_SwimClubMeet/Interface/Session/Session_idx.htm" format="html" processing-role="normal"></page>
+      </book>
+      <page href="../contents/SCM_SwimClubMeet/Interface/Interface_idx.htm" format="html" processing-role="normal"></page>
     </book>
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-<book href="../contents/SCM_SwimClubMeet/Interface/Bar/Menu_Bar.htm"></book>
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-<page href="../contents/SCM_SwimClubMeet/Interface/Bar/Status_Bar.htm"></page>
-  </book>
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-<book navtitle="Members" href="../contents/SCM_SwimClubMeet/Members/Members.htm">
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-<page href="../contents/SCM_SwimClubMeet/Members/Members_Details.htm"></page>
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-<page navtitle="Member List" href="../contents/SCM_SwimClubMeet/Members/Member_List.htm"></page>
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-<page navtitle="Member History" href="../contents/SCM_SwimClubMeet/Members/Members_History.htm"></page>
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-<page href="../contents/SCM_SwimClubMeet/Members/Members_Chart.htm"></page>
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-<page href="../contents/SCM_SwimClubMeet/Members/Members_Report.htm"></page>
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-<page href="../contents/SCM_SwimClubMeet/Members/Member_Find.htm"></page>
-  </book>
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-<book navtitle="Special Controls" href="../contents/SCM_SwimClubMeet/xDialogs/Special_Controls.htm">
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-<page href="../contents/SCM_SwimClubMeet/Members/Navigator.htm"></page>
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-<page navtitle="Auto-Build Heats Dialogue" href="../contents/SCM_SwimClubMeet/xDialogs/Build_Heats_Dialogue.htm"></page>
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-<page href="../contents/SCM_SwimClubMeet/Interface/Session/New_Session_Dialogue.htm"></page>
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-<page navtitle="Quick Pick" href="../contents/SCM_SwimClubMeet/xDialogs/Quick_Pick.htm"></page>
-  </book>
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-<book navtitle="System" href="../contents/SCM_SwimClubMeet/System/System_Info.htm">
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-<page href="../contents/SCM_SwimClubMeet/System/Application_List.htm"></page>
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-<page href="../contents/SCM_SwimClubMeet/System/Version_Info.htm"></page>
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-<page navtitle="Connection Overview" href="../contents/SCM_SwimClubMeet/System/Connection_Overview.htm"></page>
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-<page navtitle="Connect TCP/IP for SCM" href="../contents/SCM_SwimClubMeet/System/Connecting_SCM.htm"></page>
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-<page navtitle="How TimeToBeat works" href="../contents/SCM_SwimClubMeet/System/TTB_How_it_works.htm"></page>
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-<page navtitle="How seeding works" href="../contents/SCM_SwimClubMeet/System/How_seeding_works.htm"></page>
+    <book navtitle="Intro" format="html" processing-role="normal">
+      <page href="../contents/SCM_SwimClubMeet/Intro/BackupYourData.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/Intro/Home.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/Intro/Installation.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/Intro/LearnMore.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/Intro/MyFirstClubNight.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/Intro/StartHere.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/Intro/SysRequirements.htm" format="html" processing-role="normal"></page>
+    </book>
+    <book navtitle="Members" format="html" processing-role="normal">
+      <page href="../contents/SCM_SwimClubMeet/Members/Mem_Buttons.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/Members/Mem_Chart.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/Members/Mem_Details.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/Members/Mem_Find.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/Members/Mem_Goto.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/Members/Mem_History.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/Members/Mem_List.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/Members/Mem_Navigator.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/Members/Mem_Report.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/Members/Members_idx.htm" format="html" processing-role="normal"></page>
+    </book>
+    <book navtitle="Reports" format="html" processing-role="normal">
+      <page href="../contents/SCM_SwimClubMeet/Reports/Reports_idx.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/Reports/Rpt_Events.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/Reports/Rpt_Heats.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/Reports/Rpt_Marshal.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/Reports/Rpt_Members.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/Reports/Rpt_MembershipType.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/Reports/Rpt_Nominate.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/Reports/Rpt_QualifyGeneral.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/Reports/Rpt_QualifySession.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/Reports/Rpt_QualifyTimes.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/Reports/Rpt_Score.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/Reports/Rpt_Session.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/Reports/Rpt_TimeKeeper.htm" format="html" processing-role="normal"></page>
+    </book>
+    <book navtitle="System" format="html" processing-role="normal">
+      <page href="../contents/SCM_SwimClubMeet/System/Application_List.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/System/Color_Ledger.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/System/Connecting_SCM.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/System/Connection_Overview.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/System/How_seeding_works.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/System/Keyboard_shortcuts.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/System/KickStartTTB.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/System/Pool_Protocol.html" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/System/System_idx.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/System/TTB_How_it_works.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/System/Version_Info.htm" format="html" processing-role="normal"></page>
+    </book>
+    <book navtitle="Tools" format="html" processing-role="normal">
+      <book navtitle="Tool Options" format="html" processing-role="normal">
+        <page href="../contents/SCM_SwimClubMeet/Tools/Tool_Options/Opt_AutoBuild.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/SCM_SwimClubMeet/Tools/Tool_Options/Opt_Club.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/SCM_SwimClubMeet/Tools/Tool_Options/Opt_Nominate.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/SCM_SwimClubMeet/Tools/Tool_Options/Opt_System.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/SCM_SwimClubMeet/Tools/Tool_Options/Opt_TTB.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/SCM_SwimClubMeet/Tools/Tool_Options/Options_idx.htm" format="html" processing-role="normal"></page>
+      </book>
+      <page href="../contents/SCM_SwimClubMeet/Tools/Tool_House.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/Tools/Tool_MembershipType.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/Tools/Tool_QualifyTimes.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/Tools/Tool_Score.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/Tools/Tools_idx.htm" format="html" processing-role="normal"></page>
+    </book>
   </book>
 </map>

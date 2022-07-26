@@ -22,7 +22,7 @@ Currently this site has packaged RoboHelp manuals for...
 
 - SCM_SwimClubMeet
 
-> RoboHelp has been set to output a WebHelp prepared manaul for SwimClubMeet. For a preview try... [index.htm.](BUILD/index.htm)
+> RoboHelp has been set to output a WebHelp prepared manaul for SwimClubMeet. For a preview try... [index.htm.](index.html)
 
 
 Other manuals yet to be done ...

@@ -14,7 +14,7 @@ SCM is an application that lets swimming clubs manage their members and organize
 
 This repository holds the material to construct the manauls for these applications.
 
-For more information on the collection : [SCM GitHub Pages](https://artanemus/github.io)
+For more information on the collection : [SCM GitHub Pages](https://artanemus.github.io)
 
 ## Manuals for the SwimClubMeet Project.
 
@@ -22,7 +22,7 @@ Currently this site has packaged RoboHelp manuals for...
 
 - SCM_SwimClubMeet
 
-> RoboHelp has been set to output a WebHelp prepared manaul for SwimClubMeet at [index.htm.](https://github.com/Artanemus/SCM_RoboHelp/blob/main/BUILD/index.htm)
+> RoboHelp has been set to output a WebHelp prepared manaul for SwimClubMeet. For a preview try... [index.htm.](BUILD/index.htm)
 
 
 Other manuals yet to be done ...

@@ -3,127 +3,127 @@
     "title": "WebHelp",
     "path": "C:/Users/Ben/Documents/GitHub/SCM_RoboHelp/PROJECT/publish/presets/WebHelp.preset",
     "pinned": false,
-    "time": "Jul 25, 2:27 PM"
+    "time": "Jul 28, 4:20 PM"
   }, {
-    "title": "Microsoft HTML Help",
-    "path": "C:/Users/Ben/Documents/GitHub/SCM_RoboHelp/PROJECT/publish/presets/Microsoft HTML Help.preset",
+    "title": "SCM_Main",
+    "path": "C:/Users/Ben/Documents/GitHub/SCM_RoboHelp/PROJECT/toc/SwimClubMeet.toc",
     "pinned": false,
-    "time": "Jul 25, 2:26 PM"
+    "time": "Jul 28, 4:16 PM"
   }, {
-    "title": "Home",
-    "path": "C:/Users/Ben/Documents/GitHub/SCM_RoboHelp/PROJECT/contents/SCM_SwimClubMeet/Intro/Home.htm",
+    "title": "SCM_BuildMeAClub",
+    "path": "C:/Users/Ben/Documents/GitHub/SCM_RoboHelp/PROJECT/toc/SCM_BuildMeAClub.toc",
     "pinned": false,
-    "time": "Jul 25, 2:25 PM"
+    "time": "Jul 28, 4:10 PM"
   }, {
-    "title": "StartHere",
-    "path": "C:/Users/Ben/Documents/GitHub/SCM_RoboHelp/PROJECT/contents/SCM_SwimClubMeet/Intro/StartHere.htm",
+    "title": "Opt_System",
+    "path": "C:/Users/Ben/Documents/GitHub/SCM_RoboHelp/PROJECT/contents/SCM_SwimClubMeet/Tools/Tool_Options/Opt_System.htm",
     "pinned": false,
-    "time": "Jul 25, 2:25 PM"
+    "time": "Jul 28, 4:10 PM"
   }, {
-    "title": "Mem_Details",
-    "path": "C:/Users/Ben/Documents/GitHub/SCM_RoboHelp/PROJECT/contents/SCM_SwimClubMeet/Members/Mem_Details.htm",
+    "title": "Opt_Nominate",
+    "path": "C:/Users/Ben/Documents/GitHub/SCM_RoboHelp/PROJECT/contents/SCM_SwimClubMeet/Tools/Tool_Options/Opt_Nominate.htm",
     "pinned": false,
-    "time": "Jul 25, 2:22 PM"
-  }, {
-    "title": "Application_List",
-    "path": "C:/Users/Ben/Documents/GitHub/SCM_RoboHelp/PROJECT/contents/SCM_SwimClubMeet/System/Application_List.htm",
-    "pinned": false,
-    "time": "Jul 25, 2:22 PM"
-  }, {
-    "title": "SCM",
-    "path": "C:/Users/Ben/Documents/GitHub/SCM_RoboHelp/PROJECT/contents/assets/masterpages/SCM.htt",
-    "pinned": false,
-    "time": "Jul 25, 2:22 PM"
-  }, {
-    "title": "How_seeding_works",
-    "path": "C:/Users/Ben/Documents/GitHub/SCM_RoboHelp/PROJECT/contents/SCM_SwimClubMeet/System/How_seeding_works.htm",
-    "pinned": false,
-    "time": "Jul 25, 2:20 PM"
-  }, {
-    "title": "Rpt_Score",
-    "path": "C:/Users/Ben/Documents/GitHub/SCM_RoboHelp/PROJECT/contents/SCM_SwimClubMeet/Reports/Rpt_Score.htm",
-    "pinned": false,
-    "time": "Jul 25, 2:20 PM"
-  }, {
-    "title": "Reports_idx",
-    "path": "C:/Users/Ben/Documents/GitHub/SCM_RoboHelp/PROJECT/contents/SCM_SwimClubMeet/Reports/Reports_idx.htm",
-    "pinned": false,
-    "time": "Jul 25, 2:16 PM"
-  }, {
-    "title": "Header_Bar",
-    "path": "C:/Users/Ben/Documents/GitHub/SCM_RoboHelp/PROJECT/contents/SCM_SwimClubMeet/Interface/Bar/Header_Bar.htm",
-    "pinned": false,
-    "time": "Jul 25, 2:16 PM"
-  }, {
-    "title": "Rpt_Events",
-    "path": "C:/Users/Ben/Documents/GitHub/SCM_RoboHelp/PROJECT/contents/SCM_SwimClubMeet/Reports/Rpt_Events.htm",
-    "pinned": false,
-    "time": "Jul 25, 2:13 PM"
-  }, {
-    "title": "Rpt_Marshal",
-    "path": "C:/Users/Ben/Documents/GitHub/SCM_RoboHelp/PROJECT/contents/SCM_SwimClubMeet/Reports/Rpt_Marshal.htm",
-    "pinned": false,
-    "time": "Jul 25, 2:12 PM"
-  }, {
-    "title": "Version_Info",
-    "path": "C:/Users/Ben/Documents/GitHub/SCM_RoboHelp/PROJECT/contents/SCM_SwimClubMeet/System/Version_Info.htm",
-    "pinned": false,
-    "time": "Jul 25, 2:12 PM"
-  }, {
-    "title": "Pool_Protocol",
-    "path": "C:/Users/Ben/Documents/GitHub/SCM_RoboHelp/PROJECT/contents/SCM_SwimClubMeet/System/Pool_Protocol.html",
-    "pinned": false,
-    "time": "Jul 25, 2:10 PM"
-  }, {
-    "title": "Connecting_SCM",
-    "path": "C:/Users/Ben/Documents/GitHub/SCM_RoboHelp/PROJECT/contents/SCM_SwimClubMeet/System/Connecting_SCM.htm",
-    "pinned": false,
-    "time": "Jul 25, 2:10 PM"
-  }, {
-    "title": "SCM_Hint",
-    "path": "C:/Users/Ben/Documents/GitHub/SCM_RoboHelp/PROJECT/contents/assets/snippets_SCM/SCM_Hint.html",
-    "pinned": false,
-    "time": "Jul 25, 2:04 PM"
-  }, {
-    "title": "SCM_Finger",
-    "path": "C:/Users/Ben/Documents/GitHub/SCM_RoboHelp/PROJECT/contents/assets/snippets_SCM/SCM_Finger.html",
-    "pinned": false,
-    "time": "Jul 25, 2:04 PM"
-  }, {
-    "title": "SCM_Center",
-    "path": "C:/Users/Ben/Documents/GitHub/SCM_RoboHelp/PROJECT/contents/assets/snippets_SCM/SCM_Center.html",
-    "pinned": false,
-    "time": "Jul 25, 2:04 PM"
-  }, {
-    "title": "SCM_BoilerPlate",
-    "path": "C:/Users/Ben/Documents/GitHub/SCM_RoboHelp/PROJECT/contents/assets/snippets_SCM/SCM_BoilerPlate.html",
-    "pinned": false,
-    "time": "Jul 25, 2:04 PM"
-  }, {
-    "title": "Connection_Overview",
-    "path": "C:/Users/Ben/Documents/GitHub/SCM_RoboHelp/PROJECT/contents/SCM_SwimClubMeet/System/Connection_Overview.htm",
-    "pinned": false,
-    "time": "Jul 25, 1:43 PM"
-  }, {
-    "title": "Keyboard_shortcuts",
-    "path": "C:/Users/Ben/Documents/GitHub/SCM_RoboHelp/PROJECT/contents/SCM_SwimClubMeet/System/Keyboard_shortcuts.htm",
-    "pinned": false,
-    "time": "Jul 25, 1:42 PM"
-  }, {
-    "title": "KickStartTTB",
-    "path": "C:/Users/Ben/Documents/GitHub/SCM_RoboHelp/PROJECT/contents/SCM_SwimClubMeet/System/KickStartTTB.htm",
-    "pinned": false,
-    "time": "Jul 25, 1:42 PM"
+    "time": "Jul 28, 4:10 PM"
   }, {
     "title": "Options_idx",
     "path": "C:/Users/Ben/Documents/GitHub/SCM_RoboHelp/PROJECT/contents/SCM_SwimClubMeet/Tools/Tool_Options/Options_idx.htm",
     "pinned": false,
-    "time": "Jul 25, 1:39 PM"
+    "time": "Jul 28, 4:10 PM"
+  }, {
+    "title": "Opt_Club",
+    "path": "C:/Users/Ben/Documents/GitHub/SCM_RoboHelp/PROJECT/contents/SCM_SwimClubMeet/Tools/Tool_Options/Opt_Club.htm",
+    "pinned": false,
+    "time": "Jul 28, 4:10 PM"
+  }, {
+    "title": "Opt_AutoBuild",
+    "path": "C:/Users/Ben/Documents/GitHub/SCM_RoboHelp/PROJECT/contents/SCM_SwimClubMeet/Tools/Tool_Options/Opt_AutoBuild.htm",
+    "pinned": false,
+    "time": "Jul 28, 4:10 PM"
+  }, {
+    "title": "Tool_MembershipType",
+    "path": "C:/Users/Ben/Documents/GitHub/SCM_RoboHelp/PROJECT/contents/SCM_SwimClubMeet/Tools/Tool_MembershipType.htm",
+    "pinned": false,
+    "time": "Jul 28, 4:10 PM"
+  }, {
+    "title": "Tool_House",
+    "path": "C:/Users/Ben/Documents/GitHub/SCM_RoboHelp/PROJECT/contents/SCM_SwimClubMeet/Tools/Tool_House.htm",
+    "pinned": false,
+    "time": "Jul 28, 4:10 PM"
+  }, {
+    "title": "Tools_idx",
+    "path": "C:/Users/Ben/Documents/GitHub/SCM_RoboHelp/PROJECT/contents/SCM_SwimClubMeet/Tools/Tools_idx.htm",
+    "pinned": false,
+    "time": "Jul 28, 4:09 PM"
+  }, {
+    "title": "Tool_Score",
+    "path": "C:/Users/Ben/Documents/GitHub/SCM_RoboHelp/PROJECT/contents/SCM_SwimClubMeet/Tools/Tool_Score.htm",
+    "pinned": false,
+    "time": "Jul 28, 4:09 PM"
+  }, {
+    "title": "Tool_QualifyTimes",
+    "path": "C:/Users/Ben/Documents/GitHub/SCM_RoboHelp/PROJECT/contents/SCM_SwimClubMeet/Tools/Tool_QualifyTimes.htm",
+    "pinned": false,
+    "time": "Jul 28, 4:09 PM"
+  }, {
+    "title": "Version_Info",
+    "path": "C:/Users/Ben/Documents/GitHub/SCM_RoboHelp/PROJECT/contents/SCM_SwimClubMeet/System/Version_Info.htm",
+    "pinned": false,
+    "time": "Jul 28, 4:09 PM"
+  }, {
+    "title": "TTB_How_it_works",
+    "path": "C:/Users/Ben/Documents/GitHub/SCM_RoboHelp/PROJECT/contents/SCM_SwimClubMeet/System/TTB_How_it_works.htm",
+    "pinned": false,
+    "time": "Jul 28, 4:09 PM"
+  }, {
+    "title": "System_idx",
+    "path": "C:/Users/Ben/Documents/GitHub/SCM_RoboHelp/PROJECT/contents/SCM_SwimClubMeet/System/System_idx.htm",
+    "pinned": false,
+    "time": "Jul 28, 4:09 PM"
+  }, {
+    "title": "Application_List",
+    "path": "C:/Users/Ben/Documents/GitHub/SCM_RoboHelp/PROJECT/contents/SCM_SwimClubMeet/System/Application_List.htm",
+    "pinned": false,
+    "time": "Jul 28, 4:09 PM"
+  }, {
+    "title": "Pool_Protocol",
+    "path": "C:/Users/Ben/Documents/GitHub/SCM_RoboHelp/PROJECT/contents/SCM_SwimClubMeet/System/Pool_Protocol.html",
+    "pinned": false,
+    "time": "Jul 28, 4:09 PM"
+  }, {
+    "title": "KickStartTTB",
+    "path": "C:/Users/Ben/Documents/GitHub/SCM_RoboHelp/PROJECT/contents/SCM_SwimClubMeet/System/KickStartTTB.htm",
+    "pinned": false,
+    "time": "Jul 28, 4:09 PM"
+  }, {
+    "title": "Keyboard_shortcuts",
+    "path": "C:/Users/Ben/Documents/GitHub/SCM_RoboHelp/PROJECT/contents/SCM_SwimClubMeet/System/Keyboard_shortcuts.htm",
+    "pinned": false,
+    "time": "Jul 28, 4:09 PM"
+  }, {
+    "title": "How_seeding_works",
+    "path": "C:/Users/Ben/Documents/GitHub/SCM_RoboHelp/PROJECT/contents/SCM_SwimClubMeet/System/How_seeding_works.htm",
+    "pinned": false,
+    "time": "Jul 28, 4:09 PM"
+  }, {
+    "title": "Grid_Editing",
+    "path": "C:/Users/Ben/Documents/GitHub/SCM_RoboHelp/PROJECT/contents/SCM_SwimClubMeet/System/Grid_Editing.htm",
+    "pinned": false,
+    "time": "Jul 28, 4:09 PM"
+  }, {
+    "title": "Connection_Overview",
+    "path": "C:/Users/Ben/Documents/GitHub/SCM_RoboHelp/PROJECT/contents/SCM_SwimClubMeet/System/Connection_Overview.htm",
+    "pinned": false,
+    "time": "Jul 28, 4:09 PM"
+  }, {
+    "title": "Connecting_SCM",
+    "path": "C:/Users/Ben/Documents/GitHub/SCM_RoboHelp/PROJECT/contents/SCM_SwimClubMeet/System/Connecting_SCM.htm",
+    "pinned": false,
+    "time": "Jul 28, 4:09 PM"
   }, {
     "title": "Color_Ledger",
     "path": "C:/Users/Ben/Documents/GitHub/SCM_RoboHelp/PROJECT/contents/SCM_SwimClubMeet/System/Color_Ledger.htm",
     "pinned": false,
-    "time": "Jul 25, 1:37 PM"
+    "time": "Jul 28, 4:08 PM"
   }],
   "recent-files::external:hyperlink": [{
     "title": "X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor\" crossorigin=\"anonymous\">",
@@ -393,7 +393,7 @@
     "pinned": false,
     "time": "Jun 30, 2:02 PM"
   }],
-  "file-modified": "2022-07-25T14:44:53+10:00",
+  "file-modified": "2022-07-28T16:23:11+10:00",
   "generate.outputs": {
     "C:/Users/Ben/Documents/GitHub/SCM_RoboHelp/publish/presets/WebHelp.preset": {
       "exists": true,
@@ -403,8 +403,8 @@
     },
     "C:/Users/Ben/Documents/GitHub/SCM_RoboHelp/PROJECT/publish/presets/WebHelp.preset": {
       "exists": true,
-      "path": "C:/Users/Ben/Documents/GitHub/SCM_RoboHelp/BUILD/index.htm",
-      "time": "2022-07-25T14:30:59+10:00",
+      "path": "C:/Users/Ben/Documents/GitHub/artanemus.github.io/manual/index.htm",
+      "time": "2022-07-28T16:23:22+10:00",
       "logFile": "C:/Users/Ben/AppData/Local/Temp/RHTMP/WebHelp.ehtml"
     }
   },
@@ -412,6 +412,6 @@
     "title": "WebHelp",
     "path": "C:/Users/Ben/AppData/Local/Temp/RHTMP/WebHelp.ehtml",
     "pinned": false,
-    "time": "Jul 25, 2:31 PM"
+    "time": "Jul 28, 4:18 PM"
   }]
 }

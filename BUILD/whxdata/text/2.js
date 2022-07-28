@@ -1,1 +1,0 @@
-rh._.exports({"0":[["scm_Finger"]],"1":[["\n  ","\n    ","👉 Item","\n    ","👉 OrItem","\n    ","👉 OrItem","\n  ","\n\n"]],"id":"2"})

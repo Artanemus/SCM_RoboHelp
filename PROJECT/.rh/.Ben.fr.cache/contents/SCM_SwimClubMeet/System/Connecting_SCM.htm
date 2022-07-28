@@ -129,7 +129,7 @@
         
           
             
-            Next we have to set the port that the database uses in comumicating
+            Next we have to set the port that the database uses in communicating
             with a connection.
             
               This image shows how to access the properties of the TCP/IP
@@ -306,63 +306,30 @@
           
             
             
-              When the application SCM_BuildMeAClub ran it created some useful
-              Roles and Schemas within the SwimClubMeet database. These can be
-              used to setup your remote logins.
-            
-            
               The next task is to create a login. Then assign permissions so
               that login can work in the SwimClubMeet database
             
             
-              Select the Security branch. There are multiply security branches,
-              make sure you have selected the 'root' branch'.
+              SCM_BuildMeAClub has created some useful Roles and Schemas within
+              the SwimClubMeet database. These can be used to setup your remote
+              logins.
             
-            RMOUSE and select New ➡ Login from the popup menu.
-            Type a login name. Enter password.
-            Next, select User mappings
+            
+              
+                        
           
         
       
     
 
-    
-      In the generals tab - you'll note, I've disabled 'Enforce password
-      policy'. That way I can enter a 'short' password.
-    
-    
-      Go do the same - enter a password for your scmAdmin user and then confirm
-      the password by typing it again in the 'Confirm password' editbox.
-    
-    
-      Next we'll check mappings. Select the 'User Mappings' tab. Then select
-      SwimClubMeet and confirm the following ...
-    
-    Make sure the following are checked ...
+
+    Ensure the following are checked for schema SCM_Administrator
     
       db_datareader
       db_datawriter
-      public (optional)
-      SCM_Administrator
     
-    
-      The last one, 'SCM_Administrator' allows the user scmAdmin to do select
-      actions or tasks to the SwimClubMeet tables. 'SCM_Administrator' is a
-      SQLSERVER 'role' definition. Some SCM system tables are in-accessable to
-      scmAdmin. However when running any of the SwimClubMeet application, logged
-      in as scmAdmin, all application functionality is operable. (Later... If
-      you explore in the SwimClubMeet security sub-branch, you'll notice other
-      SCM 'roles'.)
-    
-    
-      One last job. Select the Status tab. Select the radio button 'Enabled' for
-      the 'Login' option.
-    
-    Press OK
-    
-      And that should do it. It shouldn't be necessary to do another restart of
-      the database changes. (?)
-    
+
+    Ensure the new login is enabled.
     Close down MSSMS.
 
     
@@ -371,7 +338,7 @@
     
     
       If you are running a virus protection application, then SQLEXPRESS is
-      firewalled. It cannot send data across the assigned port. You must
+      fire-walled. It cannot send data across the assigned port. You must
       configure your virus protection application to port forward the assigned
       port. In both directions, and for both protocols, TCP and UDP.
     
@@ -386,9 +353,9 @@
     6. Test the connection.
     Disable your firewall.
     Does the login work locally? Lets test that out.
-    Close all apps. DO A REBOOT, ENSURE EVERTHING IS INITIALISED.
+    Close all apps. DO A REBOOT, ENSURE EVERYTHING IS INITIALIZED.
     Run SwimClubMeet and try this login...
-    localhost\SQLEXPRESS login:scmAdmin pasword:####
+    localhost\SQLEXPRESS login:scmAdmin password:####
     
       Did it work? Can you edit, delete, move stuff about? If it's worked - then
       your scmAdmin user is up and running.
@@ -398,7 +365,7 @@
       Disconnect from Wi-Fi. Remove ethernet cable, etc. (Restart PC?) Then try
       this...
     
-    IP address of db server - 127.0.0.1,1433 login:scmAdmin pasword:####
+    IP address of db server - 127.0.0.1,1433 login:scmAdmin password:####
     
       Note the comma after the IP address, then the static port number 1433. Did
       it work? This isn't a solid test for IP connectivity - but it's a good
@@ -412,7 +379,7 @@
       in both direction, for protocols TCP and UDP.
     
     
-      Your router acts as DNS and assigns IP adresses to each connection. Most
+      Your router acts as DNS and assigns IP addresses to each connection. Most
       routers have a setting to 'lease' a fixed IP address to the same computer
       on connection. The 'lease time' can be hours or 'forever'. Consider
       setting the lease time for computer with the MS SQL server to 'forever'.

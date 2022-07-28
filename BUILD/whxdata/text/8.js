@@ -1,1 +1,0 @@
-rh._.exports({"0":[["scm_Table_ImageText"]],"1":[["\n    ","\n      ","\n        ","\n      ","\n      ","\n        ","\n          ","\n            ","\n            TextForImageGoesHere\n          ","\n        ","\n      ","\n    ","\n  \n\n"]],"id":"8"})

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map type="toc">
+  <title>Table of Contents</title>
+  <book navtitle="assets" format="html" processing-role="resource-only">
+    <book navtitle="snippets SCM" format="html" processing-role="normal">
+      <page href="../contents/assets/snippets_SCM/SCM_BoilerPlate.html" format="html" processing-role="normal"></page>
+      <page href="../contents/assets/snippets_SCM/SCM_Center.html" format="html" processing-role="normal"></page>
+      <page href="../contents/assets/snippets_SCM/SCM_Finger.html" format="html" processing-role="normal"></page>
+      <page href="../contents/assets/snippets_SCM/SCM_Hint.html" format="html" processing-role="normal"></page>
+      <page href="../contents/assets/snippets_SCM/SCM_Info.html" format="html" processing-role="normal"></page>
+      <page href="../contents/assets/snippets_SCM/SCM_PoolProcedure.html" format="html" processing-role="normal"></page>
+      <page href="../contents/assets/snippets_SCM/SCM_PrevNext.html" format="html" processing-role="normal"></page>
+      <page href="../contents/assets/snippets_SCM/SCM_Table.html" format="html" processing-role="normal"></page>
+      <page href="../contents/assets/snippets_SCM/SCM_TableImageText.html" format="html" processing-role="normal"></page>
+    </book>
+  </book>
+  <book navtitle="SCM BuildMeAClub" format="html" processing-role="resource-only">
+    <book navtitle="BMAC Intro" format="html" processing-role="normal">
+      <page href="../contents/SCM_BuildMeAClub/BMAC_Intro/BMAC_Details.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_BuildMeAClub/BMAC_Intro/BMAC_Login.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_BuildMeAClub/BMAC_Intro/Home.htm" format="html" processing-role="normal"></page>
+    </book>
+  </book>
+  <book navtitle="SCM SwimClubMeet" format="html" processing-role="normal">
+    <book navtitle="Interface" format="html" processing-role="normal">
+      <book navtitle="Bar" format="html" processing-role="normal">
+        <page href="../contents/SCM_SwimClubMeet/Interface/Bar/Header_Bar.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/SCM_SwimClubMeet/Interface/Bar/Menu_Bar.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/SCM_SwimClubMeet/Interface/Bar/Status_Bar.htm" format="html" processing-role="normal"></page>
+      </book>
+      <book navtitle="Heats" format="html" processing-role="normal">
+        <page href="../contents/SCM_SwimClubMeet/Interface/Heats/AutoBuildHeatsDlg.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/SCM_SwimClubMeet/Interface/Heats/Heat_Buttons.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/SCM_SwimClubMeet/Interface/Heats/Heat_Grid.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/SCM_SwimClubMeet/Interface/Heats/Heat_idx.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/SCM_SwimClubMeet/Interface/Heats/Heat_ManualBuild.html" format="html" processing-role="normal"></page>
+        <page href="../contents/SCM_SwimClubMeet/Interface/Heats/Heat_Navigator.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/SCM_SwimClubMeet/Interface/Heats/Lane_Buttons.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/SCM_SwimClubMeet/Interface/Heats/Lane_Grid.html" format="html" processing-role="normal"></page>
+      </book>
+      <book navtitle="Login" format="html" processing-role="normal">
+        <page href="../contents/SCM_SwimClubMeet/Interface/Login/SCM_Login.htm" format="html" processing-role="normal"></page>
+      </book>
+      <book navtitle="Nominate" format="html" processing-role="normal">
+        <page href="../contents/SCM_SwimClubMeet/Interface/Nominate/Nom_Events_List.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/SCM_SwimClubMeet/Interface/Nominate/Nom_Member_List.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/SCM_SwimClubMeet/Interface/Nominate/Nominate_idx.htm" format="html" processing-role="normal"></page>
+      </book>
+      <book navtitle="Session" format="html" processing-role="normal">
+        <page href="../contents/SCM_SwimClubMeet/Interface/Session/Event_Buttons.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/SCM_SwimClubMeet/Interface/Session/Event_Grid.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/SCM_SwimClubMeet/Interface/Session/Session_Buttons.Htm" format="html" processing-role="normal"></page>
+        <page href="../contents/SCM_SwimClubMeet/Interface/Session/Session_CreateDlg.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/SCM_SwimClubMeet/Interface/Session/Session_Grid.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/SCM_SwimClubMeet/Interface/Session/Session_idx.htm" format="html" processing-role="normal"></page>
+      </book>
+      <page href="../contents/SCM_SwimClubMeet/Interface/Interface_idx.htm" format="html" processing-role="normal"></page>
+    </book>
+    <book navtitle="Intro" format="html" processing-role="normal">
+      <page href="../contents/SCM_SwimClubMeet/Intro/BackupYourData.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/Intro/Home.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/Intro/Installation.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/Intro/LearnMore.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/Intro/MyFirstClubNight.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/Intro/StartHere.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/Intro/SysRequirements.htm" format="html" processing-role="normal"></page>
+    </book>
+    <book navtitle="Members" format="html" processing-role="normal">
+      <page href="../contents/SCM_SwimClubMeet/Members/Mem_Buttons.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/Members/Mem_Chart.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/Members/Mem_Details.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/Members/Mem_Find.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/Members/Mem_Goto.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/Members/Mem_History.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/Members/Mem_List.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/Members/Mem_Navigator.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/Members/Mem_Report.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/Members/Members_idx.htm" format="html" processing-role="normal"></page>
+    </book>
+    <book navtitle="Reports" format="html" processing-role="normal">
+      <page href="../contents/SCM_SwimClubMeet/Reports/Reports_idx.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/Reports/Rpt_Events.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/Reports/Rpt_Heats.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/Reports/Rpt_Marshal.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/Reports/Rpt_Members.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/Reports/Rpt_MembershipType.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/Reports/Rpt_Nominate.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/Reports/Rpt_QualifyGeneral.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/Reports/Rpt_QualifySession.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/Reports/Rpt_QualifyTimes.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/Reports/Rpt_Score.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/Reports/Rpt_Session.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/Reports/Rpt_TimeKeeper.htm" format="html" processing-role="normal"></page>
+    </book>
+    <book navtitle="System" format="html" processing-role="normal">
+      <page href="../contents/SCM_SwimClubMeet/System/Application_List.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/System/Color_Ledger.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/System/Connecting_SCM.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/System/Connection_Overview.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/System/Grid_Editing.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/System/How_seeding_works.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/System/Keyboard_shortcuts.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/System/KickStartTTB.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/System/Pool_Protocol.html" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/System/System_idx.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/System/TTB_How_it_works.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/System/Version_Info.htm" format="html" processing-role="normal"></page>
+    </book>
+    <book navtitle="Tools" format="html" processing-role="normal">
+      <book navtitle="Tool Options" format="html" processing-role="normal">
+        <page href="../contents/SCM_SwimClubMeet/Tools/Tool_Options/Opt_AutoBuild.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/SCM_SwimClubMeet/Tools/Tool_Options/Opt_Club.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/SCM_SwimClubMeet/Tools/Tool_Options/Opt_Nominate.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/SCM_SwimClubMeet/Tools/Tool_Options/Opt_System.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/SCM_SwimClubMeet/Tools/Tool_Options/Opt_TTB.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/SCM_SwimClubMeet/Tools/Tool_Options/Options_idx.htm" format="html" processing-role="normal"></page>
+      </book>
+      <page href="../contents/SCM_SwimClubMeet/Tools/Tool_House.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/Tools/Tool_MembershipType.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/Tools/Tool_QualifyTimes.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/Tools/Tool_Score.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/Tools/Tools_idx.htm" format="html" processing-role="normal"></page>
+    </book>
+  </book>
+</map>

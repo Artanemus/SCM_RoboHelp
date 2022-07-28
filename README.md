@@ -18,11 +18,11 @@ For more information on the collection : [SCM GitHub Pages](https://artanemus.gi
 
 ## Manuals for the SwimClubMeet Project.
 
+> To preview the collection of manuals, try using SCM_RoboHelp/gh-pages/index.html
+
 Currently this site has packaged RoboHelp manuals for...
 
-- SCM_SwimClubMeet
-
-> To preview a manual try... [index.htm.](https://github.com/Artanemus/SCM_RoboHelp/index.html)
+- SCM_SwimClubMeet - To preview the manual navigate to SCM_RoboHelp/BUILD/index.htm
 
 
 Other manuals yet to be done ...

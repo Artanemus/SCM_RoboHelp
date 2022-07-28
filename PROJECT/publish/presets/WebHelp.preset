@@ -1,280 +1,102 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-
 <preset>
-  
-
-<content>
-    
-
-<variable></variable>
-    
-
-<conditional></conditional>
-    
-
-<startPage></startPage>
-    
-
-<toc>
-      
-
-<name>SCM_Main</name>
-      
-
-<path>../../toc/SCM_Main.toc</path>
+  <content>
+    <variable></variable>
+    <conditional></conditional>
+    <startPage></startPage>
+    <toc>
+      <name>SwimClubMeet</name>
+      <path>../../toc/SwimClubMeet.toc</path>
     </toc>
-    
-
-<index type="boolean">true</index>
-    
-
-<glossary>
-      
-
-<name>Default</name>
-      
-
-<path>../../glossary/Default.glo</path>
+    <index type="boolean">true</index>
+    <glossary>
+      <name>Default</name>
+      <path>../../glossary/Default.glo</path>
     </glossary>
-    
-
-<brs type="array"></brs>
-    
-
-<language></language>
-    
-
-<masterpage></masterpage>
-    
-
-<mapFiles type="array"></mapFiles>
-    
-
-<windowsSetting></windowsSetting>
+    <brs type="array"></brs>
+    <language></language>
+    <masterpage></masterpage>
+    <mapFiles type="array"></mapFiles>
+    <windowsSetting></windowsSetting>
   </content>
-  
-
-<title>SwimClubMeet</title>
-  
-
-<type>html5</type>
-  
-
-<glosstermEffect type="number">0</glosstermEffect>
-  
-
-<outputPath>C:/Users/Ben/Documents/GitHub/SCM_RoboHelp/BUILD/</outputPath>
-  
-
-<name>WebHelp</name>
-  
-
-<starterPage>index.htm</starterPage>
-  
-
-<defaultTopic>
-    
-
-<name>Home</name>
-    
-
-<path>../../contents/SCM_SwimClubMeet/Intro/Home.htm</path>
+  <title>SwimClubMeet</title>
+  <type>html5</type>
+  <glosstermEffect type="number">0</glosstermEffect>
+  <outputPath>C:/Users/Ben/Documents/GitHub/artanemus.github.io/manual/</outputPath>
+  <name>WebHelp</name>
+  <starterPage>index.htm</starterPage>
+  <defaultTopic>
+    <name>Home</name>
+    <path>../../contents/SCM_SwimClubMeet/Intro/Home.htm</path>
   </defaultTopic>
-  
-
-<encoding></encoding>
-  
-
-<lowercasenames></lowercasenames>
-  
-
-<epub>
-    
-
-<fonts></fonts>
-    
-
-<title></title>
-    
-
-<description></description>
-    
-
-<rights></rights>
-    
-
-<uuid></uuid>
-    
-
-<date></date>
-    
-
-<publisher></publisher>
+  <encoding></encoding>
+  <lowercasenames></lowercasenames>
+  <epub>
+    <fonts></fonts>
+    <title></title>
+    <description></description>
+    <rights></rights>
+    <uuid></uuid>
+    <date></date>
+    <publisher></publisher>
   </epub>
-  
-
-<mobileapp>
-    
-
-<configfile></configfile>
-    
-
-<android></android>
-    
-
-<iOS></iOS>
-    
-
-<iosP12File></iosP12File>
-    
-
-<androidAlias></androidAlias>
-    
-
-<pgbChange></pgbChange>
-    
-
-<iosMobProvision></iosMobProvision>
-    
-
-<androidKeystore></androidKeystore>
-    
-
-<package></package>
-    
-
-<icon></icon>
-    
-
-<name></name>
-    
-
-<version></version>
-    
-
-<versionCode></versionCode>
-    
-
-<description></description>
-    
-
-<splash></splash>
+  <mobileapp>
+    <configfile></configfile>
+    <android></android>
+    <iOS></iOS>
+    <iosP12File></iosP12File>
+    <androidAlias></androidAlias>
+    <pgbChange></pgbChange>
+    <iosMobProvision></iosMobProvision>
+    <androidKeystore></androidKeystore>
+    <package></package>
+    <icon></icon>
+    <name></name>
+    <version></version>
+    <versionCode></versionCode>
+    <description></description>
+    <splash></splash>
   </mobileapp>
-  
-
-<search>
-    
-
-<suggestion type="boolean">true</suggestion>
-    
-
-<substring></substring>
-    
-
-<context type="boolean">false</context>
-    
-
-<contextLimit>100</contextLimit>
-    
-
-<highlight></highlight>
-    
-
-<highlightcolor></highlightcolor>
-    
-
-<autocomplete></autocomplete>
-    
-
-<autocorrect></autocorrect>
-    
-
-<glossary type="boolean">true</glossary>
-    
-
-<fileTypes></fileTypes>
-    
-
-<external></external>
-    
-
-<fuzzy type="boolean">true</fuzzy>
-    
-
-<doSearchIndexing></doSearchIndexing>
+  <search>
+    <suggestion type="boolean">true</suggestion>
+    <substring></substring>
+    <context type="boolean">false</context>
+    <contextLimit>100</contextLimit>
+    <highlight></highlight>
+    <highlightcolor></highlightcolor>
+    <autocomplete></autocomplete>
+    <autocorrect></autocorrect>
+    <glossary type="boolean">true</glossary>
+    <fileTypes></fileTypes>
+    <external></external>
+    <fuzzy type="boolean">true</fuzzy>
+    <doSearchIndexing></doSearchIndexing>
   </search>
-  
-
-<filter></filter>
-  
-
-<sitemap>
-    
-
-<use type="boolean">false</use>
-    
-
-<helpBaseURL></helpBaseURL>
-    
-
-<changeFrequency></changeFrequency>
+  <filter></filter>
+  <sitemap>
+    <use type="boolean">false</use>
+    <helpBaseURL></helpBaseURL>
+    <changeFrequency></changeFrequency>
   </sitemap>
-  
-
-<skin>
-    
-
-<name>html5</name>
-    
-
-<path>../skins/Charcoal_Grey/html5.skn</path>
+  <skin>
+    <name>html5</name>
+    <path>../skins/Charcoal_Grey/html5.skn</path>
   </skin>
-  
-
-<createThumbNails type="boolean">false</createThumbNails>
-  
-
-<use_thumbnails type="boolean">false</use_thumbnails>
-  
-
-<favicon>
-    
-
-<name>SCM_Help</name>
-    
-
-<path>../../contents/assets/images/SCM_Help.ico</path>
+  <createThumbNails type="boolean">false</createThumbNails>
+  <use_thumbnails type="boolean">false</use_thumbnails>
+  <favicon>
+    <name>SCM_Help</name>
+    <path>../../contents/assets/images/SCM_Help.ico</path>
   </favicon>
-  
-
-<thumbnail></thumbnail>
-  
-
-<patchHomepage type="boolean">true</patchHomepage>
-  
-
-<gdprCompliance type="boolean">true</gdprCompliance>
-  
-
-<pdf>
-    
-
-<toclevel></toclevel>
-    
-
-<pageSize></pageSize>
-    
-
-<width></width>
-    
-
-<height></height>
-    
-
-<tocdepth></tocdepth>
-    
-
-<margin></margin>
+  <thumbnail></thumbnail>
+  <patchHomepage type="boolean">true</patchHomepage>
+  <gdprCompliance type="boolean">true</gdprCompliance>
+  <pdf>
+    <toclevel></toclevel>
+    <pageSize></pageSize>
+    <width></width>
+    <height></height>
+    <tocdepth></tocdepth>
+    <margin></margin>
   </pdf>
 </preset>

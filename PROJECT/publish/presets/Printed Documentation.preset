@@ -1,108 +1,206 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <preset>
-  <content>
-    <variable></variable>
-    <conditional></conditional>
-    <startPage></startPage>
-    <toc>
-      <name>SCM_Main</name>
-      <path>../../toc/SCM_Main.toc</path>
+  
+<content>
+    
+<variable></variable>
+    
+<conditional></conditional>
+    
+<startPage></startPage>
+    
+<toc>
+      
+<name>SCM_Main</name>
+      
+<path>../../toc/SwimClubMeet.toc</path>
     </toc>
-    <brs type="array"></brs>
-    <language></language>
-    <masterpage></masterpage>
-    <mapFiles type="array"></mapFiles>
-    <windowsSetting></windowsSetting>
-    <includereftopics type="boolean">true</includereftopics>
+    
+<brs type="array"></brs>
+    
+<language></language>
+    
+<masterpage></masterpage>
+    
+<mapFiles type="array"></mapFiles>
+    
+<windowsSetting></windowsSetting>
+    
+<includereftopics type="boolean">true</includereftopics>
   </content>
-  <title>SwimClubMeet</title>
-  <type>pdf</type>
-  <glosstermEffect></glosstermEffect>
-  <outputPath>C:/Users/Ben/Documents/My RoboHelp Projects/outputs/SwimClubMeet/Printed Documentation</outputPath>
-  <name>Printed Documentation</name>
-  <starterPage>SwimClubMeet_Alpha.pdf</starterPage>
-  <encoding></encoding>
-  <lowercasenames></lowercasenames>
-  <epub>
-    <fonts></fonts>
-    <cover></cover>
-    <title></title>
-    <author></author>
-    <description></description>
-    <rights></rights>
-    <uuid></uuid>
-    <date></date>
-    <check></check>
-    <publisher></publisher>
+  
+<title>SwimClubMeet</title>
+  
+<type>pdf</type>
+  
+<glosstermEffect></glosstermEffect>
+  
+<outputPath>C:/Users/Ben/Documents/My RoboHelp Projects/outputs/SwimClubMeet/Printed Documentation</outputPath>
+  
+<name>Printed Documentation</name>
+  
+<starterPage>SwimClubMeet_Alpha.pdf</starterPage>
+  
+<encoding></encoding>
+  
+<lowercasenames></lowercasenames>
+  
+<epub>
+    
+<fonts></fonts>
+    
+<cover></cover>
+    
+<title></title>
+    
+<author></author>
+    
+<description></description>
+    
+<rights></rights>
+    
+<uuid></uuid>
+    
+<date></date>
+    
+<check></check>
+    
+<publisher></publisher>
   </epub>
-  <mobileapp>
-    <configfile></configfile>
-    <android></android>
-    <iOS></iOS>
-    <iosP12File></iosP12File>
-    <androidAlias></androidAlias>
-    <pgbChange></pgbChange>
-    <iosMobProvision></iosMobProvision>
-    <androidKeystore></androidKeystore>
-    <package></package>
-    <icon></icon>
-    <name></name>
-    <version></version>
-    <versionCode></versionCode>
-    <description></description>
-    <splash></splash>
+  
+<mobileapp>
+    
+<configfile></configfile>
+    
+<android></android>
+    
+<iOS></iOS>
+    
+<iosP12File></iosP12File>
+    
+<androidAlias></androidAlias>
+    
+<pgbChange></pgbChange>
+    
+<iosMobProvision></iosMobProvision>
+    
+<androidKeystore></androidKeystore>
+    
+<package></package>
+    
+<icon></icon>
+    
+<name></name>
+    
+<version></version>
+    
+<versionCode></versionCode>
+    
+<description></description>
+    
+<splash></splash>
   </mobileapp>
-  <search>
-    <suggestion></suggestion>
-    <substring></substring>
-    <context type="boolean">false</context>
-    <contextLimit></contextLimit>
-    <highlight></highlight>
-    <highlightcolor></highlightcolor>
-    <autocomplete></autocomplete>
-    <autocorrect></autocorrect>
-    <glossary></glossary>
-    <fileTypes></fileTypes>
-    <external></external>
-    <fuzzy></fuzzy>
-    <doSearchIndexing></doSearchIndexing>
+  
+<search>
+    
+<suggestion></suggestion>
+    
+<substring></substring>
+    
+<context type="boolean">false</context>
+    
+<contextLimit></contextLimit>
+    
+<highlight></highlight>
+    
+<highlightcolor></highlightcolor>
+    
+<autocomplete></autocomplete>
+    
+<autocorrect></autocorrect>
+    
+<glossary></glossary>
+    
+<fileTypes></fileTypes>
+    
+<external></external>
+    
+<fuzzy></fuzzy>
+    
+<doSearchIndexing></doSearchIndexing>
   </search>
-  <filter></filter>
-  <sitemap>
-    <use type="boolean">false</use>
-    <helpBaseURL></helpBaseURL>
-    <changeFrequency></changeFrequency>
+  
+<filter></filter>
+  
+<sitemap>
+    
+<use type="boolean">false</use>
+    
+<helpBaseURL></helpBaseURL>
+    
+<changeFrequency></changeFrequency>
   </sitemap>
-  <skin></skin>
-  <createThumbNails></createThumbNails>
-  <favicon></favicon>
-  <thumbnail></thumbnail>
-  <pdf>
-    <toclevel></toclevel>
-    <coverpage></coverpage>
-    <pageSize></pageSize>
-    <width></width>
-    <height></height>
-    <tocdepth></tocdepth>
-    <margin type="array">
-      <marginitem>10mm</marginitem>
-      <marginitem>10mm</marginitem>
-      <marginitem>10mm</marginitem>
-      <marginitem>10mm</marginitem>
+  
+<skin></skin>
+  
+<createThumbNails></createThumbNails>
+  
+<favicon></favicon>
+  
+<thumbnail></thumbnail>
+  
+<pdf>
+    
+<toclevel></toclevel>
+    
+<coverpage></coverpage>
+    
+<pageSize></pageSize>
+    
+<width></width>
+    
+<height></height>
+    
+<tocdepth></tocdepth>
+    
+<margin type="array">
+      
+<marginitem>10mm</marginitem>
+      
+<marginitem>10mm</marginitem>
+      
+<marginitem>10mm</marginitem>
+      
+<marginitem>10mm</marginitem>
     </margin>
-    <masterpage></masterpage>
-    <multiHeaders type="boolean">false</multiHeaders>
-    <tocMasterPages></tocMasterPages>
-    <topicMasterPages></topicMasterPages>
-    <gloMasterPages></gloMasterPages>
-    <indexMasterPages></indexMasterPages>
-    <multiheaders type="boolean">false</multiheaders>
-    <useTopicsAndChaptersForToc type="boolean">true</useTopicsAndChaptersForToc>
-    <portraitLayout type="boolean">true</portraitLayout>
-    <startTopicsFromNewPage type="boolean">true</startTopicsFromNewPage>
-    <startChapterFromNewPage type="boolean">true</startChapterFromNewPage>
-    <mergePdfs type="boolean">true</mergePdfs>
-    <embeddFonts type="boolean">true</embeddFonts>
+    
+<masterpage></masterpage>
+    
+<multiHeaders type="boolean">false</multiHeaders>
+    
+<tocMasterPages></tocMasterPages>
+    
+<topicMasterPages></topicMasterPages>
+    
+<gloMasterPages></gloMasterPages>
+    
+<indexMasterPages></indexMasterPages>
+    
+<multiheaders type="boolean">false</multiheaders>
+    
+<useTopicsAndChaptersForToc type="boolean">true</useTopicsAndChaptersForToc>
+    
+<portraitLayout type="boolean">true</portraitLayout>
+    
+<startTopicsFromNewPage type="boolean">true</startTopicsFromNewPage>
+    
+<startChapterFromNewPage type="boolean">true</startChapterFromNewPage>
+    
+<mergePdfs type="boolean">true</mergePdfs>
+    
+<embeddFonts type="boolean">true</embeddFonts>
   </pdf>
-  <use_thumbnails type="boolean">false</use_thumbnails>
+  
+<use_thumbnails type="boolean">false</use_thumbnails>
 </preset>

@@ -8,6 +8,7 @@
       <page href="../contents/assets/snippets_SCM/SCM_Finger.html" format="html" processing-role="normal"></page>
       <page href="../contents/assets/snippets_SCM/SCM_Hint.html" format="html" processing-role="normal"></page>
       <page href="../contents/assets/snippets_SCM/SCM_Info.html" format="html" processing-role="normal"></page>
+      <page href="../contents/assets/snippets_SCM/SCM_keywords.html" format="html" processing-role="normal"></page>
       <page href="../contents/assets/snippets_SCM/SCM_PoolProcedure.html" format="html" processing-role="normal"></page>
       <page href="../contents/assets/snippets_SCM/SCM_PrevNext.html" format="html" processing-role="normal"></page>
       <page href="../contents/assets/snippets_SCM/SCM_Table.html" format="html" processing-role="normal"></page>
@@ -15,14 +16,12 @@
     </book>
   </book>
   <book navtitle="SCM BuildMeAClub" format="html" processing-role="resource-only">
-    <book navtitle="BMAC Intro" format="html" processing-role="normal">
-      <page href="../contents/SCM_BuildMeAClub/BMAC_Intro/BMAC_Details.htm" format="html" processing-role="normal"></page>
-      <page href="../contents/SCM_BuildMeAClub/BMAC_Intro/BMAC_Login.htm" format="html" processing-role="normal"></page>
-      <page href="../contents/SCM_BuildMeAClub/BMAC_Intro/Home.htm" format="html" processing-role="normal"></page>
-    </book>
+    <page href="../contents/SCM_BuildMeAClub/BMAC_Details.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/SCM_BuildMeAClub/BMAC_Home.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/SCM_BuildMeAClub/BMAC_Login.htm" format="html" processing-role="normal"></page>
   </book>
-  <book navtitle="SCM SwimClubMeet" format="html" processing-role="normal">
-    <book navtitle="Interface" format="html" processing-role="normal">
+  <book navtitle="SCM SwimClubMeet" format="html" homepage-tile="assets/images/icons/SCM_Help.ico" processing-role="normal">
+    <book navtitle="Interface" href="../contents/SCM_SwimClubMeet/Interface/Interface_idx.htm" format="html" processing-role="normal">
       <book navtitle="Bar" format="html" processing-role="normal">
         <page href="../contents/SCM_SwimClubMeet/Interface/Bar/Header_Bar.htm" format="html" processing-role="normal"></page>
         <page href="../contents/SCM_SwimClubMeet/Interface/Bar/Menu_Bar.htm" format="html" processing-role="normal"></page>
@@ -56,16 +55,7 @@
       </book>
       <page href="../contents/SCM_SwimClubMeet/Interface/Interface_idx.htm" format="html" processing-role="normal"></page>
     </book>
-    <book navtitle="Intro" format="html" processing-role="normal">
-      <page href="../contents/SCM_SwimClubMeet/Intro/BackupYourData.htm" format="html" processing-role="normal"></page>
-      <page href="../contents/SCM_SwimClubMeet/Intro/Home.htm" format="html" processing-role="normal"></page>
-      <page href="../contents/SCM_SwimClubMeet/Intro/Installation.htm" format="html" processing-role="normal"></page>
-      <page href="../contents/SCM_SwimClubMeet/Intro/LearnMore.htm" format="html" processing-role="normal"></page>
-      <page href="../contents/SCM_SwimClubMeet/Intro/MyFirstClubNight.htm" format="html" processing-role="normal"></page>
-      <page href="../contents/SCM_SwimClubMeet/Intro/StartHere.htm" format="html" processing-role="normal"></page>
-      <page href="../contents/SCM_SwimClubMeet/Intro/SysRequirements.htm" format="html" processing-role="normal"></page>
-    </book>
-    <book navtitle="Members" format="html" processing-role="normal">
+    <book navtitle="Members" href="../contents/SCM_SwimClubMeet/Members/Members_idx.htm" format="html" processing-role="normal">
       <page href="../contents/SCM_SwimClubMeet/Members/Mem_Buttons.htm" format="html" processing-role="normal"></page>
       <page href="../contents/SCM_SwimClubMeet/Members/Mem_Chart.htm" format="html" processing-role="normal"></page>
       <page href="../contents/SCM_SwimClubMeet/Members/Mem_Details.htm" format="html" processing-role="normal"></page>
@@ -92,6 +82,14 @@
       <page href="../contents/SCM_SwimClubMeet/Reports/Rpt_Session.htm" format="html" processing-role="normal"></page>
       <page href="../contents/SCM_SwimClubMeet/Reports/Rpt_TimeKeeper.htm" format="html" processing-role="normal"></page>
     </book>
+    <book navtitle="StartHere" format="html" processing-role="normal">
+      <page href="../contents/SCM_SwimClubMeet/StartHere/BackupYourData.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/StartHere/Installation.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/StartHere/LearnMore.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/StartHere/MyFirstClubNight.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/StartHere/StartHere.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/StartHere/SysRequirements.htm" format="html" processing-role="normal"></page>
+    </book>
     <book navtitle="System" format="html" processing-role="normal">
       <page href="../contents/SCM_SwimClubMeet/System/Application_List.htm" format="html" processing-role="normal"></page>
       <page href="../contents/SCM_SwimClubMeet/System/Color_Ledger.htm" format="html" processing-role="normal"></page>
@@ -99,6 +97,7 @@
       <page href="../contents/SCM_SwimClubMeet/System/Connection_Overview.htm" format="html" processing-role="normal"></page>
       <page href="../contents/SCM_SwimClubMeet/System/Grid_Editing.htm" format="html" processing-role="normal"></page>
       <page href="../contents/SCM_SwimClubMeet/System/How_seeding_works.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/SCM_SwimClubMeet/System/HowToUseSearch.htm" format="html" processing-role="normal"></page>
       <page href="../contents/SCM_SwimClubMeet/System/Keyboard_shortcuts.htm" format="html" processing-role="normal"></page>
       <page href="../contents/SCM_SwimClubMeet/System/KickStartTTB.htm" format="html" processing-role="normal"></page>
       <page href="../contents/SCM_SwimClubMeet/System/Pool_Protocol.html" format="html" processing-role="normal"></page>
@@ -121,5 +120,6 @@
       <page href="../contents/SCM_SwimClubMeet/Tools/Tool_Score.htm" format="html" processing-role="normal"></page>
       <page href="../contents/SCM_SwimClubMeet/Tools/Tools_idx.htm" format="html" processing-role="normal"></page>
     </book>
+    <page href="../contents/SCM_SwimClubMeet/Home.htm" format="html" processing-role="normal"></page>
   </book>
 </map>

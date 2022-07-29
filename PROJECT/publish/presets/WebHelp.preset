@@ -26,8 +26,8 @@
   <name>WebHelp</name>
   <starterPage>index.htm</starterPage>
   <defaultTopic>
-    <name>Home</name>
-    <path>../../contents/SCM_SwimClubMeet/Intro/Home.htm</path>
+    <name>SCM_SwimClubMeet/Home.htm</name>
+    <path>../../contents/SCM_SwimClubMeet/Home.htm</path>
   </defaultTopic>
   <encoding></encoding>
   <lowercasenames></lowercasenames>
@@ -86,7 +86,7 @@
   <use_thumbnails type="boolean">false</use_thumbnails>
   <favicon>
     <name>SCM_Help</name>
-    <path>../../contents/assets/images/SCM_Help.ico</path>
+    <path>../../contents/assets/images/icons/SCM_Help.ico</path>
   </favicon>
   <thumbnail></thumbnail>
   <patchHomepage type="boolean">true</patchHomepage>

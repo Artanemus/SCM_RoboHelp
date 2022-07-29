@@ -1,0 +1,72 @@
+
+    SCM_BuildMeAClub - Details.
+
+    This special tool creates the SwimClubMeet database on SQLEXPRESS.
+
+    I'm a complete noob - what do I do? 
+    
+  
+  
+    
+      
+        In computer name type localhost\SQLEXPRESS
+      
+      
+        Check the box OS Authentication.
+      
+      
+        Press the Login button.
+      
+      
+        If successfully BMAC will display the button
+      Build Me A Club. Click it.
+      
+      
+        Confirmation dialogue box is displayed. Click OK.
+      
+      
+        Wait a bit. When the application tells you it's finished, close it.
+      
+    
+  
+
+    You now have a SwimClubMeet database.
+
+
+    What it does    
+    
+      
+    
+    
+      When you press this button it will first make some checks. If the
+      application discovers you already have a SwimClubMeet database on you SQL
+      server, it'll abort. SCM_BuildMeAClub uses the sqlcmd.exe commandline
+      utility when processing these scripts. SQLcmd.exe is installed by default
+      when use first install SQLEXPRESS. The application will check that you
+      have SQLcmd.exe installed. If it can't find the utility it will abort.
+    
+    
+      The application has a large number of SQL scripts that it will run on the
+      SQL server. As it runs it will display it's progress and display
+      information in the application's text window.
+    
+    
+      It will create the SwimClubMeet database, create all of the tables,
+      procedures and scalar functions. Then it will populate some of the tables
+      with 'starter' data. Next it creates users and roles. It will assign
+      permissions for each role on each table.
+    
+    
+      As the SQL server performs it's given tasks it will log it's progress to a
+      file created in the user's document folder. That file is named
+      SCM_BuildMeAClub.log. If the SQL server encounters any errors, it will log
+      the errors to this file.
+    
+    
+      If the command line utility SQLcmd.exe encounters an error, it will log
+      the error to the SCM_BuildMeAClub text windows.
+    
+    Typically the whole build process is over within a minute or two.
+
+  
+

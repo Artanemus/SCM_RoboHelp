@@ -3,17 +3,42 @@
     "title": "WebHelp",
     "path": "C:/Users/Ben/Documents/GitHub/SCM_RoboHelp/PROJECT/publish/presets/WebHelp.preset",
     "pinned": false,
-    "time": "Jul 28, 4:20 PM"
+    "time": "Jul 29, 4:39 PM"
+  }, {
+    "title": "Responsive HTML5",
+    "path": "C:/Users/Ben/Documents/GitHub/SCM_RoboHelp/PROJECT/publish/presets/Responsive HTML5.preset",
+    "pinned": false,
+    "time": "Jul 29, 4:38 PM"
+  }, {
+    "title": "Printed Documentation",
+    "path": "C:/Users/Ben/Documents/GitHub/SCM_RoboHelp/PROJECT/publish/presets/Printed Documentation.preset",
+    "pinned": false,
+    "time": "Jul 29, 4:38 PM"
+  }, {
+    "title": "Mobile App",
+    "path": "C:/Users/Ben/Documents/GitHub/SCM_RoboHelp/PROJECT/publish/presets/Mobile App.preset",
+    "pinned": false,
+    "time": "Jul 29, 4:38 PM"
+  }, {
+    "title": "Microsoft HTML Help",
+    "path": "C:/Users/Ben/Documents/GitHub/SCM_RoboHelp/PROJECT/publish/presets/Microsoft HTML Help.preset",
+    "pinned": false,
+    "time": "Jul 29, 4:38 PM"
+  }, {
+    "title": "EPUB",
+    "path": "C:/Users/Ben/Documents/GitHub/SCM_RoboHelp/PROJECT/publish/presets/EPUB.preset",
+    "pinned": false,
+    "time": "Jul 29, 4:38 PM"
+  }, {
+    "title": "Topic References",
+    "path": "Topic References.report",
+    "pinned": false,
+    "time": "Jul 29, 4:27 PM"
   }, {
     "title": "SCM_Main",
     "path": "C:/Users/Ben/Documents/GitHub/SCM_RoboHelp/PROJECT/toc/SwimClubMeet.toc",
     "pinned": false,
-    "time": "Jul 28, 4:16 PM"
-  }, {
-    "title": "SCM_BuildMeAClub",
-    "path": "C:/Users/Ben/Documents/GitHub/SCM_RoboHelp/PROJECT/toc/SCM_BuildMeAClub.toc",
-    "pinned": false,
-    "time": "Jul 28, 4:10 PM"
+    "time": "Jul 29, 4:21 PM"
   }, {
     "title": "Opt_System",
     "path": "C:/Users/Ben/Documents/GitHub/SCM_RoboHelp/PROJECT/contents/SCM_SwimClubMeet/Tools/Tool_Options/Opt_System.htm",
@@ -99,31 +124,6 @@
     "path": "C:/Users/Ben/Documents/GitHub/SCM_RoboHelp/PROJECT/contents/SCM_SwimClubMeet/System/Keyboard_shortcuts.htm",
     "pinned": false,
     "time": "Jul 28, 4:09 PM"
-  }, {
-    "title": "How_seeding_works",
-    "path": "C:/Users/Ben/Documents/GitHub/SCM_RoboHelp/PROJECT/contents/SCM_SwimClubMeet/System/How_seeding_works.htm",
-    "pinned": false,
-    "time": "Jul 28, 4:09 PM"
-  }, {
-    "title": "Grid_Editing",
-    "path": "C:/Users/Ben/Documents/GitHub/SCM_RoboHelp/PROJECT/contents/SCM_SwimClubMeet/System/Grid_Editing.htm",
-    "pinned": false,
-    "time": "Jul 28, 4:09 PM"
-  }, {
-    "title": "Connection_Overview",
-    "path": "C:/Users/Ben/Documents/GitHub/SCM_RoboHelp/PROJECT/contents/SCM_SwimClubMeet/System/Connection_Overview.htm",
-    "pinned": false,
-    "time": "Jul 28, 4:09 PM"
-  }, {
-    "title": "Connecting_SCM",
-    "path": "C:/Users/Ben/Documents/GitHub/SCM_RoboHelp/PROJECT/contents/SCM_SwimClubMeet/System/Connecting_SCM.htm",
-    "pinned": false,
-    "time": "Jul 28, 4:09 PM"
-  }, {
-    "title": "Color_Ledger",
-    "path": "C:/Users/Ben/Documents/GitHub/SCM_RoboHelp/PROJECT/contents/SCM_SwimClubMeet/System/Color_Ledger.htm",
-    "pinned": false,
-    "time": "Jul 28, 4:08 PM"
   }],
   "recent-files::external:hyperlink": [{
     "title": "X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor\" crossorigin=\"anonymous\">",
@@ -148,10 +148,20 @@
     "time": "Dec 14, 9:14 PM"
   }],
   "recent-files::internal:hyperlink": [{
+    "title": "SCM_Help",
+    "path": "C:/Users/Ben/Documents/GitHub/SCM_RoboHelp/PROJECT/contents/assets/images/icons/SCM_Help.ico",
+    "pinned": false,
+    "time": "Jul 29, 4:34 PM"
+  }, {
+    "title": "Home",
+    "path": "C:/Users/Ben/Documents/GitHub/SCM_RoboHelp/PROJECT/contents/SCM_SwimClubMeet/Home.htm",
+    "pinned": false,
+    "time": "Jul 29, 4:30 PM"
+  }, {
     "title": "Interface_idx",
     "path": "C:/Users/Ben/Documents/GitHub/SCM_RoboHelp/PROJECT/contents/SCM_SwimClubMeet/Interface/Interface_idx.htm",
     "pinned": false,
-    "time": "Jul 25, 2:44 PM"
+    "time": "Jul 29, 4:25 PM"
   }, {
     "title": "Rpt_Heats",
     "path": "C:/Users/Ben/Documents/GitHub/SCM_RoboHelp/PROJECT/contents/SCM_SwimClubMeet/Reports/Rpt_Heats.htm",
@@ -258,16 +268,13 @@
     "path": "C:/Users/Ben/Documents/My RoboHelp Projects/SwimClubMeet/contents/System_Info/Connecting_SCM.htm",
     "pinned": false,
     "time": "Jan 12, 9:47 AM"
-  }, {
-    "path": "C:/Users/Ben/Documents/My RoboHelp Projects/SwimClubMeet/contents/System_Info/Connection_Overview.htm",
-    "pinned": false,
-    "time": "Jan 12, 9:47 AM"
-  }, {
-    "path": "C:/Users/Ben/Documents/My RoboHelp Projects/SwimClubMeet/contents/System_Info/Application_List.htm",
-    "pinned": false,
-    "time": "Jan 12, 9:47 AM"
   }],
   "recent-files::internal:image": [{
+    "title": "SCM_Help",
+    "path": "C:/Users/Ben/Documents/GitHub/SCM_RoboHelp/PROJECT/contents/assets/images/icons/SCM_Help.ico",
+    "pinned": false,
+    "time": "Jul 29, 4:35 PM"
+  }, {
     "title": "PU_Heats",
     "path": "C:/Users/Ben/Documents/GitHub/SCM_RoboHelp/PROJECT/contents/assets/images/PopupMenu/PU_Heats.jpg",
     "pinned": false,
@@ -387,13 +394,8 @@
     "path": "C:/Users/Ben/Documents/GitHub/SCM_RoboHelp/PROJECT/contents/assets/images/Members/Member_Navigator_Snip.JPG",
     "pinned": false,
     "time": "Jun 30, 2:09 PM"
-  }, {
-    "title": "Member_GotoMemberShipNumDlg",
-    "path": "C:/Users/Ben/Documents/GitHub/SCM_RoboHelp/PROJECT/contents/assets/images/Members/Member_GotoMemberShipNumDlg.jpg",
-    "pinned": false,
-    "time": "Jun 30, 2:02 PM"
   }],
-  "file-modified": "2022-07-28T16:23:11+10:00",
+  "file-modified": "2022-07-29T16:35:19+10:00",
   "generate.outputs": {
     "C:/Users/Ben/Documents/GitHub/SCM_RoboHelp/publish/presets/WebHelp.preset": {
       "exists": true,
@@ -404,7 +406,7 @@
     "C:/Users/Ben/Documents/GitHub/SCM_RoboHelp/PROJECT/publish/presets/WebHelp.preset": {
       "exists": true,
       "path": "C:/Users/Ben/Documents/GitHub/artanemus.github.io/manual/index.htm",
-      "time": "2022-07-28T16:23:22+10:00",
+      "time": "2022-07-29T16:35:29+10:00",
       "logFile": "C:/Users/Ben/AppData/Local/Temp/RHTMP/WebHelp.ehtml"
     }
   },
@@ -412,6 +414,6 @@
     "title": "WebHelp",
     "path": "C:/Users/Ben/AppData/Local/Temp/RHTMP/WebHelp.ehtml",
     "pinned": false,
-    "time": "Jul 28, 4:18 PM"
+    "time": "Jul 29, 4:35 PM"
   }]
 }

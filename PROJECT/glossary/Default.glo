@@ -1,50 +1,94 @@
-<?xml version="1.0" encoding="UTF-8"?>        
+<?xml version="1.0" encoding="UTF-8"?>
 
-<glossgroup id="Default">          
-<title>Glossary Definitions</title>        
-<glossentry id="Default_BMAC">
-<glossterm>BMAC</glossterm>
-<glossdef>BuildMeAClub is an external SCM application. It creates a SwimClubMeet database on the MS SQLEXPRESS database server. Typically BMAC is only ever run once.</glossdef></glossentry>
-<glossentry id="Default_ENTRANT">
-<glossterm>Entrant</glossterm>
-<glossdef>An active member who has been nominated for a given event and assigned a lane within a heat for that given event. </glossdef></glossentry>
-<glossentry id="Default_Event">
-<glossterm>Event</glossterm>
-<glossdef>A swimming race held over a set distance and stroke.</glossdef></glossentry>
-<glossentry id="Default_FDAdministrator">
-<glossterm>FDAdministrator</glossterm>
-<glossdef>FireDAC Administrator is a major tool you can use to manage SCM internal FireDAC connection definitions. It does not allow you to browse the MSSQL database or work with SQL scripts. FDAdministrator has been distributed with this applications to give the administrators or users the ability to set up database connection definitions.</glossdef></glossentry>
-<glossentry id="Default_GUI">
-<glossterm>GUI</glossterm>
-<glossdef>Graphical user interface. The interface through which a user interacts with SCM.</glossdef></glossentry>
-<glossentry id="Default_IT">
-<glossterm>IT</glossterm>
-<glossdef> Information technology.</glossdef></glossentry>
-<glossentry id="Default_Nominee">
-<glossterm>Nominee</glossterm>
-<glossdef>An active member who requests to swim an event.</glossdef></glossentry>
-<glossentry id="Default_PB">
-<glossterm>PB</glossterm>
-<glossdef>Personal Best. The fastest time swum by the entrant for the specified stroke and distance. Typically, the PB auto-calculated by SCM is &#39;up to but excluding&#39; the date of the current active session.  The PB found in the members dialogue is based on all known data.</glossdef></glossentry>
-<glossentry id="Default_RaceTime">
-<glossterm>RaceTime</glossterm>
-<glossdef>The time given by the time keepers after an event&#39;s heat has been swum.</glossdef></glossentry>
-<glossentry id="Default_SCM_">
-<glossterm>SCM </glossterm>
-<glossdef>SwimClubMeet</glossdef></glossentry>
-<glossentry id="Default_Session">
-<glossterm>Session</glossterm>
-<glossdef>A club meeting where members compete against each other in swimming events.</glossdef></glossentry>
-<glossentry id="Default_MSSQL_EXPRESS">
-<glossterm>SQLEXPRESS</glossterm>
-<glossdef>Microsoft SQL Server Express is a version of Microsoft&#39;s SQL Server relational database management system that is free to download, distribute and use. It comprises a database specifically targeted for embedded and smaller-scale applications. The product traces its roots to the Microsoft Database Engine (MSDE) product, which was shipped with SQL Server 2000. The &quot;Express&quot; branding has been used since the release of SQL Server 2005.</glossdef></glossentry>
-<glossentry id="Default_SSMS">
-<glossterm>SSMS</glossterm>
-<glossdef>Microsoft&#39;s SQL Server Management Studio</glossdef></glossentry>
-<glossentry id="Default_TimeToBeat">
-<glossterm>TTB</glossterm>
-<glossdef>TimeToBeat. The anticipated race-time for the nominee or entrant to swim a given event.
-An algorithm used by Auto-Build Heats to sort entrants fastest to slowest.</glossdef></glossentry>
-<glossentry id="Default_DOB">
-<glossterm>DOB</glossterm>
-<glossdef>Date of birth. A DOB is required for all swimmers. Used by the Auto-Build Heats. DOB is used to calculate a TTB. </glossdef></glossentry></glossgroup>
+<glossgroup id="Default">
+    <title>Glossary Definitions</title>
+    <glossentry id="Default_BMAC">
+        <glossterm>BMAC</glossterm>
+        <glossdef>SCM_BuildMeAClub.exe is an external SwimClubMeet application. It creates a SCM database on the MS SQLEXPRESS database server. Typically BMAC is only ever run once.</glossdef>
+    </glossentry>
+    <glossentry id="Default_UpdateDataBase">
+        <glossterm>UpdateDataBase</glossterm>
+        <glossdef>SCM_UpdateDataBase.exe is an external SwimClubMeet application. It a specialized database tool used to modify you SCM SQLEXPRESS database. Typically this application is run to move to a new version of the SCM back-end.</glossdef>
+    </glossentry>
+    <glossentry id="Default_Entrant">
+        <glossterm>Entrant</glossterm>
+        <glossdef>An active member who has been nominated for a given event and assigned a lane within a heat for that given event. </glossdef>
+    </glossentry>
+    <glossentry id="Default_Event">
+        <glossterm>Event</glossterm>
+        <glossdef>A swimming race held over a set distance and stroke.</glossdef>
+    </glossentry>
+    <glossentry id="Default_FDAdministrator">
+        <glossterm>FDAdministrator</glossterm>
+        <glossdef>FireDAC Administrator is a major tool you can use to manage SCM internal FireDAC connection definitions. It does not allow you to browse the MSSQL database or work with SQL scripts. FDAdministrator has been distributed with this applications to give the administrators or users the ability to set up database connection definitions.</glossdef>
+    </glossentry>
+    <glossentry id="Default_GUI">
+        <glossterm>GUI</glossterm>
+        <glossdef>Graphical user interface. The interface through which a user interacts with SCM.</glossdef>
+    </glossentry>
+    <glossentry id="Default_IT">
+        <glossterm>IT</glossterm>
+        <glossdef> Stands for Information Technology, and is pronounced I.T. It refers to anything related to computing technology, such as networking, hardware, software, the Internet, or the people that work with these technologies.</glossdef>
+    </glossentry>
+    <glossentry id="Default_Nominee">
+        <glossterm>Nominee</glossterm>
+        <glossdef>An active member who requests to swim an event.</glossdef>
+    </glossentry>
+    <glossentry id="Default_PB">
+        <glossterm>PB</glossterm>
+        <glossdef>Personal Best. The fastest time swum by the entrant for the specified stroke and distance. Typically, the PB that is auto-calculated by SwimClubMeet is up to but excluding the date of the current active session.</glossdef>
+    </glossentry>
+    <glossentry id="Default_RaceTime">
+        <glossterm>RaceTime</glossterm>
+        <glossdef>The time given by the time keeper after an event has been swum.</glossdef>
+    </glossentry>
+    <glossentry id="Default_SCM_">
+        <glossterm>SCM </glossterm>
+        <glossdef>SwimClubMeet. A much used anagram found in this manual and by far quickest way to say SwimClubMeet.</glossdef>
+    </glossentry>
+    <glossentry id="Default_Session">
+        <glossterm>Session</glossterm>
+        <glossdef>A club meeting where members compete against each other in swimming events.</glossdef>
+    </glossentry>
+    <glossentry id="Default_MSSQL_EXPRESS">
+        <glossterm>SQLEXPRESS</glossterm>
+        <glossdef>Microsoft SQL Server Express is a version of Microsoft&#39;s SQL Server relational database management system that is free to download, distribute and use. It comprises a database specifically targeted for embedded and smaller-scale applications. The product traces its roots to the Microsoft Database Engine (MSDE) product, which was shipped with SQL Server 2000. The &quot;Express&quot; branding has been used since the release of SQL Server 2005.</glossdef>
+    </glossentry>
+    <glossentry id="Default_SSMS">
+        <glossterm>SSMS</glossterm>
+        <glossdef>SQL Server Management Studio (SSMS) is an integrated environment for managing any SQL infrastructure. Use SSMS to access, configure, manage, administer, and develop all components of SQL Server, Azure SQL Database , Azure SQL Managed Instance, SQL Server on Azure VM, and Azure Synapse Analytics. SSMS provides a single comprehensive utility that combines a broad group of graphical tools with many rich script editors to provide access to SQL Server for developers and database administrators of all skill levels.</glossdef>
+    </glossentry>
+    <glossentry id="Default_TimeToBeat">
+        <glossterm>TTB</glossterm>
+        <glossdef>TimeToBeat. The anticipated race-time for the competitor to swim a given event. An algorithm calculated by SwimClubMeet on demand. Typically this value is used by Auto-Build Heats to sort entrants fastest to slowest. The value is also helpful in assigning nominees in manually built heats.</glossdef>
+    </glossentry>
+    <glossentry id="Default_DOB">
+        <glossterm>DOB</glossterm>
+        <glossdef>Date of birth. A DOB is required for all swimmers. Used by the Auto-Build Heats. DOB is used to calculate a TimeToBeat value. </glossdef>
+    </glossentry>
+    <glossentry id="Default_TCP/IP">
+        <glossterm>TCP/IP</glossterm>
+        <glossdef>TCP/IP stands for Transmission Control Protocol/Internet Protocol and is a suite of communication protocols used to interconnect network devices on the internet. TCP/IP is also used as a communications protocol in a private computer network (an intranet or extranet). </glossdef>
+    </glossentry>
+    <glossentry id="Default_WiFi">
+        <glossterm>WiFi</glossterm>
+        <glossdef>Wi-Fi is a family of wireless network protocols, based on the IEEE 802.11 family of standards, which are commonly used for local area networking of devices and Internet access, allowing nearby digital devices to exchange data by radio waves. </glossdef>
+    </glossentry>
+    <glossentry id="Default_Router">
+        <glossterm>Router</glossterm>
+        <glossdef>A router is a device that connects two or more packet-switched networks or subnetworks. It serves two primary functions: managing traffic between these networks by forwarding data packets to their intended IP addresses, and allowing multiple devices to use the same Internet connection. </glossdef>
+    </glossentry>
+    <glossentry id="Default_IP_Port">
+        <glossterm>IP_Port</glossterm>
+        <glossdef>For a computer connected to a network with an IP address, a port is a communication endpoint. Ports are designated by numbers, and below 1024 each port is associated by default with a specific protocol. There is two class of ports, static and dynamic. A static port is one whose association with a process or service does not change. A dynamic port -- also called a private port -- is one that is assigned to a process or service at the time the port is needed, usually when the process or service is started.</glossdef>
+    </glossentry>
+    <glossentry id="Default_Database_Server">
+        <glossterm>Database Server</glossterm>
+        <glossdef>A database server is a type of hardware that runs database software. Database software helps users or companies store, manage, retrieve, update or change files, information logs and other forms of digital data. Database servers consist of two primary components: their back-end functions and their client-facing services.</glossdef>
+    </glossentry>
+    <glossentry id="Default_Database_Service">
+        <glossterm>Database Service</glossterm>
+        <glossdef>A database server runs a database management system and provides database services to clients. The server manages data access and retrieval and completes clients&#39; requests.</glossdef>
+    </glossentry>
+
+</glossgroup>
